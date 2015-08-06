@@ -158,6 +158,8 @@ sup {
 <body>
 <h5>阅读nginx代码(1)</h5>
 
+<p>-- Stone <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#115;&#x74;&#111;&#x6e;&#101;&#x40;&#x62;&#122;&#x6c;&#105;&#110;&#x65;&#46;&#99;&#110;">&#115;&#116;&#x6f;&#x6e;&#101;&#x40;&#x62;&#x7a;&#x6c;&#x69;&#x6e;&#101;&#46;&#x63;&#110;</a></p>
+
 <hr />
 
 <p>掌握以下几点:</p>
@@ -176,27 +178,24 @@ sup {
 
 <hr />
 
-<ol>
-<li><p>master-worker的并发模型</p>
+<h5>master-worker的并发模型</h5>
 
-<pre><code>                    master process
-                           |
-                           |
-    ___________________________
-    |          |            |               |
-    worker1    worker2   worker3 ...... worke(n)
+<pre><code>                       master process
+                              |
+                              |
+       ___________________________
+       |          |            |               |
+       worker1    worker2   worker3 ...... worke(n)
 
 
-    master 主进程,负责创建Listen socket
-    master 监控worker进程状态(exit...??)
-    master 接收外部的指令(主要是信号),然后负责和worker进行通信,统一管理worker进程,
+       master 主进程,负责创建Listen socket
+       master 监控worker进程状态(exit...??)
+       master 接收外部的指令(主要是信号),然后负责和worker进行通信,统一管理worker进程,
 
-    worker进程由master进程创建后,开始独立进行工作.
-    worker进程accept新的连接,然后通过IO多路复用处理IO网络请求.
-    worker中通过状态机来处理具体的事务.
-</code></pre></li>
-</ol>
-
+       worker进程由master进程创建后,开始独立进行工作.
+       worker进程accept新的连接,然后通过IO多路复用处理IO网络请求.
+       worker中通过状态机来处理具体的事务.
+</code></pre>
 
 <p>master怎样管理worker ?</p>
 
@@ -224,27 +223,23 @@ sup {
         unsigned            exiting:1;
         unsigned            exited:1;
     } ngx_process_t;
-    ```
-
-
-
-下面我们看看worker进程启动的整个逻辑
 </code></pre>
 
-<p>main()
+<p>下面我们看看worker进程启动的整个逻辑</p>
+
+<pre><code>main()
 {
-     ......初始化代码....</p>
+     ......初始化代码....
 
-<pre><code>if (ngx_process == NGX_PROCESS_MASTER) {
-    ngx_master_process_cycle(cycle);
+    if (ngx_process == NGX_PROCESS_MASTER) {
+        ngx_master_process_cycle(cycle);
 
-} else {
-    ngx_single_process_cycle(cycle);
+    } else {
+        ngx_single_process_cycle(cycle);
+    }
+
 }
 </code></pre>
-
-<p>}
-```</p>
 
 <p>跟进到 ngx_master_process_cycle</p>
 
@@ -377,10 +372,7 @@ ngx_master_process_cycle (..)
 }
 </code></pre>
 
-<ol>
-<li>信号处理方式</li>
-</ol>
-
+<h5>信号处理方式</h5>
 
 <p>Nginx 处理信号的流程和方式:</p>
 

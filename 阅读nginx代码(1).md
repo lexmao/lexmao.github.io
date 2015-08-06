@@ -1,4 +1,6 @@
 #####阅读nginx代码(1)
+
+-- Stone <stone@bzline.cn>
 ***
 
 
@@ -17,7 +19,7 @@
 ***
 
 
-1. master-worker的并发模型
+#####master-worker的并发模型
 
 
                            master process
@@ -63,7 +65,8 @@ master怎样管理worker ?
     	unsigned            exiting:1;
     	unsigned            exited:1;
 	} ngx_process_t;
-	```
+	
+```
 
 
 
@@ -222,7 +225,8 @@ ngx_worker_process_cycle(ngx_cycle_t *cycle, void *data)
 }
 ```
 
-2. 信号处理方式
+
+#####信号处理方式
 
 Nginx 处理信号的流程和方式:
 
