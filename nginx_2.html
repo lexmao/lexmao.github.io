@@ -158,7 +158,7 @@ sup {
 <body>
 <h4>乱阅读nginx代码(2)</h4>
 
-<p>Stone <a href="&#109;&#97;&#105;&#x6c;&#116;&#x6f;&#58;&#115;&#x74;&#x6f;&#x6e;&#x65;&#64;&#98;&#x7a;&#108;&#x69;&#x6e;&#101;&#x2e;&#x63;&#x6e;">&#x73;&#x74;&#111;&#110;&#x65;&#64;&#98;&#122;&#x6c;&#105;&#110;&#x65;&#46;&#99;&#110;</a></p>
+<p>Stone <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#x73;&#116;&#x6f;&#110;&#101;&#64;&#x62;&#x7a;&#108;&#x69;&#110;&#x65;&#46;&#x63;&#x6e;">&#x73;&#x74;&#x6f;&#x6e;&#101;&#64;&#98;&#x7a;&#108;&#105;&#110;&#x65;&#x2e;&#99;&#x6e;</a></p>
 
 <hr />
 
@@ -210,49 +210,49 @@ sup {
 
 <p> 下面看一个例子:</p>
 
-<p>   test_socketpair.c</p>
-
-<p>  /<em><em><em>
-  </em>test socketpair api
-  </em>int socketpair(int domain, int type, int protocol, int sv[2]);
-  </em>On Linux, the only supported domain for this call is AF_UNIX (or       synonymously,,  AF_LOCAL).
-  <em>Since Linux 2.6.27, socketpair() supports the SOCK_NONBLOCK and        </em>SOCK_CLOEXEC flags described in socket(2).</p>
-
-<ul>
-<li>Author: stone <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#x3a;&#108;&#105;&#113;&#x69;&#x6e;&#103;&#108;&#105;&#x6e;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#108;&#105;&#x71;&#105;&#110;&#x67;&#x6c;&#x69;&#x6e;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a>
-*/</li>
-</ul>
+<pre><code>test_socketpair.c
 
 
-<p>  #include &lt;string.h>
-  #include &lt;stdlib.h>
-  #include &lt;stdio.h>
-  #include &lt;sys/types.h>
-  #include &lt;sys/socket.h>
-  #include &lt;signal.h>
-  #include &lt;errno.h></p>
+/***
+*test socketpair api
+*int socketpair(int domain, int type, int protocol, int sv[2]);
+*On Linux, the only supported domain for this call is AF_UNIX (or           synonymously,,  AF_LOCAL).
+*Since Linux 2.6.27, socketpair() supports the SOCK_NONBLOCK and        *SOCK_CLOEXEC flags described in socket(2).
+* Author: stone &lt;liqinglin@gmail.com&gt;
+*/
 
-<p>  typedef struct process{</p>
+#include &lt;string.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;sys/types.h&gt;
+#include &lt;sys/socket.h&gt;
+#include &lt;signal.h&gt;
+#include &lt;errno.h&gt;
 
-<pre><code>  pid_t pid;
+typedef struct process{
+
+  pid_t pid;
 
   int channel[2];
-</code></pre>
+}process_t;
 
-<p>  }process_t;</p>
+#define MAX_CHILD_NUM 2
+process_t processes[MAX_CHILD_NUM];
+int process_last,process_slot;
+int child_num=MAX_CHILD_NUM;
 
-<p>  #define MAX_CHILD_NUM 2
-  process_t processes[MAX_CHILD_NUM];
-  int process_last,process_slot;
-  int child_num=MAX_CHILD_NUM;</p>
 
-<p>  int main()
-  {
-      int master=1;
-      pid_t pid;
-      int n;</p>
 
-<pre><code>  process_last=0;
+
+int main()
+{
+  int master=1;
+  pid_t pid;
+  int n;
+
+
+
+  process_last=0;
   n=child_num;
 
   while(n &gt; 0 &amp;&amp; master==1){

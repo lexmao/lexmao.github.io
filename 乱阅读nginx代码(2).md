@@ -56,42 +56,42 @@ Stone <stone@bzline.cn>
 
        下面看一个例子:
       
-         test_socketpair.c
+          test_socketpair.c
 
 
-		/***
-		*test socketpair api
-		*int socketpair(int domain, int type, int protocol, int sv[2]);
-		*On Linux, the only supported domain for this call is AF_UNIX (or 		synonymously,,  AF_LOCAL).
-		*Since Linux 2.6.27, socketpair() supports the SOCK_NONBLOCK and 		*SOCK_CLOEXEC flags described in socket(2).
-		* Author: stone <liqinglin@gmail.com>
-		*/
+		  /***
+		  *test socketpair api
+		  *int socketpair(int domain, int type, int protocol, int sv[2]);
+		  *On Linux, the only supported domain for this call is AF_UNIX (or 		  synonymously,,  AF_LOCAL).
+		  *Since Linux 2.6.27, socketpair() supports the SOCK_NONBLOCK and 		  *SOCK_CLOEXEC flags described in socket(2).
+		  * Author: stone <liqinglin@gmail.com>
+		  */
 		
-		#include <string.h>
-		#include <stdlib.h>
-		#include <stdio.h>
-		#include <sys/types.h>
-		#include <sys/socket.h>
-		#include <signal.h>
-		#include <errno.h>
+		  #include <string.h>
+		  #include <stdlib.h>
+		  #include <stdio.h>
+		  #include <sys/types.h>
+		  #include <sys/socket.h>
+		  #include <signal.h>
+		  #include <errno.h>
 
-		typedef struct process{
+		  typedef struct process{
      
         	pid_t pid;
      
         	int channel[2];
-		}process_t;
+		  }process_t;
 
-		#define MAX_CHILD_NUM 2
-		process_t processes[MAX_CHILD_NUM];
-		int process_last,process_slot;
-		int child_num=MAX_CHILD_NUM;
-
-
+		  #define MAX_CHILD_NUM 2
+		  process_t processes[MAX_CHILD_NUM];
+		  int process_last,process_slot;
+		  int child_num=MAX_CHILD_NUM;
 
 
-		int main()
-		{
+
+
+		  int main()
+		  {
         	int master=1;
         	pid_t pid;
         	int n;
