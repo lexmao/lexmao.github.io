@@ -1,0 +1,385 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>机器学习（一）</title>
+
+</head>
+<body>
+<h5>机器学习（一）</h5>
+
+<hr />
+
+<pre><code>    参考&lt;&lt;机器学习实战&gt;&gt; &lt;&lt;统计学习方法&gt;&gt;
+</code></pre>
+
+<h6>#机器学习的概念：</h6>
+
+<p>揭示无序信息后面的本质，把这些庞大的、无序的信息转为有用得信息。有用的信息，意味着<br>可以看到
+信息的本质，可以做决策依据。</p>
+
+<p>如果有已知数据X1,X2,X3,X4,X5...Xn，想知道因变因子Y随X1...Xn的变化本质和趋势。如果，有<br>
+一个精准的数学模型，比如Y=aX1+bX2+cX3.....+U, 那么我们从X1...Xn就可以精准地获得Y的本质。<br>但是，很多时候，并不存在这样精准的数学模型，这个时候要获得Y的本质，就需要统计学来解决。<br>
+机器学习就是在统计学的基础上，根据学习、探索X1,X2...，发现其规律，最终找到Y的本质及Y和<br>X1....Xn的关系。</p>
+
+<p><strong>机器学习的主要任务就是分类</strong></p>
+
+<p>根据一个程序员在互联网上的大量碎片信息，可以通过机器学习把他分类为优秀或一般的程序员；<br>
+根据你在网络上听的音乐历史歌曲，可以通过机器学习把你分类到某一音乐爱好类别，然后推荐出<br>
+你喜欢的音乐；<br>
+根据你在网络上阅读的历史数据，可以通过机器学习把你分类到某一阅读偏爱类别，然后给你推荐<br>
+你喜欢的文章;
+......</p>
+
+<p>机器学习，既然是学习，那么就必须有一个学习的过程：基于已知的数据作为算法的训练集，让计算机根据我们采用的某一个分类算法进行学习。</p>
+
+<p>对于评判优秀程序员，假设从已知程序员信息上，我们看到有以下信息特征（数字表示分数）：</p>
+
+<pre><code>信息名称        学校     学历       专业   经验（年）            目标变量
+Info1          8         7        9       3                   优秀
+Info2          6         8        8       5                   优秀
+Info3          5         5        4       3                   一般
+Info4          8         5        5       3                   良好
+</code></pre>
+
+<p>现在的问题是：我们获得了一个新来的程序员的特征信息如下，他属于哪个级别的程序员？</p>
+
+<pre><code>信息名称        学校    学历   专业     经验（年）       目标变量
+Info5          2       3     9      8               ？？？？
+</code></pre>
+
+<p> <strong>机器学习的另外一个任务就是回归</strong></p>
+
+<p>预测数值型数据，研究一个随机变量Y对另一个(X)或一组(X1，X2，…，Xk)变量的相依关系的统计分析方法。如下的例子：</p>
+
+<pre><code>信息名称    户外广告(万)    电视广告(万)    网络视频广告(万)    广播(万)     销售(万)    
+Info1        20           30              90                 8         1200      
+Info1        10           40              60                 3         1000      
+Info1        5            50              100                0         1800      
+Info1        30           10              150                2         2000      
+Info1        50           100             20                 10        1600      
+....
+</code></pre>
+
+<p>问题：</p>
+
+<p><em>为了提高销售额，获得广告投放最大的ROI，应该采用什么样的广告投放策略？</em></p>
+
+<p>目标是解决以上2个问题。</p>
+
+<hr />
+
+<p>第一个问题，是利用机器学习和算法解决一个归类问题。</p>
+
+<p>首先要解决这些数据的特征是怎来的？比如有些专业是5分，有些专业是2分？这部分一种方式是靠经验<br>
+和常识来处理；另外一种方式是收据所有‘优秀程序员’的数据，提取特征。<br>
+这是另外一个重要的话题。目前，我们要解决的是已经知道这些特征值得情况下，需要对新来程序员进<br>
+行分类。所以，假设这些特征的标准我们已经拥有。</p>
+
+<p>解决问题的算法： <em>K-近邻算法</em>，通过测量每组特征值之间的距离来确定所属归类。<br>
+一组特征值，就是一 个向量；所以，这里实质上是测试2个向量的距离，这可以用欧氏距离公式搞定：<br></p>
+
+<pre><code>比如2个特征变量：
+
+d = sqrt( (x1-x2)^2+(y1-y2)^2 )
+
+3个特征变量：
+
+d = √( (x1-x2)^2+(y1-y2)^2+(z1-z2)^2 )　
+
+n个特征变量：
+
+d(A，B) =√ [ ∑( a[i] - b[i] )^2 ] (i = 1，2，…，n)
+</code></pre>
+
+<p>有了以上理论基础，开始用python代码来解决具体上面的第一个问题：</p>
+
+<ol>
+<li><p>准备好原始已知道数据 developer.txt:</p>
+
+<p> cat developer.txt
+ 优秀，良好，一般 分别用3,2,1来表示
+ 每一列用空格分隔
+ 学校    学历   专业   经验（年）      目标变量
+ 8 7 9 3 3
+ 6 8 8 5 2
+ 5 5 4 3 1
+ 7 5 4 3 2
+ 9 6 7 6 3                                                   <br/>
+ 6 8 6 8 3                                                    <br/>
+ 3 4 6 4 1                                                    <br/>
+ 7 5 5 4 2</p></li>
+<li><p>把该文件数据 导入程序（转化为矩阵和目标变量向量）</p>
+
+<pre><code> #第一件事,导入已知数据
+ #filename 数据源文件名
+ #feature_len 特征变量的个数,本例子中为4个
+ #返回包含特征的矩阵和目标变量向量
+
+ def loadDataFromFile(filename,feature_len):
+     fr = open(filename)
+
+     dataLines =fr.readlines()
+     lineNumber = len(dataLines)
+     classLabelVector=[]
+
+     for line in dataLines:
+         if line.find('#') == 0 : #find '#'line
+             dataLines.remove(line)
+
+     lineNumber = len(dataLines)
+     classLabelVector=[]
+     dataMat=np.zeros((lineNumber,feature_len))
+
+     row_index=0
+     for line in dataLines:
+         line = line.strip()
+         listFromLine =line.split(' ')
+         dataMat[row_index,:]=listFromLine[0:feature_len]
+         classLabelVector.append((listFromLine[-1]))
+         row_index +=1
+
+
+     return dataMat,classLabelVector
+
+
+ if __name__ == '__main__':
+
+     dataMat,labels=loadDataFromFile('developer.txt',4)
+
+     print(dataMat)
+     print(labels)
+</code></pre></li>
+</ol>
+
+
+<p>执行 python developer.py 返回</p>
+
+<pre><code>[[ 8.  7.  9.  3.]
+[ 6.  8.  8.  5.]
+[ 5.  5.  4.  3.]
+[ 7.  5.  4.  3.]
+[ 9.  6.  7.  6.]
+[ 6.  8.  6.  8.]
+[ 3.  4.  6.  4.]
+[ 7.  5.  5.  4.]]
+
+['3', '2', '1', '2', '3', '3', '1', '2']
+
+
+
+#开始计算距离
+#首先要传入要求解的目标向量inX
+#dataSet  是上导入的竞争和目标向量,k是进行比较的条数
+
+def classify0(inX, dataSet, labels, k):
+    row_size = dataSet.shape[0] #获得矩阵中得行数
+    #构造一个矩阵,每一行的向量是inX,一共有row_size行
+    #目的是要实施两个矩阵运算行列个数一致
+
+    tempMat =np.tile(inX,(row_size,1))
+
+
+    #欧氏距离公式 d(A，B) =√ [ ∑( a[i] - b[i] )^2 ] (i = 1，2，…，n)
+
+    diffMat = tempMat-dataSet #矩阵运算,相减
+    sqDiffMat = diffMat**2
+    #求和 axis=1,计算每一行的和,axis=0按列计算
+    sqDistances = sqDiffMat.sum(axis=1)
+
+    #开方运算
+    distances = sqDistances**0.5
+
+    #排序
+    sortedDistIndicies = distances.argsort()
+    classCount={}
+
+
+    for i in range(k):
+        votellabel = labels[sortedDistIndicies[i]]
+        classCount[votellabel] = classCount.get(votellabel,0) + 1
+
+    sortedClassCount = sorted(classCount.iteritems(),
+        key=operator.itemgetter(1), reverse=True)
+
+    return sortedClassCount[0][0]
+
+
+if __name__ == '__main__':
+
+    level_list=['未知','一般','良好','优秀']
+    dataMat,labels=loadDataFromFile('developer.txt',4)
+    normDataMat,ranges,min =autoNorm(dataMat)
+
+
+    inX=np.array([2,3,9,8])
+    inX =(inX-min)/ranges
+
+    k=3
+
+    who =classify0(inX, normDataMat, labels, k)
+
+    outs='该程序员属于*%s*类别'%level_list[int(who)]
+    print(outs)
+
+
+
+# python developer.py 
+该程序员属于*一般*类别
+</code></pre>
+
+<p>到此为止，解决了第一个问题，关于程序员归类的问题。</p>
+
+<p><a href="https://github.com/lexmao/blog_source/blob/master/developer_kNN.py">demo代码</a></p>
+</body>
+</html>
