@@ -1,0 +1,702 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>乱阅读nginx代码(2)</title>
+
+</head>
+<body>
+<h4>乱阅读nginx代码(2)</h4>
+
+<p>Stone <a href="&#109;&#97;&#105;&#x6c;&#116;&#x6f;&#58;&#115;&#x74;&#x6f;&#x6e;&#x65;&#64;&#98;&#x7a;&#108;&#x69;&#x6e;&#101;&#x2e;&#x63;&#x6e;">&#x73;&#x74;&#111;&#110;&#x65;&#64;&#98;&#122;&#x6c;&#105;&#110;&#x65;&#46;&#99;&#110;</a></p>
+
+<hr />
+
+<p><em>进程间通信</em></p>
+
+<ul>
+<li><p>亲源关系进程间通信</p>
+
+<ol>
+<li><p>管道，通常是半双工（数据只在一个方向上流动）。通常一个父进程创建一个管道，然后<br>fork产生
+子进程，最后在父子进程间通过该管道进行通信。</p>
+
+<ul>
+<li><p>当读一个写端已经关闭的管道，在所有数据被读取后，返回0。 从技术上看，一个读<br>
+端可能存在多个写端（比如多个子进程），但是通常管道的应用是一对一的读写关系。</p></li>
+<li><p>如果写一个读端已经关闭的管道，将产生信号SIGPIPE,write 返回-1.</p></li>
+<li><p>当多个进程从一个管道写入数据，是否会造成管道中的数据混乱（时序，交错？）,这要看数据的
+大小是否超过系统PIPE_BUF，如果小于该值，系统可以确保不会造成混乱。相反，如果大于该
+值，管道数据是否混乱是不确定的。</p></li>
+<li><p>管道常见的一个用法是在fork前复制到标准输入输出，这样fork后的exec执行的进程可以直接
+从标准输入输出传递数据，这种模块化的设计开发在Unix程序中随处可见。</p>
+
+<pre><code>   pipe(pipe_to);
+   switch(fork()){
+         case 0:
+                  if(pipe_to[0]!=STDIN_FILENO){
+                            dup2(pipe_to[0],STDIN_FILENO);
+                            close(pipe_to[0]);
+                  }
+                  execvp(..proc...);
+                  exit(0);
+   }
+
+   在proc进程中，可以直接从标准输入获得上面父进程从管道pipe_to传递的数据。
+</code></pre></li>
+</ul>
+</li>
+<li><p>基于Streams的管道技术</p>
+
+<ul>
+<li><p>streams pipe 是一个全双工管道；单个streams pipe就可以在父子进程间实现双向通信；</p></li>
+<li><p>传递进程间的文件描述符号，考虑这样一个情景：一个父进程创建了一个管道，产生了一个子进程，
+运行一段时间后，父进程又需要增加一个管道和子进程通信，怎么办？</p></li>
+<li><p>socketpair 创建了一对无名的套接字描述符（只能在AF_UNIX域中使用），描述符存储于一个二
+元数组,eg. s[2].这对套接字可以进行双工通信，每一个描述符既可以读也可以写. 可以理解为一
+个网络服务器端的句柄 s_fd和一个客户端的c_fd;s_fd 和c_fd当然是可以进行全双工通信的.</p></li>
+</ul>
+
+
+<p> 下面看一个例子:</p>
+
+<p>   test_socketpair.c</p>
+
+<p>  /<em><em><em>
+  </em>test socketpair api
+  </em>int socketpair(int domain, int type, int protocol, int sv[2]);
+  </em>On Linux, the only supported domain for this call is AF_UNIX (or       synonymously,,  AF_LOCAL).
+  <em>Since Linux 2.6.27, socketpair() supports the SOCK_NONBLOCK and        </em>SOCK_CLOEXEC flags described in socket(2).</p>
+
+<ul>
+<li>Author: stone <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#x3a;&#108;&#105;&#113;&#x69;&#x6e;&#103;&#108;&#105;&#x6e;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#108;&#105;&#x71;&#105;&#110;&#x67;&#x6c;&#x69;&#x6e;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a>
+*/</li>
+</ul>
+
+
+<p>  #include &lt;string.h>
+  #include &lt;stdlib.h>
+  #include &lt;stdio.h>
+  #include &lt;sys/types.h>
+  #include &lt;sys/socket.h>
+  #include &lt;signal.h>
+  #include &lt;errno.h></p>
+
+<p>  typedef struct process{</p>
+
+<pre><code>  pid_t pid;
+
+  int channel[2];
+</code></pre>
+
+<p>  }process_t;</p>
+
+<p>  #define MAX_CHILD_NUM 2
+  process_t processes[MAX_CHILD_NUM];
+  int process_last,process_slot;
+  int child_num=MAX_CHILD_NUM;</p>
+
+<p>  int main()
+  {
+      int master=1;
+      pid_t pid;
+      int n;</p>
+
+<pre><code>  process_last=0;
+  n=child_num;
+
+  while(n &gt; 0 &amp;&amp; master==1){
+
+      if(socketpair(AF_UNIX,SOCK_STREAM,                      0,processes[process_last].channel)){
+          fprintf(stderr,"socketpair error:%s\n",strerror(errno));
+          exit(0);
+      }
+
+      process_slot=process_last;
+
+      switch((pid=fork())){
+          case -1:
+              fprintf(stderr,"fork error\n");
+             exit(102);
+          case 0:/*child */
+             processes[process_slot].pid=getpid();
+
+             close(processes[process_slot].channel[0]);
+             master=0;
+
+             for(;;){
+
+                  char line[256]={0};
+
+                 read(processes[process_slot].channel[1],
+                                  line,sizeof(line)-1);
+                 write(processes[process_slot].channel[1],
+                                      "hello",5);
+                  fprintf(stderr,"child[%d] read data=%\n",
+                      processes[process_slot].pid,line);                                                                                           
+                  if(process_slot==1){
+                      write(processes[0].channel[0],"from child,hi",13);
+                     fprintf(stderr,"write to from [%d]\n",getpid());
+                  }
+                  if(process_slot==0){
+                      char s[256]={0};
+                     read(processes[0].channel[1],s,255);
+                      fprintf(stderr,"[%d]read from otherchild:%s\n",
+                                      getpid(),s);
+                   }
+              }//for
+
+               exit(120);
+
+          default://master
+              n--;
+             processes[process_slot].pid=pid;
+
+             process_last++;
+
+             break;
+      }  //switch   
+  } //while
+
+   /**master come here */
+  for(;;){
+      char line[256]={0};
+      char s[256]={0};
+      int i;
+
+      fgets(line,sizeof(line)-1,stdin);
+
+      for(i=0;i&lt;child_num;i++){
+          fprintf(stderr,"start write to child[%d] from master\n",
+              processes[i].pid);
+          write(processes[i].channel[0],line,strlen(line));
+
+          read(processes[i].channel[0]s,sizeofs)-1);
+          fprintf(stderr,"read from child:[%s]\n",s);
+      }
+  }
+
+  exit(0);
+
+
+}
+
+gcc -g -o test_socketpair test_socketpair.c
+
+
+[stone@hotdog  LAB]# ./test_socketpair
+  stone
+  start write to child[21761] from master
+  read from child:[hello]
+  start write to child[21762] from master
+  child[21761] read data=stone
+  read from child:[hello]
+  child[21762] read data=stone
+</code></pre></li>
+</ol>
+
+
+<p>  在上面的例子,为了避免混乱,我们统一定了个原则: 所有被动(首先读)发起通信的进程,统一采用通道  channel[1];
+  所有主动(首先写)发起通信的进程,统一采用channel[0];  所以在子进程中我们关闭了channel[0];
+  这样设置的好处是,如果我们通过事件驱动的方式来处理IO (epoll),那么我们可以在每个子进程中只要关    心自己的channel[1]读事件就可以了.</p>
+
+<p>  上面这个例子通过在父进程中发送数据给子进程.模型如下:</p>
+
+<p>  processes 是一个process_t 类型的数组,slot是该索引</p>
+
+<p>  processes array由于是master进程创建子进程之前已经定义,所以后面的子进程都会有一个该    processes变量的副本</p>
+
+<p>  到目前为止,master进程会完整地维护该processes的每个元素的值(从slot 0->n),<em>而每个子进程的    processes副本只维护比自己更早的子进程的信息</em>,比如processes[n] 维护了从0-n的所有信息;但是  processes[0] 并    不维护从processes[1]到processes[n]的任何信息...因为创建[0]进程的时候,    其他进程并未创建,所以副本中包含相关信息.</p>
+
+<p>  master根据processes[slot].channel和每个子进程(slot)通信</p>
+
+<p>  如果只是需要父进程和各个子进程进行通信,那么到以上为止已经差不多了,如果要补充,那么就是如果采用异   步IO驱动(epoll)的话,需要设置一下channel的属性: 设置为非堵塞/异步处理标志,并加入到epoll    pools中.</p>
+
+<p>  另外一个问题,可以从上面看到,后产生的进程的(假设叫A) 的processes副本包含了之前所有子进程的  channel句柄,那么A能够主动发起和所有的其他子进程进行通信.参考上面红色的代码,验证通过.如果需要    其他子进程(比A早生成的进程,副本中无A的任何信息)能够主动发起和A通信,怎么办呢？ 由于其他子进程的   processes副本中并不存在A进程的channel句柄，目前是做不到的。如果要实现，怎么办？</p>
+
+<p>  <strong>解决方案</strong></p>
+
+<pre><code>  通过进程间通信,把需要通信的句柄传递给其他进程.针对上面的例子,就是把新产生的A进程的相关通信       句柄传递给其他子进程.
+
+
+  ngx_int_t  ngx_write_channel(ngx_socket_t s, ngx_channel_t *ch, size_t          size)
+  {
+      ssize_t             n;
+      struct iovec        iov[1];
+      struct msghdr       msg;
+
+
+      union {
+          struct cmsghdr  cm;
+          char            space[CMSG_SPACE(sizeof(int))];
+      } cmsg;
+
+      if (ch-&gt;fd == -1) {
+          msg.msg_control = NULL;
+          msg.msg_controllen = 0;
+
+      } else {
+          msg.msg_control = (caddr_t) &amp;cmsg;
+          msg.msg_controllen = sizeof(cmsg);
+
+          cmsg.cm.cmsg_len = CMSG_LEN(sizeof(int));
+          cmsg.cm.cmsg_level = SOL_SOCKET;
+          cmsg.cm.cmsg_type = SCM_RIGHTS;
+          *(int *) CMSG_DATA(&amp;cmsg.cm) = ch-&gt;fd;
+      }
+
+      msg.msg_flags = 0;
+
+
+      iov[0].iov_base = (char *) ch;
+      iov[0].iov_len = size;
+
+      msg.msg_name = NULL;
+      msg.msg_namelen = 0;
+      msg.msg_iov = iov;
+      msg.msg_iovlen = 1;
+
+      n = sendmsg(s, &amp;msg, 0);
+
+
+      return n;
+  }
+
+  ngx_int_t ngx_read_channel(ngx_socket_t s, ngx_channel_t *ch, size_t size)
+  {
+      ssize_t             n;
+      struct iovec        iov[1];
+      struct msghdr       msg;
+
+      union {
+          struct cmsghdr  cm;
+          char            space[CMSG_SPACE(sizeof(int))];
+      } cmsg;
+
+
+      iov[0].iov_base = (char *) ch;
+      iov[0].iov_len = size;
+
+      msg.msg_name = NULL;
+      msg.msg_namelen = 0;
+      msg.msg_iov = iov;
+      msg.msg_iovlen = 1;
+
+      msg.msg_control = (caddr_t) &amp;cmsg;
+      msg.msg_controllen = sizeof(cmsg);
+
+      n = recvmsg(s, &amp;msg, 0);
+      ch-&gt;fd = *(int *) CMSG_DATA(&amp;cmsg.cm);
+
+
+      return n;
+  }
+</code></pre></li>
+</ul>
+
+
+<hr />
+
+<ul>
+<li><p>非亲源关系进程间通信</p>
+
+<ol>
+<li><p>命名管道FIFO</p>
+
+<p>   FIFO更象是一个文件系统，可以用open/write/read来操作。它突破通常管道无法进行无关进程之间       的通信的限制，使得同一主机内的所有的进程都可以通信</p>
+
+<ul>
+<li><p> 从FIFO中读取数据</p>
+
+<p> 如果有进程写打开FIFO，且当前FIFO为空，则对于设置了阻塞标志的读操作来说，将一直阻塞下          去，直到有数据可以读时才继续执行；对于没有设置阻塞标志的读操作来说，则返回0个字节，当         前errno值为EAGAIN，提醒以后再试。</p>
+
+<p> 如果没有进程写打开FIFO，则设置了阻塞标志的读操作会阻塞。</p>
+
+<p> 对于设置了阻塞标志的读操作来说，造成阻塞的原因有两种：
+ 一、当前FIFO内有数据，但有其它进程在读这些数据；
+ 二、FIFO本身为空。</p>
+
+<p> 解阻塞的原因是：FIFO中有新的数据写入，不论写入数据量的大小，也不论读操作请求多少数据        量，只要有数据写入即可。</p>
+
+<p> 读打开的阻塞标志只对本进程第一个读操作施加作用，如果本进程中有多个读操作序列，则在第一个        读操作被唤醒并完成读操作后，其它将要执行的读操作将不再阻塞，即使在执行读操作时，FIFO中         没有数据也一样（此时，读操作返回0）。</p>
+
+<p> 如果FIFO中有数据，则设置了阻塞标志的读操作不会因为FIFO中的字节数少于请求的字节数而阻          塞，此时，读操作会返回FIFO中现有的数据量。</p></li>
+<li><p> 从FIFO中写入数据</p>
+
+<p> 约定：如果一个进程为了向FIFO中写入数据而阻塞打开FIFO，那么称该进程内的写操作为设置了阻       塞标志的写操作。</p>
+
+<p> 设置了阻塞标志的写操作：</p>
+
+<p> 当要写入的数据量不大于PIPE_BUF时，Linux将保证写入的原子性。</p>
+
+<p> 如果此时管道空闲缓冲区不足以容纳要写入的字节数，则进入睡眠，直到当缓冲区中能够容纳要写入        的字节数时，才开始进行一次性写操作。即写入的数据长度小于等于PIPE_BUF时，那么或者写入全       部字节，或者一个字节都不写入，它属于一个一次性行为，具体要看FIFO中是否有足够的缓冲区。</p>
+
+<p> 当要写入的数据量大于PIPE_BUF时，Linux将不再保证写入的原子性。FIFO缓冲区一有空闲区       域，写进程就会试图向管道写入数据，写操作在写完所有请求写的数据后返回。</p>
+
+<p> 没有设置阻塞标志的写操作：</p>
+
+<p> 当要写入的数据量不大于PIPE_BUF时，Linux将保证写入的原子性。</p>
+
+<p> 如果当前FIFO空闲缓冲区能够容纳请求写入的字节数，写完后成功返回；如果当前FIFO空闲缓冲区       不能够容纳请求写入的字节数，则返回EAGAIN错误，提醒以后再写。</p>
+
+<p> 当要写入的数据量大于PIPE_BUF时，Linux将不再保证写入的原子性。在写满所有FIFO空闲缓冲        后，写操作返</p>
+
+<p> 在打开公共FIFO的时候，如果仅以读打开，则当所有的写进程都退出时，读进程会读取到文件结束         符,这个问题的解决办法是以读写打开公共FIFO</p>
+
+<p> 创建一个fifo空文件.
+ 进程B: 以读堵塞方式打开该文件；以写堵塞方式打开该文件。根据上面绿色文字描述的特点，此时       进程B堵塞在读fifo 据柄上，直到该fifo文件有数据可以读.....那么谁来让他有数据可以读呢？        当然是进程A。。。当进程A准备应用数据后，就网fifo文件发送一个通知消息，B进程就终止堵塞        开始进行工作.</p>
+
+<pre><code>   {
+       if(mkfifo(tigfile,0700)==-1)
+       {
+           ....
+       }
+
+       FD_ZERO(&amp;rfds);
+       FD_ZERO(&amp;wfds);
+       nfds = 1;
+       tv.tv_sec = 5;
+       tv.tv_usec = 0;
+       tgfd = open(tigfile,O_RDONLY | O_NDELAY);
+       dumyfd=open(tigfile,O_WRONLY|O_NDELAY);
+
+       if (select(nfds,&amp;rfds,&amp;wfds,(fd_set *) 0,&amp;tv) &lt;=0){
+       }
+
+
+       if(FD_ISSET(tgfd,&amp;rfds)){
+           while(read(tgfd,buffer,sizeof(buffer))&gt;0);
+       }
+
+   }
+</code></pre></li>
+</ul>
+</li>
+<li><p>消息队列</p>
+
+<ul>
+<li>消息的链表，存储在Kernel中。</li>
+<li>了解其限制：每个消息最大值；系统中最大的队列值；每个队列最大的消息个数。</li>
+<li>对于删除一个队列，由于并未设置一个引用数据，所以导致可能正在使用该队列的某进程出错返回。</li>
+<li>早期的消息队列是为了在性能上比其他IPC有更好的效果，但是现在来看这方面已经没有优势，所以建议少用。</li>
+</ul>
+</li>
+<li><p>信号量</p>
+
+<ul>
+<li>他是一个计数器,用于多个进程共享资源的控制：如果该计数器为正，则可以访问共享资源。若为0，则堵塞等待计数器大于0。</li>
+<li>当进程exit的时候，对该计数器的处理方式....</li>
+<li>记录锁比信号量耗时，但是信号量更加复杂。</li>
+</ul>
+</li>
+<li><p>共享存储器</p>
+
+<ul>
+<li>包括mmap方式和XSI IPC方式。 区别是mmap和一个文件存储映射。</li>
+<li><p>/dev/zero 利用mmap映射的经验：创建了一个匿名存储区，长度由mmap参数确定；存储区初始化为0;在亲源进程之间可以共享该存储区域。</p>
+
+<pre><code>上面这三种通信方式，都有一个共同点：OS内核为他们维持了一个IPC结构,用一个数字进行标示。进程之间可以通过该标示进行引用。
+key_t fotk(path...)
+</code></pre></li>
+</ul>
+</li>
+<li><p>网络通信</p>
+
+<ul>
+<li>socket /TCP/IP 通信</li>
+<li>UNIX DOMAIN SOCKET通信</li>
+</ul>
+</li>
+<li><p>信号中断</p></li>
+</ol>
+</li>
+</ul>
+
+
+<p> Nginx 中的进程通信</p>
+
+<p>代码逻辑</p>
+
+<pre><code>ngx_start_worker_processes()
+{
+    ch.command = NGX_CMD_OPEN_CHANNEL;
+    for (i = 0; i &lt; n; i++) {
+
+        ngx_spawn_process() /*创建worker进程，并设置streams pipe */
+
+        ch.pid = ngx_processes[ngx_process_slot].pid;
+        ch.slot = ngx_process_slot;
+        ch.fd = ngx_processes[ngx_process_slot].channel[0];
+
+
+
+        for (s = 0; s &lt; ngx_last_process; s++) {
+                  /**
+                   *把ch的内容传递给所有已经创建的worker进程
+                   */
+                   ngx_write_channel(ngx_processes[s].channel[0], &amp;ch, 
+                        sizeof(ngx_channel_t), cycle-&gt;log);
+        }
+    }
+  }
+
+
+  ch是一个以下类型的数据结构：
+
+  typedef struct {
+    ngx_uint_t  command;  /*传递的指令，上面是ch.command = NGX_CMD_OPEN_CHANNEL*/
+    ngx_pid_t   pid;          /*worker进程的pid*/
+    ngx_int_t   slot;         /*worker进程在processs中的索引号*
+    ngx_fd_t    fd           /*传递的文件描述符*/
+  } ngx_channel_t;
+
+master进程向worker进程通过  ngx_write_channel 函数发送ngx_channel_t类型的数据。
+
+
+在调用ngx_channel_t和创建worker前，master进程到底对process[s].channel做那些工作？
+
+      ngx_spawn_process（）{
+
+       /**
+        *创建一个streams pipe   ngx_processes[s].channel
+        */ 
+        if (socketpair(AF_UNIX, SOCK_STREAM, 0, ngx_processes[s].channel) == -1) {}
+
+        /** 
+        *设置该管道的channel 为非堵塞状态
+        */
+        if (ngx_nonblocking(ngx_processes[s].channel[0]) == -1) {}
+        if (ngx_nonblocking(ngx_processes[s].channel[1]) == -1) {}
+
+         /**
+          *FIOASYNC Enables a simple form of asynchronous I/O notification. 
+          *This command causes the kernel to send SIGIO signal to a process or a process group when I/O is possible. 
+          *Only sockets, ttys, and pseudo-ttys implement this functionality.
+          */
+         on = 1;
+         if (ioctl(ngx_processes[s].channel[0], FIOASYNC, &amp;on) == -1) {}
+
+          /**
+           * The F_SETOWN command sets the ID of the thread or process group to receive signals from the file descriptor 
+           * ngx_pid 是master的pid
+           */
+          if (fcntl(ngx_processes[s].channel[0], F_SETOWN, ngx_pid) == -1) {}
+
+          /**
+            * close on exec, not on-fork, 意为如果对描述符设置了FD_CLOEXEC，使用execl执行的程序里，此描述符被关闭，不能再使用它，
+            *但是在使用fork调用的子进程中，此描述符并不关闭，仍可使用。
+            */
+          if (fcntl(ngx_processes[s].channel[0], F_SETFD, FD_CLOEXEC) == -1) {}
+          if (fcntl(ngx_processes[s].channel[1], F_SETFD, FD_CLOEXEC) == -1) {}
+
+
+        /**
+         *创建worker进程 
+         */
+        pid = fork();
+
+        ........
+
+     }
+
+     接下来，我们看看  ngx_write_channel函数的实现：
+
+      ngx_write_channel（）
+     {
+            .....
+        iov[0].iov_base = (char *) ch;
+        iov[0].iov_len = size;
+
+        msg.msg_name = NULL;
+        msg.msg_namelen = 0;
+        msg.msg_iov = iov;
+        msg.msg_iovlen = 1;
+        n = sendmsg(s, &amp;msg, 0);/*ngx_processes[s].channel[0]==s*/
+
+     }
+
+
+     master哪些地方会通过该函数向worker进程发送数据呢？
+
+      * 创建该worker的时候，广播数据到已经创建的所有worker
+      *  ngx_signal_worker_processes() 函数中，将发送数据给worker...什么时候master调用  ngx_signal_worker_processes? master的主loop中，
+          根据不同的标志，调用 ngx_signal_worker_processes发送数据给worker.
+    ngx_master_process_cycle (..)
+    {
+            ....
+            ngx_start_worker_processes(cycle, ccf-&gt;worker_processes,
+                           NGX_PROCESS_RESPAWN);
+
+       /**master的主Loop
+        *在nginx服务期间,master进程就生活在以下循环:)
+        */
+         for ( ;; ) {
+
+                       /* 定时器*/
+                      if (delay) {}
+                     /* 启动信号处理机制*/ 
+                     sigsuspend(&amp;set);  
+                     /*根据各种标志进行逻辑处理*/
+                    if (ngx_reap) {}
+                    if (!live &amp;&amp; (ngx_terminate || ngx_quit)) {
+                                     ngx_signal_worker_processes(cycle, ngx_signal_value(NGX_TERMINATE_SIGNAL));
+                      }
+                    if (ngx_terminate) {}
+                    if (ngx_reconfigure){}
+                    ......                      
+
+         }//for main loop
+    }
+</code></pre>
+</body>
+</html>
