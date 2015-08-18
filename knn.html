@@ -181,7 +181,8 @@ sup {
 你喜欢的文章;
 ......</p>
 
-<p>机器学习，既然是学习，那么就必须有一个学习的过程：基于已知的数据作为算法的训练集，让计算机根据我们采用的某一个分类算法进行学习。</p>
+<p>机器学习，既然是学习，那么就必须有一个学习的过程：基于已知的数据作为算法的训练集，让计<br>
+算机根据我们采用的某一个分类算法进行学习。</p>
 
 <p>对于评判优秀程序员，假设从已知程序员信息上，我们看到有以下信息特征（数字表示分数）：</p>
 
@@ -200,7 +201,8 @@ Info5          2       3     9      8               ？？？？
 
 <p> <strong>机器学习的另外一个任务就是回归</strong></p>
 
-<p>预测数值型数据，研究一个随机变量Y对另一个(X)或一组(X1，X2，…，Xk)变量的相依关系的统计分析方法。如下的例子：</p>
+<p>预测数值型数据，研究一个随机变量Y对另一个(X)或一组(X1，X2，…，Xk)变量的相依关系的统计<br>
+分析方法。如下的例子：</p>
 
 <pre><code>信息名称    户外广告(万)    电视广告(万)    网络视频广告(万)    广播(万)     销售(万)    
 Info1        20           30              90                 8         1200      
@@ -244,64 +246,63 @@ d(A，B) =√ [ ∑( a[i] - b[i] )^2 ] (i = 1，2，…，n)
 
 <p>有了以上理论基础，开始用python代码来解决具体上面的第一个问题：</p>
 
-<ol>
-<li><p>准备好原始已知道数据 developer.txt:</p>
+<p>准备好原始已知道数据 developer.txt:</p>
 
-<p> cat developer.txt
- 优秀，良好，一般 分别用3,2,1来表示
- 每一列用空格分隔
- 学校    学历   专业   经验（年）      目标变量
- 8 7 9 3 3
- 6 8 8 5 2
- 5 5 4 3 1
- 7 5 4 3 2
- 9 6 7 6 3                                                   <br/>
- 6 8 6 8 3                                                    <br/>
- 3 4 6 4 1                                                    <br/>
- 7 5 5 4 2</p></li>
-<li><p>把该文件数据 导入程序（转化为矩阵和目标变量向量）</p>
+<pre><code>cat developer.txt 
+优秀，良好，一般 分别用3,2,1来表示
+每一列用空格分隔
+学校    学历   专业   经验（年）      目标变量
+8 7 9 3 3 
+6 8 8 5 2
+5 5 4 3 1 
+7 5 4 3 2 
+9 6 7 6 3                                                     
+6 8 6 8 3                                                      
+3 4 6 4 1                                                      
+7 5 5 4 2 
+</code></pre>
 
-<pre><code> #第一件事,导入已知数据
- #filename 数据源文件名
- #feature_len 特征变量的个数,本例子中为4个
- #返回包含特征的矩阵和目标变量向量
+<p>把该文件数据 导入程序（转化为矩阵和目标变量向量）</p>
 
- def loadDataFromFile(filename,feature_len):
-     fr = open(filename)
+<pre><code>    #第一件事,导入已知数据
+    #filename 数据源文件名
+    #feature_len 特征变量的个数,本例子中为4个
+    #返回包含特征的矩阵和目标变量向量
 
-     dataLines =fr.readlines()
-     lineNumber = len(dataLines)
-     classLabelVector=[]
+    def loadDataFromFile(filename,feature_len):
+        fr = open(filename)
 
-     for line in dataLines:
-         if line.find('#') == 0 : #find '#'line
-             dataLines.remove(line)
+        dataLines =fr.readlines()
+        lineNumber = len(dataLines)
+        classLabelVector=[]
 
-     lineNumber = len(dataLines)
-     classLabelVector=[]
-     dataMat=np.zeros((lineNumber,feature_len))
+        for line in dataLines:
+            if line.find('#') == 0 : #find '#'line
+                dataLines.remove(line)
 
-     row_index=0
-     for line in dataLines:
-         line = line.strip()
-         listFromLine =line.split(' ')
-         dataMat[row_index,:]=listFromLine[0:feature_len]
-         classLabelVector.append((listFromLine[-1]))
-         row_index +=1
+        lineNumber = len(dataLines)
+        classLabelVector=[]
+        dataMat=np.zeros((lineNumber,feature_len))
 
-
-     return dataMat,classLabelVector
+        row_index=0
+        for line in dataLines:
+            line = line.strip()
+            listFromLine =line.split(' ')
+            dataMat[row_index,:]=listFromLine[0:feature_len]
+            classLabelVector.append((listFromLine[-1]))
+            row_index +=1
 
 
- if __name__ == '__main__':
+        return dataMat,classLabelVector
 
-     dataMat,labels=loadDataFromFile('developer.txt',4)
 
-     print(dataMat)
-     print(labels)
-</code></pre></li>
-</ol>
+    if __name__ == '__main__':
 
+        dataMat,labels=loadDataFromFile('developer.txt',4)
+
+        print(dataMat)
+        print(labels)
+</code></pre>
 
 <p>执行 python developer.py 返回</p>
 
