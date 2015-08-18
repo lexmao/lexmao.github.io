@@ -242,9 +242,52 @@ d = √( (x1-x2)^2+(y1-y2)^2+(z1-z2)^2 )　
 n个特征变量：
 
 d(A，B) =√ [ ∑( a[i] - b[i] )^2 ] (i = 1，2，…，n)
+
+
+a是需要归类的特征矩阵： a=[a1,a2,a3,a4...an]   
+
+
+b是机器学习的已经知道的特征矩阵(m*n)：b=[ [b1,b2,b3,b4....bn]
+                               [c1,c2,c3,c4....cn]
+                                [d1,d2,d3,d4....dn]
+                            ]
+
+ 现在分别用b中得每一行（每一组特征向量）和 a计算距离，计算的方式就是
+ D1(b1,a) =  √ (b1-a)^2 +(b2-a)^2+(b3-a)^2
+ D2(c1,a) =  √ (c1-a)^2 +(c2-a)^2+(c3-a)^2
+ D3(d1,a) =  √ (d1-a)^2 +(d2-a)^2+(d3-a)^2
+
+ ...
+ Dn(X1,a)=...
+
+ 最后获得一个n*1 大小的矩阵 D = [ [D1]
+                               [D2]
+                              [D3]
+                              [D4]
+                              ....
+                              [Dm]
+                              ]
+
+ 然后按照D1,D2,D3...Dm的大小排序 D' =[[D2]      假设D2&lt;D1&lt;D3...&lt;Dm
+                                    [D1]
+                                    [D3]
+                                     ...
+                                    [Dm]
+                                    ]
+
+ 选取 最小的K个点，假设K=3,则：
+
+                        D‘’ =[[D2]
+                              [D1]
+                              [D3]]
+
+计算在D''中每个类比出现的频率，比如D2 是优秀，D1是优秀,D3的类别是一般
+
+频率最高的类别就是答案，优秀的频率是2,一般是1，良 是0
+所以，结果是  '优秀'
 </code></pre>
 
-<p>有了以上理论基础，开始用python代码来解决具体上面的第一个问题：</p>
+<p>有了以上理论基础，开始用python代码来解决具体上面的归类问题：</p>
 
 <p>准备好原始已知道数据 developer.txt:</p>
 
@@ -345,14 +388,16 @@ def classify0(inX, dataSet, labels, k):
     sortedDistIndicies = distances.argsort()
     classCount={}
 
-
+    #计算每个类别出现的频率
     for i in range(k):
         votellabel = labels[sortedDistIndicies[i]]
         classCount[votellabel] = classCount.get(votellabel,0) + 1
 
+    #根据类别频率排序
     sortedClassCount = sorted(classCount.iteritems(),
         key=operator.itemgetter(1), reverse=True)
 
+    #返回频率最大的特征
     return sortedClassCount[0][0]
 
 
