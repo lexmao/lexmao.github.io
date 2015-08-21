@@ -864,7 +864,7 @@ int main()
 
 最后，还了解了一种网络服务器程序架构的主要构建方式。
 
-[demo代码](https://github.com/lexmao/blog_source/blob/master/server.c)
+[demo代码](https://github.com/lexmao/blog_source/blob/master/clib/server.c)
 
 
 
