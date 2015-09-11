@@ -1,0 +1,349 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>利用布隆过滤器实现url存储唯一性</title>
+
+</head>
+<body>
+<h5>利用布隆过滤器实现url存储唯一性</h5>
+
+<hr />
+
+<p><em>问题的提出</em></p>
+
+<pre><code> 在抓取互联网上的网页（主要是招聘信息）过程中，要避免重复存储每一个url资源，每个工作岗位的信息部
+ 不能重复抓取。
+</code></pre>
+
+<p><em>通常解决方法</em></p>
+
+<pre><code>1. 利用数据库，每次存储前查询该url是否在db中存在；或者通过链表、文件等方式存储然后进行比较。这
+   些都是同类的方法思路。随着集合中元素的增加，我们需要的存储空间越来越大，检索速度也越来越慢
+   (O(n),O(logn))
+
+2. 利用Hash Table，对没个url进行Hash然后放置在Tabel中，每次对新的url进行hash然后检查table
+   中是否存在。这个方法很快，效率很高，但是要面临冲突的问题：2个不同的url，很可能Hash的结果是相
+   同的。另外，在面对大量url要处理的场景下，存储效率低下：每个url通过hash转为一个8字节的信息指
+   纹，hash的存储效率通常为50%，如果要存储检查1亿个url地址，那么需要16亿字节的内存，即1.6G
+</code></pre>
+
+<p><em>Bloom Filter 解决方法</em></p>
+
+<ul>
+<li>概念 ，引用百度百科</li>
+</ul>
+
+
+<blockquote><p>布隆过滤器（Bloom Filter）是1970年由布隆提出的。它实际上是一个很长的二进制向量和一系列随机映射函数。布隆过滤器可以用于检索一个元素是否在一个集合中。它的优点是空间效率和查询时间都远远超过一般的算法，缺点是有一定的误识别率和删除困难。</p></blockquote>
+
+<pre><code> 利用上面的例子解释一下上面这句话：
+
+ 建立Bloom Filter 向量：
+
+ . 如果我们要检查存储1亿个url，可以先建立一个16亿bit的向量 （这里是hash方法存储空间的1/8）
+
+ . 建立一个Bloom Filter，是基于一个1亿位的位(bit)向量，这些位向量的初始值为0。
+
+
+ 添加新(url)元素到向量中：
+
+ . 有一系列(3个)的hash函数F1,F2,F3，这些hash函数产生的信息指纹分别为f1,f2,f3。
+ . 再利用的一个随机数生成器G把f1,f2,f3映射到这1亿位的向量上位置为b1,b2,b3
+ . b1,b2,b3位置从0改为1。
+
+ 如果要检查一个url是否在这个Bloom Filter中存在，采用下面的步骤：
+ . f1=F1(url), f2=F2(url), f3=F3(url)
+ . b1=G(f1), b2=G(f2), b3=G(f3)
+ . 检查Bloom Filter向量上b1,b2,b3位置上的值是否为1，如果全部为1，则表示存在该url
+
+
+           url=http://www.bzline.cn
+               |      |        |
+           F1(url)  F2(url)  F3(url)
+               |      |        |
+               f1     f2       f3
+               |      |        |
+               G(f1) G(f2)    G(f3)
+               |       |       |
+               b1      b2      b3
+
+
+        bloom filter 向量：
+
+        0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+       |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+                  b1      b2  b3
+
+   Bloom Filter有以下几个特点：
+
+   . 不存在漏报（False Negative），即某个元素在某个集合中，肯定能报出来。
+   . 可能存在误报（False Positive），即某个元素不在某个集合中，可能也被爆出来。
+
+   误报的概率:
+   假设已经存在的URL1的位置为 b1,b2,b3, 向量上的值为当然为 1,1,1
+   假设已经存在的URL2的位置为 b4,b5,b6, 向量上的值为当然为 1,1,1
+   假设已经存在的URL1的位置为 b7,b8,b9, 向量上的值为当然为 1,1,1
+
+   现在要检查 URL 产生的位置为 b3,b6,b9,这些位置上的只都为1,那么判断存在该URL
+   可是，这个URL并不存在，这些位置上的值是其他url产生的...这就导致误报：某个元素不
+   在集合中，但是被爆出来了...
+
+   从上面的例子看出来，如果每个url占的位置越多(b1,b2...bn)那么发生误报的概念越小
+                    如果Bloom Filter向量越大，每个url 散列的越开，误报也越小。
+
+   假设Bloom Filter过滤器向量有 m 位,将存储对应 n 个元素，每个元素对应 k 个hash
+   值，有误报概率公式参考：
+    P=(1-e[^-(kn/m)])[^k]
+
+    主要和m/k 及k的数值有关系。具体可以参考 《数学之美》中的描述。
+</code></pre>
+
+<p>  上面把理论都描述完了，下面开始看具体的代码：</p>
+
+<pre><code>class BitMap(object):
+'''
+实现一个bit map,由一个整型数组组成.
+每一个int 是32位,除去最高位是符号位不使用外,还能利用32位
+所以,如果需要bitmap容纳的bit为max,那么需要这个int 数组的元素
+为 intElemt= (max+31-1)/31 (向上取整)
+
+注意:python 中的整数是一个对象,所以不是真正的32位的一个内存排列
+     python 中的整数是一个c 语言结构(struct)
+    struct{
+        hdr...
+        int val
+    }
+
+    这个结构体中的val才是真正的int.但是我们可以不关心的理由是
+    python这些运算操作也进行了同步封装,比如 i &gt;&gt; 2 实际转化为
+    val &gt;&gt; 2
+    具体,可以看python实现源码
+'''
+    def __init__(self,bitmap_file):
+
+        #初始化Filter向量,65535位，需要一个getElemSize(65535)大小的整数数组
+        self.size = self.getElemSize(65535)
+        self.array=[0 for i in range(self.size)]
+
+
+      #获得数组的元素个数
+    def getElemSize(self,max):
+        return (max+31-1)/31
+
+    #对指定的数,获得在某一个元素上的索引
+    def getElemIndex(self,num):
+        return num/31
+
+    #对指定的数,获得在某一个元素的某一个bit上的索引
+    def getBitIndex(self,num):
+        return num%31
+
+    #设置指定位置上的值为1
+    def setBitMask(self,num):
+        elemIndex =self.getElemIndex(num)
+        bitIndex =self.getBitIndex(num)
+        elemValue =self.array[elemIndex]
+
+        self.array[elemIndex]=elemValue|(1 &lt;&lt; bitIndex)
+
+        return
+
+    #指定bit位置上清零
+    def clearBitMask(self,num):
+        elemIndex =self.getElemIndex(num)
+        bitIndex =self.getBitIndex(num)
+        elemValue =self.array[elemIndex]
+
+        self.array[elemIndex]=elemValue &amp;(~(1 &lt;&lt; bitIndex))
+
+        return
+
+
+     #测试某一个bit上的值
+    #return True 表示该位置为1,存在
+    def testBitMask(self,num):
+        elemIndex =self.getElemIndex(num)
+        bitIndex =self.getBitIndex(num)
+        elemValue =self.array[elemIndex]
+
+        if elemValue &amp; (1 &lt;&lt; bitIndex) : # &gt; 0 value =1
+            return True
+        else:
+            return False
+
+
+            ........
+
+ '''
+处理爬虫的url唯一性;
+检查该url是否已经处理过,如果没有处理,则:
+返回True,同时保持在bitmap
+'''
+def urlHashProcess(url,bitmap_file):
+
+    bitmap= BitMap(bitmap_file)
+    bloonhash=BloonHash()
+
+    if bloonhash.test_bitmap(bitmap,url):# return ture,means bitmap exists this
+        #only return false,do nothing
+        return False
+    else:
+        bloonhash.set_bit_map(bitmap,url)
+        bitmap.save2file(bitmap_file)
+        return True
+</code></pre>
+
+<p><a href="https://github.com/lexmao/SPIDER">完整测试代码</a></p>
+</body>
+</html>
