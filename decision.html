@@ -1,0 +1,477 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>决策树的应用</title>
+
+</head>
+<body>
+<h5>决策树的应用</h5>
+
+<hr />
+
+<p><em>问题是什么？</em></p>
+
+<pre><code>  有以下几组历史数据：
+
+  信息ID      房产      婚姻       公务员   汽车            是否放贷款(结论)
+    1          有       是        是       有                   放
+    2          无       是        是       无                   放
+    3          无       否        是       有                   否
+    4          有       否        否       有                   放
+    5          有       是        否       无                   放
+    6          无       是        否       有                   否
+    7          无       是        否       无                   否    
+
+
+   新来一个组数据，我们要判断是否应该放贷款呢?
+
+   信息ID      房产      婚姻       公务员   汽车            是否放贷款(结论)
+    10         有       否           否     否                   ？
+</code></pre>
+
+<blockquote><p>决策树(Decision Tree）是在已知各种情况发生概率的基础上，通过构成决策树来求取净现值的期望值大于等于零的概率，评价项目风险，判断其可行性的决策分析方法，是直观运用概率分析的一种图解法。由于这种决策分支画成图形很像一棵树的枝干，故称决策树。在机器学习中，决策树是一个预测模型，他代表的是对象属性与对象值之间的一种映射关系。Entropy = 系统的凌乱程度，使用算法ID3, C4.5和C5.0生成树算法使用熵。这一度量是基于信息学理论中熵的概念。</p></blockquote>
+
+<p><em>解决问题</em></p>
+
+<p>用决策树来解决这个问题.</p>
+
+<pre><code>  X ={房产，婚姻，公务员，汽车}
+  Y ={是否放贷款}
+
+  现在的目的是找到一个模型 Y=F(X) 获得Y这个结论。X={x1,x2....xn}是历史样本数据，上面就是
+  X=[[有,是,是,有],....]
+
+  现在[有,否,否,否]-&gt;结论是？
+
+
+  X是多纬度的，上面列子上包括：房产，婚姻，公务员，汽车 4个特征。那么结论到底是那个特征来决
+  定的呢？如果是他们共同来决定的话，那个权重更高呢？这些，我们需要从样本数据中学习，找到规律。
+
+  从样本数据看如果是以房产来决定：
+
+    是否有房产    是否房贷
+  1  有          放
+  2  无          放
+  3  无          否
+  4  有          放
+  5  有          放
+  6  无          否
+  7  无          否
+
+  有房产的情况下，放贷款的概率为：33.3%，不放的概率为66.6%
+  无房产的情况下，放贷款的概率为：25%，  不放的概率为75%
+
+
+
+
+
+  从样本数据看如果是以婚姻来决定：
+
+    是否结婚    是否房贷
+  1  是          放
+  2  是          放
+  3  否          否
+  4  否          放
+  5  是          放
+  6  是          否
+  7  是          否
+
+  结婚的的情况下，放贷款的概率为：60%，不放的概率为40%
+  未结婚的的情况下，放贷款的概率为：50%，不放的概率为50%
+
+
+
+
+  从样本数据看如果是以是否为公务员来决定：
+
+    是否公务员    是否房贷
+  1  是          放
+  2  是          放
+  3  是          否
+  4  否          放
+  5  否          放
+  6  否          否
+  7  否          否
+
+  是公务员的的情况下，放贷款的概率为：66.6%，不放的概率为33.3%
+  不是公务员的情况下，放贷款的概率为：50%，不放的概率为50%
+
+
+
+
+  从样本数据看如果是以是否有汽车来决定：
+
+    是否有汽车    是否房贷
+  1  有          放
+  2  无          放
+  3  有          否
+  4  有          放
+  5  无          放
+  6  有          否
+  7  无          否
+
+  有汽车的情况下，放贷款的概率为：50%，不放的概率为50%
+  无汽车的情况下，放贷款的概率为：66.6%，不放的概率为33.3%
+
+
+
+  应该选择那个特征作为最重要的依据呢？
+  如果一个特征具有更好的分类能力，我们就选择那个特征。信息增益(infomation gain)用来衡量这种
+  分类能力的指标。
+
+  在讨论信息增益前，先看看熵(Entropy)的定义。
+
+
+  熵(Entropy) 是用来表示随机变量不确定性的度量。上面例子中，‘放贷’和‘不放贷’就是2种随机变
+  量，用熵可以来度量这2个变量的概率分布情况。
+
+  E=-sum(Pi*logPi) ,Pi表示某一种变量的概率，比如上面‘放贷’的概率是 4/7, '不放贷'的概率是
+  3/7
+  可以验证，熵越大，随机变量的不确定性就越大 0&lt;= E &lt;=1
+
+  上面这个熵(Entropy)，只和最后的随机变量有关系，和特征变量还没联系上....继续
+
+  考虑一下，如果基于某一个特征变量下的熵(Entropy)能代表什么呢？能代表在这个特征下的
+  随机变量的不确定性，假设这个特征变量为X
+
+  P(Y|X)条件概率 --&gt; E(Y|X)条件熵
+
+  E(Y|X) = sum(PiE(Y|X=xi)))
+
+  重点来了：信息增益（infomation gain）表示已知特征X的新而使随机变量的不确定性分布减少的
+  程度，
+
+  G(D,A) =E(D) - E(D|A)
+
+  简单地理解就是：用一个集合的熵 减去基于某一个特征下分类的集合的熵的差的大小来度量这个特征对于
+  分类的影响。
+
+
+  现在来计算上面例子中的G(D,A)，D,表示上面例子中的数据集
+  分别用A1,A2,A3,A4表示上面的‘房产’，‘婚姻’，‘公务员’，‘汽车’4个特征
+
+  E(D) = -4/7*log(4/7) - 3/7*log(3/7) = 0.9852
+
+  E(D,A1) =E(D) - E(D|A1)
+          =E(D) - ( 3/7*E(D1)+4/7*E(D2) )  
+          =E(D) - (3/7*(-1*log*1 - 0*log0) +4/7*(-1/4*log1/4 - 3/4*log3/4) )
+          =0.9852 -(0+ 0.4635)
+          =0.5216
+
+  如下图所示：
+</code></pre>
+
+<p><a href="http://lexmao.com/images/d-tree_01.png">以房产为特征分割示意图</a></p>
+
+<pre><code>  同样的方法可以获得以下数据：
+
+  E(D,A2) = 0.0059
+  E(D,A3) = 0.0202
+  E(D,A4) = 0.0202
+
+
+  很显然，对于集合D来说，按照A1（房产）分类是最合理的。房产有2个值，所以按此分割后成两个集合
+  有房产的和无房产的。
+</code></pre>
+
+<p> 用程序实现上面的计算过程：</p>
+
+<pre><code>  构造上面的数据集：
+
+  def createDataSet():
+
+    dataSet=[[1,1,1,1,'yes'],
+        [0,1,1,0,'yes'],
+        [0,0,1,1,'no'],
+        [1,0,0,1,'yes'],
+        [1,1,0,0,'yes'],
+        [0,1,0,1,'no'],
+        [0,1,0,0,'no']]
+
+
+    #labels =['房产','婚姻','公务员','汽车']
+    labels =['House','Married','CivilMan','Car']
+    return dataSet,labels
+
+
+  计算一个数据集的熵：
+
+  def calcShannonEnt(dataSet):
+
+    featList={}
+    rowsNum=len(dataSet)
+    Ent=0.0
+
+    for rows in dataSet:
+        featVal =rows[-1]
+        if featVal not in featList.keys():
+            featList[featVal] = 0
+
+        featList[featVal] +=1
+
+    for featVal in featList:
+        p=featList[featVal]/float(rowsNum)
+        Ent -=p*log(p,2)
+
+    return Ent
+
+
+  指定某一个特征，进行数据分割：i是特征在rows中的索引，value是该特征的值
+  比如‘房产’这个特征的i在rows中的值为0，其值有2个: 有房产 和 无房产
+  def splitDataSet(dataSet,i,value)：
+
+    subDataSet=[]
+
+    for rows in dataSet:
+        if rows[i] == value:
+            new_rows=rows[:i]
+            new_rows.extend(rows[i+1:])
+            subDataSet.append(new_rows)
+
+    return subDataSet
+
+
+
+
+  计算信息增益，找到最好的数据分割特征
+
+  def chooseBestFeatureToSplit(dataSet):
+
+    numFeatures =len(dataSet[0]) -1
+
+    baseEntropy= calcShannonEnt(dataSet)
+
+    bestInfoGain =0.0
+    bestFeature=-1
+
+
+
+    for i in range(numFeatures):
+        featList=[example[i] for example in dataSet]
+        uniqueVals=set(featList)
+
+        newEntropy= 0.0
+        for value in uniqueVals:
+            subDataSet =splitDataSet(dataSet,i,value)
+            prob=len(subDataSet)/float(len(dataSet))
+            newEntropy +=prob*calcShannonEnt(subDataSet)
+
+        infoGain=baseEntropy-newEntropy
+
+        print infoGain,i
+
+    if bestInfoGain &lt; infoGain:
+        bestInfoGain = infoGain
+        bestFeature=i
+
+
+    return bestFeature
+</code></pre>
+
+<p>获得了最佳归类的特征，我们可以按该特征对数据集进行分类；对于分类后的子集合，我们采用同样的方式来获得
+下一步归类的最佳特征....这样递归的完成整个数据集的归类。这就是ID3算法：从根节点开始，对节点计算出所有可能的特征的信息增益，选择信息增益最大的特征作为节点的特征，由该特征的不同取值建立子节点；再对子节点递归地采用以上方法。</p>
+
+<pre><code> 根据ID3算法来生成决策树：
+
+
+
+ def createTree(dataSet,labels):
+
+    classList=[example[-1] for example in dataSet]
+
+    if classList.count(classList[0]) == len(classList):
+        return classList[0]
+
+    if len(dataSet[0]) ==1:
+        return majorityCnt(classList)
+
+    bestFeat =chooseBestFeatureToSplit(dataSet)
+    bestFeatLabel=labels[bestFeat]
+
+    myTree={bestFeatLabel:{}}
+    del(labels[bestFeat])
+
+    featValues= [example[bestFeat] for example in dataSet]
+    uniqueVals=set(featValues)
+
+    for value in uniqueVals:
+        subLabels=labels[:]
+        myTree[bestFeatLabel][value]= \ 
+          createTree(splitDataSet(dataSet,bestFeat,value),subLabels)
+
+
+    return myTree
+
+
+
+    结果：
+    {'House': {0: {'CivilMan': {0: 'no', 1: {'Married': {0: 'no', 1: 'yes'}}}}, 1: 'yes'}}
+</code></pre>
+
+<p> <img src="http://lexmao.com/images/d-tree_02.png" alt="决策树图形" /></p>
+
+<pre><code>回到最开始的问题：
+
+新来一个组数据，我们要判断是否应该放贷款呢?
+
+   信息ID      房产      婚姻       公务员   汽车            是否放贷款(结论)
+    10         有       否           否     否                   ？
+
+
+
+
+    根据以上的决策树，直观第获得答案： 放贷
+</code></pre>
+</body>
+</html>
