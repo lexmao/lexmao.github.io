@@ -160,7 +160,7 @@ sup {
 
 <hr />
 
-<p>今天想玩一下raspberry pi，把2年前玩的电动车完善以下，但是发现两个问题：</p>
+<p>今天想玩一下raspberry pi，把2年前玩的电动车完善起来，但是发现两个问题：</p>
 
 <h6>问题描述</h6>
 
@@ -181,23 +181,34 @@ sup {
 
 <p>Power down the Pi and remove the SD card. Insert it into your PC.</p>
 
-<p>然后修改SD卡中config.txt文件中的内容：
-hdmi_safe=1
-overscan_left=-30
-overscan_right=-30
-overscan_top=-30
-overscan_bottom=-30
-hdmi_group=2
-hdmi_mode=4
-hdmi_drive=2
-config_hdmi_boost=4</p>
+<p>然后修改SD卡中config.txt文件中的内容：</p>
 
-<p>保存，然后把SD卡重新放入raspbeery中....然后可以可以看到投影设备的输出，问题解决。
-主要是检测HDMI输出设备兼容方面的问题，所以在配置上改一下。</p></li>
+<p>hdmi_safe=1</p>
+
+<p>overscan_left=-30</p>
+
+<p>overscan_right=-30</p>
+
+<p>overscan_top=-30</p>
+
+<p>overscan_bottom=-30</p>
+
+<p>hdmi_group=2</p>
+
+<p>hdmi_mode=4</p>
+
+<p>hdmi_drive=2</p>
+
+<p>config_hdmi_boost=4</p>
+
+<p>保存，然后把SD卡重新放入raspbeery中....然后可以可以看到投影设备的输出，问题解决。</p>
+
+<p>主要是检测HDMI输出设备兼容方面的问题，所以在配置上改一下。</p></li>
 <li><p>修改密码</p>
 
-<p> raspbeery是linux内核，所以按传统的本机方式（lilo,grub,single...）应该就可以操作了。
- 我刚好看到google的文章，就按下面方式解决：</p>
+<p> raspbeery是linux内核，所以按传统的本机方式（lilo,grub,single...）应该就可以操作了。</p>
+
+<p> 我刚好看到google的文章，就按下面方式解决：</p>
 
 <p> Step 1 – Grab The SD Card</p>
 
@@ -205,8 +216,9 @@ config_hdmi_boost=4</p>
 
 <p> Step 2 – Edit cmdline.txt</p>
 
-<p> init=/bin/sh
- If the original content was :</p>
+<p> init=/bin/sh</p>
+
+<p> If the original content was :</p>
 
 <p> dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 console=tty1  root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait</p>
 
@@ -214,8 +226,9 @@ config_hdmi_boost=4</p>
 
 <p> dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 console=tty1  root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait init=/bin/sh</p>
 
-<p> Make sure it is all one line!
- Save the text file and eject the SD card from the PC.</p>
+<p> Make sure it is all one line!</p>
+
+<p> Save the text file and eject the SD card from the PC.</p>
 
 <p> Step 3 – Reset the Password</p>
 
@@ -225,8 +238,9 @@ config_hdmi_boost=4</p>
 
 <p> Now type the following commands :</p>
 
-<p> sync
- exec /sbin/init</p>
+<p> sync</p>
+
+<p> exec /sbin/init</p>
 
 <p> shutdown -h now</p>
 
