@@ -152,42 +152,88 @@ sup {
 	}
 }
 </style>
-<title>目 录</title>
+<title>问题描述</title>
 
 </head>
 <body>
-<p><a href="http://lexmao.com">About me</a> &nbsp;&nbsp;&nbsp;
-<a href="http://lexmao.com/blog.html">Blog</a>&nbsp;&nbsp;&nbsp;
-<a href="http://www.bzline.cn">BZLine</a></p>
-
-<h5>目 录</h5>
+<p>树莓派(raspberry pi) 操作备忘（1）</p>
 
 <hr />
 
-<p>说明： 所有文章在无特别说明的情况下，都为原创，转载请注明出处和署名(Stone)。</p>
+<p>今天想玩一下raspberry pi，把2年前玩的电动车完善以下，但是发现两个问题：</p>
 
-<hr />
+<h6>问题描述</h6>
 
 <ol>
-<li><p><a href="http://www.lexmao.com/knn.html">机器学习-k-近邻算法）</a></p></li>
-<li><p><a href="http://www.lexmao.com/bayes.html">机器学习-朴素贝叶斯算法</a></p></li>
-<li><p><a href="http://www.lexmao.com/bloomfilter.html">利用布隆过滤器（BloomFilter）检查url唯一性</a></p></li>
-<li><p><a href="http://www.lexmao.com/decision.html">决策树的应用举例</a></p></li>
-<li><p><a href="http://www.lexmao.com/nginx_1.html">乱阅nginx代码记录（1）</a></p></li>
-<li><p><a href="http://www.lexmao.com/nginx_2.html">乱阅nginx代码记录（2）</a></p></li>
-<li><p><a href="https://github.com/lexmao/public-base-lib">乱阅nginx代码的时候写的实验代码</a></p></li>
-<li><p><a href="http://www.lexmao.com/raspbeery_0x1.html">树莓派(raspbeery pi)操作备忘 0x1</a></p></li>
+<li>root密码忘记了，同时wifi配置失效....ssh远程链接不上</li>
+<li>HDMI链接到投影设备无响应（无信号），就是说在本机上没办法操作，盲打^.^？</li>
 </ol>
 
 
-<hr />
+<h6>解决问题</h6>
 
-<p>早年发在网络上的一些文章(慢慢整理收集到这里)</p>
+<ol>
+<li><p>首先必须解决视频输出的问题，否则没办法本机操作...其他都是白搭</p>
 
-<ul>
-<li><p> <a href="http://wenku.baidu.com/link?url=E1iLLWSa6oLCqPRtgJY4_ajVZ-gsOkvSHOn5RVteo5hsUifmrvrodh-W8UiKMV3WHiWRy3Ys575iDWX_oh40zSJEadPdnKmoxqPAKNgFGfC">Linux环境下的通用线程池设计</a></p></li>
-<li><p> <a href="http://www.ccidnet.com/2004/1209/187665.shtml">应用Linux上的 OpenLDAP集群</a></p></li>
-</ul>
+<p>google 后解决方案：</p>
+
+<p>Step 1 – Grab The SD Card</p>
+
+<p>Power down the Pi and remove the SD card. Insert it into your PC.</p>
+
+<p>然后修改SD卡中config.txt文件中的内容：
+hdmi_safe=1
+overscan_left=-30
+overscan_right=-30
+overscan_top=-30
+overscan_bottom=-30
+hdmi_group=2
+hdmi_mode=4
+hdmi_drive=2
+config_hdmi_boost=4</p>
+
+<p>保存，然后把SD卡重新放入raspbeery中....然后可以可以看到投影设备的输出，问题解决。
+主要是检测HDMI输出设备兼容方面的问题，所以在配置上改一下。</p></li>
+<li><p>修改密码</p>
+
+<p> raspbeery是linux内核，所以按传统的本机方式（lilo,grub,single...）应该就可以操作了。
+ 我刚好看到google的文章，就按下面方式解决：</p>
+
+<p> Step 1 – Grab The SD Card</p>
+
+<p> Power down the Pi and remove the SD card. Insert it into your PC.</p>
+
+<p> Step 2 – Edit cmdline.txt</p>
+
+<p> init=/bin/sh
+ If the original content was :</p>
+
+<p> dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 console=tty1  root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait</p>
+
+<p> it should now look like :</p>
+
+<p> dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 console=tty1  root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait init=/bin/sh</p>
+
+<p> Make sure it is all one line!
+ Save the text file and eject the SD card from the PC.</p>
+
+<p> Step 3 – Reset the Password</p>
+
+<p> passwd root</p>
+
+<p> ....</p>
+
+<p> Now type the following commands :</p>
+
+<p> sync
+ exec /sbin/init</p>
+
+<p> shutdown -h now</p>
+
+<p> 修改完密码后，把config.txt中的内容恢复回去，插入重新启动就好了。</p>
+
+<p> <a href="http://www.raspberrypi-spy.co.uk/2014/08/how-to-reset-a-forgotten-raspberry-pi-password/">参考链接</a></p></li>
+</ol>
 
 </body>
 </html>
