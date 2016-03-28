@@ -1,0 +1,587 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>利用spark进行机器学习- 推荐系统的实现</title>
+
+</head>
+<body>
+<h6>利用spark进行机器学习- 推荐系统的实现</h6>
+
+<hr />
+
+<h4>问题描述</h4>
+
+<h6>定义</h6>
+
+<ul>
+<li>协同过滤推荐：利用已有用户的行为或者意见预测当前用户最可能喜欢的物品或者兴趣值</li>
+<li>输入数据：用户-物品 （评分）矩阵</li>
+<li>输出数据：当前用户对某一物品的评分预测； 对当前用户几项推荐物品列表。</li>
+</ul>
+
+
+<h5>解决方法</h5>
+
+<pre><code>协同推荐技术分为基于记忆的和基于模型的两种技术。基于记忆的就是原始数据及运算过程都在内存中，每一次都市从头到尾直接运算出结果。基于模型的一般会先预处理原始数据，产生一套计算模型。需要的时候传入数据，可以很快生成结果。下面举例中的spark案例采用基于模型的计算方式。
+</code></pre>
+
+<p>各举一个例子：</p>
+
+<ul>
+<li><p>基于用户的最近邻推荐方法 -- 基于内存</p>
+
+<ul>
+<li>从输入数据中找到<code>相似用户</code>--这些用户叫近邻居</li>
+<li><p>利用近邻对物品的评分作为依据进行推荐或者评分</p>
+
+<pre><code>如何计算用户的相似度？
+对于基于用户的推荐系统，Pearson相关系数方法计算相似度比较好。
+给定评分矩阵R,用户x和用户y的相似度r可以用下面公式计算：
+</code></pre>
+
+<p><img src="http://b.hiphotos.baidu.com/baike/s%3D250/sign=78a8fdac6c81800a6ae58e0b813433d6/dcc451da81cb39db1f0d6375d0160924aa1830c7.jpg" title="Pearson相关系数" alt="Smaller icon" /></p></li>
+</ul>
+</li>
+<li><p>基于物品的最近邻推荐方法 -- 基于模型</p>
+
+<ul>
+<li>从输入数据中找到<code>相似物品</code></li>
+<li><p>利用近邻物品来预测用户的评分或者推荐-如：加权评分总和</p>
+
+<pre><code>如何计算2各物品的相似度？
+余弦相似度用向量空间中两个向量夹角的余弦值作为衡量两个个体间差异的大小。相比距离度量，余
+弦相似度更加注重两个向量在方向上的差异，而非距离或长度上。公式如下：
+</code></pre>
+
+<p><img src="http://b.hiphotos.baidu.com/baike/s%3D103/sign=823affce895494ee83220b191ef4e0e1/c83d70cf3bc79f3d89389a41bfa1cd11738b29e1.jpg" title="Pearson相关系数" alt="Smaller icon" /></p></li>
+</ul>
+
+
+<hr />
+
+<h5>利用spark来建立模型，实现推荐系统</h5>
+
+<p>数据,用户-电影的矩阵：</p>
+
+<table>
+<thead>
+<tr>
+<th>用户/物品 </th>
+<th> 蝙蝠侠 </th>
+<th> 星球大战 </th>
+<th> 教父 </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bill    </td>
+<td> 3      </td>
+<td> 3    </td>
+<td>        </td>
+</tr>
+<tr>
+<td>Tom     </td>
+<td>        </td>
+<td> 2    </td>
+<td> 4      </td>
+</tr>
+<tr>
+<td>Jane    </td>
+<td>        </td>
+<td> 5    </td>
+<td>        </td>
+</tr>
+</tbody>
+</table>
+
+
+<p> 假设上面的数据有U个用户，I个电影，所以，组成的矩阵R为 U x I</p>
+
+<p> 如果R能够分解成：一个用于表示用户的UxK维矩阵，一个用于表示电影的IxK维矩阵，那么R中任何一个数据都可以通过RU=UxK 中的行和RI=IxK中的列进行点积就可以获得预测的评分。关于推荐电影的问题，可以根据RI=IxK这个矩阵，比较各电影的评分向量的相似度来获得电影相似度，然后计算推荐TopN的问题。</p>
+
+<p> 所以，这里的关键问题是：把原始用户-物品 矩阵R分解成用户因子矩阵RU,物品因子矩阵RI。有了这2个因子矩阵，后面的问题就比较容易解决。
+ spark中，利用最小二乘法(ALS)来解决这个矩阵分解的问题。</p></li>
+</ul>
+
+
+<p>下面就是具体的代码说明。</p>
+
+<pre><code>#u.data 每行数据格式
+#uid     itemid  rating  time
+#524     469     4       884636416
+raw_data = sc.textFile("u.data")
+fields_data=raw_data.map(lambda line:line.split('\t'))
+print fields_data.first()
+
+
+spark-submit ...:
+&gt;&gt; [u'196', u'242', u'3', u'881250949']
+
+
+#取每行的前三个元素,即时间戳不需要
+#关键是要封装 ratings数据满足ALS.train() 函数的要求
+fields_data=fields_data.map(lambda fields:fields[:-1])
+
+#load rating data. Each row consists of a user, a product and a rating
+ratings=fields_data.map(lambda fields: 
+              Rating(int(fields[0]),int(fields[1]),float(fields[2])))
+print ratings.first()
+
+spark-submit...:
+&gt;&gt; Rating(user=196, product=242, rating=3.0)
+
+
+
+# Build the recommendation model using Alternating Least Squares
+
+rank = 10 #ALS模型中的因子个数,一般取10-200，低维数，即K   UxK, Ixk
+numIterations = 10 #运行时候的迭代次数
+noridx=0.01  #正则化参数
+model = ALS.train(ratings, rank, numIterations,noridx)
+#model = ALS.train(ratings, rank, numIterations)
+print model.userFeatures().take(5)
+
+spark-submit...:
+
+&gt;&gt;[(2, array('d', [-0.8841109871864319, -0.11465208232402802, 
+                   -0.8762624263763428, 0.2596806287765503, 
+                   0.09610659629106522, 0.7915837168693542,
+                   -1.4341378211975098, 0.13501757383346558,
+                   0.9711285829544067, 0.1410035341978073])),
+
+   (4, array('d',  [-0.8611426949501038, -1.4258954524993896, 
+                   -0.6090251207351685, -0.8136215209960938, 
+                   -1.0205814838409424, 1.490267038345337, 
+                    0.06026989594101906, -1.1402753591537476,
+                    0.5114720463752747, -0.20271258056163788])),
+  ]
+
+
+ userFeautres 是由[userid-[user features]] 组成的，其实就是其中的用户因子矩阵
+ RU=Ux10 ，因为上面设置了rank=10，所以原始用户-电影矩阵被分解成 Ux10, Ix10的2个矩阵
+
+ 对于，user features怎么解释，是上面意思呢？他们叫隐含特征，不能直接解释，但是它们可能表示了 
+ 一些含义：比如用户年龄、性别...等。
+
+ model.productFeatures 获得就是物品（电影）的矩阵因子，同userFeatures类似。
+
+ 这样，我们就已经通过数据完成了矩阵分解的核心工作。
+
+ 下面，我们来根据上面的分解模型解决问题.
+
+
+ * 输入某个用户id和电影id，预测该用户对该电影的评分
+  解决思路：用RU的行和IU的列进行点乘法，即可获得答案
+  uid=455
+  itemid=629
+  predictedRating =model.predict(uid,itemid) #3
+  print "uid 455,item 629 will ratign=%f" % predictedRating
+
+
+  spark-submit ..:
+  &gt;&gt; uid 455,item 629 will ratign=3.144458
+
+  实际数据是该用户对该电影的评分为3.0分,误差有点大...调整上面的noridx=0.5,再运行：
+
+  uid 455,item 629 will ratign=2.806096
+
+  noridx=0.2
+
+  &gt;uid 455,item 629 will ratign=3.059891
+   uid 94 item 1032 will ratign=2.045176  (真实评分为2.0)
+
+   效果评估：
+
+   *均方差（MSE）直接评估 矩阵分解后，2个因子矩阵重建矩阵R'与原来矩阵R的误差。长用于显示评级
+   情形。 标准误差定义为各测量值误差的平方和的平均值的平方根。设n个测量值的误差为ε1、ε2……
+   εn，则这组测量值的标准误差σ等于：
+</code></pre>
+
+<p><img src="http://d.hiphotos.baidu.com/baike/s%3D250/sign=bc9398269b504fc2a65fb700d5dce7f0/a71ea8d3fd1f413404b71150251f95cad1c85e1f.jpg" title="MSE" alt="Smaller icon" /></p>
+
+<pre><code>   代码实现：
+    # Evaluate the model on training data
+
+testdata = ratings.map(lambda p: (p[0], p[1]))
+#转为(uid,itemid)为key, rating 评分为value的RDD
+predictions = model.predictAll(testdata).map(lambda r: ((r[0], r[1]), r[2]))
+
+#When called on datasets of type (K, V) and (K, W), returns a dataset of (K, 
+(V, W)) pairs with all pairs of elements for each key. Outer joins are 
+supported through leftOuterJoin, rightOuterJoin, and fullOuterJoin.
+
+ratesAndPreds = ratings.map(lambda r: ((r[0], r[1]), r[2])).join(predictions)
+
+
+MSE = ratesAndPreds.map(lambda r: (r[1][0] - r[1][1])**2).mean()
+print("Mean Squared Error = " + str(MSE))
+
+
+spart-submit..: 在不同因子参数 rank = 10 ,50,100下的误差，可以看到 rank越大，误差越小，
+但是计算量和内存等需要越多，所以做好平衡，调试。
+
+&gt;&gt; Mean Squared Error = 0.756542051118 
+&gt;&gt; Mean Squared Error = 0.749902969866                                              
+&gt;&gt; Mean Squared Error = 0.748738513609                                                                                       
+
+到目前为止，我们利用spark的ALS进行了矩阵分解，建立了模型，解决了评分预测的问题。我们保存该模 
+型，方便后面直接使用。
+
+# Save and load model
+model.save(sc, "./Model/c04.m")
+
+
+后面我们可以利用load该模型来解决用户评分预测、给用户推荐电影的TopN问题等。在继续进行前，有一
+个问题要解决：如果已知数据，并没有评分这样明显的特征数据，而只是有一些隐藏的数据，比如：是否看
+过该电影，看过的次数等日志....在这个前提下是否能够利用这个模型来解决问题呢？
+
+举个例子：假定我们的网站上面没有设计对movie的rating部分，只能通过log查看到用户是否观看过影
+片，然后通过后期处理，可以看出他观看到过多少次某部影片，这里P来表示影片是否被某用户看过，C来描
+述这里的confidence weighting也就是观看的次数
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th>用户/物品 </th>
+<th> 蝙蝠侠 </th>
+<th> 星球大战 </th>
+<th> 教父 </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bill    </td>
+<td> 1      </td>
+<td> 1    </td>
+<td>        </td>
+</tr>
+<tr>
+<td>Tom     </td>
+<td>        </td>
+<td> 1    </td>
+<td> 1      |    =P</td>
+</tr>
+<tr>
+<td>Jane    </td>
+<td>        </td>
+<td> 1    </td>
+<td>        </td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th>用户/物品 </th>
+<th> 蝙蝠侠 </th>
+<th> 星球大战 </th>
+<th> 教父 </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bill    </td>
+<td> 3      </td>
+<td> 3    </td>
+<td>        </td>
+</tr>
+<tr>
+<td>Tom     </td>
+<td>        </td>
+<td> 2    </td>
+<td> 4      |     =C</td>
+</tr>
+<tr>
+<td>Jane    </td>
+<td>        </td>
+<td> 5    </td>
+<td>        </td>
+</tr>
+</tbody>
+</table>
+
+
+<pre><code>这个时候，可以把P.C (点乘) 当做Ratings RDD来使用。P.C如果表示的是偏好，那么分解后的矩阵重新
+组建后的向量点乘法也表示是偏好。
+</code></pre>
+
+<ul>
+<li><p>利用已有模型来解决推荐TopN的问题</p>
+
+<pre><code>  def recommendProducts_by_uid(sc,uid):
+      model= MatrixFactorizationModel.load(sc, "./Model/c04.m")
+
+      #向该用户推荐前10个电影
+      #Recommends the top “num” number of products for a given user and
+      #returns a list of Rating objects sorted by the predicted rating in 
+      #descending order.
+      #recommendProducts(user, num)
+      topKRecs = model.recommendProducts(uid,10)
+
+      print topKRecs
+
+
+  当uid =455的时候，输出如下：
+  spark-submit..:
+
+  &gt;&gt; [Rating(user=455, product=1467, rating=4.374681654940407), 
+   Rating(user=455,       product=1449, rating=4.274999004634083),         Rating(user=455, product=1642,         rating=4.25641693802818), 
+   Rating(user=455, product=1398,         rating=4.233395842282004), 
+   Rating(user=455, product=1599,         rating=4.221884375941546), 
+   Rating(user=455, product=814,      rating=4.217044172099399), 
+   Rating(user=455, product=1122,         rating=4.194349723393232), 
+   Rating(user=455, product=1650,         rating=4.177347026636442), 
+   Rating(user=455, product=1636,         rating=4.177347026636442), 
+   Rating(user=455, product=1645,         rating=4.177347026636442)]
+</code></pre></li>
+<li><p>解决最后一个问题：输入一个电影(id)，找到和这个电影类似的相关电影集合。
+比较两个用户的相似性，采用Pearson相关系数方法比较好。
+比较两个物品相似性，采用修正后的余弦相似度比较好。</p>
+
+<p>先实现余弦相似度的计算：</p>
+
+<pre><code># cosine=(v1.v2)/(||v1|| ||V2||)
+</code></pre>
+
+<p>  def cosine_similarity(vec1,vec2):
+      from scipy.spatial.distance import cosine
+      import math</p>
+
+<pre><code>  #scipy 有现成的函数可以用,结果一样
+  #cosine函数实际上是是求1-cosine,所以我们返回1-...
+  #return 1-cosine(vec1,vec2)
+
+  vlen=len(vec1)
+  #考虑把vec中的元素正则化:每个元素减去平均值
+  vec1_mean =np.mean(vec1)
+  vec1_mean_array=vec1-vec1_mean #向量相减
+  vec1=vec1_mean_array
+
+  vec2_mean =np.mean(vec2)
+  vec2_mean_array=vec2-vec2_mean
+  vec2=vec2_mean_array
+
+  #v1,v2的点乘
+  dot_res=0
+  for index in range(0,vlen):
+      dot=vec1[index] * vec2[index]
+      dot_res +=dot
+
+   #计算 ||vec||
+
+  vec1_length= 0
+  for index in range(0,vlen):
+      dot=vec1[index]*vec1[index]
+      vec1_length +=dot
+
+  vec1_length=math.sqrt(vec1_length)
+
+  vec2_length=0
+  for index in range(0,vlen):
+      dot=vec2[index]*vec2[index]
+      vec2_length +=dot
+
+  vec2_length=math.sqrt(vec2_length)
+
+
+  #cosine=(v1.v2)/(||v1|| ||V2||)
+
+  cosine=dot_res/((vec1_length)*(vec2_length))
+  return cosine
+</code></pre>
+
+<p>  def item_like_item(sc,item_id):</p>
+
+<pre><code>  model= MatrixFactorizationModel.load(sc,"./Model/c04.m")
+  titles=covert_to_title_by_itemid(sc)
+
+  #获得该item的产品因子,返回一个array
+  itemFactor=model.productFeatures().lookup(item_id)[0] #返回第一个array
+
+  #和所有的item比较相似性,并返回(id,sim)
+  sims=model.productFeatures().map(lambda (id,vec):               (id,cosine_similarity(vec,itemFactor)))
+
+  #需要根据sim的大小排序
+  sorteSims=sims.sortBy(lambda s:s[1],False) #False 表示从高到底排序,默认从低到高
+
+  #增加item名
+  sorteSims=sorteSims.map(lambda (id,sim):(id,titles[id],sim))
+
+  sorteSims =sorteSims.collect()[0:11]
+  print sorteSims
+
+
+输入item id=567,输出如下：
+spark-submit ...:
+&gt;&gt; [(567, u"Wes Craven's New Nightmare (1994)", 0.99999999999999978), 
+(446, u'Burnt Offerings (1976)', 0.98016343857866595), 
+(413, u'Tales from the Crypt Presents: Bordello of Blood (1996)', 0.97809904729511543), 
+(260, u'Event Horizon (1997)', 0.97549512316318576), 
+(1614, u'Reluctant Debutante, The (1958)', 0.96885839210167124),
+ (17, u'From Dusk Till Dawn (1996)', 0.96818127768709328), 
+ (859, u"April Fool's Day (1986)", 0.96677788143632237), 
+ (249, u'Austin Powers: International Man of Mystery (1997)', 0.96333472516390617),
+  (271, u'Starship Troopers (1997)', 0.96223114768879847), 
+  (943, u'Killing Zoe (1994)', 0.95918180961158406), 
+  (551, u'Lord of Illusions (1995)', 0.95760664518749883)]
+</code></pre></li>
+</ul>
+
+
+<p> <a href="https://github.com/lexmao/blog_source/blob/master/SPARK/c04.py">完整测试代码</a></p>
+</body>
+</html>
