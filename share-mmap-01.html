@@ -1,0 +1,493 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>共享资源的一种技巧</title>
+
+</head>
+<body>
+<h4>共享资源的一种技巧</h4>
+
+<hr />
+
+<ul>
+<li><p>问题场景:</p>
+
+<pre><code>  最近在写一个计费接入网关,采用长连接池的方式来保持和数据库的连接，避免大量连接、断开的问
+  题。
+
+
+  所以最终的问题就是：怎样在多进程环境中来实现一个高效的共享资源（DB Connections)池?
+</code></pre></li>
+<li><p>解决方案：</p>
+
+<pre><code>  由于是在多进程的环境，所以考虑以下要素：
+
+
+  1）共享资源必须建立在系统共享内存上；
+  2）必须考虑进程在竞争共享资源时候的互斥；
+  3）高效地利用和管理共享资源。
+</code></pre></li>
+</ul>
+
+
+<p>基于以上前提，第一种解决方案：</p>
+
+<pre><code>   假设一个共享资源用 Node表示，共有128个资源。
+
+   1，通过mmap分配一块 128*Node大小的内存，放置所有的共享资源。
+   2，各个进程取(get)获得和放回(put)都是操作该共享内存上的资源。
+   3，所有的get /put操作必须通过mutex/lock来确保操作的唯一性。
+   4，每次扫描整个共享内存空间，获得空闲的 Node.
+
+   这个方案优点：简单，逻辑清楚，好实现。
+
+   缺点： 1)由于采用mutex互斥锁，所以会很好资源，并且效率不高。
+         2)每次都要扫描整个内存空间，随着接点(node)增加，效率严重受影响。
+</code></pre>
+
+<p>方案二 利用stack来实现：</p>
+
+<pre><code>  解决以上的缺点，所以采用了本方案。
+
+ 1，通过mmap分配一块 128*Node大小的内存，放置所有的共享资源。
+ 2，通过mmap分配块空间来实现一个栈(stack)，确保所有进程能够操作该stack.
+ 3, 把空闲的Node push到在stack，需要空闲Node的时候pop一个Node,用完后push回去。
+    这样确保不用去扫描整个共享内存空间查找空闲Node。
+    stack 的element元素记录的是每个Node的内存地址。
+ 4，多个进程操作同一个stack，不采用mutex/lock技术，采用CAS技术避免锁的开销。
+
+ 共享资源Node内存布局如下：
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th>Node1 </th>
+<th> Node2 </th>
+<th> .....</th>
+<th>Node(n)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0xxxxx </td>
+<td> 0xxxxx  </td>
+<td>......</td>
+<td> 0xxxxx</td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>stack 的element元素记录的是每个Node的内存地址。</h4>
+
+<p>栈的内存地址布局：
+stack里面保存的cell用element表示。</p>
+
+<p>Element.address=Node’s address</p>
+
+<table>
+<thead>
+<tr>
+<th>element.address= 0xxxxxx(n) </th>
+<th>   -> stack top</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>element.address= 0xxxxxx4</td>
+<td></td>
+</tr>
+<tr>
+<td>----- </td>
+<td></td>
+</tr>
+<tr>
+<td>element.address= 0xxxxxx7</td>
+<td></td>
+</tr>
+<tr>
+<td>----- </td>
+<td></td>
+</tr>
+<tr>
+<td>element.address= 0xxxxxx0</td>
+<td></td>
+</tr>
+<tr>
+<td>----- </td>
+<td></td>
+</tr>
+<tr>
+<td>element.address= 0xxxxxx2</td>
+<td></td>
+</tr>
+<tr>
+<td>----- </td>
+<td></td>
+</tr>
+<tr>
+<td>element.address= 0xxxxxx2</td>
+<td></td>
+</tr>
+<tr>
+<td>----- </td>
+<td></td>
+</tr>
+<tr>
+<td>element.address= 0xxxxxx1</td>
+<td>    -> stack base</td>
+</tr>
+</tbody>
+</table>
+
+
+<pre><code>  以下是本方案的原型代码，测试通过。
+
+  #include &lt;string.h&gt;
+  #include &lt;stdlib.h&gt;
+  #include &lt;unistd.h&gt;
+  #include &lt;stdio.h&gt;
+  #include &lt;sys/mman.h&gt;
+  #include &lt;stdbool.h&gt;
+
+  #define MAX_NODE_NUM 8
+
+  typedef struct node_s{
+    int handle;
+    char name[128];
+    int status;
+  }node_t;
+
+  typedef enum {
+    IS_TOP,
+    IS_NOT_TOP
+  }top_attr_t;
+
+  typedef struct element_s{
+    long address;
+    top_attr_t attr;
+  }element_t;
+
+ typedef struct stack_s{
+    element_t elements[MAX_NODE_NUM];
+    element_t* top;
+    element_t* base;
+ }stack_t;
+
+static bool my_cmpchg(top_attr_t *ptr, top_attr_t oldval, top_attr_t newval)
+{
+ return __sync_bool_compare_and_swap(ptr, oldval, newval);
+}
+
+node_t *node_list_init(void)
+{
+    node_t *node_list=NULL;
+    node_t *node=NULL;
+    int i;
+
+    node_list=(node_t *)mmap(NULL, sizeof(node_t)*MAX_NODE_NUM, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0);
+
+    for(i=0;i&lt;MAX_NODE_NUM;i++){
+            node=node_list+i;
+            node-&gt;handle=i;
+            node-&gt;status=0x01;
+            snprintf(node-&gt;name,128,"fuck%d",i);
+
+    }
+
+    return node_list;
+
+}
+
+stack_t *stack_init(void)
+{
+    stack_t *stack=NULL;
+
+    stack=(stack_t *)mmap(NULL, sizeof(stack_t), PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0);
+    stack-&gt;base=&amp;(stack-&gt;elements[0]);
+    stack-&gt;top=stack-&gt;base;//stack is null
+    stack-&gt;top-&gt;attr=IS_TOP;
+
+    return stack;
+
+}
+
+void stack_push(stack_t *stack,element_t *element)
+{
+    element_t *stack_element=NULL;
+
+    if(!stack) return;
+
+    do{
+
+            stack_element=stack-&gt;top;
+
+            if((long)(stack_element) &gt;= (long)(&amp;stack-&gt;elements[MAX_NODE_NUM])) 
+            return; //full
+
+    }while(!my_cmpchg(&amp;(stack_element-&gt;attr),IS_TOP,IS_NOT_TOP));
+
+    stack-&gt;top++;
+    stack-&gt;top-&gt;attr=IS_TOP;
+
+    stack_element-&gt;address=element-&gt;address;
+
+    return;
+}
+
+int stack_pop(stack_t *stack,element_t *element)
+{
+    element_t *stack_element=NULL;
+
+    if(!stack) return 0;
+
+    do{
+            stack_element=stack-&gt;top;
+
+            if(stack_element==stack-&gt;base) return 0; //empty
+
+    }while(!my_cmpchg(&amp;(stack_element-&gt;attr), IS_TOP, IS_NOT_TOP));
+
+    stack-&gt;top--;
+    stack-&gt;top-&gt;attr=IS_TOP;
+
+    stack_element--;
+    element-&gt;address=stack_element-&gt;address;
+
+    return 1;
+}
+
+void print_node_list(node_t *node_list)
+{
+    int i=0;
+    node_t *node=NULL;
+
+    for(i=0;i&lt;MAX_NODE_NUM;i++){
+            node=node_list+i;
+            fprintf(stderr,"handle=[%d],status=[0x%x],name=[%s]\n",node-&gt;handle,node-&gt;status,node-&gt;name);
+    }
+
+    return;
+}
+
+void stack_data_init(stack_t *stack,node_t *node_list)
+{
+    int i=0;
+    node_t *node=NULL;
+
+    for(i=0;i&lt;MAX_NODE_NUM-1;i++){
+            element_t element;
+
+            node=node_list+i;
+            element.address=(long)(&amp;node_list[i]);
+            stack_push(stack,&amp;element);
+
+    }
+
+    return;
+}
+
+int main()
+{
+
+    int child_pid=0;
+    int n=0;
+
+    node_t *node_list=NULL;
+    stack_t *stack=NULL;
+    element_t entry;
+    node_t *node=NULL;
+
+    node_list=node_list_init();
+    stack=stack_init();
+    stack_data_init(stack,node_list);
+
+    for(n=0;n&lt;50;n++){
+            switch(fork()){
+                    case 0:
+                            {
+                                    printf("this child:%d\n",getpid());
+
+                                    while(1){
+                                            element_t element;
+                                            node_t *node=NULL;
+
+                                            if(stack_pop(stack,&amp;element)==0) {printf("pop faild\n");sleep(1);continue;}
+
+                                            printf("element-&gt;address=0x%x\n",element.address);
+                                            node=(node_t*)(element.address);
+                                            printf("[%d]node-&gt;handle=%d\n",getpid(),node-&gt;handle);
+
+                                            stack_push(stack,&amp;element);
+
+                                    }
+                                    sleep(100);
+                            }
+                            break;
+                    default:
+
+                            break;
+            }
+    }
+
+  //demo ...so can't catch signal.....etc...
+    printf("this parent ..:%d\n",getpid());
+    sleep(1000);
+
+    exit(0);
+}
+</code></pre>
+</body>
+</html>
