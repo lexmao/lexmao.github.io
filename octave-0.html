@@ -160,95 +160,100 @@ sup {
 
 <p>2013年9月29日</p>
 
-<ul>
-<li><p>问题：有一组数据（200条），根据这组数据来预估新的输入数据的值。</p>
+<h4>问题：有一组数据（200条），根据这组数据来预估新的输入数据的值。</h4>
 
-<p>数据如下：</p>
+<p>  数据如下：</p>
 
-<p><img src="http://lexmao.com/images/Liner-0.png" alt="Mou icon" /></p></li>
-<li><p>方法一，用 <em>最小二乘法</em> 计算：</p>
+<p>   <img src="http://lexmao.com/images/Liner-0.png" alt="Mou icon" /></p>
 
-<p>假设的回归方程：</p>
+<h4>方法一，用 <em>最小二乘法</em> 计算：</h4>
 
-<p><img src="http://lexmao.com/images/Liner-1.png" alt="Mou icon" /></p>
+<p>   假设的回归方程：</p>
 
-<p>假设x0=1,则可以表示为：</p>
+<p>   <img src="http://lexmao.com/images/Liner-1.png" alt="Mou icon" /></p>
 
-<p><img src="http://lexmao.com/images/Liner-2.png" alt="Mou icon" /></p>
+<p>   假设x0=1,则可以表示为：</p>
 
-<p>为了求得⍬，采用损失函数：</p>
+<p>   <img src="http://lexmao.com/images/Liner-2.png" alt="Mou icon" /></p>
 
-<p><img src="http://lexmao.com/images/Liner-3.png" alt="Mou icon" /></p>
+<p>   为了求得⍬，采用损失函数：</p>
 
-<p>当损失函数值最小的时候，其⍬就是我们的答案。求导，最后结果：</p>
+<p>   <img src="http://lexmao.com/images/Liner-3.png" alt="Mou icon" /></p>
 
-<h4>⍬<img src="http://lexmao.com/images/Liner-4.png" alt="Mou icon" /></h4>
+<p>   当损失函数值最小的时候，其⍬就是我们的答案。求导，最后结果：</p>
 
-<p>开始用octave 来计算：</p>
+<p>   ⍬ <img src="http://lexmao.com/images/Liner-4.png" alt="Mou icon" /></p>
 
-<p>首先，由于x0=1，所以整理一下数据源为：</p>
+<h5>开始用octave 来计算：</h5>
 
-<pre><code> X0               X1                 Y
+<p>   首先，由于x0=1，所以整理一下数据源为：</p>
+
+<pre><code>   X0               X1                 Y
 </code></pre>
 
-<p> <img src="http://lexmao.com/images/Liner-5.png" alt="Mou icon" /></p></li>
-<li><p>导入数据</p>
+<p>   <img src="http://lexmao.com/images/Liner-5.png" alt="Mou icon" /></p>
+
+<ul>
+<li><p>  导入数据</p>
 
 <p> <img src="http://lexmao.com/images/Liner-6.png" alt="Mou icon" /></p></li>
-<li><p>获得X及其倒置</p>
+<li><p> 获得X及其倒置</p>
 
 <p> <img src="http://lexmao.com/images/Liner-7.png" alt="Mou icon" /></p>
 
 <p> <img src="http://lexmao.com/images/Liner-8.png" alt="Mou icon" /></p></li>
-<li><p>计算 (Xt*X)的逆</p>
+<li><p> 计算 (Xt*X)的逆</p>
 
-<p><img src="http://lexmao.com/images/Liner-9.png" alt="Mou icon" /></p></li>
-<li><p>获得Y</p>
+<p>  <img src="http://lexmao.com/images/Liner-9.png" alt="Mou icon" /></p></li>
+<li><p> 获得Y</p>
 
-<p><img src="http://lexmao.com/images/Liner-10.png" alt="Mou icon" /></p></li>
-<li><p>最后计算####⍬</p>
+<p>  <img src="http://lexmao.com/images/Liner-10.png" alt="Mou icon" /></p></li>
+<li><p> 最后计算⍬</p>
 
-<p><img src="http://lexmao.com/images/Liner-11.png" alt="Mou icon" /></p></li>
+<p>  <img src="http://lexmao.com/images/Liner-11.png" alt="Mou icon" /></p></li>
 </ul>
 
 
-<p>所以，最后的回归方程为</p>
+<p>   所以，最后的回归方程为</p>
 
 <p>   <em>y = 3.0077 + 1.6953x</em></p>
 
 <p>   如果有新的输入变量x，需要预估出y值，带入上面方程即可获得。</p>
 
-<ul>
-<li><p>方法二，用梯度下降来获得 ####⍬</p>
+<h4>方法二，用梯度下降来获得</h4>
 
-<p> 回归方程及损失函数和上面一样，上面是根据最小二乘法来求解，这里用梯度下降算法：</p>
+<p>   回归方程及损失函数和上面一样，上面是根据最小二乘法来求解，这里用梯度下降算法：</p>
 
-<p> 对于我们的函数J(θ)求偏导J：</p>
+<p>   对于我们的函数J(θ)求偏导J：</p>
 
-<p> <img src="http://lexmao.com/images/Liner-12.png" alt="Mou icon" /></p>
+<p>   <img src="http://lexmao.com/images/Liner-12.png" alt="Mou icon" /></p>
 
-<p> θi表示更新之前的值，-后面的部分表示按梯度方向减少的量，α表示步长，也就是每次按照梯度减少的方向变化多少</p>
+<p>   θi表示更新之前的值，-后面的部分表示按梯度方向减少的量，α表示步长，也就是每次按照梯度减少的方向变化多少</p>
 
-<p> <img src="http://lexmao.com/images/Liner-13.png" alt="Mou icon" /></p>
+<p>   <img src="http://lexmao.com/images/Liner-13.png" alt="Mou icon" /></p>
 
-<p> 开始用octave计算。
- 解释下面octave:19行的含义：
- R是我们求的回归方程的解；先初始化为[0,0]
- 然后循环100次，执行 R=R-0.001<em>Xt</em>(X<em>R-Y)
- 0.001是步长参数，可以调节；
- X</em>R 是根据R获得的结果，X*R -Y 其实就是误差。
- 只是上面都是向量／矩阵结算。</p>
+<p>   开始用octave计算。</p>
 
-<p> <img src="http://lexmao.com/images/Liner-15.png" alt="Mou icon" /></p>
+<p>   解释下面octave:19行的含义：</p>
 
-<p> <img src="http://lexmao.com/images/Liner-16.png" alt="Mou icon" /></p>
+<p>   R是我们求的回归方程的解；先初始化为[0,0]</p>
 
-<p> 执行到最后，R=[3.0384,1.6364]，不再变化，这就是我们的结果，所以，回归方程为：</p>
+<p>   然后循环100次，执行 R=R-0.001<em>Xt</em>(X*R-Y)</p>
 
-<p>  <em>y=3.0384 + 1.6364x</em></p>
+<p>   0.001是步长参数，可以调节；</p>
 
-<p>  最后，关于验证等工作就不再描述了。</p></li>
-</ul>
+<p>   X<em>R 是根据R获得的结果，X</em>R -Y 其实就是误差。</p>
 
+<p>   只是上面都是向量／矩阵结算。</p>
+
+<p>   <img src="http://lexmao.com/images/Liner-15.png" alt="Mou icon" /></p>
+
+<p>   <img src="http://lexmao.com/images/Liner-16.png" alt="Mou icon" /></p>
+
+<p>   执行到最后，R=[3.0384,1.6364]，不再变化，这就是我们的结果，所以，回归方程为：</p>
+
+<p>   <em>y=3.0384 + 1.6364x</em></p>
+
+<p>   最后，关于验证等工作就不再描述了。</p>
 </body>
 </html>
