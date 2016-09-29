@@ -1,0 +1,124 @@
+####用Octave计算线性回归和梯度下降法
+2013年9月29日
+
+* 问题：有一组数据（200条），根据这组数据来预估新的输入数据的值。
+
+  数据如下：
+  
+  ![Mou icon](http://lexmao.com/images/Liner-0.png)
+  
+  
+  
+
+* 方法一，用 *最小二乘法* 计算：
+
+  假设的回归方程：
+ 
+      
+  ![Mou icon](http://lexmao.com/images/Liner-1.png)
+  
+  假设x0=1,则可以表示为：
+  
+  
+  ![Mou icon](http://lexmao.com/images/Liner-2.png)
+  
+  为了求得⍬，采用损失函数：
+  
+  ![Mou icon](http://lexmao.com/images/Liner-3.png)
+  
+  当损失函数值最小的时候，其⍬就是我们的答案。求导，最后结果：
+  
+  ####⍬![Mou icon](http://lexmao.com/images/Liner-4.png)
+  
+  
+  开始用octave 来计算：
+  
+  
+  首先，由于x0=1，所以整理一下数据源为：
+  
+       X0               X1                 Y
+  
+   ![Mou icon](http://lexmao.com/images/Liner-5.png)
+  
+1.  导入数据
+       
+     ![Mou icon](http://lexmao.com/images/Liner-6.png)
+      
+
+2. 获得X及其倒置
+  
+  
+    ![Mou icon](http://lexmao.com/images/Liner-7.png)
+    
+  
+    ![Mou icon](http://lexmao.com/images/Liner-8.png)
+    
+
+3. 计算 (Xt*X)的逆
+
+
+   ![Mou icon](http://lexmao.com/images/Liner-9.png)
+
+
+
+4. 获得Y
+
+   ![Mou icon](http://lexmao.com/images/Liner-10.png)
+   
+5. 最后计算####⍬
+
+   ![Mou icon](http://lexmao.com/images/Liner-11.png)
+   
+
+
+所以，最后的回归方程为
+   
+   *y = 3.0077 + 1.6953x*
+   
+   
+   如果有新的输入变量x，需要预估出y值，带入上面方程即可获得。
+   
+   
+   
+* 方法二，用梯度下降来获得 ####⍬
+
+   回归方程及损失函数和上面一样，上面是根据最小二乘法来求解，这里用梯度下降算法：
+   
+   对于我们的函数J(θ)求偏导J：
+   
+   
+   ![Mou icon](http://lexmao.com/images/Liner-12.png)
+   
+   θi表示更新之前的值，-后面的部分表示按梯度方向减少的量，α表示步长，也就是每次按照梯度减少的方向变化多少
+
+   ![Mou icon](http://lexmao.com/images/Liner-13.png)
+   
+   
+   开始用octave计算。
+   解释下面octave:19行的含义：
+   R是我们求的回归方程的解；先初始化为[0,0] 
+   然后循环100次，执行 R=R-0.001*Xt*(X*R-Y)
+   0.001是步长参数，可以调节；
+   X*R 是根据R获得的结果，X*R -Y 其实就是误差。
+   只是上面都是向量／矩阵结算。
+   
+
+ 
+   ![Mou icon](http://lexmao.com/images/Liner-15.png)
+
+
+   ![Mou icon](http://lexmao.com/images/Liner-16.png)
+   
+   执行到最后，R=[3.0384,1.6364]，不再变化，这就是我们的结果，所以，回归方程为：
+   
+    *y=3.0384 + 1.6364x*
+    
+    
+    
+    最后，关于验证等工作就不再描述了。
+    
+    
+   
+
+
+ 
