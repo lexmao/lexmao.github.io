@@ -152,11 +152,11 @@ sup {
 	}
 }
 </style>
-<title>用Octave计算线性回归和梯度下降法</title>
+<title>用Octave求解最下二乘法的两种方法</title>
 
 </head>
 <body>
-<h4>用Octave计算线性回归和梯度下降法</h4>
+<h4>用Octave求解最下二乘法的两种方法</h4>
 
 <p>2013年9月29日</p>
 
@@ -168,8 +168,6 @@ sup {
 </code></pre>
 
 <p>   <img src="http://lexmao.com/images/Liner-0.png" alt="Mou icon" /></p>
-
-<h4>方法一，用 <em>最小二乘法</em> 计算：</h4>
 
 <p>   假设的回归方程：</p>
 
@@ -183,7 +181,11 @@ sup {
 
 <p>   <img src="http://lexmao.com/images/Liner-3.png" alt="Mou icon" /></p>
 
-<p>   当损失函数值最小的时候，其⍬就是我们的答案。求导，最后结果：</p>
+<p>   现在的问题是求解⍬,使得损失函数的值J(⍬)最小。</p>
+
+<h4>方法一，用 <em>正规方程（The normal equations）</em> 计算：</h4>
+
+<p>   推导出结果为：</p>
 
 <p>   ⍬ <img src="http://lexmao.com/images/Liner-4.png" alt="Mou icon" /></p>
 
@@ -223,11 +225,9 @@ sup {
 
 <p>   如果有新的输入变量x，需要预估出y值，带入上面方程即可获得。</p>
 
-<h4>方法二，用梯度下降来获得</h4>
+<h4>方法二，用梯度下降来获得使得J(⍬)的最小值的⍬值</h4>
 
-<p>   回归方程及损失函数和上面一样，上面是根据最小二乘法来求解，这里用梯度下降算法：</p>
-
-<p>   对于我们的函数J(θ)求偏导J：</p>
+<p>   对于我们的损失函数J(θ)求偏导J：</p>
 
 <p>   <img src="http://lexmao.com/images/Liner-12.png" alt="Mou icon" /></p>
 
@@ -235,7 +235,7 @@ sup {
 
 <p>   <img src="http://lexmao.com/images/Liner-13.png" alt="Mou icon" /></p>
 
-<p>   开始用octave计算。</p>
+<h5>开始用octave计算：</h5>
 
 <p>   解释下面octave:19行的含义：</p>
 
