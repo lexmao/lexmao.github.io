@@ -1,0 +1,1714 @@
+<html>
+<head>
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, height=device-height"/>
+<link rel="apple-touch-icon" href="config/tech/iicon.png"/>
+<title>Techmeme</title>
+
+<style type="text/css" media="all">
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background: #FFFFFF;
+    color: #000000;
+    min-width:320px;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+}
+
+.logo {
+    height: 34px;
+    padding: 6px 5px 4px 5px;
+}
+
+.logo .img {
+    display:block;
+    background:url(http://bzline.cn/ainews/images/logo.png);
+    background-size: cover;
+    height:34px;
+    width:144px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .logo .img {
+        background-image: url(config/tech/techmeme135.png);
+    }
+}
+
+.logo a, .logo a:visited {
+    color:transparent;
+}
+
+.date {
+    float: right;
+    padding: 16px 4px 0 0;
+    color: #1F4C63;
+    font-size: 12px; 
+    font-weight:bold;
+}
+
+body > * {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 44px;
+    width: 100%;
+    min-height: 400px;
+    -webkit-transition-duration: 500ms;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transform: translateX(0%);
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.top_pane {
+    display: block !important;
+    position: static !important;
+    min-height: 0px !important;
+    -webkit-transition-duration: 0ms !important;
+}
+
+#preloader {
+  z-index: -10;
+  background-image: 
+    url(common-imgs/loading.gif), 
+    url(common-imgs/listArrow.png),
+    url(common-imgs/facebook_50.png), 
+    url(common-imgs/check.png), 
+    url(common-imgs/twitter.png),
+    url(common-imgs/mail.png), 
+    url(common-imgs/permalink.png);
+  background-position: -9999px;
+  background-repeat: no-repeat;
+}
+
+.tabs_bar {
+    overflow: hidden;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 27px;
+    background-color: #1F4C63;
+}
+
+.tabs_bar > .tab_selectors {
+    position:relative;
+    top:4px;
+    left:4px;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.tabs_bar > .tab_selectors > .narrowest_tabs > .tab_selector {
+    position: relative;
+    top: 3px;
+    min-width: 19.5%;
+    text-align: center;
+    display:block;
+    float:left;
+    overflow: hidden;
+    background: #1F4C63;
+}
+
+.tabs_bar > .tab_selectors > .narrowest_tabs > .active_tab_selector {
+    min-width: 19.5%;
+    text-align: center;
+    display:block;
+    float:left;
+    overflow: hidden;
+    padding:3px 0px 8px 0px;
+    background: white;
+    color: #1F4C63;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.tabs_bar > .tab_selectors > .narrower_tabs > .tab_selector {
+    position: relative;
+    top: 3px;
+    min-width: 24.5%;
+    text-align: center;
+    display:block;
+    float:left;
+    overflow: hidden;
+    background: #1F4C63;
+}
+
+.tabs_bar > .tab_selectors > .narrower_tabs > .active_tab_selector {
+    min-width: 24.5%;
+    text-align: center;
+    display:block;
+    float:left;
+    overflow: hidden;
+    padding:3px 0px 8px 0px;
+    background: white;
+    color: #1F4C63;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.tabs_bar > .tab_selectors > .narrow_tabs > .tab_selector {
+    position: relative;
+    top: 3px;
+    min-width: 32.5%;
+    text-align: center;
+    display:block;
+    float:left;
+    overflow: hidden;
+    background: #1F4C63;
+}
+
+.tabs_bar > .tab_selectors > .narrow_tabs > .active_tab_selector {
+    min-width: 32.5%;
+    text-align: center;
+    display:block;
+    float:left;
+    overflow: hidden;
+    padding:3px 0px 8px 0px;
+    background: white;
+    color: #1F4C63;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.tabs_bar > .tab_selectors > .wide_tabs > .tab_selector {
+    position: relative;
+    top: 3px;
+    min-width: 49%;
+    text-align: center;
+    display:block;
+    float:left;
+    overflow: hidden;
+    background: #1F4C63;
+}
+
+.tabs_bar > .tab_selectors > .wide_tabs > .active_tab_selector {
+    min-width: 49%;
+    text-align: center;
+    display:block;
+    float:left;
+    overflow: hidden;
+    padding:3px 0px 8px 0px;
+    background: white;
+    color: #1F4C63;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.tab_loading {
+    background: white url(common-imgs/loading.gif) no-repeat center center !important; 
+    min-height: 13px;
+}
+
+.main_page > ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 350px;
+}
+
+ul > li {
+    position: relative;
+    margin: 0;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 7px 0 8px 10px;
+    font-size: 12px;
+    list-style: none;
+}
+
+li.sponsor_post {
+    background-color:#e7e7de;
+}
+
+li.footer {
+    background: #d7e7ee;
+    min-height:0.8em;
+}
+
+li.footer a {
+    font-size:13px;
+}
+
+li.footer a:link {
+    text-decoration: none;
+    color:#118;
+}
+
+li.footer a:visited {
+    text-decoration: none;
+    color:#118;
+}
+
+.nav_table {
+    border-spacing: 0;
+    width: 100%;
+}
+
+.nav_away {
+    margin: 0; 
+    padding: 0;
+}
+
+.nav_to_more {
+    width: 30px;
+    margin:0;
+    padding:0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px; 
+    background: #e8e8e8 url(common-imgs/listArrow.png) no-repeat right center;
+    border:1px solid #e8e8e8;
+}
+
+.nav_to_more_selected {
+    width: 30px;
+    margin:0;
+    padding:0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px; 
+    background: white url(common-imgs/loading.gif) no-repeat 6px center; 
+    border:1px solid #d8d8d8;
+}
+
+li.sponsor_post .nav_to_more {
+    width: 30px;
+    margin:0;
+    padding:0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px; 
+    background: #e7e7de url(common-imgs/listArrow.png) no-repeat right center;
+    border:1px solid white;
+}
+
+li.sponsor_post .nav_to_more_selected {
+    width: 30px;
+    margin:0;
+    padding:0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px; 
+    background: white url(common-imgs/loading.gif) no-repeat 6px center; 
+    border:1px solid white;
+}
+
+.cite {
+    font-size:12px;
+    font-weight:normal;
+    display:block;
+    color:#468;
+}
+
+.ago {
+    display:block; 
+    float:right; 
+    color:blue; 
+    font-size:12px;
+}
+
+.recent {
+    display:block; 
+    float:right; 
+    color:#b02; 
+    font-size:12px;
+}
+
+.info {
+    display:block; 
+    float:right; 
+    font-size:12px;
+}
+
+.info > .ago {
+    display:block;
+    color:blue; 
+    text-align:right;
+}
+
+.position_on_standby {
+    display:block;
+    color:green; 
+    text-align:right;
+}
+
+.sponsor_post_label {
+    display:block; 
+    float:right; 
+    color:#886; 
+    font-size:10px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.item > .title {
+    font-size:13px;
+    font-weight: bold;
+}
+
+.indented_item > .title {
+    font-size:13px;
+    font-weight: normal;
+}
+
+.summary {
+    font-size:12px;
+    font-weight:normal;
+    color:#666666;
+}
+
+.item {
+    display: block;
+    margin: 0 0 0 -10px;
+    padding: 0 8px 0 10px;
+    text-decoration: none;
+    color: inherit;
+    min-height:5em;
+}
+
+.indented_item {
+   display: block;
+    margin: 0 0 0 -10px;
+    padding: 0 8px 0 10px;
+    text-decoration: none;
+    color: inherit;
+    padding-left:35px;
+    min-height:5em;
+}
+
+.no_entries {
+    font-size:12px;
+    text-align:center; 
+    color:#666666;
+    padding-top:2.3em;
+}
+
+.action_bar {
+    overflow:hidden;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 27px;
+    background-color: #1F4C63;
+}
+
+.action_bar > .action_selectors {
+    position:relative;
+    top:7px;
+    left:4px;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.action_bar > .action_selectors > .action_selector {
+    position:relative;
+    left:7px;
+    overflow: hidden;
+    background: #1F4C63;
+    display: block;
+    width:20%;
+}
+
+.item_header {
+    padding:0 20px 0 20px;  
+}
+
+.item_header > .cite {
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    color: #468;
+    padding-top:10px;
+}
+
+fieldset {
+    position: relative;
+    margin: 20px;
+    padding: 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #999999;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+fieldset.itemset {
+    border: 1px solid #E0E0E0;
+    margin-left:38px;
+}
+
+.itemset > .row  {
+    position: relative;
+    min-height: 22px;
+    border-bottom: 1px solid #E0E0E0;
+    border-radius: 0;
+    text-align: left;
+    background-color:white;
+    font-size:12px; 
+}
+
+.itemset > .header {
+    padding-left: 8px; 
+    height:10px; 
+    background-color: white; 
+    text-align: left; 
+    line-height: 23px; 
+    font-weight: bold; 
+    color: #462;
+}
+
+fieldset > .row:last-child {
+    border-bottom: none !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+fieldset > .row:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+fieldset > .row:last-child > a {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.set_item {
+    display: block;
+    margin: 0px;
+    padding: 8px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.set_item > .title {
+    font-size:13px;
+    font-weight: bold;
+}
+
+.event {
+    padding-bottom:2px;
+    padding-top:2px;
+}
+
+.featured_event {
+    background-color:#ffd;
+}
+
+.event .item {
+    min-height:1em !important;
+    padding: 0 6px;
+}
+
+.event table {
+    width:100%;
+}
+
+.event table tr {
+    font-size:14px;
+    height:3.6em;
+}
+
+.event table tr td:first-child {
+    width:100px;
+    padding-right:2px;
+    vertical-align:middle;
+    color:#468;
+}
+
+.event table tr td:first-child + td {
+    vertical-align:middle;
+}
+
+.event_name {
+    display:block;
+    font-weight:bold;
+}
+
+.event_location {
+    display:block;
+    color:gray;
+}
+
+.event_label {
+    background:#a56;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:10px;
+    padding:1px 2px 1px;
+    line-height:18px;
+}
+
+.event:nth-last-child(2) {
+    border-bottom:none;
+}
+
+.events_footer, .job_ads_footer {
+    border-bottom:none;
+    padding:0;
+}
+
+.events_footer a, .job_ads_footer a {
+    font-size: 1.2em;
+    height:2.5em;
+    min-height:1em !important;
+    text-align:center;
+    padding-top:1.4em; 
+    font-weight:bold; 
+    background-color:#d7e7ee;
+    color:#468;
+    line-height:15px;
+}
+
+
+.pml_highlight_start {
+    background-color: yellow;
+}
+
+.pml_highlight_end {
+    background-color:white;
+    transition: background-color 2s;
+    -webkit-transition: background-color 2s; 
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+function init() {
+    if (navigator.userAgent.indexOf('iPhone') != -1) 
+        setTimeout(hideURLbar, 0);
+    setTimeout(preloadImages, 0);
+
+    window.addEventListener("orientationchange", function() {
+        viewport = document.querySelector("meta[name=viewport]");
+        viewport.setAttribute('content', 'width=' + window.innerWidth + ', initial-scale=1.0, maximum-scale=1.0, user-scalable=0, height=device-height');
+    }, false);  
+}
+
+function hideURLbar() {
+        window.scrollTo(0, 0);
+}
+
+function preloadImages(){
+    var a=document.createElement("div");
+    a.id="preloader";
+    document.body.appendChild(a);
+}
+
+// tab selection
+
+var activeTabSelectorId = 'top_items_selector';
+var activeTabId = 'top_items';
+
+function selectTab(selector, tabId) {
+
+    document.getElementById(activeTabSelectorId).className = 'tab_selector';
+    selector.className =  'active_tab_selector';
+    activeTabSelectorId = selector.id;
+
+    document.getElementById(activeTabId).style.display = 'none';
+    document.getElementById(tabId).style.display = 'block';
+    activeTabId = tabId;
+
+    setCookie('active_tab_selector_id', activeTabSelectorId, 7);
+    setCookie('active_tab_id', activeTabId, 7);
+}
+
+function setCookie(c_name,value,expireDays)
+{
+    var expireDate=new Date();
+    expireDate.setDate(expireDate.getDate()+expireDays);
+    document.cookie = c_name + "=" + escape(value) + ((expireDays==null) ? "" : ";expires="+expireDate.toGMTString());
+}
+
+// slide
+
+var holdBetweenSlideSteps = 0;
+var pctToSlideWithinStep = 20; 
+
+var mainPageScrollPosition = 0;
+
+function getScrollPosition() {
+    if (typeof(window.pageYOffset) == 'number') 
+        return window.pageYOffset; // Netscape compliant    
+    else if (document.body && document.body.scrollTop) 
+        return document.body.scrollTop; // DOM compliant
+    else if (document.documentElement && document.documentElement.scrollTop) 
+        return document.documentElement.scrollTop; // IE6 standards compliant mode
+    else
+        return 0;
+}
+
+// pml
+
+var startOnItem = false;
+var startItemId = '';
+var firstSlideBackFromStartItem = true;
+var highlightStartItem = false;
+
+function setScrollPositionOnFirstSlideFromStartItem(fromId, toId) {
+    if (!startOnItem || !firstSlideBackFromStartItem || !fromId===startItemId || !toId==='main_page') 
+        return;
+    
+    var startItemTop = document.getElementById('mi'+startItemId).getBoundingClientRect().top;
+    mainPageScrollPosition = startItemTop > window.innerHeight*0.75 ? startItemTop : 0;
+    firstSlideBackFromStartItem = false;
+    highlightStartItem = true;
+}
+
+function highlightStartItemOnFirstSlideBack() {
+    if (highlightStartItem) {
+        var startItem = document.getElementById('mi'+startItemId);
+        startItem.className = 'pml_highlight_start';
+        setTimeout(function() {
+            startItem.className = 'pml_highlight_end';
+            }, 0);
+        highlightStartItem = false;
+    }
+}
+
+function normalSlide(fromId, toId, forward) {
+
+    var from = document.getElementById(fromId);
+    var to = document.getElementById(toId);
+    
+    to.style.left = (forward? "" : "-") + "100%";
+
+    to.style.display = 'block';
+
+    if (fromId == 'main_page') 
+        mainPageScrollPosition = getScrollPosition();
+    scrollTo(0, 0);
+    
+    var percent = 100;
+    slideStep();
+ 
+    function slideStep()
+    {
+        if (percent <= pctToSlideWithinStep)
+            percent = 0;
+        else
+            percent -= pctToSlideWithinStep;
+            
+        from.style.left = (forward? 1 : -1) * (percent-100) + "%"; 
+        to.style.left = (forward? 1 : -1) * percent + "%";
+
+        if (percent == 0) {
+            from.style.display = 'none';
+            if (toId == 'main_page') {
+                setScrollPositionOnFirstSlideFromStartItem(fromId, toId); // pml
+                scrollTo(0, mainPageScrollPosition);
+                highlightStartItemOnFirstSlideBack(); // pml
+            }
+        } else
+            setTimeout(slideStep, holdBetweenSlideSteps);   
+    }
+}
+
+function translateSlide(fromId, toId, forward, hiding) {
+    
+    var from = document.getElementById(fromId);
+    var to = document.getElementById(toId);
+
+    // definitions
+    
+    function toggleHfsElementsInPage(pageId, hide) 
+    {
+        var elements = document.getElementsByName('hfs'+(pageId == 'main_page'? activeTabId : pageId));
+        for (var i=0; i<elements.length; i++) 
+            elements[i].style.display = (hide? 'none' : 'block');
+    }
+
+    function shiftTo() 
+    {
+        to.style.webkitTransitionDuration = '0ms'; // Turn off transitions
+        to.style.webkitTransform = 'translateX(' + (forward ? '' : '-') +'100%)';
+        to.style.display = 'block';
+        to.style.webkitTransitionDuration = '';   // Turn transitions back on
+    }
+    
+    function translate()
+    {   
+        from.style.webkitTransform = 'translateX(' + (forward ? '-' : '') + '100%)';
+        to.style.webkitTransform = 'translateX(0%)';        
+    }
+
+    function postFromTranslate() {
+        from.style.display = 'none';
+        if (hiding)
+            toggleHfsElementsInPage(fromId, false);
+
+        from.removeEventListener('webkitTransitionEnd', postFromTranslate, false);
+    }
+
+    function postToTranslate() 
+    {
+        if (hiding)
+            toggleHfsElementsInPage(toId, false);
+        if (toId == 'main_page')  
+            setTimeout(function() {
+                    setScrollPositionOnFirstSlideFromStartItem(fromId, toId); // pml
+                    scrollTo(0, mainPageScrollPosition);
+                    highlightStartItemOnFirstSlideBack(); // pml
+                },300);
+        to.removeEventListener('webkitTransitionEnd', postToTranslate, false);
+    }
+
+    // actions
+
+    if (hiding) {
+        toggleHfsElementsInPage(fromId, true);
+        toggleHfsElementsInPage(toId, true);
+    }
+
+    if (fromId == 'main_page')
+        mainPageScrollPosition = getScrollPosition();
+    scrollTo(0, 0);
+    
+    shiftTo();
+
+    from.addEventListener('webkitTransitionEnd', postFromTranslate, false);
+    to.addEventListener('webkitTransitionEnd', postToTranslate, false);
+
+    setTimeout(translate, (hiding? 400 : 0));
+}
+
+function haveWebkit() {
+    return /webkit/i.test(navigator.userAgent); // pml
+}
+
+function haveShortDisplay() {
+    return window.innerHeight < 600;
+}
+
+function slide(fromId, toId, forward) {
+    if (haveWebkit()) 
+        translateSlide(fromId, toId, forward, haveShortDisplay());
+    else
+        normalSlide(fromId, toId, forward);
+}
+
+function getXmlHttpRequestObject() {
+    if (window.XMLHttpRequest) {
+        return new XMLHttpRequest();
+    } else if(window.ActiveXObject) {
+        return new ActiveXObject("Microsoft.XMLHTTP");
+    } 
+}
+
+
+// fetch page (generic)
+
+var pageHistory = ['main_page']; // pml
+
+var pageRequest = getXmlHttpRequestObject();
+
+var pageRequestTimer; 
+var pageRequestTimeoutInterval =  10000;
+
+function openPage(pageId, fetchParameters, clickedElement, baseCssClass, loadingCssClass, images) {
+
+    var page = document.getElementById(pageId);
+
+    if (page != null) {
+        slide(pageHistory[pageHistory.length-1], pageId, true);
+        pageHistory.push(pageId);
+    } else {
+    
+        prefetchImages(images);
+
+        clickedElement.className = loadingCssClass;
+
+        // fetch data
+        if (pageRequest.readyState == 4 || pageRequest.readyState == 0) {
+            pageRequest.open("GET", fetchParameters, true);
+        
+            pageRequest.onreadystatechange = function() { 
+                handlePageRequestStateChange(pageId, clickedElement, baseCssClass);
+            };  
+            
+            pageRequest.send(null);
+        
+            pageRequestTimer = setTimeout(function() { pageRequestTimeout(clickedElement, baseCssClass); }, pageRequestTimeoutInterval);
+    
+        }
+    }
+}
+
+function prefetchImages(images) {
+    if (images && images.length > 0) {
+        image = new Image();
+        for(var i=0; i<images.length; i++)
+            image.src=images[i];    
+    }
+}
+
+function handlePageRequestStateChange(pageId, clickedElement, baseCssClass) {
+    if (pageRequest.readyState == 4) {
+        clearTimeout(pageRequestTimer);
+        if (pageRequest.status == 200) {
+            
+            var page = document.createElement('div');
+            page.setAttribute('id', pageId);
+            page.innerHTML = pageRequest.responseText;
+            document.body.appendChild(page);
+            
+            clickedElement.className = baseCssClass;
+
+            slide(pageHistory[pageHistory.length-1], pageId, true);
+            pageHistory.push(pageId);
+
+        } else {
+            alert("Couldn't retrieve the requested page; please try reloading");
+            clickedElement.className = baseCssClass;
+        }
+    }
+}
+
+function pageRequestTimeout(clickedElement, baseCssClass) {
+    if (pageRequest.readyState != 0) {
+        pageRequest.abort();
+            
+        alert("Couldn't retrieve the requested page due to poor connectivity");
+        clickedElement.className = baseCssClass;
+    }
+}
+
+
+// back from page
+
+function backFromPage(clickedElement) {
+    clickedElement.className='action_selector';
+    slide(pageHistory[pageHistory.length-1], pageHistory[pageHistory.length-2], false);
+    pageHistory.pop();
+}
+
+// fetch item page
+
+function openItemPage(itemId, clickedElement, images) {
+    openPage(itemId, 
+        'item.jsp?feed=1492145705000&id=' + itemId, 
+        clickedElement, 
+        'nav_to_more', 
+        'nav_to_more_selected', 
+        images);
+}
+
+
+// load tab
+
+var tabRequest = getXmlHttpRequestObject();
+
+var tabRequestTimer; 
+var tabRequestTimeoutInterval = 10000;
+
+function loadTab(selector, tabId, servlet, extraParams) {
+    if (document.getElementById(tabId) != null)
+        selectTab(selector, tabId);
+    else {
+        // change background to 'loading', remove text
+
+        document.getElementById(activeTabSelectorId).className = 'tab_selector';
+        var selectorText = selector.innerHTML;
+        selector.innerHTML= '';
+        selector.className = 'active_tab_selector tab_loading';
+        
+        // fetch data
+        if (tabRequest.readyState == 4 || tabRequest.readyState == 0) {
+            tabRequest.open("GET", servlet + '?feed=1492145705000' + (extraParams? '&' + extraParams : ''));
+        
+            tabRequest.onreadystatechange = function() { 
+                handleTabRequestStateChange(selector, tabId, selectorText);
+            };  
+            
+            tabRequest.send(null);
+        
+            tabRequestTimer = setTimeout(function() {tabRequestTimeout(selector, selectorText);},
+                                    tabRequestTimeoutInterval);
+        }
+    }
+}
+
+function handleTabRequestStateChange(selector, tabId, selectorText) {
+    if (tabRequest.readyState == 4) {
+        clearTimeout(tabRequestTimer);
+        if (tabRequest.status == 200) {
+
+            if (tabRequest.responseText.indexOf("<title>Login</title>") != -1) {
+                alert("Server requires re-authentication; please reload");
+                revertToOldTab(selector, selectorText);
+            } else {
+            
+                var tab = document.createElement('ul');
+                tab.setAttribute('id', tabId);
+                tab.style.display = 'none';
+                tab.innerHTML = tabRequest.responseText;
+                document.getElementById('main_page').appendChild(tab);
+
+                selector.className = 'active_tab_selector';
+                selector.innerHTML= selectorText;
+
+                selectTab(selector, tabId);
+            }
+        } else {
+            alert("couldn't retrieve the requested tab; please try reloading");
+            revertToOldTab(selector, selectorText);
+        }
+    }
+}
+
+function tabRequestTimeout(selector, selectorText) {
+    if (tabRequest.readyState != 0) {
+        tabRequest.abort();
+            
+        alert("Couldn't retrieve the requested tab due to poor connectivity"); 
+        revertToOldTab(selector, selectorText);
+    }
+}
+
+function revertToOldTab(selector, selectorText) {
+    selector.className = 'tab_selector';
+    selector.innerHTML= selectorText;
+    document.getElementById(activeTabSelectorId).className = 'active_tab_selector';
+}
+
+// share
+
+function setHrefForFBSharingItem(element, url) {
+    element.href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+}
+
+function setHrefForRetweetingItem(element, tweetId) {
+    element.href = 'http://twitter.com/intent/retweet?tweet_id=' + encodeURIComponent(tweetId);
+}
+
+function setHrefForEmailingItem(element, subject, author, pubName, excerptTitleLong, excerptRestLong, permalink, url) {
+    element.href = 'mailto:?subject=' + encodeURIComponent(subject + (permalink != 'null'? ' (via Techmeme)':'')) + '&body=' + encodeURIComponent(
+            (permalink != 'null' ? 'The following story appeared on Techmeme:\n\n' : '') +
+            (author != '' ? author + ' / ' : '') + pubName + ':\n' + 
+            excerptTitleLong + excerptRestLong + '\n\n' + 
+            'Read more' + (permalink != 'null' ? ':\n- at Techmeme: ' + permalink + '\n- or at the source: ' + url : ' at ' + url));
+}
+
+function FBLoginAndLike(itemId, url) {
+    var status = document.getElementById('like'+itemId+'status');
+    if (FBSDKLoaded) {
+        status.className = "button facebookinprogress";
+        if (connectedToFB) {
+            FBLike(itemId, url);
+        } else {
+            FB.login(function(response) { // changes to connectedToFB will be made by handler for auth.authResponseChange
+                if (response.authResponse) { 
+                    FBLike(itemId, url);
+                } else {
+                    status.className = "button facebook";
+                    alert("'Like' cancelled, because Facebook login did not complete!");
+                }   
+            }, {scope: 'publish_actions'});
+        }
+    } else {
+        alert("'Like' cancelled, because couldn't communicate well with Facebook");
+    }
+}
+
+function FBLike(itemId, url) {
+    var status = document.getElementById('like'+itemId+'status');
+    FB.api(
+            'me/og.likes',
+            'post',
+            { object: url },
+            function(response) {
+                if (response.id != null || (response.error != null && response.error.code == 3501)) { // success, or item is already liked
+                    status.className = "button facebookcheck";
+                } else {
+                    status.className = "button facebook";
+                    alert("Couldn't 'like' the item on Facebook; please try again!" + response.error.type  +response.error.message + response.error.code + response.error.error_subcode);
+                    FB.getLoginStatus(function(response) {}, true); // changes to connectedToFB will be made by handler for auth.authResponseChange
+                }
+            }
+        );
+}
+
+</script>
+
+</head>
+
+<body onload="init();">
+
+<div class="top_pane">
+<div class="date">
+2017-04-14 14:08:11 update
+</div>
+
+<div class="logo">
+<!--  <a href="/m"><img src="config/tech/logo.png"></a> -->
+<a href="/m"><span class="img"></span></a>
+</div>
+</div> 
+
+<!--  Main Page -->
+
+<div id="main_page" class="main_page" style="display:block"> <!-- pml -->
+
+<div class="tabs_bar">
+<div class="tab_selectors">
+
+<div class="narrowest_tabs">
+
+<span id="top_items_selector" 
+    class="active_tab_selector" 
+    onclick="selectTab(this,'top_items')"
+>
+Stone's AI News
+</span>
+
+
+
+
+</div>
+</div>
+</div>
+
+
+<!-- Top Items -->
+
+<ul id="top_items" style="display:block"> 
+
+
+
+
+
+
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.jiqizhixin.com//article/2642"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+吴攀 / www.jiqizhixin.com:
+</span>
+
+<span class="title">初学者怎么选择神经网络环境？对比MATLAB、Torch和TensorFlow</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 本文是对对 MATLAB、Torch 和 TensorFlow 这三种神经网络工具进行了介绍和比较。</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.jiqizhixin.com//article/2641"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+机器之心 / www.jiqizhixin.com:
+</span>
+
+<span class="title">除了AlphaGo对阵柯洁，五月还有另一场人机大战</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 一场精彩的人机 PK「战役」即将在北京上演，和 AlphaGo 不一样，这次代表机器参与这次比赛的是搜狗研发的人工智能系...</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.jiqizhixin.com//article/2640"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+吴攀 / www.jiqizhixin.com:
+</span>
+
+<span class="title">谷歌提出贝叶斯循环神经网络：优于传统RNN</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 谷歌研究者最近在 arXiv 上发布了一篇论文，介绍了一种新的网络：贝叶斯循环神经网络</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.jiqizhixin.com//article/2639"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+黄小天 / www.jiqizhixin.com:
+</span>
+
+<span class="title">人工智能看走眼的图像都长什么样？</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 诸如此类的故事形成了一种循环往复的科幻比喻：一张普通的图像具有摧毁计算机的能力。</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.mittrchina.com//Home/Article/getContent/article_id/158"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+mittrchina.com / www.mittrchina.com:
+</span>
+
+<span class="title">独家专访吴恩达离职后的去向：我对医疗、教育等垂直产业的人工智能很感兴趣</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 独家专访吴恩达离职后的去向：我对医疗、教育等垂直产业的人工智能很感兴趣</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.mittrchina.com//Home/Article/getContent/article_id/164"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+mittrchina.com / www.mittrchina.com:
+</span>
+
+<span class="title">马斯克的OpenAI：全新方案有望取代强化学习…</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 2013年，英国一家人工智能创业公司DeepMind就教会了软件如何在经典的Atari游戏中战胜人类顶级玩家，这在计算机科学界引起了不小的轰动。</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.mittrchina.com//Home/Article/getContent/article_id/163"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+mittrchina.com / www.mittrchina.com:
+</span>
+
+<span class="title">谷歌大脑：具备创造力的AI将能够帮助人类制作出…</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 从目前来看，机器学习算法不太可能导致艺术家们不久以后就会失业。</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.mittrchina.com//Home/Article/getContent/article_id/162"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+mittrchina.com / www.mittrchina.com:
+</span>
+
+<span class="title">肖健雄的自动驾驶平民梦，50 美元摄像头就可以…</span>
+<span class="summary">&nbsp; &mdash;&nbsp; Uber和谷歌等公司为自动驾驶汽车安装了价值不菲的传感器，但有人用 50 美元的摄像头就把一切都搞定了。</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.mittrchina.com//Home/Article/getContent/article_id/161"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+mittrchina.com / www.mittrchina.com:
+</span>
+
+<span class="title">苹果人工智能总监：深层神经网络或将在数年内得到…</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 苹果公司人工智能总监Ruslan Salakhutdinov认为，近年来产生壮观成果的深层神经网络的能力可能将会在未来几年得到极大的强化，尤其是通过记忆、注意力和常识等方面的增长。</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.mittrchina.com//Home/Article/getContent/article_id/160"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+mittrchina.com / www.mittrchina.com:
+</span>
+
+<span class="title">全自动驾驶汽车首先会出现在凌晨，然后逐步频繁露…</span>
+<span class="summary">&nbsp; &mdash;&nbsp; Otto创始人认为，如今的自动驾驶卡车还在蹒跚学步。</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="https://techcrunch.com/2017/04/13/baidu-is-acquiring-xperception-a-u-s-startup-focused-on-computer-vision/"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+John Mannes / techcrunch.com:
+</span>
+
+<span class="title">Baidu is acquiring xPerception, a U.S. startup focused on computer vision</span>
+<span class="summary">&nbsp; &mdash;&nbsp; Baidu is acquiring xPerception, a US startup specialized in computer vision, according to Reuters. Details are sparse, but we know the startup has its own module for object recognition and depth perception that can be deployed on robots and drones.
+The Chinese tech giant has been active in machine intelligence M&amp;A this year. Back in February it acquired Raven Tech, a Chinese startup… Read More</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="https://techcrunch.com/2017/04/13/neural-networks-made-easy/"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+Ophir Tanz / techcrunch.com:
+</span>
+
+<span class="title">Neural networks made easy</span>
+<span class="summary">&nbsp; &mdash;&nbsp; If you’ve dug into any articles on artificial intelligence, you’ve almost certainly run into the term “neural network.” Modeled loosely on the human brain, artificial neural networks enable computers to learn from being fed data. This guide to neural networks aims to give you a conversational level of understanding of deep learning. Read More</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="https://techcrunch.com/2017/04/13/hondas-silicon-valley-lab-becomes-honda-innovations/"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+Darrell Etherington / techcrunch.com:
+</span>
+
+<span class="title">Honda’s Silicon Valley Lab becomes Honda Innovations</span>
+<span class="summary">&nbsp; &mdash;&nbsp; Honda has turned its Silicon Valley Lab into a new company officially called Honda R&amp;D Innovations, Inc., but known colloquially as Honda Innovations. The company will pursue research and product development beyond just cars, and will also look to partner with startups and other companies on future projects, Honda says.
+Honda Innovations will still be headquartered in Mountain View, and… Read More</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="https://techcrunch.com/gallery/15-venture-capital-funds-to-know-if-youre-working-on-a-machine-intelligence-startup/"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+John Mannes / techcrunch.com:
+</span>
+
+<span class="title">15 venture capital funds to know if you’re working on a machine intelligence startup</span>
+<span class="summary">&nbsp; &mdash;&nbsp; Major tech trends tend to draw lots of “dumb money” from investors, and machine intelligence is no exception. Some will lose money on insignificant acqui-hires while others may survive long enough to see their investments die at the hands of open source. But for a smaller list of VCs, machine intelligence presents one of the greatest opportunities for return on investment in the… Read More</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="https://techcrunch.com/2017/04/13/luminar-debuts-a-sensor-to-make-self-driving-cars-safer-than-human/"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+Lora Kolodny / techcrunch.com:
+</span>
+
+<span class="title">Luminar reveals sensors that could make self-driving cars safer than human</span>
+<span class="summary">&nbsp; &mdash;&nbsp; Cameras help autonomous vehicles read street signs and the color of traffic lights. But LiDARs, aka light detection and ranging systems, do the important work of sensing and helping cars avoid obstacles, whether that’s a fallen tree, drunk driver, or a child running out into the road.
+Now, a startup called Luminar Technologies Inc., is unveiling a high-resolution LiDAR sensor that was… Read More</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="https://techcrunch.com/2017/04/13/facebook-under-fire-for-spreading-illegal-content/"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+Natasha Lomas / techcrunch.com:
+</span>
+
+<span class="title">Facebook again under fire for spreading illegal content</span>
+<span class="summary">&nbsp; &mdash;&nbsp; An investigation by a British newspaper into child sexual abuse content and terrorist propaganda being shared on Facebook has once again drawn critical attention to how the company handles complaints about offensive and extremist content being shared on its platform. Read More</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="https://techcrunch.com/2017/04/13/zeroth-ai/"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+Jon Russell / techcrunch.com:
+</span>
+
+<span class="title">Accelerator program Zeroth wants to find Asia’s top AI and machine learning startups</span>
+<span class="summary">&nbsp; &mdash;&nbsp; Zeroth is an accelerator program that is out to fix the lack of talent, and investment options, for artificial intelligence (AI) in Asia, and it has just opened applications for its second program which takes place in Hong Kong in late July.
+“There’s almost nothing that won’t be touched by AI,” high-profile investor — and former Google China head — Kaifu… Read More</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.leiphone.com/news/201704/dJ0J49mHadxK9jFN.html"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+蒋鸿昌 / www.leiphone.com:
+</span>
+
+<span class="title">马斯克确认今年9月将发布特斯拉重型卡车</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 另外，在18-24个月以内，特斯拉还将推出电动皮卡。</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.leiphone.com/news/201704/yvKoCc79jlgW5qpr.html"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+易建成 / www.leiphone.com:
+</span>
+
+<span class="title">一汽展示商用车无人驾驶技术，百度为其提供高精地图</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 一辆搭载无人驾驶技术的解放 J7 在长春展示了一场精彩的路测。</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+<li class="sponsor_post" >
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item"
+    href="http://www.leiphone.com/news/201704/yWPpbx8VlRUJuit6.html"
+    target="_blank"
+>
+
+<span class="sponsor_post_label">
+<!--Sponsor Post-->
+</span>
+
+<span class="cite">
+思佳 / www.leiphone.com:
+</span>
+
+<span class="title">硅谷创业公司Luminar发布量产级车用激光雷达，创始人是22岁的斯坦福大学辍学生</span>
+<span class="summary">&nbsp; &mdash;&nbsp; 他在能学习开车之前的年纪，就开始了自动驾驶相关技术的研发。</span>
+</a>
+</td>
+
+</tr>
+</table>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+</div> <!-- main page -->
+
+
+<!-- Start Item -->
+
+
+
+
+
+</body>
+</html>
