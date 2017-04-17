@@ -565,6 +565,139 @@ fieldset > .row:last-child > a {
     line-height:15px;
 }
 
+.job_ad {
+    padding-bottom:2px;
+    padding-top:2px;
+}
+
+.job_ad .item {
+    min-height:1em !important;
+}
+
+.job_ad table {
+    width:100%;
+    min-height:50px;
+}
+
+.job_ad table tr td {
+    padding:8px 0;
+    vertical-align:middle;
+}
+
+.job_ad table tr td:first-child {
+    width:30px;
+}
+
+.job_ad table tr td:first-child + td {
+    font-size:14px;
+}
+
+.job_ad .company_logo {
+    height:16px;
+}
+
+.job_ad .company_name {
+    display:block;
+    font-weight:bold;
+}
+
+.job_ad .tag_line {
+    display:block;
+    color:gray;
+}
+
+.job_ad .publisher_name {
+    color:gray;
+}
+
+.share {
+    margin-top: 16px;
+}
+
+.share .line {
+    margin: 9px 20px;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+.share .line table {
+    width:100%;
+    border-collapse:collapse;
+}
+
+.share .line td {
+    padding:0;
+}
+
+.share .line .1cell {
+    width:100%;
+}
+
+.share .line .2cell {
+    width:50%;
+}
+
+.share .line .3cell {
+    width:33.333%;
+}
+
+.share .line .4cell {
+    width:25%;
+}
+
+.share .button {
+    display:block;
+    border: 1px solid #E0E0E0;
+    border-left: none;
+    min-height: 42px;
+    line-height: 42px;
+    font-weight:bold;
+    padding:0 8px 0;
+    margin:0;
+}
+
+.share td:first-child .button {
+    border-left: 1px solid #E0E0E0;
+}
+
+.share td:first-child .button, .share td:first-child a {
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+}
+
+.share td:last-child .button, .share td:last-child a {
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.share a {
+    display:block;
+    text-decoration:none; 
+}
+
+.share a:visited {
+    color:#E0E0E0;
+}
+
+.share .facebook {
+    background: url(common-imgs/facebook_50.png) no-repeat center center;
+    background-size:27px auto;
+}
+
+.share .twitter {
+    background: url(common-imgs/twitter.png) no-repeat center center;
+    background-size:45px auto;
+}
+
+.share .mail {
+    background: url(common-imgs/mail.png) no-repeat center center;
+    background-size:29px auto;
+}
+
+.share .pml {
+    background: url(common-imgs/permalink.png) no-repeat center 5px;
+    background-size:27px auto;
+}
 
 .pml_highlight_start {
     background-color: yellow;
@@ -894,7 +1027,7 @@ function backFromPage(clickedElement) {
 
 function openItemPage(itemId, clickedElement, images) {
     openPage(itemId, 
-        'item.jsp?feed=1492145705000&id=' + itemId, 
+        '/static/item.jsp?feed=1492437004000&id=' + itemId, 
         clickedElement, 
         'nav_to_more', 
         'nav_to_more_selected', 
@@ -922,7 +1055,7 @@ function loadTab(selector, tabId, servlet, extraParams) {
         
         // fetch data
         if (tabRequest.readyState == 4 || tabRequest.readyState == 0) {
-            tabRequest.open("GET", servlet + '?feed=1492145705000' + (extraParams? '&' + extraParams : ''));
+            tabRequest.open("GET", servlet + '?feed=1492437004000' + (extraParams? '&' + extraParams : ''));
         
             tabRequest.onreadystatechange = function() { 
                 handleTabRequestStateChange(selector, tabId, selectorText);
@@ -1039,12 +1172,11 @@ function FBLike(itemId, url) {
 </script>
 
 </head>
-
 <body onload="init();">
 
 <div class="top_pane">
 <div class="date">
-2017-04-17 22:02:33 update
+9:50 AM ET, Apr 17, 2017
 </div>
 
 <div class="logo">
@@ -1061,16 +1193,36 @@ function FBLike(itemId, url) {
 <div class="tab_selectors">
 
 <div class="narrowest_tabs">
-
 <span id="top_items_selector" 
     class="active_tab_selector" 
     onclick="selectTab(this,'top_items')"
 >
+值得关注
+</span>
+
+
+<!--
+<span id="more_items_selector" class="tab_selector" onclick="loadTab(this,'more_items','moreitems.jsp','s_o=1')">
+More
+</span>
+-->
+
+<span id="new_items_selector" class="tab_selector" onclick="selectTab(this,'new_items')">
 最新资讯
 </span>
 
 
+<!--
 
+<span id="events_selector" class="tab_selector" onclick="loadTab(this,'events','events.jsp')">
+Events
+</span>
+
+
+<span id="job_ads_selector" class="tab_selector" onclick="loadTab(this,'job_ads','jobs.jsp')">
+Jobs
+</span>
+-->
 
 </div>
 </div>
@@ -1083,1219 +1235,66 @@ function FBLike(itemId, url) {
 
 
 
-
-
-
-
-
-
-
-<li class="sponsor_post" >
+<li id="mi108" > <!-- pml -->
 <table class="nav_table">
 <tr>
 <td class="nav_away">
 <a 
-    class="item"
-    href="http://www.leiphone.com/news/201704/c7QMo4aMmGVrMasv.html"
+    class="item" 
+    href="http://www.nytimes.com/2017/04/16/technology/inside-the-hotel-industrys-plan-to-combat-airbnb.html"
     target="_blank"
 >
 
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
 
 <span class="cite">
-思佳 / www.leiphone.com:
+Katie Benner / 
+New York Times:
 </span>
-
-<span class="title">博世宣布与百度、高德及四维图新合作，发力中国自动驾驶本土化市场</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 对于中国市场的无人驾驶布局，博世不会缺席。</span>
+<span class="title">Leaked documents reveal the hotel industry's plan to combat Airbnb with lobbying, pushing for bills at state level, and funds for anti-Airbnb research</span>
+<span class="summary"> </span>
 </a>
 </td>
 
+<td class="nav_to_more" onclick="openItemPage('108',this, ['http://www.techmeme.com/170417/i2.jpg'])">
+<div> 
+&nbsp;
+</div>
+</td>
 </tr>
 </table>
 </li>
 
 
 
+</ul>
 
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.leiphone.com/news/201704/If1MmnpGZfAanPRY.html"
-    target="_blank"
->
 
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
+<!-- More Items -->
 
-<span class="cite">
-张伟 / www.leiphone.com:
-</span>
 
-<span class="title">《速度与激情8》中的自动驾驶汽车“疯了”，背后是什么黑客技术在捣乱？</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 当僵尸车队（Zombie Cars）朝你涌来……</span>
-</a>
-</td>
 
-</tr>
-</table>
-</li>
 
+<!-- New Items -->
 
+<ul id="new_items" style="display:none">
 
 
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.leiphone.com/news/201704/5ACE2Jvu0Lg23Hfm.html"
-    target="_blank"
->
 
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
 
-<span class="cite">
-盛威 / www.leiphone.com:
-</span>
 
-<span class="title">本田成立研发创新公司，并将与Google展开自动驾驶合作</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 本田正式将本田硅谷实验室改名为本田研发创新公司，并于Google旗下Waymo展开合作。</span>
-</a>
-</td>
 
-</tr>
-</table>
-</li>
 
 
+    
+</ul> 
 
 
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.leiphone.com/news/201704/bt0LCDugwXXKC8cn.html"
-    target="_blank"
->
+<!-- Events -->
 
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
 
-<span class="cite">
-台伯河 / www.leiphone.com:
-</span>
 
-<span class="title">自动驾驶的道德问题是真实存在的，但未必就是“电车难题”</span>
-<span class="summary">&nbsp; &mdash;&nbsp; “自动驾驶的道德问题的答案是很清楚的。”</span>
-</a>
-</td>
 
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.leiphone.com/news/201704/mvUNnSA2lzrYrLhj.html"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-宗仁 / www.leiphone.com:
-</span>
-
-<span class="title">专访阿里iDST孙健博士：做智能人机对话  如何在别人的哀嚎中看到生机？</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 这群人为什么在别人绝望的时候开始进入这个领域？</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.leiphone.com/news/201704/xuXkCEHu9RN4QCoB.html"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-亚萌 / www.leiphone.com:
-</span>
-
-<span class="title">输给“深蓝”20年后，卡斯帕罗夫撰文呼吁对人工智能抱持乐观心态</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 当我成为国际象棋冠军的时候，计算机也终于到达这一水平，这既是我的幸运，也是我的诅咒。</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.leiphone.com/news/201704/tRrAIuyDaRIj7WKx.html"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-程弢 / www.leiphone.com:
-</span>
-
-<span class="title">深度解析音频检测背后的技术 | 硬创公开课</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 音频检测究竟能解决哪些问题？这一技术是如何进行鉴黄的？</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.leiphone.com/news/201704/EmbSf24LSsiBDa1C.html"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-天诺 / www.leiphone.com:
-</span>
-
-<span class="title">研究显示，2022 年之前，机器学习芯片市场将是行业巨头的关注重点（附报告）</span>
-<span class="summary">&nbsp; &mdash;&nbsp; Allied Market Research 发布的一份机器学习芯片市场报告显示，到 2022 年机器学习芯片市场规模预计将达到 827.2 亿美元。</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://tech.qq.com/a/20170417/044499.htm"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-腾讯科技 / tech.qq.com:
-</span>
-
-<span class="title">人工智能有个严重问题：它说不清自己为啥这么牛！</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 【AI世代编者按】虽然人工智能可以解决很多问题，但由于这种技术存在“黑盒子”问题，因此没有一个人能够确切知道它的内部运作方式，因而可能引发严重问题。去年，一辆古怪的无人驾驶汽车开上了新泽西州蒙茅斯郡宁静的道路。这辆实验用车是由芯片制造商英伟达开发的，它的外观与其他无人驾驶汽车别无二致，但与谷歌(微博)</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://tech.qq.com/a/20170417/043914.htm"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-腾讯科技 / tech.qq.com:
-</span>
-
-<span class="title">男子偷室友机器人 不料机器人发短信通知主人</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 一个会说话，能听懂主人指令做动作的机器人，竟然自己“报警”，把小偷的手机号发给主人，回到了主人身边。这可不是童话故事，而是最近发生在南京的真实案例。今年3月初的一天，南京锁金村派出所接到小伙田某的报警和其拨打“12345”政府热线求助的工单。小田称，他是跟人合租住房的，结果当天发现自己房间里的笔记本电脑</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://tech.qq.com/a/20170417/024769.htm"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-腾讯科技 / tech.qq.com:
-</span>
-
-<span class="title">围棋国手与来势汹汹的AI</span>
-<span class="summary">&nbsp; &mdash;&nbsp; AI会抢走我们的工作？还是重新定义了工作？甚至会为人类创造更多更好的工作？它们是设备？是朋友？抑或是人类的掘墓人？每一个议题都是一盘未下完的棋。被AI率先入侵的棋类运动，很自然地被人们当作一个眺望未来的参照。中国围棋队领队华学明的窗户，正好对着国家体育总局运动员公寓的班车停靠点。来自全国能跑会蹦的顶尖</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://tech.qq.com/a/20170417/022420.htm"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-腾讯科技 / tech.qq.com:
-</span>
-
-<span class="title">论炒股，人工智能现在还是比不过人类本能</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 【AI世代编者按】在金融市场，无论技术(包括人工智能)变得多么先进，人类的自然本能都会占据上风。如果有人拥有一个神奇的公式，能在股票市场赚大钱，他可能会隐藏起来单独享用。但事实上，金融市场最神奇的现象之一就是：一些最优秀的投资者公开分享他们的投资技巧，但却没有明显的损失。被誉为“股神”的沃伦·巴菲特(Wa</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://finance.sina.com.cn/stock/t/2017-04-17/doc-ifyeifqx6172023.shtml"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-新浪科技 / tags.tech.sina.com.cn:
-</span>
-
-<span class="title">日本2016年外来人口数量创纪录新高</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 为了加快企业创业，日本政府认为需要大力推动业务化机制。有趣的是，日本首相安倍晋三此前访问欧洲时还突发奇想，称可以靠人工智能和自动化来缓解老龄化危机。“机器会抢走工作 ...[详细]</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://video.sina.com.cn/p/news/o/doc/2017-04-17/205066049003.html"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-新浪科技 / tags.tech.sina.com.cn:
-</span>
-
-<span class="title">视频：可调戏可羞羞，首款人工智能女友问世</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 美国一家公司本月推出全球首款搭配人工智能的伴侣型机器人！除了满足一般的外观需求，还能与主人进行情感交流。她们有心情有“人格”，被设定在与人类交互中学习。女网友:更不容易 ...[详细]</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://finance.sina.com.cn/stock/t/2017-04-17/doc-ifyeimzx6707760.shtml"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-新浪科技 / tags.tech.sina.com.cn:
-</span>
-
-<span class="title">DT时代，创业者如何培养敏捷领袖力？</span>
-<span class="summary">&nbsp; &mdash;&nbsp; QIIR创新沙龙演讲。Mark提到，各行各业在科技快速发展的今天遭受着巨大的压力，尤其最近热门的人工智能更是引发了“是否会取代人类工作岗位”的广泛讨论。在沙龙上，他播放了一段今 ...[详细]</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://finance.sina.com.cn/roll/2017-04-17/doc-ifyeimzx6687213.shtml"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-新浪科技 / tags.tech.sina.com.cn:
-</span>
-
-<span class="title">“人工智能”正在酝酿 一场堪比历次技术革命的大变革</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 以此为标准，李彦宏在本书中将人工智能定义为堪比任何一次技术革命的伟大变革，并且明确提出，在技术与人的关系上，智能革命不同于前几次技术革命，不是人去适应机器，而是机器主 ...[详细]</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://tech.sina.com.cn/t/2017-04-17/doc-ifyeimqc4389987.shtml"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-新浪科技 / tags.tech.sina.com.cn:
-</span>
-
-<span class="title">中国工程院院士刘韵洁：AI将成未来网络重要部分</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 三是要对现有网络科学问题来进行研究、实验，也要解决当前的问题。刘韵洁认为，基于大数据的人工智能将成为未来网络的重要组成部分。人工智能需要三个要素：海量的数据、很强 ...[详细]</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://finance.sina.com.cn/roll/2017-04-17/doc-ifyeifqx6107711.shtml"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-新浪科技 / tags.tech.sina.com.cn:
-</span>
-
-<span class="title">阿里云联合生态首个响应浙江“十万企业上云”</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 作为全球领先的云计算、人工智能服务商，阿里云在17日表示，已经为此联合生态合作伙伴组建专门服务团队，利用自身在云计算、大数据、人工智能领域的深厚积累，通过ET工业大脑、ET城 ...[详细]</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://finance.sina.com.cn/roll/2017-04-17/doc-ifyeifqx6095284.shtml"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-新浪科技 / tags.tech.sina.com.cn:
-</span>
-
-<span class="title">联想拟四年内向人工智能等领域投资12亿美元</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 4月17日，智通财经获悉，联想集团（00992）CEO杨元庆近日在接受媒体采访时表示，未来四年，联想将在人工智能、物联网和大数据方面投资超过12亿美元（约93亿港元）。至2021年3月，上述款 ...[详细]</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://finance.sina.com.cn/roll/2017-04-17/doc-ifyeimzx6649310.shtml"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-新浪科技 / tags.tech.sina.com.cn:
-</span>
-
-<span class="title">王兴谈互联网下半场：上天、入地、全球化</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 壮大新空间，这样可以减少在有限空间里你争我夺的压力，这样就可能会和平很多。说到高科技，我们接触到的是传统的ABC，A是AI（“人工智能”），B是 Big Data（“大数据”），C是 ...[详细]</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.jiqizhixin.com//article/2667"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-小琳哥哥 / www.jiqizhixin.com:
-</span>
-
-<span class="title">百度自动驾驶再「结盟」，高精地图、HMI技术惊艳亮相</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 4月17日消息，博世与百度、高德、四维图新签署基于高精地图的自动驾驶战略合作协议。</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.jiqizhixin.com//article/2663"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-转载 / www.jiqizhixin.com:
-</span>
-
-<span class="title">基于知识图谱的问答系统关键技术研究 #03</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 本文作者为复旦大学知识工场实验室博士生崔万云，研究方向为问答系统和知识图谱。</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.jiqizhixin.com//article/2662"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-吴攀 / www.jiqizhixin.com:
-</span>
-
-<span class="title">MIT与微软联合论文提出深度API编程器：可通过API调用合成新程序</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 近日，MIT和微软研究院的研究者发布了一篇相关论文，提出了一种可以学习使用 API 编程的方法——深度 API 编程器。</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.jiqizhixin.com//article/2661"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-李泽南 / www.jiqizhixin.com:
-</span>
-
-<span class="title">离开Uber后的Gary Marcus：人工智能远比你想象的要难</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 作为纽约大学科学家， Gary Marcus 是人工智能领域的一名反叛者。</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.mittrchina.com//Home/Article/getContent/article_id/158"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-mittrchina.com / www.mittrchina.com:
-</span>
-
-<span class="title">独家专访吴恩达离职后的去向：我对医疗、教育等垂直产业的人工智能很感兴趣</span>
-<span class="summary">&nbsp; &mdash;&nbsp; 独家专访吴恩达离职后的去向：我对医疗、教育等垂直产业的人工智能很感兴趣</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.wired.com/2017/04/googles-dueling-neural-networks-spar-get-smarter-no-humans-required/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Cade Metz / www.wired.com:
-</span>
-
-<span class="title">AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning</span>
-<span class="summary">&nbsp; &mdash;&nbsp; AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning
-  —  The day Richard Feynman died, the blackboard in his classroom read: “What I cannot create, I do not understand.”</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.theverge.com/2017/4/12/15271874/ai-adversarial-images-fooling-attacks-artificial-intelligence"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-James Vincent / www.theverge.com:
-</span>
-
-<span class="title">A look at adversarial images, which target and trick AI systems into misidentifying people or objects</span>
-<span class="summary">&nbsp; &mdash;&nbsp; A look at adversarial images, which target and trick AI systems into misidentifying people or objects
-  —  There&#39;s a scene in William Gibson&#39;s 2010 novel Zero History, in which a character embarking on a high-stakes raid dons what the narrator refers to as the “ugliest T-shirt” in existence …</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="http://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Will Knight / www.technologyreview.com:
-</span>
-
-<span class="title">Deep learning AI systems, which may help make important decisions in the future, are neither understandable to their creators nor accountable to their users</span>
-<span class="summary">&nbsp; &mdash;&nbsp; Deep learning AI systems, which may help make important decisions in the future, are neither understandable to their creators nor accountable to their users
-  —  No one really knows how the most advanced algorithms do what they do.  That could be a problem.</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://techcrunch.com/2017/04/17/google-acquires-nevada-land-for-future-data-center-possible-test-track/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Darrell Etherington / techcrunch.com:
-</span>
-
-<span class="title">Google acquires Nevada land for future data center, possible test track</span>
-<span class="summary">&nbsp; &mdash;&nbsp; Google has acquired a significant piece of land in Nevada, near Reno and Tesla’s Gigafactory site, which will house a future data center, and could also prove host to a testing track for Waymo, the Alphabet-owned autonomous driving company. The purchase of the 1,210 acres in Nevada’s Tahoe Reno Industrial Center was reported by The Wall Street Journal on Monday, and follows the… Read More</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://techcrunch.com/2017/04/17/a-second-life-for-open-world-games-as-self-driving-car-training-software/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Darrell Etherington / techcrunch.com:
-</span>
-
-<span class="title">A second life for open-world games as self-driving car training software</span>
-<span class="summary">&nbsp; &mdash;&nbsp; A lot of top-tier video games enjoy lengthy long-tail lives with remasters and re-releases on different platforms, but the effort put into some games could pay dividends in a whole new way, as companies training things like autonomous cars, delivery drones and other robots are looking to rich, detailed virtual worlds to provided simulated training environments that mimic the real… Read More</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://venturebeat.com/2017/04/15/ahead-of-f8-developers-talk-the-future-of-bots-on-facebook-messenger/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Khari Johnson / venturebeat.com:
-</span>
-
-<span class="title">Ahead of F8, developers talk the f</span>
-<span class="summary">&nbsp; &mdash;&nbsp; Ahead of F8, developers talk the future of bots on Facebook Messenger</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://venturebeat.com/2017/04/14/forget-to-look-when-you-hit-the-gas-this-car-slows-down-automatically/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-John Brandon / venturebeat.com:
-</span>
-
-<span class="title">Forget to look when you hit the gas</span>
-<span class="summary">&nbsp; &mdash;&nbsp; Forget to look when you hit the gas? This car slows down automatically</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://venturebeat.com/2017/04/14/sales-ai-company-afiniti-raises-1-6-billion-files-for-ipo/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Matt Marshall / venturebeat.com:
-</span>
-
-<span class="title">Sales AI company Afiniti valued</span>
-<span class="summary">&nbsp; &mdash;&nbsp; Sales AI company Afiniti valued at $1.6 billion, files for IPO</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://venturebeat.com/2017/04/14/gm-to-add-1100-jobs-in-california-over-five-years-at-self-driving-unit/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Reuters / venturebeat.com:
-</span>
-
-<span class="title">GM to boost self-driving car efforts with 1</span>
-<span class="summary">&nbsp; &mdash;&nbsp; GM to boost self-driving car efforts with 1,100 new jobs in California over five years</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://www.technologyreview.com//s/604197/inside-an-intergalactic-video-game-a-search-for-real-alien-worlds/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Simon Parkin / www.technologyreview.com:
-</span>
-
-<span class="title">Inside an Intergalactic Video Game, a Search for Real Alien Worlds</span>
-<span class="summary">&nbsp; &mdash;&nbsp; Showing that algorithms are often no match for human vision, players of EVE Online will sift through satellite imagery in a vast citizen science hunt for exoplanets.</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://www.technologyreview.com//s/604196/welcome-to-internet-privacy-limbo/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Mike Orcutt / www.technologyreview.com:
-</span>
-
-<span class="title">Welcome to Internet Privacy Limbo</span>
-<span class="summary">&nbsp; &mdash;&nbsp; Trump’s first move on consumer Internet privacy was decidedly pro-business, but mostly it made the future of online privacy a lot more uncertain.</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://www.technologyreview.com//s/604126/edible-crispr-could-replace-antibiotics/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Emily Mullin / www.technologyreview.com:
-</span>
-
-<span class="title">Edible CRISPR Could Replace Antibiotics</span>
-<span class="summary">&nbsp; &mdash;&nbsp; Researchers are developing a probiotic to make disease-causing bacteria self-destruct.</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://www.technologyreview.com//s/604198/googles-verily-unveils-a-health-watch-for-research/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Antonio Regalado / www.technologyreview.com:
-</span>
-
-<span class="title">Google’s Verily Unveils a Health Watch for Research</span>
-<span class="summary">&nbsp; &mdash;&nbsp; The watch collects your heart rate and rhythms, but it only tells you the time and date.</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://www.technologyreview.com//s/603995/ai-can-beat-us-at-pokernow-lets-see-if-it-can-work-with-us/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-Tom Simonite / www.technologyreview.com:
-</span>
-
-<span class="title">AI Can Beat Us at Poker—Now Let’s See If It Can Work with Us</span>
-<span class="summary">&nbsp; &mdash;&nbsp; Researchers say we need to develop software capable of striking mutually beneficial relationships with humans.</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-<li class="sponsor_post" >
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item"
-    href="https://www.technologyreview.com//s/604137/water-from-desert-skies/"
-    target="_blank"
->
-
-<span class="sponsor_post_label">
-<!--Sponsor Post-->
-</span>
-
-<span class="cite">
-James Temple / www.technologyreview.com:
-</span>
-
-<span class="title">How to Pull Water Out of Thin Air, Even in the Driest Parts of the Globe</span>
-<span class="summary">&nbsp; &mdash;&nbsp; A new device that’s powered by sunlight could help solve water scarcity problems.</span>
-</a>
-</td>
-
-</tr>
-</table>
-</li>
-
-
-
-
-
-
-
+<!-- jobs -->
 
 
 
@@ -2306,6 +1305,15 @@ James Temple / www.technologyreview.com:
 <!-- Start Item -->
 
 
+
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-433897-4";
+urchinTracker();
+</script>
 
 
 
