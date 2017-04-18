@@ -1,0 +1,1890 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Bzline, AI's News</TITLE>
+<META NAME="description" CONTENT="The essential ai tech news of the moment. Technology's news site of record. Not for dummies." />
+<META NAME="application-name" content="Bzline" />
+<LINK REL="SHORTCUT ICON" HREF="/img/favicon.ico" />
+<link rel="image_src" href="http://www.bzline.cn/m/config/tech/iicon.gif" />
+<link rel="apple-touch-icon" href="http://www.bzline.cn/m/config/tech/iicon.gif" />
+<META HTTP-EQUIV="Expires" CONTENT="now">
+<SCRIPT TYPE="text/javascript">
+<!--
+var nwcbe;
+function rnwcb() {
+var where;
+if (nwcbe.checked)
+where = "_blank";
+else
+where = "_self";
+var jump_prefix = location.href.substring(0, location.href.length - location.hash.length) + '#';
+for (var i=0; i<=(document.links.length-1); i++) {
+var href = document.links[i].href;
+if ((href.indexOf("javascript:") != 0) && (href.indexOf(jump_prefix) != 0) && (!(/^https?:\/\/([a-z]+\.)?bzline\.cn\//.test(href)) || /^https?:\/\/([a-z]+\.)?bzline\.cn\/goto/.test(href))) {
+document.links[i].target = where;
+}
+}
+}
+var ckd;
+function set_ckd() {
+var dd = document.domain;
+if (dd) {
+var da = dd.split('.');
+var rd=da[da.length-2]+'.'+da[da.length-1];
+ckd='; domain=.'+rd;
+}
+}
+function createCookie(name,value) {
+document.cookie = name+"="+value+"; expires=Tue, 19 Jan 2038 03:14:07 GMT; path=/"+ckd;
+}
+function eraseCookie(name) {
+document.cookie = name+"=; expires=Thu, 01-Jan-70 00:00:01 GMT; path=/"+ckd;
+}
+function svprefs() {
+var cookie_val = '';
+if (nwcbe.checked) {
+cookie_val += 'new_window';
+}
+if (cookie_val == '') {
+eraseCookie('myprefs');
+} else {
+createCookie('myprefs', cookie_val);
+}
+}
+function readCookie(name) {
+var nameEQ = name + "=";
+var ca = document.cookie.split(';');
+for(var i=0;i < ca.length;i++) {
+var c = ca[i];
+while (c.charAt(0)==' ') c = c.substring(1,c.length);
+if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+}
+return null;
+}
+function rdprefs() {
+var cookie_val = readCookie('myprefs');
+nwcbe.checked = false;
+if (cookie_val) {
+var va = cookie_val.split('+');
+for(var i=0;i < va.length;i++) {
+var val = va[i];
+if (val == 'new_window') {
+nwcbe.checked = true;
+}
+}
+}
+}
+function xnwcb() { rnwcb(); svprefs(); }
+function getBgColor(e) {
+if (e.currentStyle)
+return e.currentStyle.backgroundColor;
+if (window.getComputedStyle) {
+var eStyle=window.getComputedStyle(e,'');
+if (eStyle)
+return eStyle.getPropertyValue('background-color');
+}
+return '#ffffff';
+}
+function hacky_grayscale (c) {
+if (c.substr(0, 4) === 'rgb(') {
+return c.substr(4).split(',',1)[0];
+} else if (c.substr(0,1) === '#') {
+return parseInt(c.substr(1,2), 16);
+}
+return 255;
+}
+var h_t;
+var h_e;
+var hoc;
+var hog;
+var hor;
+function h(id,phase) {
+if (id) {
+unh();
+h_e = document.getElementById(id);
+hoc = getBgColor(h_e);
+hog = hacky_grayscale(hoc);
+hor = 'rgb('+hog+','+hog+',';
+h(0,1);
+} else if (phase < 6) {
+h_e.style.backgroundColor=hor+(hog-phase*16)+')';
+h_t = setTimeout('h(0,'+(phase+1)+')',100);
+} else if (phase < 12) {
+h_e.style.backgroundColor=hor+(hog-6*16+(phase-6)*16)+')';
+var tms = 100;
+if (phase == 6) { tms = 1000; }
+h_t = setTimeout('h(0,'+(phase+1)+')',tms);
+} else if (phase == 12) {
+h_e.style.backgroundColor = hoc;
+h_t=null;
+}
+}
+function unh(id,phase) {
+if (h_t != null) {
+clearTimeout(h_t);
+h_e.style.backgroundColor = hoc;
+}
+}
+function sd(id,d) {
+var e = document.getElementById(id);
+e.style.display = d;
+}
+function td(id) {
+var e = document.getElementById(id);
+if (e.style.display == 'none') {
+e.style.display = 'block';
+} else {
+e.style.display = 'none';
+}
+}
+function xdates(ko,nh) {
+var tde = document.getElementById('thisdate');
+var dbe = document.getElementById('dateform');
+if (ko || (dbe.style.display == 'none')) {
+if (!nh) { h('datebox'); }
+tde.style.display = 'none';
+dbe.style.display = 'block';
+} else {
+unh();
+tde.style.display = 'block';
+dbe.style.display = 'none';
+}
+}
+function iPadiPhone() {
+return navigator.userAgent.match(/iPad|iPhone/i);
+}
+function replaceShareHandlers() {
+function handler(cn,p,ii) {
+return function(e) {
+if (!e) var e = window.event;
+overitem(cn,p,ii,e);
+};
+}
+var elements = document.getElementsByClassName('itc1');
+for (var i=0; i<elements.length; i++) {
+if (elements[i].getElementsByClassName('rsp').length == 0) { // we're not in a sponsor post
+id = elements[i].getElementsByClassName('item')[0].getAttribute('ID').split('i');
+elements[i].onmouseover = handler(id[0], true, id[1]);
+elements[i].onmouseout = handler(id[0], false, id[1]);
+}
+}
+}
+function overitem(cn, p, ii, e) {
+if (e && (e.target.tagName == "A") && iPadiPhone())
+return;
+var dxe = document.getElementById(cn + 'dx' + ii);
+if (dxe) {
+if (p) {
+var de = document.getElementById(cn + 'd' + ii);
+dxe.style.height=de.offsetHeight+'px';
+dxe.style.display = 'block';
+} else {
+dxe.style.display = 'none';
+}
+}
+}
+
+
+function tgd(cnum, p, inum) {
+var setd, setp;
+if (p) { setp = 'block'; setd = 'none'; }
+else { setp = 'none'; setd = 'block'; }
+var i, ei;
+if (inum) {
+i=inum; ei=inum;
+} else {
+i=1; ei=-1;
+document.getElementById(cnum+'dxr').style.display = setd;
+document.getElementById(cnum+'pxr').style.display = setp;
+}
+while (true) {
+var ie = document.getElementById(cnum+'i'+i);
+if (ie == null) { break; }
+var pe = document.getElementById(cnum+'p'+i);
+if (pe) {
+var de = document.getElementById(cnum+'d'+i);
+pe.style.display = setp;
+de.style.display = setd;
+if (p) {
+document.getElementById(cnum+'px'+i).style.height = pe.offsetHeight+'px';
+} else {
+if (inum) {
+document.getElementById(cnum+'dx'+i).style.height = de.offsetHeight+'px';
+} else {
+document.getElementById(cnum+'dx'+i).style.display = 'none';
+}
+}
+}
+if (i == ei) { break; }
+i++;
+}
+if (!p && !inum) {
+document.getElementById(cnum+'i'+1).scrollIntoView();
+}
+}
+var baseFeedTime = 1491028505000;var pgrdad='2017-04-18 17:50:26';
+var m2_ead='170401/h0235';
+var curr_yy=17;
+var min_mod=5;
+var lb_ead='170401';
+
+var m1_sad_d='September 12, 2005';
+var m1_sad='050912/h0000';
+var m2_sad=m1_sad;
+var arrt='http://www.bzline.cn/';
+function godate(d) {
+d = d.replace(/a\.?m/i, ' am');
+d = d.replace(/p\.?m/i, ' pm');
+var pa=new Array(/^jan/i,/^feb/i,/^mar/i,/^apr/i,/^may/i,/^jun/i,/^jul/i,/^aug/i,/^sep/i,/^oct/i,/^nov/i,/^dec/i);
+var fa = d.split(/[^a-zA-Z0-9]+/g);
+for(var i=0;i<12;i++) {
+if (fa[0].match(pa[i])) {
+var ip1 = i+1;
+fa[0] = ip1+'';
+}
+}
+var em='Sorry, no archives exist prior to '+m1_sad_d;
+var tpyy;
+if (fa.length==2) {
+fa[2] = curr_yy+'';
+tpyy=((100+curr_yy-1)+'').substring(1,3);
+}
+if (fa[2] > 1900) {
+if (fa[2] < 2001) {
+alert(em);
+return;
+}
+fa[2] = fa[2].substring(2,4);
+} else if (fa[2] > 80) {
+alert(em);
+return;
+}
+var h,m;
+if (fa[3]=='0' || fa[3]=='00' || (fa[0]>=1 && fa[3]<=23)) {
+h=parseInt(fa[3],10);
+m=parseInt(fa[4],10);
+if (!m) { m=0; }
+} else {
+h=20;
+m=0;
+}
+m=m-m%min_mod;
+if ((fa[4]=='pm'||fa[5]=='pm') && h<12) {
+h+=12;
+} else if ((fa[4]=='am'||fa[5]=='am') && h==12) {
+h=0;
+}
+fa[3]=h+'';
+fa[4]=m+'';
+if (
+(fa[0]>=1 && fa[0]<=12) &&
+(fa[1]>=1 && fa[1]<=31) &&
+(fa[2]>=1 && fa[2]<=curr_yy) &&
+(fa[4]>=0 && fa[4]<=59)
+) {
+for(var i=0;i<fa.length;i++) {
+var f=fa[i];
+if (f.length < 2) {
+fa[i]='0'+f;
+}
+}
+var m2_ad=fa[2]+fa[0]+fa[1]+'/h'+fa[3]+fa[4];
+var m1_ad;
+if ((m2_ad > m2_ead) && tpyy) {
+m2_ad=tpyy+m2_ad.substr(2,m2_ad.length);
+m1_ad=tpyy;
+} else {
+m1_ad=fa[2];
+}
+m1_ad=m1_ad+'/'+fa[0]+'/'+fa[1]+'/';
+if (m2_ad > m2_ead) {
+alert("Sorry, no page exists yet for that date");
+} else if (m2_ad < m1_sad) {
+alert(em);
+} else if (m2_ad < m2_sad) {
+location = arrt+m1_ad;
+} else {
+location = arrt+m2_ad;
+}
+} else {
+alert('Please use this format:  '+pgrdad);
+}
+}
+var arrt='http://www.bzline.cn/';
+var nowrd='(none)';
+var lb_sad_d='September 30, 2007';
+var lb_sad='070930';
+function lbgodate(d) {
+d = d.replace(/a\.?m/i, ' am');
+d = d.replace(/p\.?m/i, ' pm');
+var pa=new Array(/^jan/i,/^feb/i,/^mar/i,/^apr/i,/^may/i,/^jun/i,/^jul/i,/^aug/i,/^sep/i,/^oct/i,/^nov/i,/^dec/i);
+var fa = d.split(/[^a-zA-Z0-9]+/g);
+for(var i=0;i<12;i++) {
+if (fa[0].match(pa[i])) {
+var ip1 = i+1;
+fa[0] = ip1+'';
+}
+}
+var em='Sorry, no leaderboards exist prior to '+lb_sad_d;
+var tpyy;
+if (fa.length==2) {
+fa[2] = curr_yy+'';
+tpyy=((100+curr_yy-1)+'').substring(1,3);
+}
+if (fa[2] > 1900) {
+if (fa[2] < 2001) {
+alert(em);
+return;
+}
+fa[2] = fa[2].substring(2,4);
+} else if (fa[2] > 80) {
+alert(em);
+return;
+}
+if ((fa[0]>=1 && fa[0]<=12) &&
+(fa[1]>=1 && fa[1]<=31) &&
+(fa[2]>=1 && fa[2]<=curr_yy)
+) {
+for(var i=0;i<fa.length;i++) {
+var f=fa[i];
+if (f.length < 2) {
+fa[i]='0'+f;
+}
+}
+var lb_ad=fa[2]+fa[0]+fa[1];
+if ((lb_ad > lb_ead) && tpyy) {
+lb_ad=tpyy+lb_ad.substr(2,lb_ad.length);
+}
+if (lb_ad > lb_ead) {
+alert("Sorry, no leaderboards exist yet for that date");
+} else if (lb_ad < lb_sad) {
+alert(em);
+} else {
+location = arrt+lb_ad+'/lb';
+}
+} else {
+alert('Please use this format:  '+nowrd);
+}
+}
+function tlbrows(id) {
+var bhe=document.getElementById(id+'_hide_button');
+var bse=document.getElementById(id+'_show_button');
+var set_rows;
+if (bhe.style.display == 'none') {
+set_rows='';
+bse.style.display='none';
+} else {
+set_rows='none';
+bse.style.display='';
+}
+bhe.style.display=set_rows;
+var t=document.getElementById(id);
+var oRows = t.getElementsByTagName('tr');
+var iRowCount = oRows.length;
+var i;
+for(i=11;i<iRowCount;i++) {
+t.rows[i].style.display=set_rows;
+}
+if (set_rows == 'none') {
+document.getElementById('a'+id).scrollIntoView();
+}
+}
+function hhash() {
+var a=location.hash;
+if (a) {
+var i;
+if (a.substring(1,2) === 'a') {
+i=a.substring(2,a.length);
+} else {
+i=a.substring(1);
+}
+var je = document.getElementById(i);
+if (je) {
+je.scrollIntoView();
+h(i);
+}
+}
+}
+var TdTD = 400;
+var TnTB = 700;
+var TwTSE = 200;
+var TnOE = 3;
+var TwTBE = 0;
+var TwTCD = 150;
+var TsTS = '/do/lc';
+var TeTD = Number.MAX_VALUE;
+var TgETD = false;
+var TdE = new Array();
+var TE = function() {
+this.Tx = false;
+this.Ts = 0;
+this.Td = 0;
+this.toString = function() {
+return this.Ts + " " + this.Td;
+}
+}
+TE.Tc = function (a,b) {
+return a.Td - b.Td
+}
+var TcE_ = null;
+function TgXMLHR() {
+var Tx = false;
+if (window.XMLHttpRequest) {
+Tx = new XMLHttpRequest();
+} else {
+try
+{
+Tx = new ActiveXObject("Msxml2.XMLHTTP");
+}
+catch (ev)
+{
+try
+{
+Tx = new ActiveXObject("Microsoft.XMLHTTP");
+}
+catch (ev)
+{
+Tx = false;
+}
+}
+}
+return Tx;
+}
+function TeD() {
+TcE_ = new TE();
+TcE_.Tx = TgXMLHR();
+}
+function TeC() {
+if (TcE_.Tx.readyState == 4 && TcE_.Tx.status == 200) {
+TcE_.Td = new Date().getTime() -  TcE_.Ts;
+TdE.push(TcE_);
+if (TdE.length < TnOE)
+setTimeout("TeD()", TwTBE);
+else
+TcED();
+}
+}
+function TcED() {
+TdE.sort(TE.Tc);
+TeTD = TdE[Math.floor(TnOE/2)].Td + TwTCD;
+TgETD= true;
+}
+function Tt(link) {
+if (isSafari() && TgETD && TeTD <= TdTD)
+{
+var TtD = TeTD;
+var Tx = TgXMLHR();
+if (Tx) {
+Tx.open('POST', TsTS+'?tm=false&href='+encodeURIComponent(link.href)+'&data='+TtD_(TtD),false);
+Tx.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+Tx.send(null);
+}
+}
+else if (!(TgETD && (TeTD >= TnTB)))
+{
+var TtD;
+if (!TgETD || (TgETD && (TeTD > TdTD)))
+TtD = TdTD;
+else
+TtD = TeTD;
+var Tx = TgXMLHR();
+if (Tx) {
+Tx.open('POST', TsTS+'?tm=false&href='+encodeURIComponent(link.href)+'&data='+TtD_(TtD),true);
+Tx.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+Tx.send(null);
+var TcT = new Date();
+TeT = TcT.getTime() + TtD;
+while (TcT.getTime() < TeT)
+TcT = new Date();
+if (Tx.readyState != 4)
+Tx.abort();
+}
+}
+}
+function isSafari() {
+return ((navigator.appCodeName + navigator.appName + navigator.appVersion).search(/safari/i) != -1);
+}
+function TtD_(TtD) {
+var data =
+pgrdad + " " +
+TdTD + " " +
+TnTB + " " +
+TwTSE + " " +
+TnOE + " " +
+TwTBE + " " +
+TwTCD + " " +
+TeTD + " " +
+TgETD + " " +
+"(" + TdE + ") " +
+isSafari() + " " +
+TtD;
+return data;
+}
+function TiLTT() {
+var jump_prefix = location.href.substring(0, location.href.length - location.hash.length) + '#';
+for (var i=0; i<=(document.links.length-1); i++) {
+var href = document.links[i].href;
+if ((href.indexOf("javascript:") != 0) && (href.indexOf(jump_prefix) != 0))
+document.links[i].onclick = function(){Tt(this)};
+}
+}
+
+
+
+
+
+
+var NTptpssd = 40*1000;
+var NTpsl = 3*60*1000 + 30*1000;
+var NTppds = 30*1000;
+var NTrtdpsa = 15*60*1000;
+var NTpssr = 20*1000;
+var NTvn = document.title;
+function NTgxhro() {
+if (window.XMLHttpRequest) {
+return new XMLHttpRequest();
+} else if(window.ActiveXObject) {
+return new ActiveXObject("Microsoft.XMLHTTP");
+}
+}
+var NTlft;
+var NTnpc = 0;
+var NTnpcial = false;
+var NTnpcs = false;
+var NTpsst;
+var NTdps = false;
+var NTnpcr = NTgxhro();
+var NTnpcrt;
+var NTnpcrti =  10*1000;
+function NTsnpcps() {
+NTpsst = (new Date()).getTime();
+NTfnpc();
+}
+function NTfnpc() {
+NTnpcr.open("GET","/feedsmanager/ps?t=" + baseFeedTime, true);
+NTnpcr.onreadystatechange = NThnpcrsc;
+NTnpcr.send(null);
+NTnpcrt = setTimeout(NTnpcrt_, NTnpcrti);
+}
+function NThnpcrsc() {
+if (NTnpcr.readyState == 4) {
+clearTimeout(NTnpcrt);
+if (NTnpcr.status == 200) {
+try {
+var NTr = eval("(" + NTnpcr.responseText + ")");
+if (!NTr.error && NTr.time > NTlft) {
+NTlft = NTr.time;
+if (NTr.at_least) {
+if (NTr.count == 0 && NTnpc == 0) {
+NTdps = false;
+NTsnnpcf(true);
+} else {
+NTnpc = NTr.count > NTnpc? NTr.count : NTnpc;
+NTnpcial = true;
+NTunpc();
+return;
+}
+} else {
+NTnpc = NTr.count;
+NTunpc();
+NTdps = false;
+NTsnnpcf(true);
+}
+} else {
+NTsnnpcf(false);
+}
+} catch (e) {
+NTsnnpcf(false);
+}
+} else {
+NTsnnpcf(false);
+}
+}
+}
+function NTsnnpcf(NTfnps) {
+var now = new Date();
+if (now.getTime() - NTlft > NTrtdpsa && !NTdps)
+NTdps = true;
+if (NTfnps
+|| NTdps
+|| (now.getTime() + NTppds - NTpsst) > NTpsl)
+setTimeout(NTsnpcps, NTnpssi());
+else
+setTimeout(NTfnpc, NTppds);
+}
+function NTnpssi() {
+var now = new Date();
+var NTnpt = (now.getMinutes() % 5)*60000 + now.getSeconds()*1000 + now.getMilliseconds();
+var rand = Math.floor(Math.random()*NTpssr);
+var NTtl = (NTnpt < NTptpssd ? NTptpssd : 300000 + NTptpssd) - NTnpt + rand;
+return NTtl;
+}
+function NTunpc() {
+document.getElementById('newpostscounter').innerHTML =
+NTnpc + (NTnpcial? '+':'') + ' new item' + (NTnpc > 1 || NTnpcial ? 's' : '');
+if (!NTnpcs && NTnpc > 0) {
+var col = document.getElementById('countercol');
+var ticker = document.getElementById('newpostscounter');
+var holder = document.getElementById('countercolspaceholder');
+var spacer = document.getElementById('counterspacer');
+if (navigator.appName == 'Microsoft Internet Explorer')
+ticker.style.display = 'block';
+else {
+col.style.position = 'absolute';
+ticker.style.display = 'block';
+holder.style.display = 'block';
+if (spacer)
+spacer.style.display = 'block';
+holder.style.height=(col.offsetHeight - ticker.offsetHeight - ticker.offsetTop) + 'px';
+function NTfcd () {
+holder.style.display = 'none';
+col.className = 'notransitions';
+col.style.top = '0';
+col.style.position = 'relative';
+}
+col.addEventListener('transitionend',NTfcd,false);
+col.addEventListener('oTransitionEnd',NTfcd,false);
+col.addEventListener('webkitTransitionEnd', NTfcd, false);
+setTimeout(function() {
+holder.className='spaceholdertransitions';
+col.className='countercoltransitions';
+col.style.top=(ticker.offsetHeight + ticker.offsetTop + (spacer? spacer.offsetHeight : 0)) +'px';
+holder.style.height=(col.offsetHeight + (spacer? spacer.offsetHeight : 0)) +'px';
+},1000);
+}
+NTnpcs = true;
+}
+if (NTnpc > 0)
+document.title = '(' + NTnpc + (NTnpcial? '+':'') + ') ' + NTvn;
+}
+function NTnpcrt_() {
+if (NTnpcr.readyState != 0) {
+NTnpcr.onreadystatechange = null;
+NTnpcr.abort();
+NTsnnpcf(false);
+}
+}
+function NTinpcp() {
+NTlft = baseFeedTime;
+var now = new Date();
+if (now.getTime() - NTlft > NTrtdpsa)
+NTdps = true;
+var NTnpt = (now.getMinutes() % 5)*60000 + now.getSeconds()*1000 + now.getMilliseconds();
+var NTbfd = new Date(baseFeedTime);
+var NTnp;
+if (now.getTime() - NTnpt == baseFeedTime - NTbfd.getSeconds()*1000 - NTbfd.getMilliseconds()) {
+NTnp = 300000 + NTptpssd - NTnpt + Math.floor(Math.random()*NTpssr);
+setTimeout(NTsnpcps, NTnp);
+} else if (NTnpt < NTptpssd || NTnpt > NTptpssd + NTpsl) {
+NTnp = NTnpssi();
+setTimeout(NTsnpcps, NTnp);
+} else {
+NTpsst = now.getTime() - NTnpt + NTptpssd;
+NTnp = Math.floor(Math.random()*NTpssr);
+setTimeout(NTfnpc, NTnp);
+}
+}
+function NTiD3fpor() {
+//var pattern = /https?:\/\/(www\.)?localhost/i;
+var pattern = /https?:\/\/(www\.)?bzline\.cn($|\/$|\/#|\/river)/i;
+return pattern.test(location.href);
+}
+function NTiD3t() {
+if (NTiD3fpor())
+NTit();
+}
+function NTit() {
+setTimeout(function() {
+NTinpcp();
+}, 0);
+}
+function cmplu() {
+var a=location.hash;
+if (!a) {
+var lh=location.href;
+lh = lh.replace(/\?.*$/, '');
+if (lh.search(/\/[0-9][0-9][0-9][0-9][0-9][0-9]\/p[0-9]*$/) != -1) {
+var pa = lh.split('/');
+var di = pa.length - 2;
+var na = lh + '#a' + pa[di] + pa[di+1];
+window.location.replace(na);
+}
+}
+}
+// hover js
+function phoneOrTablet() {
+return navigator.userAgent.match(/phone|droid|palm|webos|pocket|symbian|ipad|windows.*nt.*touch/i);
+}
+var showExcerptTimer;
+var showExcerptIn = 400; // ms
+var noDelayInShowingExcerpt = false;
+var turnOnExcerptDelayTimer;
+var turnOnExcerptDelayIn = 500; // ms
+function initDiscussionExcerptBlocks() {
+var items = document.getElementsByClassName('item');
+for (i=0; i<items.length; i++)
+if (items[i].id) {
+var itemId = items[i].id.split('i');
+var unexpandedDiscussionBlock = document.getElementById(itemId[0]+'d'+itemId[1]);
+var expandedDiscussionBlock = document.getElementById(itemId[0]+'p'+itemId[1]);
+if (unexpandedDiscussionBlock && expandedDiscussionBlock) {
+var blss = unexpandedDiscussionBlock.getElementsByClassName('bls');
+var dbpts = expandedDiscussionBlock.getElementsByClassName('dbpt'); // should have the same length as blss
+for (j=0; j<blss.length; j++) {
+dLinks = blss[j].getElementsByTagName('A');
+dExcerpts = dbpts[j].getElementsByClassName('di'); // should be of the same length as dLinks
+for (k=0; k<dLinks.length; k++) {
+var dExcerptId = items[i].id+'d'+j+'e'+k;
+dExcerpts[k].id = dExcerptId;
+var span = document.createElement('span');
+span.id = dExcerptId + 'db';
+span.className='ditemblock';
+span.onmouseover = getDLinkMouseOverHandler(dExcerptId); // not using addEventListener, for compatibility w/ IE8
+span.onmouseout = getDLinkMouseOutHandler(dExcerptId);
+blss[j].insertBefore(span, dLinks[k]);
+span.appendChild(dLinks[k]);
+}
+}
+}
+}
+}
+function getDLinkMouseOverHandler(excerptId) {
+return function() {
+if (noDelayInShowingExcerpt) {
+if (turnOnExcerptDelayTimer)
+clearTimeout(turnOnExcerptDelayTimer);
+showDiscussionExcerpt(excerptId);
+} else
+showExcerptTimer = setTimeout(function() {
+showDiscussionExcerpt(excerptId);
+if (turnOnExcerptDelayTimer)
+clearTimeout(turnOnExcerptDelayTimer);
+noDelayInShowingExcerpt = true;
+}, showExcerptIn);
+}
+}
+function getDLinkMouseOutHandler(excerptId) {
+return function() {
+if (showExcerptTimer)
+clearTimeout(showExcerptTimer);
+hideDiscussionExcerpt(excerptId);
+if (noDelayInShowingExcerpt) {
+if (turnOnExcerptDelayTimer)
+clearTimeout(turnOnExcerptDelayTimer);
+turnOnExcerptDelayTimer = setTimeout(function() {
+noDelayInShowingExcerpt = false;
+}, turnOnExcerptDelayIn);
+}
+}
+}
+function showDiscussionExcerpt(excerptId) {
+discussionBlock = document.getElementById(excerptId+'db');
+var bubble = document.getElementById(excerptId+'b');
+if (!bubble) {
+bubble = document.createElement('span');
+bubble.id = excerptId+'b';
+bubble.className = 'ditemexcerptcontainer';
+bubble.innerHTML = getDiscussionExcerptHtml(excerptId);
+discussionBlock.appendChild(bubble);
+}
+bubble.style.display = 'block';
+}
+function getDiscussionExcerptHtml(excerptId) {
+var html = '<span class="ditemexcerpt">';
+var excerpt = document.getElementById(excerptId);
+var citation = excerpt.getElementsByTagName('cite')[0].innerHTML;
+var as = excerpt.getElementsByTagName('a');
+var a = as[as.length-1];
+html += '<cite>' + citation + '</cite>' +
+'<span class="excerpt">' + a.innerHTML + '</span>';
+
+html += '</span>';
+return html;
+}
+
+function hideDiscussionExcerpt(excerptId) {
+var bubble = document.getElementById(excerptId+'b');
+if (bubble)
+bubble.style.display='none';
+}
+function init_all() {
+cmplu();
+nwcbe = document.getElementById('nwcb');
+set_ckd();
+rdprefs();
+rnwcb();
+hhash();
+TiLTT();
+setTimeout("TeD()", TwTSE);
+if (iPadiPhone()) replaceShareHandlers();
+NTiD3t();
+if (!phoneOrTablet()) initDiscussionExcerptBlocks();
+}
+// -->
+</SCRIPT>
+<STYLE TYPE="text/css" MEDIA="all">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display:block}
+body {line-height:1}
+ol, ul {list-style:none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';content:none}
+table {border-collapse:collapse;border-spacing:0}
+input, select, textarea{font:inherit;}
+body {font-family:Optima, "Microsoft Sans Serif", sans-serif}
+.ii strong {font-family:Optima, "Trebuchet MS", sans-serif;}
+.drhed {font-family:Optima, "Trebuchet MS", sans-serif;}
+cite {font-family:Optima, "Trebuchet MS", sans-serif;}
+.nfdl {font-family:Optima, "Trebuchet MS", sans-serif;}
+.navbar {font-family:Optima, "Century Gothic", sans-serif;}
+.prenavbar {font-family:Optima, "Century Gothic", sans-serif;}
+H2 {font-family:Optima, "Century Gothic", sans-serif;}
+H3 {font-family:Optima, "Century Gothic", sans-serif;}
+H3 .def {font-weight:normal;font-size:0.8em;padding-left:0.4em;}
+b {font-weight:bold}
+body {margin:0 auto 0 auto;max-width:84em;min-width:61em;font-size:0.89em;line-height:120%;background:#fff}
+.pagecont {margin-bottom:2.5em;}
+A:link {text-decoration:none;}
+A:visited {text-decoration:none;}
+.ed A {position:relative;z-index:10;}
+.ed A:hover {z-index:1}
+CITE {position:relative;z-index:10;}
+.item .di A {font-size:1.1em}
+.item .di CITE A {font-size:1.00em}
+.item .di CITE {font-size:1.00em}
+.item CITE {font-size:1em}
+CITE {font-size:0.93em}
+.ed STRONG A:link {color:#004860;}
+.ed STRONG A:visited {color:#a04860;}
+.ed A:link {color:#002848;}
+.ed A:visited {color:#902050;}
+.ed A:hover {text-decoration:underline;background:#d0e8f4}
+.ed CITE {font-weight:bold;font-style:normal;}
+.ed CITE {color:#686860;}
+.ed CITE A:link {color:#686860;}
+.ed CITE A:visited {color:#686860;}
+.cnvl {text-align:center;}
+.ed .cnvl A:visited {color:#002848;}
+H2 {font-weight:bold;color:#455;font-size:1.4em;padding:0.7em 0 0.6em;}
+H3 {font-weight:bold;color:#455;font-size:1.25em;padding:0.7em 0 0.2em;}
+#topcol1 H2 {padding-left:1.45em;}
+#botcol1 H2 {padding-left:1.45em;}
+#botcol2 H2 {padding-left:1.45em;}
+.drhed {color:#306830;font-weight:bold;padding-right:0.3em;}
+.moreat {background:#efd;padding:0 0.2em;border-bottom:solid 1px #ded;white-space:nowrap}
+.new {margin-left:1em;background:#a56;color:#fff;padding:1px 3px 0 4px;font-weight:bold;font-size:0.8em;position:relative;top:-0.2em;border-top:solid 1px #ecc;border-bottom:solid 1px #945;letter-spacing:1px}
+.bls {margin-left:-0.1em}
+.bls A {padding-left:0.1em}
+.bls A {padding-right:0.1em}
+.ago {color:#444;font-size:0.9em;padding-top:0.8em;}
+#topcol3 A.nfdl {font-weight:bold;margin-right:1em;line-height:1.2em}
+#topcol3 A.nfdl {color:#004860;}
+#topcol3 A.nfdl:visited {color:#a04860;}
+#topcol3 .fromsis A {margin:0;}
+.fromsis {padding:4em 0}
+#topcol2 H2 {padding-bottom:0.9em}
+#topcol3 H2 {padding-bottom:0.5em;}
+#topcol3 .fromsis H2 {padding-bottom:1.1em;}
+#topcol3 a.f {color:#555}
+#topcol3 a.f:hover {color:#555}
+#topcol3 .ii {padding-top:0.5em}
+p {padding-bottom:0.7em;}
+p A {font-weight:bold;}
+strong {font-weight:bold;font-size:1.2em;line-height:1.15em}
+.L1 {font-size:1.3em;}
+.L2 {font-size:1.4em;}
+.L3 {font-size:1.5em;letter-spacing:-0.01em;}
+.L4 {font-size:1.7em;letter-spacing:-0.02em;}
+.L5 {font-size:1.9em;letter-spacing:-0.03em;}
+.item {padding-top:0.3em;padding-bottom:1.0em;clear:both;}
+#topcol3 .item {padding:0.8em 0;}
+.clus {padding-bottom:0.5em;}
+.item {border-bottom:solid 1px #ccc;}
+.item:after {content:"";display:block;height:0;clear:both;}
+.dbpt {padding-top:0.4em;}
+.dbptb {padding:0.4em 0 0.4em;}
+.di {margin-left:1em;text-indent:-1em;padding-left:1em}
+.last {border:none;}
+.relitems {margin-bottom:1em;}
+.itc1 {padding-left:2em;}
+.relitems .itc1 {padding-left:4em;}
+.prenavbar {margin-left:2em;}
+.navbar {margin-left:2em;}
+.pagecont {margin-right:2em;}
+.itc2 {margin-left:-1em;padding-left:1em;margin-right:-1em;padding-right:1em;}
+.ill {float:right;padding:0.1em 0 0.5em 0.5em;}
+#topcol1 {float:left;width:50%;margin-top:1em;padding-right:1%;}
+#topcol23 {float:left;width:47.4%;margin-left:1.5%;}
+#topcol2 {float:left;width:66%;margin-top:1em;}
+#sponsorposts {padding:0 1em 1em;background:#f4f4f4;}
+#topcol3 {float:right;width:32%;margin-top:1em;margin-left:1.9%;}
+#botcol1 {float:left;width:46.9%;padding-right:1%;margin-bottom:2em;margin-top:1em;}
+#botcol2 {float:left;width:46.9%;padding-left:1%;margin-bottom:2em;margin-top:1em;}
+.quartercol {float:left;width:24.9%;}
+.abotcols {clear:both;width:97.5%;border-bottom:solid 2px #e8e8e8;margin-left:2.5%;padding-top:1em;margin-bottom:1em}
+.rsp {background:#f4f4f4;margin:-0.45em;padding:0.45em}
+.rsp .item {border:none}
+.itc1 .rsp {margin-bottom:0.5em;}
+.rsp .ii {padding-top:0.5em}
+.rspd {color:#777;font-weight:bold;font-size:0.9em;text-align:right;text-transform:uppercase;}
+.topline {border-bottom:solid 1px #ccc;margin-top:0.2em;line-height:1.6em}
+.topllinks {margin-top:0em;}
+.topllinks A {padding-right:1.2em;}
+.toprlinks {float:right;margin-top:0em;}
+.toprlinks A {padding-left:1.2em;}
+.fico {float:right;padding:2px 0 0 4px}
+.toplbut {float:left;padding-right:1.2em;margin-top:-1px}
+.toprbut {float:right;padding-left:1.2em;width:60px;height:30px;text-align:right;}
+.toplelt {float:left;}
+.toprelt {float:right;}
+.prenavbar A {font-size:0.85em;color:#777;}
+.prenavbar .logobox A {padding-left:0}
+.prenavbar A:link {color:#777;}
+.prenavbar A:visited {color:#777;}
+.prenavbar A:hover {text-decoration:underline;color:#000;}
+.topline img {position:relative;top:1px}
+.topline input {position:relative;left:0.9em}
+.navbar {background:#174a61;text-transform:uppercase;clear:both;line-height:1.5em;font-size:0.85em;}
+.navbar img {position:relative;top:2px}
+.navtabs span.iamhere A {background:#578aa1;color:#fff;}
+.navtabs span.iamhere A:visited {color:#fff}
+.navtabs A {padding:0.12em 0.7em;}
+.navtabs A:link {color:#ddd;}
+.navtabs A:visited {color:#ddd;}
+.navtabs A:hover {background:#578aa1;color:#fff;}
+.sisnav {float:right;}
+.sisnav A:link {color:#ddd;}
+.sisnav A:visited {color:#ddd;}
+.sisnav A:hover {color:#fff;}
+.logotab {width:100%;}
+.logotab td {vertical-align:middle}
+.logotab td {width:33%}
+td.logobox {padding:0.7em 0}
+td.datebox {text-align:center;color:#444}
+td.datebox A {padding-left:0.5em;font-weight:bold}
+td.searchbox {text-align:right}
+.dtbi {color:#555;line-height:1.3em;}
+#dateform input {width:14.5em;border:1px solid #ccc;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}
+.sbti {width:10.5em;border:1px solid #ccc;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}
+#hiring {margin:5em 0;padding:0.6em 0 0.6em 0.6em;border:solid 1px #ccc;border-bottom:solid 1px #ccc;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}
+#hiring .cnvl {padding-top:1em;}
+.cosp A:link {color:#000;}
+.cosp A:visited {color:#000;}
+.cosp A:hover {color:#000;}
+.cosp A {padding:1px}
+.cosp img {position:relative;top:2px;width:16px}
+.cosp span {font-weight:bold;}
+.cosp {padding-top:0.3em;padding-bottom:0.3em}
+.cosp {text-indent:-1.6em;padding-left:1.6em;}
+.dxd {position:absolute;margin-left:-1.6em}
+.dxd table {height:100%}
+.dxd {border:solid 1px #ccc;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;background:#f4f4f4}
+.dxd:hover {border-color:#78a}
+.dxcol {padding:7px;background:url(/ainews/images/arrd.png) no-repeat center}
+.dxcol.up {background:url(/ainews/images/arru.png) no-repeat center}
+.exm {margin-top:1em;}
+.ed .exm a {border:solid 1px #ccc;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;background:#f4f4f4;color:#777;padding:0.1em 0.3em;text-decoration:none;}
+.ed .exm a:hover {border-color:#78a}
+#sponsorposts .item {border:none;}
+#river_timeline {float:left;width:67%;margin:1em 1.9% 1em 0;}
+#river_timeline td {font-size:1.1em}
+#river_timeline CITE {font-size:0.9em}
+#river_timeline tr > td:first-child {font-size:1.0em}
+#river_timeline tr > td:first-child {width:6em;text-align:right}
+#river_timeline tr > td:first-child + td {padding-left:1.5em;text-indent:-1em}
+#river_timeline td {padding-bottom:0.5em;}
+#river_timeline H2 {padding:1.5em 0 1em}
+#river_sponsors_hiring #hiring {margin-top:2em;}
+#river_sponsors_hiring {float:right;width:31%;margin-top:1em}
+#river_sponsors_hiring H2 {padding-top:1.5em}
+#river_sponsors_hiring #hiring H2 {padding-top:0.7em}
+#lb_maincol {float:left;width:64%;margin:1em 1.9% 1em 0;}
+#lb_rightcol {float:right;width:34%;margin-top:1em}
+#lb_rightcol #hiring {margin-top:2em;}
+#lb_rightcol #sponsorposts {margin-top:2em;}
+.lbtable {padding:1.5em 1em 1em 0}
+.lbtable td {padding:0.2em 0.5em 0.1em;border-left:1px #aaa dotted;border-top:1px #aaa dotted}
+.lbtable tr > td:first-child {border-left:none}
+.lbtable tr > td:first-child {text-align:center}
+.lbh td {border-top:none}
+.lbtable tr > td:first-child + td {width:12em}
+.lbh {font-weight:bold;color:#455;font-size:1.08em;}
+#sponsorposts .ii {padding-top:0.5em}
+.shrtbl {width:100%}
+.shrtbl tr > td:first-child {vertical-align:middle}
+.shrtbl tr > td:first-child + td {text-align:right;white-space:nowrap;min-width:124px;vertical-align:middle;padding-bottom:2px}
+.shrtbl tr > td:first-child + td a {text-decoration:none !important}
+.shrtbl td {height:26px}
+.shrpml {float:right;width:32px}
+.shrpmlimg {background:white url('/img/shr.png') no-repeat 0 0;width:28px;height:20px;float:right}
+.shrpmlimg:hover {background:url('/img/shr.png') no-repeat 0 -20px !important}
+.shrfb {float:right;width:64px}
+.shrrt {float:right;width:37px}
+.shrrtimg {background:white url('/img/shr.png') no-repeat -28px 0;width:37px;height:20px;float:right}
+.shrrtimg:hover {background:white url('/img/shr.png') no-repeat -28px -20px !important}
+#newpostscounter {display:none;z-index:0;color:#679;border:solid 1px #ccc;text-align:center;padding:0.4em;margin-right:1px;font-size:0.9em;font-weight:normal;background:-webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#e4e4e4));background:-moz-linear-gradient(top, #f4f4f4, #e4e4e4);background-image:-o-linear-gradient(rgb(244,244,244),rgb(228,228,228));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#e4e4e4')}
+#newpostscounter:hover {border-color:#679;cursor:pointer}
+#topcol3 {position:relative !important}
+#countercolspaceholder {display:none}
+.spaceholdertransitions {-webkit-transition:height 0.4s ease;-moz-transition-property:height;-moz-transition-duration:0.4s;-o-transition-property:height;-o-transition-duration:0.4s}
+#countercol {z-index:10;position:relative;background-color:white;top:0}
+.countercoltransitions {-webkit-transition:top 0.4s ease;-moz-transition-property:top;-moz-transition-duration:0.4s;-o-transition-property:top;-o-transition-duration:0.4s}
+.notransitions {-webkit-transition-duration:0s !important;-moz-transition-duration:0s !important;-o-transition-duration:0s !important}
+.ditemblock {position:relative}
+.ditemexcerptcontainer {display:none;position:absolute;left:0;top:1em;padding-top:5px;z-index:100;width:225px}
+.ditemexcerpt {display:block;padding:9px 11px;border:1px solid #ccc;border-radius:8px;box-shadow:2px 2px 10px rgba(0, 0, 0, 0.2);background-color:white}
+.ditemexcerpt cite {display:block;padding-bottom:3px}
+.ditemexcerpt .excerpt {display:block;padding-bottom:3px;word-wrap:break-word}
+.intents {margin-top:8px;width:100%;border-top:1px solid #ccc}
+.intent {padding-top:6px}
+.intent a {display:block}
+.intent a:hover {text-decoration:none;background-color:transparent}
+</STYLE>
+<NOSCRIPT>
+<STYLE TYPE="text/css" MEDIA="all">
+.ifjs {display:none}
+</STYLE>
+</NOSCRIPT>
+</HEAD>
+<BODY ONLOAD="init_all();">
+<div class="pagecont">
+<DIV CLASS="prenavbar">
+<DIV CLASS="topline">
+<DIV CLASS="toprlinks">
+
+
+<span class="ifjs toplelt"><INPUT TYPE="checkbox" ID="nwcb" ONCLICK="xnwcb();"><A HREF="javascript:nwcbe.checked=!nwcbe.checked;xnwcb();">Open Links In New Tab</A></span>
+</DIV>
+<DIV CLASS="topllinks">
+<A HREF="/m" TITLE="Bzline for smartphones">Mobile</A>
+</DIV>
+</DIV>
+<table class="logotab"><tr><td class="logobox">
+<A HREF="/"><IMG SRC="http://bzline.cn/ainews/images/logo.png" HEIGHT=45 ALT="Bzline"></A>
+</td><td id="datebox" class="datebox">
+<DIV ID="thisdate">
+<SPAN ONCLICK="xdates(0,1)">2017-04-18 17:50:26</SPAN></DIV>
+
+
+</td><td class="searchbox">
+<form name="input" action="/search/query" method="get">
+<input class="sbti" type="text" name="q">
+<input type="submit" value="Search">
+<span style="display:none"><input type="checkbox" name="wm" value="false" checked="checked"></span>
+</form>
+</td></tr></table>
+</DIV>
+<DIV CLASS="navbar">
+<DIV CLASS="navtabs">
+<SPAN CLASS="iamhere"><A HREF="/" TITLE="Bzline main page">Home</A></SPAN>
+<A HREF="http://blog.bzline.cn" TITLE="Bzline's blog">Blog</A>
+<A HREF="mailto:info@bzline.cn" TITLE="Contact us">Contact Us</A>
+</DIV>
+</DIV>
+<DIV CLASS="ed">
+<DIV ID="topcol1">
+<H2>值得关注</H2>
+
+
+<!--start first news-->
+
+
+        <DIV CLASS="clus">
+
+<A NAME="a00001"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(1,true,1)" ONMOUSEOUT="overitem(1,false,1)"><DIV CLASS="itc2" ID="00001"><DIV CLASS="item" ID="1i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>晞萌 / <A HREF="http://www.leiphone.com/">www.leiphone.com</A>:</CITE>
+
+</td><td><span id="s1i1" pml="00001" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.leiphone.com/news/201704/EHV2LSPT43FrGWJQ.html"><IMG CLASS="ill" SRC="http://static.leiphone.com/uploads/new/article/pic/201704/58eb9dfea2547.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.leiphone.com/news/201704/EHV2LSPT43FrGWJQ.html">1. 谷歌研究院在化学发力：应用机器学习技术预测分子性质</A></STRONG>&nbsp; &mdash;&nbsp;谷歌研究院发表的两篇论文，推进了机器学习在化学领域的研究发展。 </DIV>
+
+
+<DIV ID="1d1">
+<DIV CLASS="dbpt">
+
+<DIV ID="1dx1" style="display:none" class="dxd"><table><tr><td class="dxcol" ONCLICK="tgd('1',true,1);"></td></tr></table></DIV>
+
+<SPAN CLASS="drhed">More:</SPAN>
+<span class="bls">
+
+
+<A HREF="https://zhuanlan.zhihu.com/p/25138515">www.zhihu.com</A>,
+
+<A HREF="http://weibo.com/xmunews?refer_flag=1001030103_">s.weibo.com</A>,
+
+
+</span>
+
+
+</DIV>
+</DIV>
+
+
+
+<DIV ID="1p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+<DIV ID="1px1" class="dxd"><table><tr><td class="dxcol up" ONCLICK="tgd('1',false,1)"></td></tr></table></DIV>
+<DIV CLASS="drhed">More:</DIV>
+
+
+
+
+<DIV CLASS="di">
+<CITE>机器之心 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://zhuanlan.zhihu.com/p/25138515">技术,在谷歌发表的一篇论文中有详细介绍(deep learning with dynamic computation graphs).以上动图演示了动态批处理运行的递归神经网络.带有同样的颜色的运算... learning with dynamic computation graphs摘要:在包括自然语言处理(解析树)与化学信息学(分...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>DeepTech深科技 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://zhuanlan.zhihu.com/p/24513049">这种平衡是一种生物化学机制,与营养有关,其中一个叫tor,另一个是胰岛素.科学家已经充分研究过这种机制了,但calico又用新技术来进一步探索.&#34;我们一直在尝试证... 说.有些人对研究进行资助因为他们想长生不老,但这同样是不现实的.提出calico设想的是谷歌风险...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>厦门大学 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/xmunews?refer_flag=1001030103_">#小夏学术#《美国化学会志》（Journal of the American Chemical Society,JACS）可以说是每个材料与化学人梦寐以求的能发一篇论文的地方。是材料与化学类杂志的龙头（谷歌学术将所有学科分为八大领域，jacs位列材料与化学大领域第一）。总引证次数和被引次数雄踞第一（远远超过第二名），这说明JACS的 ​
+			...展开全文c</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>IT之家 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/ithome?refer_flag=1001030103_">【今日谷歌涂鸦：纪念一位化学家及他的发明】今天的谷歌涂鸦是纪念一位科学家，多亏了他，我们能在雨天中保持身上干爽，他就是苏格兰化学家及发明家、防水雨衣发明者——查尔斯·麦金塔……详情点击：网页链接 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>投资脉搏网 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/imaibonet?refer_flag=1001030103_">【量子计算迎重要突破】日前谷歌研究实验室开发了一款量子计算机，能解决物理和化学领域的多种问题。其技术可以成为通用算法，从而拓展至任意的大型量子计算机。届时，对量子动力学的模拟将成为可能。三力士1月宣布发起设立量子科技产业基金；华工科技从事量子点激光器的研发和推广。 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>IT经理世界杂志 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/ceociomagazine?refer_flag=1001030103_">【谷歌开发通用量子计算机取得重要突破】过去30年，研究人员一直试图开发能解决任何计算问题的通用量子计算机。目前，来自美国加州圣芭芭拉谷歌研究实验室的科学家和西班牙的一支团队开发了一款原型设备，能解决物理和化学领域的多种问题，而未来还有可能被应用至更广泛的领域。新浪科技 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>新浪科技 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/sinatech?refer_flag=1001030103_">【谷歌开发通用量子计算机取得重要突破】过去30年，研究人员一直试图开发能解决任何计算问题的通用量子计算机。目前，来自美国加州圣芭芭拉谷歌研究实验室的科学家和西班牙的一支团队开发了一款原型设备，能解决物理和化学领域的多种问题，而未来还有可能被应用至更广泛的领域。|谷歌量子计... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>BiuBiu必优 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/ukbiubiu?refer_flag=1001030103_">【Biu新闻】今日谷歌涂鸦Google doodle - 美国化学家威尔伯·史高维尔Wilbur Scoville。他制订了度量辣椒素含量的标准- 辣度SHU，也是最早提出‘可以用牛奶来解辣’的人。在游戏中，教授不停地作死生吃辣椒，同时你要用冰激凌帮助教授解辣。世界最辣的卡羅萊納死神辣椒大魔王有156万9300SHU，试一下？ ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>果壳网 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/guokr42?refer_flag=1001030103_">【辣椒到底有多辣？你得感谢他】今天是美国化学家威尔伯·史高维尔诞辰151周年的日子，他制订了度量辣椒素含量的一项指标，称为“史高维尔辣度单位”，缩写为SHU，甜椒大概是0-5SHU，而普通辣椒能达到10,000SHU。今儿的谷歌Doodle是冰淇淋大战辣椒小游戏，你能过几关？网页链接 ​</A></DIV>
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a2"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(2,true,1)" ONMOUSEOUT="overitem(2,false,1)"><DIV CLASS="itc2" ID="2"><DIV CLASS="item" ID="2i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>腾讯科技 / <A HREF="http://tech.qq.com/">tech.qq.com</A>:</CITE>
+
+</td><td><span id="s2i1" pml="2" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://tech.qq.com/a/20170418/027264.htm"><IMG CLASS="ill" SRC="http://bzline.cn/ainews/images/top_new_00001.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://tech.qq.com/a/20170418/027264.htm">2. 微软小冰首次进驻综艺节目 揭秘其背后技术推动力</A></STRONG>&nbsp; &mdash;&nbsp;腾讯科技讯（卜祥）4月16日，湖南卫视芒果娱乐正式推出综艺新栏目《超次元偶像》，在北京举行的发布会上，微软人工智能“小冰”出现并参与互动、游戏。发布会上，小冰不仅与何炅、何冰、徐海乔等嘉宾主持调侃互动，还现场测试评价明星选手以及栏目总导演的颜值，献唱歌曲《好想你》，并联合太湖之光超级计算机运用大数据生 </DIV>
+
+
+<DIV ID="2d1">
+<DIV CLASS="dbpt">
+
+<DIV ID="2dx1" style="display:none" class="dxd"><table><tr><td class="dxcol" ONCLICK="tgd('2',true,1);"></td></tr></table></DIV>
+
+<SPAN CLASS="drhed">More:</SPAN>
+<span class="bls">
+
+
+<A HREF="https://www.zhihu.com//question/23952075">www.zhihu.com</A>,
+
+<A HREF="http://weibo.com/ithome?refer_flag=1001030103_">s.weibo.com</A>,
+
+
+</span>
+
+
+</DIV>
+</DIV>
+
+
+
+<DIV ID="2p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+<DIV ID="2px1" class="dxd"><table><tr><td class="dxcol up" ONCLICK="tgd('2',false,1)"></td></tr></table></DIV>
+<DIV CLASS="drhed">More:</DIV>
+
+
+
+
+<DIV CLASS="di">
+<CITE>梁川 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/23952075">刚好做过一个类似的产品,虽然没有那么高大上,但一些核心技术原理应该也参考意义,说一下做的思路.类似小冰这样的产品说简单也简单,说复杂也复杂.单纯从外面看你会觉得小冰与去年人人网上流行的小黄鸡类似,但在技术实现上有本质的差异. 此类应用的大致流程都...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>花生丶 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/24273642">被我调教的,不忍直视啊!!!@vczh轮子哥!你给我出来!!!小冰怎么被你调教的如此坏!!!更多截图等我上传ing你们还可以测试地问问她图灵测试的问题,哈哈哈哈,她可狡猾了</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>中一 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/39678155">同认为应该是决策树算法,且是id3算法.决策的过程就是大家都用过的排除法~(为什么不是c4.5,因为每轮只有两个选择,c4.5就退化成id3了呀^_^)装完逼了,但是我不能跑.下面是通俗的解释:具体小冰怎么猜呢?数据库中的每个人物都有许多特征,比如性别啊、国籍啊、职...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>叛逆者 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/37871406">选一张照片后,会被传到某个偏僻角落,后台一堆三哥看一眼,打个分...好吧,其实不是,但原理&#34;相同&#34;.都是&#34;机器学习&#34;.虽然不知道他具体怎么实现的,但有一条路是:1. 人脸关键点检测.在人脸上标记几十个点,作为参数化空间.这个已经很成熟了,半脸侧脸都行.microsoft ...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>Hush / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/24275735">至少我的微博也有人回复了.</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>叛逆者 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/29153886">给你看个东西-&gt;你做了个梦.你会觉得梦是它控的.这就是大数据的原理.因果不重要,相关就行.</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>张泓冰 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/23966229">真不是黑微软,所有智能语音助理其实走的是邪路,离人工智能不是越来越近,而是越来越远.之所以这么说,是因为类似的技术构架把语言当作信息而不是行为逻辑来输入,同样只能输出信息而不是输出行为,也就不可能产生真正基于行为的智能.但我们都知道,智能的内涵就...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>谭浩赟 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/34581410">重复一句话的话..</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>IT之家 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/ithome?refer_flag=1001030103_">【小冰加盟湖南卫视《超次元偶像》，人工智能抢饭碗？】4月16日下午消息，芒果娱乐今日在北京举行发布会，正式推出综艺新栏目《超次元偶像》。发布会除有何炅、何冰、徐海乔等明星助阵外，更是撞破次元壁，邀请人工智能微软小冰加盟节目 ……详情点击：网页链接 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>界面 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/wowjiemian?refer_flag=1001030103_">【升级到第四代的微软小冰会唱歌了 还打算进军虚拟歌手市场】8月5日，微软发布了升级后的第四代小冰智能机器人，经过半年密训的小冰音准与情感表达接近人类歌手。微软已与湖南卫视合作发布首支人工智能节目主题曲，9月还将推出小冰首支原创单曲，说不定在未来某天，人类歌手也要失业了。 ​
+			...展开全文c</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>网红先走我段后 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/meitixiaolaba?refer_flag=1001030103_">【微软小冰入职卫视当主播 工作效率高过真人】东方卫视日前起用了新的气象预报员小冰，她是一款人工智能可以用女性的声音播报天气，并且通过编程被注入了一种人性化的感觉。小冰的开发者是微软公司的人工智能团队，该团队希望提供一种可以回答用户问题并具有人性化的在线服务。|微软小冰入... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>参考消息 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/cankaoxiaoxi?refer_flag=1001030103_">【微软小冰入职东方卫视当主播 工作效率高过真人】东方卫视日前起用了一位新的气象预报员。她是一款人工智能，可以用女性的声音播报天气，并且通过编程被注入了一种人性化的感觉。小冰有可能在东方卫视发挥更大的作用，比如担任新闻评论员或主持娱乐脱口秀。（《华盛顿邮报》）|微软小冰入... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>SocialBeta / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/socialmediamatters?refer_flag=1001030103_">【HUNT Daily】①微软和东方卫视营销合作，用小冰机器人播报天气 ②必胜客推出第一支 Cinemagraph 电视广告 ③卡戴珊家族金大姐的 Kimoji 半天时间就登上了美国付费榜单第一名 ④熊本熊出任聚划算代言人，用「卖萌」经济对话 90 后 ⑤电影「死侍」出了一套 emoji 表情 网页链接 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>江淮气象 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/anhuiqixiang?refer_flag=1001030103_">【挤掉美女主播 微软小冰东方卫视播报天气】22日早上7点，在东方卫视的早间新闻节目《看东方》开头，播报天气的不再是前一天的真人女主播，而换成了由微软中国研发的人工智能助理@小冰 。今后小冰都将在《看东方》每逢整点播报天气的时候，替代现有的主播播报。 网页链接 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>中国气象局 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/u/2117508734?refer_flag=1001030103_">【挤掉美女主播 微软小冰东方卫视播报天气】22日早上7点，在东方卫视的早间新闻节目《看东方》开头，播报天气的不再是前一天的真人女主播，而换成了由微软中国研发的人工智能助理小冰。今后小冰都将在《看东方》每逢整点播报天气的时候，替代现有的主播播报。网页链接 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>毛毛虫zzzzz灬 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/ezbo?refer_flag=1001030103_">微软小冰“入职”东方卫视《看东方》首秀 UP主: 洪荒萧尧 #哔哩哔哩动画# @小冰 竟然都有工作了 微软小冰“... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>中国网络传播学会 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/u/1901698813?refer_flag=1001030103_">【今日微议#微软小冰与真人主播#】编者按：12月22日，微软小冰登上东方卫视，担任天气预报员。小冰作为微软的人工智能结晶，它集合了国内几亿网民的积累，依托于微软的大数据、中文语义分析、机器学习、深度神经网络等技术实现了真正意义上的人工智能。已经担任天气预报员的它在未来会取代真人主播吗？ ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>机器人圈 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/jiqirenquan?refer_flag=1001030103_">12月22日上午7点，东方卫视早新闻《看东方》栏目照常播报着每日的上海、全国天气，虽然当天的天气情况没有异常，却引起了众多媒体的关注，这是由于天气“女主播”竟然换成了微软人工智能机器人小冰。网页链接 ​</A></DIV>
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a3"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(3,true,1)" ONMOUSEOUT="overitem(3,false,1)"><DIV CLASS="itc2" ID="3"><DIV CLASS="item" ID="3i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Alex Kantrowitz / <A HREF="http://www.buzzfeed.com/">www.buzzfeed.com</A>:</CITE>
+
+</td><td><span id="s3i1" pml="3" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think"><IMG CLASS="ill" SRC="http://www.techmeme.com/170417/i12.jpg" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think">3. Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted</A></STRONG>&nbsp; &mdash;&nbsp;Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
+  —  miles away from Facebook&#39;s Menlo Park headquarters, in an old, beige office building in downtown Manhattan, a group of company employees … </DIV>
+
+
+<DIV ID="3d1">
+<DIV CLASS="dbpt">
+
+<DIV ID="3dx1" style="display:none" class="dxd"><table><tr><td class="dxcol" ONCLICK="tgd('3',true,1);"></td></tr></table></DIV>
+
+<SPAN CLASS="drhed">More:</SPAN>
+<span class="bls">
+
+
+<A HREF="https://zhuanlan.zhihu.com/p/25693690">www.zhihu.com</A>,
+
+<A HREF="http://weibo.com/u/3235040884?refer_flag=1001030103_">s.weibo.com</A>,
+
+<A HREF="http://www.jiqizhixin.com//article/2670">www.jiqizhixin.com</A>,
+
+
+</span>
+
+
+</DIV>
+</DIV>
+
+
+
+<DIV ID="3p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+<DIV ID="3px1" class="dxd"><table><tr><td class="dxcol up" ONCLICK="tgd('3',false,1)"></td></tr></table></DIV>
+<DIV CLASS="drhed">More:</DIV>
+
+
+
+
+<DIV CLASS="di">
+<CITE>DeepTech深科技 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://zhuanlan.zhihu.com/p/25693690">这背后的人工神经网络技术引领了人工智能潮流的爆发.这也是为什么谷歌和facebook能让你在图册中进行搜索,这项技术还支持了脸部识别类的新应用. 如今,人工智能领域大神级人物、facebook人工智能主管 yann lecun 表示,机器视觉的下一站将会是以自主观察世界的...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>机器之心小助手 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://zhuanlan.zhihu.com/p/23422467">选自business insider作者:sam shead机器之心编译参与:蒋思源、李泽南yann lecun是人工智能界的著名学者,现任facebook人工智能研究部门的主管.就在上周,lecun作为神经网络的先驱获得了lovie终身成就奖,business insider专访了这位来自巴黎的学者.yann lecun...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>机器之心 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://zhuanlan.zhihu.com/p/24112818">facebook 人工智能研究实验室主管 yann lecun 和 facebook 应用机器学习部门主管 joaquin quiñonero candela 发表了一篇题为《artificial intelligence, revealed》的文章,介绍了人工智能的基本概念和应用,并讨论了相关应用和研究上的未来前景.除此之外,...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>张重阳 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://zhuanlan.zhihu.com/p/25942743">2017年3月22日星期三,空气重度污染的北京迎来了人工智能领域一位重量级的嘉宾——facebook人工智能实验室主任,卷积神经网络的发明人yann lecun教授.yann lecun一行上午在中国科学院自动化研究所举行了40分钟的小型座谈会,下午在清华大学举办了&#34;深度学习与人...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>将门 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://zhuanlan.zhihu.com/p/25750919">最近,你的朋友圈是不是已被3月22日facebook人工智能研究院院长yann lecun将在清华演讲的消息刷屏了?此次讲座是由清华大学经济管理学院、清华x-lab、facebook主办,lecun教授将会带来一场2小时全新深入的对ai了解与体验.作为密切关注人工智能发展的创投机构和...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>毅马当闲 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/u/3235040884?refer_flag=1001030103_">去年底Facebook的Yann LeCun和Microsoft的沈向洋答应将参加上科大信息学院今年七月初的SIST Symposium。无独有偶，他们俩都是今年刚宣布的美国工程院的新晋院士。看来一是我们请人的眼光不错，二是国际同仁们对信息学院的支持和认可越来越高。上海七月，Big Party！ ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>新智元 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/u/5703921756?refer_flag=1001030103_">【新智元导读】昨天清华大学大礼堂迎来 Facebook 人工智能研究院院长 Yann LeCun，他就《深度学习与人工智能的未来》为题，为现场百余名听众展开了一场讲座。本文带来本次讲座的内容精华。|Yann LeCun... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>网路冷眼 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/lewhwa?refer_flag=1001030103_">【Yann LeCun清华演讲：讲述深度学习与人工智能的未来】昨日下午，Facebook人工智能研究院院长、卷积神经网络之父Yann LeCun在清华大学带来题为《深度学习与人工智能的未来》的演讲。本文据演讲内容总结而来。|Yann LeCun... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>清华大学数据科学研究院数据派 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/u/6004911042?refer_flag=1001030103_">【独家】深扒Yann LeCun清华演讲中提到的深度学习与人工智能技术（PPT+视频）LeCun现任Facebook AI研究院院长，同时他也是美国纽约大学的终身教授。他的研究兴趣包括机器学习、计算机视觉、移动机器人以及计算神经学等。他因著名且影响深远的卷积神经网络（CNN）相关的工作而被人称为CNN之父。看看他来 ​
+			...展开全文c</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>自动化网官方微博 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/51661970?refer_flag=1001030103_">【AI专家清华开讲：机器可以像人一样有创造力】近日清华大学“深度学习与人工智能的未来”公开课开讲，此公开课系《创新与创业：硅谷洞察》课程的一节。公开课邀请到Facebook #人工智能#研究院院长Yann LeCun教授主讲，他围绕 “深度学习与人工智能的未来”这一主题......网页链接 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>PaperWeekly / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/paperweekly?refer_flag=1001030103_">Predicting Deeper into the Future of Semantic Segmentation (Natalia Neverova, Pauline Luc, Camille Couprie, Jakob Verbeek, Yann LeCun) 来自Facebook AI Research给定一个语义分割过的视频序列，预测尚未观看到的帧的分割结果，可以预测短时(2秒内较准确)、中时和长时的分割结果，总体上比ba ​
+			...展开全文c</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>lixinlang9527 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/u/5499597986?refer_flag=1001030103_">Facebook AI Director Yann LeCun on His Quest to Unleash Deep Learning and Make Machines Smarter - IEEE Spectrum …网页链接 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>机器学习研究会 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/u/5639460902?refer_flag=1001030103_">【讲座】Facebook Yann LeCun邀您畅谈：深度学习与人工智能的未来 |【讲座】Fa... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>自动化网官方微博 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/51661970?refer_flag=1001030103_">【Facebook、微软人工智能“大牛”入选美国国家工程院院士】美国国家工程院公布了最新入选的84名院士和22名外籍院士名单。在今年的名单中，人工智能领域有两位著名人物入选。分别是Facebook人工智能实验室主任杨乐昆（Yann LeCun），微软全球执行副总裁沈向洋。|美国国家工... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>爱可可-爱生活 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/fly51fly?refer_flag=1001030103_">《“OK Facebook”—Why stop at assistants? Facebook has grander ambitions for modern AI | Ars Technica》by Steven Max Patterson 网页链接 《Facebook AI 野心与LeCun的小目标：拥有类人智能的对话助理》via:@新智元 |Facebook A... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>专注云计算 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/cloudgrid?refer_flag=1001030103_">【75页PPT干货教你如何预测学习替代无监督学习】日前，Facebook AI 实验室负责人、纽约年夜学教授 Yann LeCun 受邀在今年的 NIPS 年夜会揭橥主旨演讲，畅谈深度学习最近技术进展。网页链接 @江苏道法自然 @江苏环保 @下岗工人01 @-娃娃戏水- @理性思考-中药深度开发者 学习 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>机器之心 / <A HREF="http://www.jiqizhixin.com/">www.jiqizhixin.com</A>:</CITE> &nbsp; <A HREF="http://www.jiqizhixin.com//article/2670">近日，美国著名网络新闻媒体 BuzzFeed 发布了一篇对 Yann LeCun 的专题特写文章。</A></DIV>
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a4"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(4,true,1)" ONMOUSEOUT="overitem(4,false,1)"><DIV CLASS="itc2" ID="4"><DIV CLASS="item" ID="4i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>小琳哥哥 / <A HREF="http://www.jiqizhixin.com/">www.jiqizhixin.com</A>:</CITE>
+
+</td><td><span id="s4i1" pml="4" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.jiqizhixin.com//article/2667"><IMG CLASS="ill" SRC="http://www.jiqizhixin.com//data/upload/20170417/58f4b08709985.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.jiqizhixin.com//article/2667">4. 百度自动驾驶再「结盟」，高精地图、HMI技术惊艳亮相</A></STRONG>&nbsp; &mdash;&nbsp;4月17日消息，博世与百度、高德、四维图新签署基于高精地图的自动驾驶战略合作协议。 </DIV>
+
+
+<DIV ID="4d1">
+<DIV CLASS="dbpt">
+
+<DIV ID="4dx1" style="display:none" class="dxd"><table><tr><td class="dxcol" ONCLICK="tgd('4',true,1);"></td></tr></table></DIV>
+
+<SPAN CLASS="drhed">More:</SPAN>
+<span class="bls">
+
+
+<A HREF="https://www.zhihu.com//question/57676697">www.zhihu.com</A>,
+
+<A HREF="http://weibo.com/CHEYUN?refer_flag=1001030103_">s.weibo.com</A>,
+
+<A HREF="http://www.jiqizhixin.com//article/2667">www.jiqizhixin.com</A>,
+
+
+</span>
+
+
+</DIV>
+</DIV>
+
+
+
+<DIV ID="4p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+<DIV ID="4px1" class="dxd"><table><tr><td class="dxcol up" ONCLICK="tgd('4',false,1)"></td></tr></table></DIV>
+<DIV CLASS="drhed">More:</DIV>
+
+
+
+
+<DIV CLASS="di">
+<CITE>PingWest品玩 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/57676697">喊完&#34;三年商用、五年量产&#34;的口号,百度负责无人车业务的王劲还是走了作者:王飞2017年3月1日,百度通过内部邮件的方式宣布了两个大消息——百度将成立了智能驾驶事业群组(idg),由自动驾驶事业部(l4)、智能汽车事业部(l3)、车联网业务(carlifeetc.)共同组成.集...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>AreYouKiddingMe / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/37689312">百度自动驾驶都有人敢用.自动带你到福建人的医院做无痛人流.您 的车正在使用百度自动驾驶.对话框弹出:我是你爹,请选择 :a,爹!b, 确认.正在为您 自动安装:百度洗车,汽车卫士,百度修车,xx浏览器,边开车边玩的小游戏,百度影音,百度管家,百度开车助手,百度仪表盘,...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>雷感衷 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/26756771">以前也有人认为人在天上飞也是挺扯淡的,甚至90年代 大多数人认为手势操作也是 扯淡</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>炫姐姐 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://zhuanlan.zhihu.com/p/26225533">滴滴在美国成立自动驾驶实验室,英特尔收购以色列公司 mobileye,首辆自动驾驶赛车 roborace 上赛道……回想今年刚过去 3 个多月的时间里,自动驾驶业界的新动向似乎就未消停过,且到目前还呈持续高涨的状态.我们来继续说说最近发生的一些新事件:成立 1 年后,驭...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>Xtecher / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/58056204">去年5月投资1.822亿美元到大数据公司做大数据驱动(收集数据、分析数据);去年7月投资660万美元,布局3d地图;去年8月和百度一起投资1.5亿美元给激光雷达公司.单看投资额,福特在自动驾驶领域的投资已经达到十数亿美元,更是涵盖了自动驾驶技术数个关键组成部分....</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>车云网 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/CHEYUN?refer_flag=1001030103_">博世宣布，已经与百度、高德及四维图新三家中国地图供应商达成合作，共同开发，把博世道路特征Bosch Road Signature引入中国自动驾驶市场。 |博世与三家... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>亿欧 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/iyiou?refer_flag=1001030103_">【一周回顾丨人工智能行业一周大事件盘点（03.12-03.18）】值得关注事件：①英特尔153亿美元收购Mobileye；②软银投资AI创业公司ObEN；③英伟达与博世、PACCAR建立合作，推广自动驾驶技术；④百度推出AI转录应用SwiftScribe​。 |一周回顾丨... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>翠翠DixiaoCui / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/darrentsuei?refer_flag=1001030103_">知乎圆桌有关「人工智能.自动驾驶」的专题讨论已经开始，将持续约一周。我有幸与奥迪自动驾驶工程师薛神、博世自动驾驶工程师大学好友Kevin、图森互联CTO侯晓迪、乐骋汽车技术总监王飞、百度自动驾驶大牛猴哥等作为圆桌讨论嘉宾，将在一周时间内回答大家有关自动驾驶的问题。欢迎大家提问，感谢大 ​
+			...展开全文c</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>小琳哥哥 / <A HREF="http://www.jiqizhixin.com/">www.jiqizhixin.com</A>:</CITE> &nbsp; <A HREF="http://www.jiqizhixin.com//article/2667">4月17日消息，博世与百度、高德、四维图新签署基于高精地图的自动驾驶战略合作协议。</A></DIV>
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a5"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(5,true,1)" ONMOUSEOUT="overitem(5,false,1)"><DIV CLASS="itc2" ID="5"><DIV CLASS="item" ID="5i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>吴攀 / <A HREF="http://www.jiqizhixin.com/">www.jiqizhixin.com</A>:</CITE>
+
+</td><td><span id="s5i1" pml="5" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.jiqizhixin.com//article/2640"><IMG CLASS="ill" SRC="http://jiqizhixin.com/data/upload/ueditor/20170413/58ef193c3da8e.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.jiqizhixin.com//article/2640">5. 谷歌提出贝叶斯循环神经网络：优于传统RNN</A></STRONG>&nbsp; &mdash;&nbsp;谷歌研究者最近在 arXiv 上发布了一篇论文，介绍了一种新的网络：贝叶斯循环神经网络 </DIV>
+
+
+<DIV ID="5d1">
+<DIV CLASS="dbpt">
+
+<DIV ID="5dx1" style="display:none" class="dxd"><table><tr><td class="dxcol" ONCLICK="tgd('5',true,1);"></td></tr></table></DIV>
+
+<SPAN CLASS="drhed">More:</SPAN>
+<span class="bls">
+
+
+<A HREF="http://www.jiqizhixin.com//article/2640">www.jiqizhixin.com</A>,
+
+<A HREF="http://weibo.com/synced?refer_flag=1001030103_">s.weibo.com</A>,
+
+<A HREF="https://zhuanlan.zhihu.com/p/21480232">www.zhihu.com</A>,
+
+
+</span>
+
+
+</DIV>
+</DIV>
+
+
+
+<DIV ID="5p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+<DIV ID="5px1" class="dxd"><table><tr><td class="dxcol up" ONCLICK="tgd('5',false,1)"></td></tr></table></DIV>
+<DIV CLASS="drhed">More:</DIV>
+
+
+
+
+<DIV CLASS="di">
+<CITE>吴攀 / <A HREF="http://www.jiqizhixin.com/">www.jiqizhixin.com</A>:</CITE> &nbsp; <A HREF="http://www.jiqizhixin.com//article/2640">谷歌研究者最近在 arXiv 上发布了一篇论文，介绍了一种新的网络：贝叶斯循环神经网络</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>机器之心synced / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/synced?refer_flag=1001030103_">谷歌提出贝叶斯循环神经网络：优于传统RNN 网页链接 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>北大新媒体 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/looooker?refer_flag=1001030103_">【新技术帮助AI更快识别目标】Gamalon公司的新技术“贝叶斯程序合成”（BPS）可使AI深度学习的进程提升100倍，并称远比谷歌基于机器学习的AI机智。例如，谷歌AI无法同时识别两个不同的目标，BPS系统却可以在有多个对象干扰的情况下同时锁定指定的多个目标。传统的机器学习要求AI进行至少500个训练案例 ​
+			...展开全文c</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>数盟社区 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/DataScientistUnion?refer_flag=1001030103_">学界 | 谷歌提出深度概率编程语言Edward：融合了贝叶斯、深度学习和概率编程网页链接 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>阿里巴巴数据仓库 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/alidw?refer_flag=1001030103_">#数据挖掘资讯# 3-3【一些机器学习在线资料】 前CMU机器学习系教授Andrew Moore在跳槽去当谷歌匹兹堡主管前，写了一系列相当棒的统计数据挖掘教程：包括决策树，信息论，概率基础，贝叶斯网络，隐变量模型，统计学习理论，经典AI算法等 |Statistica... ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>善科网 / <A HREF="http://s.weibo.com/">s.weibo.com</A>:</CITE> &nbsp; <A HREF="http://weibo.com/u/2621600632?refer_flag=1001030103_">【善科文库：贝叶斯规则推进无人驾驶汽车】谷歌无人驾驶汽车走街串巷上万公里毫无事故！从摄像头、雷达传感器等收集的海量数据， 可帮助无人驾驶汽车作出正确判断。你知不知道，这种快速判断能力源于18世纪的一条数学 定理——贝叶斯公式。网页链接 ​</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>Bruce Lan / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://zhuanlan.zhihu.com/p/21480232">能够从原始数据当中生成自己的理解解决一些复杂问题从而提升谷歌的产品将软件工程的工作量最小化尽可能的推进我们最先进的技术海量的数据文本:英语+其他语言... 11.7%错误率词语包+词向量+更多调整工具:11.1%错误率词语包+二元语法+贝叶斯算法:9%错误率语句...</A></DIV>
+
+
+
+<DIV CLASS="di">
+<CITE>陆君慨 / <A HREF="https://www.zhihu.com/">www.zhihu.com</A>:</CITE> &nbsp; <A HREF="https://www.zhihu.com//question/39902308">从算法上来说,谷歌和facebook的大致思路是相同的,都放弃了单纯的神经网络,而是利用神经网络来优化传统的mcts(蒙特卡罗树搜索).mcts是06年提出的,第一次... 虽然zen和crazystone都另外采用了一定的机器学习算法(由于他们不公开,个人推测是提取特征的贝叶斯学...</A></DIV>
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+
+<!---end all news-->
+</DIV> <!--end topcol1-->
+
+
+<DIV ID="topcol23">
+<DIV ID="topcol2">
+
+<DIV ID="sponsorposts">
+<H2>技术动态</H2>
+
+
+
+<DIV CLASS="item">
+<CITE><A HREF="http://blog.bzline.cn">Computer Vision</A>:</CITE>
+<DIV CLASS="ii"><A HREF="http://imgur.com/AXYduYT"><IMG CLASS="ill" SRC="http://www.bzline.cn/ainews/images/tech_trends_00001.png"></A>
+<STRONG CLASS="L1"><A HREF="http://imgur.com/AXYduYT">1. 人工智能有哪些误区</A></STRONG>&nbsp; &mdash;&nbsp; Russell 是加州大学伯克利分校人工智能系统中心创始人兼计算机科学专业教授，同时还是人工智能领域里「标准教科书」《人工智能：一种现代方法》作者（谷歌研究主管 Peter Norvig 也是该书作者）。在这篇文章中，他以 Q&amp;A 的方式讲解了人工智能的未来以及常见的误解</DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE><A HREF="http://blog.bzline.cn">Computer Vision</A>:</CITE>
+<DIV CLASS="ii"><A HREF="http://imgur.com/AXYduYT"><IMG CLASS="ill" SRC="http://www.bzline.cn/ainews/images/tech_trends_00001.png"></A>
+<STRONG CLASS="L1"><A HREF="http://imgur.com/AXYduYT">2. 人工智能有哪些误区</A></STRONG>&nbsp; &mdash;&nbsp; Russell 是加州大学伯克利分校人工智能系统中心创始人兼计算机科学专业教授，同时还是人工智能领域里「标准教科书」《人工智能：一种现代方法》作者（谷歌研究主管 Peter Norvig 也是该书作者）。在这篇文章中，他以 Q&amp;A 的方式讲解了人工智能的未来以及常见的误解</DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE><A HREF="http://blog.bzline.cn">Computer Vision</A>:</CITE>
+<DIV CLASS="ii"><A HREF="http://imgur.com/AXYduYT"><IMG CLASS="ill" SRC="http://www.bzline.cn/ainews/images/tech_trends_00001.png"></A>
+<STRONG CLASS="L1"><A HREF="http://imgur.com/AXYduYT">3. 人工智能有哪些误区</A></STRONG>&nbsp; &mdash;&nbsp; Russell 是加州大学伯克利分校人工智能系统中心创始人兼计算机科学专业教授，同时还是人工智能领域里「标准教科书」《人工智能：一种现代方法》作者（谷歌研究主管 Peter Norvig 也是该书作者）。在这篇文章中，他以 Q&amp;A 的方式讲解了人工智能的未来以及常见的误解</DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE><A HREF="http://blog.bzline.cn">Computer Vision</A>:</CITE>
+<DIV CLASS="ii"><A HREF="http://imgur.com/AXYduYT"><IMG CLASS="ill" SRC="http://www.bzline.cn/ainews/images/tech_trends_00001.png"></A>
+<STRONG CLASS="L1"><A HREF="http://imgur.com/AXYduYT">4. 人工智能有哪些误区</A></STRONG>&nbsp; &mdash;&nbsp; Russell 是加州大学伯克利分校人工智能系统中心创始人兼计算机科学专业教授，同时还是人工智能领域里「标准教科书」《人工智能：一种现代方法》作者（谷歌研究主管 Peter Norvig 也是该书作者）。在这篇文章中，他以 Q&amp;A 的方式讲解了人工智能的未来以及常见的误解</DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE><A HREF="http://blog.bzline.cn">Computer Vision</A>:</CITE>
+<DIV CLASS="ii"><A HREF="http://imgur.com/AXYduYT"><IMG CLASS="ill" SRC="http://www.bzline.cn/ainews/images/tech_trends_00001.png"></A>
+<STRONG CLASS="L1"><A HREF="http://imgur.com/AXYduYT">5. 人工智能有哪些误区</A></STRONG>&nbsp; &mdash;&nbsp; Russell 是加州大学伯克利分校人工智能系统中心创始人兼计算机科学专业教授，同时还是人工智能领域里「标准教科书」《人工智能：一种现代方法》作者（谷歌研究主管 Peter Norvig 也是该书作者）。在这篇文章中，他以 Q&amp;A 的方式讲解了人工智能的未来以及常见的误解</DIV>
+</DIV>
+
+
+
+<div CLASS="cnvl">
+<A HREF="http://blog.bzline.cn">More...</A>
+</div>
+</DIV>
+<DIV ID="hiring">
+<H2>Who's Hiring In Tech?</H2>
+
+
+
+
+
+<DIV CLASS="cosp"><A HREF="bzline.cn"><IMG CLASS="down2" WIDTH=16 SRC="http://bzline.cn/ainews/images/hiring_000001.png"><SPAN>1. Bzline</SPAN>: The Best Place to Play,Connect anything. Change everything.</A></DIV>
+
+
+
+<DIV CLASS="cosp"><A HREF="bzline.cn"><IMG CLASS="down2" WIDTH=16 SRC="http://bzline.cn/ainews/images/hiring_000001.png"><SPAN>2. Bzline</SPAN>: The Best Place to Play,Connect anything. Change everything.</A></DIV>
+
+
+
+<DIV CLASS="cosp"><A HREF="bzline.cn"><IMG CLASS="down2" WIDTH=16 SRC="http://bzline.cn/ainews/images/hiring_000001.png"><SPAN>3. Bzline</SPAN>: The Best Place to Play,Connect anything. Change everything.</A></DIV>
+
+
+
+<DIV CLASS="cosp"><A HREF="bzline.cn"><IMG CLASS="down2" WIDTH=16 SRC="http://bzline.cn/ainews/images/hiring_000001.png"><SPAN>4. Bzline</SPAN>: The Best Place to Play,Connect anything. Change everything.</A></DIV>
+
+
+
+<DIV CLASS="cosp"><A HREF="bzline.cn"><IMG CLASS="down2" WIDTH=16 SRC="http://bzline.cn/ainews/images/hiring_000001.png"><SPAN>5. Bzline</SPAN>: The Best Place to Play,Connect anything. Change everything.</A></DIV>
+
+
+
+
+</DIV>
+</DIV>
+
+<DIV ID="topcol3">
+<DIV id="newpostscounter" onclick="window.location.href=window.location.pathname;"></DIV>
+<DIV id="countercolspaceholder">&nbsp;</DIV>
+<DIV id="countercol">
+
+<H2>行业应用</H2>
+
+
+
+<DIV CLASS="item">
+<CITE>1. 寒武纪 / 智能芯片:</CITE><BR>
+<DIV CLASS="ii"><A CLASS="nfdl ourh" HREF="http://www.cambricon.com">寒武纪科技是全球智能芯片领域的先行者，宗旨是打造各类智能云服务器、智能终端以及智能机器人的核心处理器芯片。</A></DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE>2. 格灵深瞳 / 计算机视觉:</CITE><BR>
+<DIV CLASS="ii"><A CLASS="nfdl ourh" HREF="http://www.deepglint.com">格灵深瞳是一家将计算机视觉和深度学习技术应用于商业领域的科技公司，自主研发的深瞳技术在人和车的检测、跟踪与识别方面居于世界领先水平。公司借助海量数据，让计算机像人一样看懂这个世界，实时获取自然世界正在发生的一切，打造自然世界的搜索引擎。</A></DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE>3. Face++旷视科技 / 人脸识别:</CITE><BR>
+<DIV CLASS="ii"><A CLASS="nfdl ourh" HREF="https://www.megvii.com">北京旷视科技有限公司是一家专注机器视觉和人工智能的极客技术公司，打造领先的人脸识别，图像识别，和深度学习技术服务云平台。旷视科技将致力于“先让机器看懂世界，再让机器真正思考”</A></DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE>4. 图森 / 自动驾驶:</CITE><BR>
+<DIV CLASS="ii"><A CLASS="nfdl ourh" HREF="http://www.tusimple.com">北京图森未来科技有限公司是一家科技创新企业,专注于人工智能和计算机视觉技术的研发与应用。公司成立于2015年, 工程及商业化团队位于中国北京,核心算法研究院位于美国圣地亚哥</A></DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE>5. 商汤科技 / 计算机视觉:</CITE><BR>
+<DIV CLASS="ii"><A CLASS="nfdl ourh" HREF="http://www.sensetime.com">专注于计算机视觉和深度学习原创技术</A></DIV>
+</DIV>
+
+
+
+
+<div CLASS="cnvl">
+<A HREF="http://blog.bzline.cn/blog/2017/03/16/yu-ren-gong-zhi-neng-xiang-guan-de-chuang-ye-gong-si-huo-tuan-dui/">More...</A>
+</div>
+
+</DIV>
+</DIV>
+<STYLE TYPE="text/css" MEDIA="all">
+.evhed {padding-top:1em;border-top:#174a61 solid 2px}
+#events H2 {padding-bottom:0.9em}
+#events {width:96%;float:left}
+#events {margin-top:1em;padding:1em;background:#f4f4f4;}
+#events a:visited {color:#002848;}
+#events a {color:#000}
+#events a:visited {color:#000}
+#events a div {float:left}
+#events a > div:first-child {width:18%;padding-right:2%}
+#events a > div:first-child + div {width:46%;padding-right:2%;font-weight:bold;}
+#events .nf a > div:first-child + div {font-weight:normal;}
+#events a > div:first-child + div + div {width:31.9%;color:#444}
+#events .ne {clear:both;}
+#events .rhov {float:left;width:100%;padding:0.3em 0;}
+#events .rhov:hover {text-decoration:underline;background:#d0e8f4;}
+#events .ne .rhov {border-top:solid 1px #ccc;}
+#events .featured .rhov {background:#ffd;padding:0.5em 0;}
+#events .featured span {float:right;background:#a56;color:#fff;font-size:0.8em;padding:0.2em 0.2em 0;margin-bottom:0.1em;margin-top:-0.1em;border-top:solid 1px #ecc;border-bottom:solid 1px #945;}
+#events .featured .rhov:hover {background:#d0e8f4}
+#events .efoot {font-weight:bold;width:100%}
+#events .efoot A {color:#802848;}
+#events .efoot A:visited {color:#802848;}
+#events .efoot {clear:both;padding:1.2em 0 0}
+#events .efoot .fn1 {float:left}
+#events .efoot .fn2 {width:33%;margin:0 auto;}
+#events .efoot .fn3 {float:right}
+</STYLE>
+<DIV ID="events">
+<H2>Upcoming Tech Events</H2>
+
+
+<div class="ne"><div class="rhov"><a href="bzline.cn"><div>1. April 7 - 10</div><div>Black Hat USA</div><div>Shanghai</div></a></div></div>
+
+<div class="ne"><div class="rhov"><a href="bzline.cn"><div>2. April 7 - 10</div><div>Black Hat USA</div><div>Shanghai</div></a></div></div>
+
+<div class="ne"><div class="rhov"><a href="bzline.cn"><div>3. April 7 - 10</div><div>Black Hat USA</div><div>Shanghai</div></a></div></div>
+
+<div class="ne"><div class="rhov"><a href="bzline.cn"><div>4. April 7 - 10</div><div>Black Hat USA</div><div>Shanghai</div></a></div></div>
+
+<div class="ne"><div class="rhov"><a href="bzline.cn"><div>5. April 7 - 10</div><div>Black Hat USA</div><div>Shanghai</div></a></div></div>
+
+
+
+</DIV>
+</DIV>
+
+<DIV CLASS="navbar">
+<DIV CLASS="navtabs">
+<DIV CLASS="sisnav">
+</DIV>
+<A HREF="/" TITLE="bzline copyright">© 2017 Bzline. All rights reserved. | 沪备ICP 15032174 | 沪公网安备 31011202003624号</A>
+</DIV>
+</DIV>
+</div>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-433897-4");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</BODY>
+</HTML>
