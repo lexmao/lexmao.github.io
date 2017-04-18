@@ -1,0 +1,2291 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>RatioClub, AI's News</TITLE>
+<META NAME="description" CONTENT="The essential ai tech news of the moment. Technology's news site of record. Not for dummies." />
+<META NAME="application-name" content="RatioClub" />
+<LINK REL="SHORTCUT ICON" HREF="/img/favicon.ico" />
+<link rel="image_src" href="/images/iicon.gif" />
+<link rel="apple-touch-icon" href="/images/iicon.gif" />
+<META HTTP-EQUIV="Expires" CONTENT="now">
+<SCRIPT TYPE="text/javascript">
+<!--
+var nwcbe;
+function rnwcb() {
+var where;
+if (nwcbe.checked)
+where = "_blank";
+else
+where = "_self";
+var jump_prefix = location.href.substring(0, location.href.length - location.hash.length) + '#';
+for (var i=0; i<=(document.links.length-1); i++) {
+var href = document.links[i].href;
+if ((href.indexOf("javascript:") != 0) && (href.indexOf(jump_prefix) != 0) && (!(/^https?:\/\/([a-z]+\.)?lexmao\.com\//.test(href)) || /^https?:\/\/([a-z]+\.)?lexmao\.com\/goto/.test(href))) {
+document.links[i].target = where;
+}
+}
+}
+var ckd;
+function set_ckd() {
+var dd = document.domain;
+if (dd) {
+var da = dd.split('.');
+var rd=da[da.length-2]+'.'+da[da.length-1];
+ckd='; domain=.'+rd;
+}
+}
+function createCookie(name,value) {
+document.cookie = name+"="+value+"; expires=Tue, 19 Jan 2038 03:14:07 GMT; path=/"+ckd;
+}
+function eraseCookie(name) {
+document.cookie = name+"=; expires=Thu, 01-Jan-70 00:00:01 GMT; path=/"+ckd;
+}
+function svprefs() {
+var cookie_val = '';
+if (nwcbe.checked) {
+cookie_val += 'new_window';
+}
+if (cookie_val == '') {
+eraseCookie('myprefs');
+} else {
+createCookie('myprefs', cookie_val);
+}
+}
+function readCookie(name) {
+var nameEQ = name + "=";
+var ca = document.cookie.split(';');
+for(var i=0;i < ca.length;i++) {
+var c = ca[i];
+while (c.charAt(0)==' ') c = c.substring(1,c.length);
+if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+}
+return null;
+}
+function rdprefs() {
+var cookie_val = readCookie('myprefs');
+nwcbe.checked = false;
+if (cookie_val) {
+var va = cookie_val.split('+');
+for(var i=0;i < va.length;i++) {
+var val = va[i];
+if (val == 'new_window') {
+nwcbe.checked = true;
+}
+}
+}
+}
+function xnwcb() { rnwcb(); svprefs(); }
+function getBgColor(e) {
+if (e.currentStyle)
+return e.currentStyle.backgroundColor;
+if (window.getComputedStyle) {
+var eStyle=window.getComputedStyle(e,'');
+if (eStyle)
+return eStyle.getPropertyValue('background-color');
+}
+return '#ffffff';
+}
+function hacky_grayscale (c) {
+if (c.substr(0, 4) === 'rgb(') {
+return c.substr(4).split(',',1)[0];
+} else if (c.substr(0,1) === '#') {
+return parseInt(c.substr(1,2), 16);
+}
+return 255;
+}
+var h_t;
+var h_e;
+var hoc;
+var hog;
+var hor;
+function h(id,phase) {
+if (id) {
+unh();
+h_e = document.getElementById(id);
+hoc = getBgColor(h_e);
+hog = hacky_grayscale(hoc);
+hor = 'rgb('+hog+','+hog+',';
+h(0,1);
+} else if (phase < 6) {
+h_e.style.backgroundColor=hor+(hog-phase*16)+')';
+h_t = setTimeout('h(0,'+(phase+1)+')',100);
+} else if (phase < 12) {
+h_e.style.backgroundColor=hor+(hog-6*16+(phase-6)*16)+')';
+var tms = 100;
+if (phase == 6) { tms = 1000; }
+h_t = setTimeout('h(0,'+(phase+1)+')',tms);
+} else if (phase == 12) {
+h_e.style.backgroundColor = hoc;
+h_t=null;
+}
+}
+function unh(id,phase) {
+if (h_t != null) {
+clearTimeout(h_t);
+h_e.style.backgroundColor = hoc;
+}
+}
+function sd(id,d) {
+var e = document.getElementById(id);
+e.style.display = d;
+}
+function td(id) {
+var e = document.getElementById(id);
+if (e.style.display == 'none') {
+e.style.display = 'block';
+} else {
+e.style.display = 'none';
+}
+}
+function xdates(ko,nh) {
+var tde = document.getElementById('thisdate');
+var dbe = document.getElementById('dateform');
+if (ko || (dbe.style.display == 'none')) {
+if (!nh) { h('datebox'); }
+tde.style.display = 'none';
+dbe.style.display = 'block';
+} else {
+unh();
+tde.style.display = 'block';
+dbe.style.display = 'none';
+}
+}
+function iPadiPhone() {
+return navigator.userAgent.match(/iPad|iPhone/i);
+}
+function replaceShareHandlers() {
+function handler(cn,p,ii) {
+return function(e) {
+if (!e) var e = window.event;
+overitem(cn,p,ii,e);
+};
+}
+var elements = document.getElementsByClassName('itc1');
+for (var i=0; i<elements.length; i++) {
+if (elements[i].getElementsByClassName('rsp').length == 0) { // we're not in a sponsor post
+id = elements[i].getElementsByClassName('item')[0].getAttribute('ID').split('i');
+elements[i].onmouseover = handler(id[0], true, id[1]);
+elements[i].onmouseout = handler(id[0], false, id[1]);
+}
+}
+}
+function overitem(cn, p, ii, e) {
+if (e && (e.target.tagName == "A") && iPadiPhone())
+return;
+var dxe = document.getElementById(cn + 'dx' + ii);
+if (dxe) {
+if (p) {
+var de = document.getElementById(cn + 'd' + ii);
+dxe.style.height=de.offsetHeight+'px';
+dxe.style.display = 'block';
+} else {
+dxe.style.display = 'none';
+}
+}
+}
+
+
+function tgd(cnum, p, inum) {
+var setd, setp;
+if (p) { setp = 'block'; setd = 'none'; }
+else { setp = 'none'; setd = 'block'; }
+var i, ei;
+if (inum) {
+i=inum; ei=inum;
+} else {
+i=1; ei=-1;
+document.getElementById(cnum+'dxr').style.display = setd;
+document.getElementById(cnum+'pxr').style.display = setp;
+}
+while (true) {
+var ie = document.getElementById(cnum+'i'+i);
+if (ie == null) { break; }
+var pe = document.getElementById(cnum+'p'+i);
+if (pe) {
+var de = document.getElementById(cnum+'d'+i);
+pe.style.display = setp;
+de.style.display = setd;
+if (p) {
+document.getElementById(cnum+'px'+i).style.height = pe.offsetHeight+'px';
+} else {
+if (inum) {
+document.getElementById(cnum+'dx'+i).style.height = de.offsetHeight+'px';
+} else {
+document.getElementById(cnum+'dx'+i).style.display = 'none';
+}
+}
+}
+if (i == ei) { break; }
+i++;
+}
+if (!p && !inum) {
+document.getElementById(cnum+'i'+1).scrollIntoView();
+}
+}
+var baseFeedTime = 1491028505000;var pgrdad='2017-04-18 21:13:24';
+var m2_ead='170401/h0235';
+var curr_yy=17;
+var min_mod=5;
+var lb_ead='170401';
+
+var m1_sad_d='September 12, 2005';
+var m1_sad='050912/h0000';
+var m2_sad=m1_sad;
+var arrt='http://lexmao.com/';
+function godate(d) {
+d = d.replace(/a\.?m/i, ' am');
+d = d.replace(/p\.?m/i, ' pm');
+var pa=new Array(/^jan/i,/^feb/i,/^mar/i,/^apr/i,/^may/i,/^jun/i,/^jul/i,/^aug/i,/^sep/i,/^oct/i,/^nov/i,/^dec/i);
+var fa = d.split(/[^a-zA-Z0-9]+/g);
+for(var i=0;i<12;i++) {
+if (fa[0].match(pa[i])) {
+var ip1 = i+1;
+fa[0] = ip1+'';
+}
+}
+var em='Sorry, no archives exist prior to '+m1_sad_d;
+var tpyy;
+if (fa.length==2) {
+fa[2] = curr_yy+'';
+tpyy=((100+curr_yy-1)+'').substring(1,3);
+}
+if (fa[2] > 1900) {
+if (fa[2] < 2001) {
+alert(em);
+return;
+}
+fa[2] = fa[2].substring(2,4);
+} else if (fa[2] > 80) {
+alert(em);
+return;
+}
+var h,m;
+if (fa[3]=='0' || fa[3]=='00' || (fa[0]>=1 && fa[3]<=23)) {
+h=parseInt(fa[3],10);
+m=parseInt(fa[4],10);
+if (!m) { m=0; }
+} else {
+h=20;
+m=0;
+}
+m=m-m%min_mod;
+if ((fa[4]=='pm'||fa[5]=='pm') && h<12) {
+h+=12;
+} else if ((fa[4]=='am'||fa[5]=='am') && h==12) {
+h=0;
+}
+fa[3]=h+'';
+fa[4]=m+'';
+if (
+(fa[0]>=1 && fa[0]<=12) &&
+(fa[1]>=1 && fa[1]<=31) &&
+(fa[2]>=1 && fa[2]<=curr_yy) &&
+(fa[4]>=0 && fa[4]<=59)
+) {
+for(var i=0;i<fa.length;i++) {
+var f=fa[i];
+if (f.length < 2) {
+fa[i]='0'+f;
+}
+}
+var m2_ad=fa[2]+fa[0]+fa[1]+'/h'+fa[3]+fa[4];
+var m1_ad;
+if ((m2_ad > m2_ead) && tpyy) {
+m2_ad=tpyy+m2_ad.substr(2,m2_ad.length);
+m1_ad=tpyy;
+} else {
+m1_ad=fa[2];
+}
+m1_ad=m1_ad+'/'+fa[0]+'/'+fa[1]+'/';
+if (m2_ad > m2_ead) {
+alert("Sorry, no page exists yet for that date");
+} else if (m2_ad < m1_sad) {
+alert(em);
+} else if (m2_ad < m2_sad) {
+location = arrt+m1_ad;
+} else {
+location = arrt+m2_ad;
+}
+} else {
+alert('Please use this format:  '+pgrdad);
+}
+}
+var arrt='http://lexmao.com/';
+var nowrd='(none)';
+var lb_sad_d='September 30, 2007';
+var lb_sad='070930';
+function lbgodate(d) {
+d = d.replace(/a\.?m/i, ' am');
+d = d.replace(/p\.?m/i, ' pm');
+var pa=new Array(/^jan/i,/^feb/i,/^mar/i,/^apr/i,/^may/i,/^jun/i,/^jul/i,/^aug/i,/^sep/i,/^oct/i,/^nov/i,/^dec/i);
+var fa = d.split(/[^a-zA-Z0-9]+/g);
+for(var i=0;i<12;i++) {
+if (fa[0].match(pa[i])) {
+var ip1 = i+1;
+fa[0] = ip1+'';
+}
+}
+var em='Sorry, no leaderboards exist prior to '+lb_sad_d;
+var tpyy;
+if (fa.length==2) {
+fa[2] = curr_yy+'';
+tpyy=((100+curr_yy-1)+'').substring(1,3);
+}
+if (fa[2] > 1900) {
+if (fa[2] < 2001) {
+alert(em);
+return;
+}
+fa[2] = fa[2].substring(2,4);
+} else if (fa[2] > 80) {
+alert(em);
+return;
+}
+if ((fa[0]>=1 && fa[0]<=12) &&
+(fa[1]>=1 && fa[1]<=31) &&
+(fa[2]>=1 && fa[2]<=curr_yy)
+) {
+for(var i=0;i<fa.length;i++) {
+var f=fa[i];
+if (f.length < 2) {
+fa[i]='0'+f;
+}
+}
+var lb_ad=fa[2]+fa[0]+fa[1];
+if ((lb_ad > lb_ead) && tpyy) {
+lb_ad=tpyy+lb_ad.substr(2,lb_ad.length);
+}
+if (lb_ad > lb_ead) {
+alert("Sorry, no leaderboards exist yet for that date");
+} else if (lb_ad < lb_sad) {
+alert(em);
+} else {
+location = arrt+lb_ad+'/lb';
+}
+} else {
+alert('Please use this format:  '+nowrd);
+}
+}
+function tlbrows(id) {
+var bhe=document.getElementById(id+'_hide_button');
+var bse=document.getElementById(id+'_show_button');
+var set_rows;
+if (bhe.style.display == 'none') {
+set_rows='';
+bse.style.display='none';
+} else {
+set_rows='none';
+bse.style.display='';
+}
+bhe.style.display=set_rows;
+var t=document.getElementById(id);
+var oRows = t.getElementsByTagName('tr');
+var iRowCount = oRows.length;
+var i;
+for(i=11;i<iRowCount;i++) {
+t.rows[i].style.display=set_rows;
+}
+if (set_rows == 'none') {
+document.getElementById('a'+id).scrollIntoView();
+}
+}
+function hhash() {
+var a=location.hash;
+if (a) {
+var i;
+if (a.substring(1,2) === 'a') {
+i=a.substring(2,a.length);
+} else {
+i=a.substring(1);
+}
+var je = document.getElementById(i);
+if (je) {
+je.scrollIntoView();
+h(i);
+}
+}
+}
+var TdTD = 400;
+var TnTB = 700;
+var TwTSE = 200;
+var TnOE = 3;
+var TwTBE = 0;
+var TwTCD = 150;
+var TsTS = '/do/lc';
+var TeTD = Number.MAX_VALUE;
+var TgETD = false;
+var TdE = new Array();
+var TE = function() {
+this.Tx = false;
+this.Ts = 0;
+this.Td = 0;
+this.toString = function() {
+return this.Ts + " " + this.Td;
+}
+}
+TE.Tc = function (a,b) {
+return a.Td - b.Td
+}
+var TcE_ = null;
+function TgXMLHR() {
+var Tx = false;
+if (window.XMLHttpRequest) {
+Tx = new XMLHttpRequest();
+} else {
+try
+{
+Tx = new ActiveXObject("Msxml2.XMLHTTP");
+}
+catch (ev)
+{
+try
+{
+Tx = new ActiveXObject("Microsoft.XMLHTTP");
+}
+catch (ev)
+{
+Tx = false;
+}
+}
+}
+return Tx;
+}
+function TeD() {
+TcE_ = new TE();
+TcE_.Tx = TgXMLHR();
+}
+function TeC() {
+if (TcE_.Tx.readyState == 4 && TcE_.Tx.status == 200) {
+TcE_.Td = new Date().getTime() -  TcE_.Ts;
+TdE.push(TcE_);
+if (TdE.length < TnOE)
+setTimeout("TeD()", TwTBE);
+else
+TcED();
+}
+}
+function TcED() {
+TdE.sort(TE.Tc);
+TeTD = TdE[Math.floor(TnOE/2)].Td + TwTCD;
+TgETD= true;
+}
+function Tt(link) {
+if (isSafari() && TgETD && TeTD <= TdTD)
+{
+var TtD = TeTD;
+var Tx = TgXMLHR();
+if (Tx) {
+Tx.open('POST', TsTS+'?tm=false&href='+encodeURIComponent(link.href)+'&data='+TtD_(TtD),false);
+Tx.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+Tx.send(null);
+}
+}
+else if (!(TgETD && (TeTD >= TnTB)))
+{
+var TtD;
+if (!TgETD || (TgETD && (TeTD > TdTD)))
+TtD = TdTD;
+else
+TtD = TeTD;
+var Tx = TgXMLHR();
+if (Tx) {
+Tx.open('POST', TsTS+'?tm=false&href='+encodeURIComponent(link.href)+'&data='+TtD_(TtD),true);
+Tx.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+Tx.send(null);
+var TcT = new Date();
+TeT = TcT.getTime() + TtD;
+while (TcT.getTime() < TeT)
+TcT = new Date();
+if (Tx.readyState != 4)
+Tx.abort();
+}
+}
+}
+function isSafari() {
+return ((navigator.appCodeName + navigator.appName + navigator.appVersion).search(/safari/i) != -1);
+}
+function TtD_(TtD) {
+var data =
+pgrdad + " " +
+TdTD + " " +
+TnTB + " " +
+TwTSE + " " +
+TnOE + " " +
+TwTBE + " " +
+TwTCD + " " +
+TeTD + " " +
+TgETD + " " +
+"(" + TdE + ") " +
+isSafari() + " " +
+TtD;
+return data;
+}
+function TiLTT() {
+var jump_prefix = location.href.substring(0, location.href.length - location.hash.length) + '#';
+for (var i=0; i<=(document.links.length-1); i++) {
+var href = document.links[i].href;
+if ((href.indexOf("javascript:") != 0) && (href.indexOf(jump_prefix) != 0))
+document.links[i].onclick = function(){Tt(this)};
+}
+}
+
+
+
+
+
+
+var NTptpssd = 40*1000;
+var NTpsl = 3*60*1000 + 30*1000;
+var NTppds = 30*1000;
+var NTrtdpsa = 15*60*1000;
+var NTpssr = 20*1000;
+var NTvn = document.title;
+function NTgxhro() {
+if (window.XMLHttpRequest) {
+return new XMLHttpRequest();
+} else if(window.ActiveXObject) {
+return new ActiveXObject("Microsoft.XMLHTTP");
+}
+}
+var NTlft;
+var NTnpc = 0;
+var NTnpcial = false;
+var NTnpcs = false;
+var NTpsst;
+var NTdps = false;
+var NTnpcr = NTgxhro();
+var NTnpcrt;
+var NTnpcrti =  10*1000;
+function NTsnpcps() {
+NTpsst = (new Date()).getTime();
+NTfnpc();
+}
+function NTfnpc() {
+NTnpcr.open("GET","/feedsmanager/ps?t=" + baseFeedTime, true);
+NTnpcr.onreadystatechange = NThnpcrsc;
+NTnpcr.send(null);
+NTnpcrt = setTimeout(NTnpcrt_, NTnpcrti);
+}
+function NThnpcrsc() {
+if (NTnpcr.readyState == 4) {
+clearTimeout(NTnpcrt);
+if (NTnpcr.status == 200) {
+try {
+var NTr = eval("(" + NTnpcr.responseText + ")");
+if (!NTr.error && NTr.time > NTlft) {
+NTlft = NTr.time;
+if (NTr.at_least) {
+if (NTr.count == 0 && NTnpc == 0) {
+NTdps = false;
+NTsnnpcf(true);
+} else {
+NTnpc = NTr.count > NTnpc? NTr.count : NTnpc;
+NTnpcial = true;
+NTunpc();
+return;
+}
+} else {
+NTnpc = NTr.count;
+NTunpc();
+NTdps = false;
+NTsnnpcf(true);
+}
+} else {
+NTsnnpcf(false);
+}
+} catch (e) {
+NTsnnpcf(false);
+}
+} else {
+NTsnnpcf(false);
+}
+}
+}
+function NTsnnpcf(NTfnps) {
+var now = new Date();
+if (now.getTime() - NTlft > NTrtdpsa && !NTdps)
+NTdps = true;
+if (NTfnps
+|| NTdps
+|| (now.getTime() + NTppds - NTpsst) > NTpsl)
+setTimeout(NTsnpcps, NTnpssi());
+else
+setTimeout(NTfnpc, NTppds);
+}
+function NTnpssi() {
+var now = new Date();
+var NTnpt = (now.getMinutes() % 5)*60000 + now.getSeconds()*1000 + now.getMilliseconds();
+var rand = Math.floor(Math.random()*NTpssr);
+var NTtl = (NTnpt < NTptpssd ? NTptpssd : 300000 + NTptpssd) - NTnpt + rand;
+return NTtl;
+}
+function NTunpc() {
+document.getElementById('newpostscounter').innerHTML =
+NTnpc + (NTnpcial? '+':'') + ' new item' + (NTnpc > 1 || NTnpcial ? 's' : '');
+if (!NTnpcs && NTnpc > 0) {
+var col = document.getElementById('countercol');
+var ticker = document.getElementById('newpostscounter');
+var holder = document.getElementById('countercolspaceholder');
+var spacer = document.getElementById('counterspacer');
+if (navigator.appName == 'Microsoft Internet Explorer')
+ticker.style.display = 'block';
+else {
+col.style.position = 'absolute';
+ticker.style.display = 'block';
+holder.style.display = 'block';
+if (spacer)
+spacer.style.display = 'block';
+holder.style.height=(col.offsetHeight - ticker.offsetHeight - ticker.offsetTop) + 'px';
+function NTfcd () {
+holder.style.display = 'none';
+col.className = 'notransitions';
+col.style.top = '0';
+col.style.position = 'relative';
+}
+col.addEventListener('transitionend',NTfcd,false);
+col.addEventListener('oTransitionEnd',NTfcd,false);
+col.addEventListener('webkitTransitionEnd', NTfcd, false);
+setTimeout(function() {
+holder.className='spaceholdertransitions';
+col.className='countercoltransitions';
+col.style.top=(ticker.offsetHeight + ticker.offsetTop + (spacer? spacer.offsetHeight : 0)) +'px';
+holder.style.height=(col.offsetHeight + (spacer? spacer.offsetHeight : 0)) +'px';
+},1000);
+}
+NTnpcs = true;
+}
+if (NTnpc > 0)
+document.title = '(' + NTnpc + (NTnpcial? '+':'') + ') ' + NTvn;
+}
+function NTnpcrt_() {
+if (NTnpcr.readyState != 0) {
+NTnpcr.onreadystatechange = null;
+NTnpcr.abort();
+NTsnnpcf(false);
+}
+}
+function NTinpcp() {
+NTlft = baseFeedTime;
+var now = new Date();
+if (now.getTime() - NTlft > NTrtdpsa)
+NTdps = true;
+var NTnpt = (now.getMinutes() % 5)*60000 + now.getSeconds()*1000 + now.getMilliseconds();
+var NTbfd = new Date(baseFeedTime);
+var NTnp;
+if (now.getTime() - NTnpt == baseFeedTime - NTbfd.getSeconds()*1000 - NTbfd.getMilliseconds()) {
+NTnp = 300000 + NTptpssd - NTnpt + Math.floor(Math.random()*NTpssr);
+setTimeout(NTsnpcps, NTnp);
+} else if (NTnpt < NTptpssd || NTnpt > NTptpssd + NTpsl) {
+NTnp = NTnpssi();
+setTimeout(NTsnpcps, NTnp);
+} else {
+NTpsst = now.getTime() - NTnpt + NTptpssd;
+NTnp = Math.floor(Math.random()*NTpssr);
+setTimeout(NTfnpc, NTnp);
+}
+}
+function NTiD3fpor() {
+//var pattern = /https?:\/\/(www\.)?localhost/i;
+var pattern = /https?:\/\/(www\.)?lexmao\.com($|\/$|\/#|\/river)/i;
+return pattern.test(location.href);
+}
+function NTiD3t() {
+if (NTiD3fpor())
+NTit();
+}
+function NTit() {
+setTimeout(function() {
+NTinpcp();
+}, 0);
+}
+function cmplu() {
+var a=location.hash;
+if (!a) {
+var lh=location.href;
+lh = lh.replace(/\?.*$/, '');
+if (lh.search(/\/[0-9][0-9][0-9][0-9][0-9][0-9]\/p[0-9]*$/) != -1) {
+var pa = lh.split('/');
+var di = pa.length - 2;
+var na = lh + '#a' + pa[di] + pa[di+1];
+window.location.replace(na);
+}
+}
+}
+// hover js
+function phoneOrTablet() {
+return navigator.userAgent.match(/phone|droid|palm|webos|pocket|symbian|ipad|windows.*nt.*touch/i);
+}
+var showExcerptTimer;
+var showExcerptIn = 400; // ms
+var noDelayInShowingExcerpt = false;
+var turnOnExcerptDelayTimer;
+var turnOnExcerptDelayIn = 500; // ms
+function initDiscussionExcerptBlocks() {
+var items = document.getElementsByClassName('item');
+for (i=0; i<items.length; i++)
+if (items[i].id) {
+var itemId = items[i].id.split('i');
+var unexpandedDiscussionBlock = document.getElementById(itemId[0]+'d'+itemId[1]);
+var expandedDiscussionBlock = document.getElementById(itemId[0]+'p'+itemId[1]);
+if (unexpandedDiscussionBlock && expandedDiscussionBlock) {
+var blss = unexpandedDiscussionBlock.getElementsByClassName('bls');
+var dbpts = expandedDiscussionBlock.getElementsByClassName('dbpt'); // should have the same length as blss
+for (j=0; j<blss.length; j++) {
+dLinks = blss[j].getElementsByTagName('A');
+dExcerpts = dbpts[j].getElementsByClassName('di'); // should be of the same length as dLinks
+for (k=0; k<dLinks.length; k++) {
+var dExcerptId = items[i].id+'d'+j+'e'+k;
+dExcerpts[k].id = dExcerptId;
+var span = document.createElement('span');
+span.id = dExcerptId + 'db';
+span.className='ditemblock';
+span.onmouseover = getDLinkMouseOverHandler(dExcerptId); // not using addEventListener, for compatibility w/ IE8
+span.onmouseout = getDLinkMouseOutHandler(dExcerptId);
+blss[j].insertBefore(span, dLinks[k]);
+span.appendChild(dLinks[k]);
+}
+}
+}
+}
+}
+function getDLinkMouseOverHandler(excerptId) {
+return function() {
+if (noDelayInShowingExcerpt) {
+if (turnOnExcerptDelayTimer)
+clearTimeout(turnOnExcerptDelayTimer);
+showDiscussionExcerpt(excerptId);
+} else
+showExcerptTimer = setTimeout(function() {
+showDiscussionExcerpt(excerptId);
+if (turnOnExcerptDelayTimer)
+clearTimeout(turnOnExcerptDelayTimer);
+noDelayInShowingExcerpt = true;
+}, showExcerptIn);
+}
+}
+function getDLinkMouseOutHandler(excerptId) {
+return function() {
+if (showExcerptTimer)
+clearTimeout(showExcerptTimer);
+hideDiscussionExcerpt(excerptId);
+if (noDelayInShowingExcerpt) {
+if (turnOnExcerptDelayTimer)
+clearTimeout(turnOnExcerptDelayTimer);
+turnOnExcerptDelayTimer = setTimeout(function() {
+noDelayInShowingExcerpt = false;
+}, turnOnExcerptDelayIn);
+}
+}
+}
+function showDiscussionExcerpt(excerptId) {
+discussionBlock = document.getElementById(excerptId+'db');
+var bubble = document.getElementById(excerptId+'b');
+if (!bubble) {
+bubble = document.createElement('span');
+bubble.id = excerptId+'b';
+bubble.className = 'ditemexcerptcontainer';
+bubble.innerHTML = getDiscussionExcerptHtml(excerptId);
+discussionBlock.appendChild(bubble);
+}
+bubble.style.display = 'block';
+}
+function getDiscussionExcerptHtml(excerptId) {
+var html = '<span class="ditemexcerpt">';
+var excerpt = document.getElementById(excerptId);
+var citation = excerpt.getElementsByTagName('cite')[0].innerHTML;
+var as = excerpt.getElementsByTagName('a');
+var a = as[as.length-1];
+html += '<cite>' + citation + '</cite>' +
+'<span class="excerpt">' + a.innerHTML + '</span>';
+
+html += '</span>';
+return html;
+}
+
+function hideDiscussionExcerpt(excerptId) {
+var bubble = document.getElementById(excerptId+'b');
+if (bubble)
+bubble.style.display='none';
+}
+function init_all() {
+cmplu();
+nwcbe = document.getElementById('nwcb');
+set_ckd();
+rdprefs();
+rnwcb();
+hhash();
+TiLTT();
+setTimeout("TeD()", TwTSE);
+if (iPadiPhone()) replaceShareHandlers();
+NTiD3t();
+if (!phoneOrTablet()) initDiscussionExcerptBlocks();
+}
+// -->
+</SCRIPT>
+<STYLE TYPE="text/css" MEDIA="all">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display:block}
+body {line-height:1}
+ol, ul {list-style:none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';content:none}
+table {border-collapse:collapse;border-spacing:0}
+input, select, textarea{font:inherit;}
+body {font-family:Optima, "Microsoft Sans Serif", sans-serif}
+.ii strong {font-family:Optima, "Trebuchet MS", sans-serif;}
+.drhed {font-family:Optima, "Trebuchet MS", sans-serif;}
+cite {font-family:Optima, "Trebuchet MS", sans-serif;}
+.nfdl {font-family:Optima, "Trebuchet MS", sans-serif;}
+.navbar {font-family:Optima, "Century Gothic", sans-serif;}
+.prenavbar {font-family:Optima, "Century Gothic", sans-serif;}
+H2 {font-family:Optima, "Century Gothic", sans-serif;}
+H3 {font-family:Optima, "Century Gothic", sans-serif;}
+H3 .def {font-weight:normal;font-size:0.8em;padding-left:0.4em;}
+b {font-weight:bold}
+body {margin:0 auto 0 auto;max-width:84em;min-width:61em;font-size:0.89em;line-height:120%;background:#fff}
+.pagecont {margin-bottom:2.5em;}
+A:link {text-decoration:none;}
+A:visited {text-decoration:none;}
+.ed A {position:relative;z-index:10;}
+.ed A:hover {z-index:1}
+CITE {position:relative;z-index:10;}
+.item .di A {font-size:1.1em}
+.item .di CITE A {font-size:1.00em}
+.item .di CITE {font-size:1.00em}
+.item CITE {font-size:1em}
+CITE {font-size:0.93em}
+.ed STRONG A:link {color:#004860;}
+.ed STRONG A:visited {color:#a04860;}
+.ed A:link {color:#002848;}
+.ed A:visited {color:#902050;}
+.ed A:hover {text-decoration:underline;background:#d0e8f4}
+.ed CITE {font-weight:bold;font-style:normal;}
+.ed CITE {color:#686860;}
+.ed CITE A:link {color:#686860;}
+.ed CITE A:visited {color:#686860;}
+.cnvl {text-align:center;}
+.ed .cnvl A:visited {color:#002848;}
+H2 {font-weight:bold;color:#455;font-size:1.4em;padding:0.7em 0 0.6em;}
+H3 {font-weight:bold;color:#455;font-size:1.25em;padding:0.7em 0 0.2em;}
+#topcol1 H2 {padding-left:1.45em;}
+#botcol1 H2 {padding-left:1.45em;}
+#botcol2 H2 {padding-left:1.45em;}
+.drhed {color:#306830;font-weight:bold;padding-right:0.3em;}
+.moreat {background:#efd;padding:0 0.2em;border-bottom:solid 1px #ded;white-space:nowrap}
+.new {margin-left:1em;background:#a56;color:#fff;padding:1px 3px 0 4px;font-weight:bold;font-size:0.8em;position:relative;top:-0.2em;border-top:solid 1px #ecc;border-bottom:solid 1px #945;letter-spacing:1px}
+.bls {margin-left:-0.1em}
+.bls A {padding-left:0.1em}
+.bls A {padding-right:0.1em}
+.ago {color:#444;font-size:0.9em;padding-top:0.8em;}
+#topcol3 A.nfdl {font-weight:bold;margin-right:1em;line-height:1.2em}
+#topcol3 A.nfdl {color:#004860;}
+#topcol3 A.nfdl:visited {color:#a04860;}
+#topcol3 .fromsis A {margin:0;}
+.fromsis {padding:4em 0}
+#topcol2 H2 {padding-bottom:0.9em}
+#topcol3 H2 {padding-bottom:0.5em;}
+#topcol3 .fromsis H2 {padding-bottom:1.1em;}
+#topcol3 a.f {color:#555}
+#topcol3 a.f:hover {color:#555}
+#topcol3 .ii {padding-top:0.5em}
+p {padding-bottom:0.7em;}
+p A {font-weight:bold;}
+strong {font-weight:bold;font-size:1.2em;line-height:1.15em}
+.L1 {font-size:1.3em;}
+.L2 {font-size:1.4em;}
+.L3 {font-size:1.5em;letter-spacing:-0.01em;}
+.L4 {font-size:1.7em;letter-spacing:-0.02em;}
+.L5 {font-size:1.9em;letter-spacing:-0.03em;}
+.item {padding-top:0.3em;padding-bottom:1.0em;clear:both;}
+#topcol3 .item {padding:0.8em 0;}
+.clus {padding-bottom:0.5em;}
+.item {border-bottom:solid 1px #ccc;}
+.item:after {content:"";display:block;height:0;clear:both;}
+.dbpt {padding-top:0.4em;}
+.dbptb {padding:0.4em 0 0.4em;}
+.di {margin-left:1em;text-indent:-1em;padding-left:1em}
+.last {border:none;}
+.relitems {margin-bottom:1em;}
+.itc1 {padding-left:2em;}
+.relitems .itc1 {padding-left:4em;}
+.prenavbar {margin-left:2em;}
+.navbar {margin-left:2em;}
+.pagecont {margin-right:2em;}
+.itc2 {margin-left:-1em;padding-left:1em;margin-right:-1em;padding-right:1em;}
+.ill {float:right;padding:0.1em 0 0.5em 0.5em;}
+#topcol1 {float:left;width:50%;margin-top:1em;padding-right:1%;}
+#topcol23 {float:left;width:47.4%;margin-left:1.5%;}
+#topcol2 {float:left;width:66%;margin-top:1em;}
+#sponsorposts {padding:0 1em 1em;background:#f4f4f4;}
+#topcol3 {float:right;width:32%;margin-top:1em;margin-left:1.9%;}
+#botcol1 {float:left;width:46.9%;padding-right:1%;margin-bottom:2em;margin-top:1em;}
+#botcol2 {float:left;width:46.9%;padding-left:1%;margin-bottom:2em;margin-top:1em;}
+.quartercol {float:left;width:24.9%;}
+.abotcols {clear:both;width:97.5%;border-bottom:solid 2px #e8e8e8;margin-left:2.5%;padding-top:1em;margin-bottom:1em}
+.rsp {background:#f4f4f4;margin:-0.45em;padding:0.45em}
+.rsp .item {border:none}
+.itc1 .rsp {margin-bottom:0.5em;}
+.rsp .ii {padding-top:0.5em}
+.rspd {color:#777;font-weight:bold;font-size:0.9em;text-align:right;text-transform:uppercase;}
+.topline {border-bottom:solid 1px #ccc;margin-top:0.2em;line-height:1.6em}
+.topllinks {margin-top:0em;}
+.topllinks A {padding-right:1.2em;}
+.toprlinks {float:right;margin-top:0em;}
+.toprlinks A {padding-left:1.2em;}
+.fico {float:right;padding:2px 0 0 4px}
+.toplbut {float:left;padding-right:1.2em;margin-top:-1px}
+.toprbut {float:right;padding-left:1.2em;width:60px;height:30px;text-align:right;}
+.toplelt {float:left;}
+.toprelt {float:right;}
+.prenavbar A {font-size:0.85em;color:#777;}
+.prenavbar .logobox A {padding-left:0}
+.prenavbar A:link {color:#777;}
+.prenavbar A:visited {color:#777;}
+.prenavbar A:hover {text-decoration:underline;color:#000;}
+.topline img {position:relative;top:1px}
+.topline input {position:relative;left:0.9em}
+.navbar {background:#174a61;text-transform:uppercase;clear:both;line-height:1.5em;font-size:0.85em;}
+.navbar img {position:relative;top:2px}
+.navtabs span.iamhere A {background:#578aa1;color:#fff;}
+.navtabs span.iamhere A:visited {color:#fff}
+.navtabs A {padding:0.12em 0.7em;}
+.navtabs A:link {color:#ddd;}
+.navtabs A:visited {color:#ddd;}
+.navtabs A:hover {background:#578aa1;color:#fff;}
+.sisnav {float:right;}
+.sisnav A:link {color:#ddd;}
+.sisnav A:visited {color:#ddd;}
+.sisnav A:hover {color:#fff;}
+.logotab {width:100%;}
+.logotab td {vertical-align:middle}
+.logotab td {width:33%}
+td.logobox {padding:0.7em 0}
+td.datebox {text-align:center;color:#444}
+td.datebox A {padding-left:0.5em;font-weight:bold}
+td.searchbox {text-align:right}
+.dtbi {color:#555;line-height:1.3em;}
+#dateform input {width:14.5em;border:1px solid #ccc;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}
+.sbti {width:10.5em;border:1px solid #ccc;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}
+#hiring {margin:5em 0;padding:0.6em 0 0.6em 0.6em;border:solid 1px #ccc;border-bottom:solid 1px #ccc;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}
+#hiring .cnvl {padding-top:1em;}
+.cosp A:link {color:#000;}
+.cosp A:visited {color:#000;}
+.cosp A:hover {color:#000;}
+.cosp A {padding:1px}
+.cosp img {position:relative;top:2px;width:16px}
+.cosp span {font-weight:bold;}
+.cosp {padding-top:0.3em;padding-bottom:0.3em}
+.cosp {text-indent:-1.6em;padding-left:1.6em;}
+.dxd {position:absolute;margin-left:-1.6em}
+.dxd table {height:100%}
+.dxd {border:solid 1px #ccc;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;background:#f4f4f4}
+.dxd:hover {border-color:#78a}
+.dxcol {padding:7px;background:url(/ainews/images/arrd.png) no-repeat center}
+.dxcol.up {background:url(/ainews/images/arru.png) no-repeat center}
+.exm {margin-top:1em;}
+.ed .exm a {border:solid 1px #ccc;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;background:#f4f4f4;color:#777;padding:0.1em 0.3em;text-decoration:none;}
+.ed .exm a:hover {border-color:#78a}
+#sponsorposts .item {border:none;}
+#river_timeline {float:left;width:67%;margin:1em 1.9% 1em 0;}
+#river_timeline td {font-size:1.1em}
+#river_timeline CITE {font-size:0.9em}
+#river_timeline tr > td:first-child {font-size:1.0em}
+#river_timeline tr > td:first-child {width:6em;text-align:right}
+#river_timeline tr > td:first-child + td {padding-left:1.5em;text-indent:-1em}
+#river_timeline td {padding-bottom:0.5em;}
+#river_timeline H2 {padding:1.5em 0 1em}
+#river_sponsors_hiring #hiring {margin-top:2em;}
+#river_sponsors_hiring {float:right;width:31%;margin-top:1em}
+#river_sponsors_hiring H2 {padding-top:1.5em}
+#river_sponsors_hiring #hiring H2 {padding-top:0.7em}
+#lb_maincol {float:left;width:64%;margin:1em 1.9% 1em 0;}
+#lb_rightcol {float:right;width:34%;margin-top:1em}
+#lb_rightcol #hiring {margin-top:2em;}
+#lb_rightcol #sponsorposts {margin-top:2em;}
+.lbtable {padding:1.5em 1em 1em 0}
+.lbtable td {padding:0.2em 0.5em 0.1em;border-left:1px #aaa dotted;border-top:1px #aaa dotted}
+.lbtable tr > td:first-child {border-left:none}
+.lbtable tr > td:first-child {text-align:center}
+.lbh td {border-top:none}
+.lbtable tr > td:first-child + td {width:12em}
+.lbh {font-weight:bold;color:#455;font-size:1.08em;}
+#sponsorposts .ii {padding-top:0.5em}
+.shrtbl {width:100%}
+.shrtbl tr > td:first-child {vertical-align:middle}
+.shrtbl tr > td:first-child + td {text-align:right;white-space:nowrap;min-width:124px;vertical-align:middle;padding-bottom:2px}
+.shrtbl tr > td:first-child + td a {text-decoration:none !important}
+.shrtbl td {height:26px}
+.shrpml {float:right;width:32px}
+.shrpmlimg {background:white url('/img/shr.png') no-repeat 0 0;width:28px;height:20px;float:right}
+.shrpmlimg:hover {background:url('/img/shr.png') no-repeat 0 -20px !important}
+.shrfb {float:right;width:64px}
+.shrrt {float:right;width:37px}
+.shrrtimg {background:white url('/img/shr.png') no-repeat -28px 0;width:37px;height:20px;float:right}
+.shrrtimg:hover {background:white url('/img/shr.png') no-repeat -28px -20px !important}
+#newpostscounter {display:none;z-index:0;color:#679;border:solid 1px #ccc;text-align:center;padding:0.4em;margin-right:1px;font-size:0.9em;font-weight:normal;background:-webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#e4e4e4));background:-moz-linear-gradient(top, #f4f4f4, #e4e4e4);background-image:-o-linear-gradient(rgb(244,244,244),rgb(228,228,228));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#e4e4e4')}
+#newpostscounter:hover {border-color:#679;cursor:pointer}
+#topcol3 {position:relative !important}
+#countercolspaceholder {display:none}
+.spaceholdertransitions {-webkit-transition:height 0.4s ease;-moz-transition-property:height;-moz-transition-duration:0.4s;-o-transition-property:height;-o-transition-duration:0.4s}
+#countercol {z-index:10;position:relative;background-color:white;top:0}
+.countercoltransitions {-webkit-transition:top 0.4s ease;-moz-transition-property:top;-moz-transition-duration:0.4s;-o-transition-property:top;-o-transition-duration:0.4s}
+.notransitions {-webkit-transition-duration:0s !important;-moz-transition-duration:0s !important;-o-transition-duration:0s !important}
+.ditemblock {position:relative}
+.ditemexcerptcontainer {display:none;position:absolute;left:0;top:1em;padding-top:5px;z-index:100;width:225px}
+.ditemexcerpt {display:block;padding:9px 11px;border:1px solid #ccc;border-radius:8px;box-shadow:2px 2px 10px rgba(0, 0, 0, 0.2);background-color:white}
+.ditemexcerpt cite {display:block;padding-bottom:3px}
+.ditemexcerpt .excerpt {display:block;padding-bottom:3px;word-wrap:break-word}
+.intents {margin-top:8px;width:100%;border-top:1px solid #ccc}
+.intent {padding-top:6px}
+.intent a {display:block}
+.intent a:hover {text-decoration:none;background-color:transparent}
+</STYLE>
+<NOSCRIPT>
+<STYLE TYPE="text/css" MEDIA="all">
+.ifjs {display:none}
+</STYLE>
+</NOSCRIPT>
+</HEAD>
+<BODY ONLOAD="init_all();">
+<div class="pagecont">
+<DIV CLASS="prenavbar">
+<DIV CLASS="topline">
+<DIV CLASS="toprlinks">
+
+
+<span class="ifjs toplelt"><INPUT TYPE="checkbox" ID="nwcb" ONCLICK="xnwcb();"><A HREF="javascript:nwcbe.checked=!nwcbe.checked;xnwcb();">Open Links In New Tab</A></span>
+</DIV>
+<DIV CLASS="topllinks">
+<A HREF="/m" TITLE="RatioClub for smartphones">Mobile</A>
+</DIV>
+</DIV>
+<table class="logotab"><tr><td class="logobox">
+<A HREF="/"><IMG SRC="/images/logo.png" HEIGHT=45 ALT="RatioClub"></A>
+</td><td id="datebox" class="datebox">
+<DIV ID="thisdate">
+<SPAN ONCLICK="xdates(0,1)">2017-04-18 21:13:24</SPAN></DIV>
+
+
+</td><td class="searchbox">
+<form name="input" action="/search/query" method="get">
+<input class="sbti" type="text" name="q">
+<input type="submit" value="Search">
+<span style="display:none"><input type="checkbox" name="wm" value="false" checked="checked"></span>
+</form>
+</td></tr></table>
+</DIV>
+<DIV CLASS="navbar">
+<DIV CLASS="navtabs">
+<SPAN CLASS="iamhere"><A HREF="/" TITLE="RatioClub main page">值得关注</A></SPAN>
+<A HREF="/today.html" TITLE="RatioClub's blog">最新资讯</A>
+<A HREF="mailto:info@ratioclub.net" TITLE="Contact us">Contact Us</A>
+</DIV>
+</DIV>
+<DIV CLASS="ed">
+<DIV ID="topcol1">
+<H2>值得关注</H2>
+
+
+<!--start first news-->
+
+
+        <DIV CLASS="clus">
+
+<A NAME="a1"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(1,true,1)" ONMOUSEOUT="overitem(1,false,1)"><DIV CLASS="itc2" ID="1"><DIV CLASS="item" ID="1i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Darrell Etherington / <A HREF="https://techcrunch.com/">techcrunch.com</A>:</CITE>
+
+</td><td><span id="s1i1" pml="1" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://techcrunch.com/2017/04/17/google-acquires-nevada-land-for-future-data-center-possible-test-track/"><IMG CLASS="ill" SRC="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://techcrunch.com/2017/04/17/google-acquires-nevada-land-for-future-data-center-possible-test-track/">1. Google acquires Nevada land for future data center</A></STRONG>&nbsp; &mdash;&nbsp;Google has acquired a significant piece of land in Nevada, near Reno and Tesla’s Gigafactory site, which will house a future data center, and could also host a testing track for Waymo, the Alphabet-owned autonomous driving company. The purchase of the 1,210 acres in Nevada’s Tahoe Reno Industrial Center was reported by The Wall Street Journal on Monday, and follows the filing… Read More </DIV>
+
+
+<DIV ID="1d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="1p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a2"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(2,true,1)" ONMOUSEOUT="overitem(2,false,1)"><DIV CLASS="itc2" ID="2"><DIV CLASS="item" ID="2i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Darrell Etherington / <A HREF="https://techcrunch.com/">techcrunch.com</A>:</CITE>
+
+</td><td><span id="s2i1" pml="2" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://techcrunch.com/2017/04/17/a-second-life-for-open-world-games-as-self-driving-car-training-software/"><IMG CLASS="ill" SRC="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://techcrunch.com/2017/04/17/a-second-life-for-open-world-games-as-self-driving-car-training-software/">2. A second life for open-world games as self-driving car training software</A></STRONG>&nbsp; &mdash;&nbsp;A lot of top-tier video games enjoy lengthy long-tail lives with remasters and re-releases on different platforms, but the effort put into some games could pay dividends in a whole new way, as companies training things like autonomous cars, delivery drones and other robots are looking to rich, detailed virtual worlds to provided simulated training environments that mimic the real… Read More </DIV>
+
+
+<DIV ID="2d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="2p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a3"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(3,true,1)" ONMOUSEOUT="overitem(3,false,1)"><DIV CLASS="itc2" ID="3"><DIV CLASS="item" ID="3i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Will Knight / <A HREF="https://www.technologyreview.com/">www.technologyreview.com</A>:</CITE>
+
+</td><td><span id="s3i1" pml="3" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://www.technologyreview.com//s/604148/the-technology-behind-bitcoin-is-shaking-up-much-more-than-money/"><IMG CLASS="ill" SRC="http://bzline.cn/ainews/images/top_new_00001.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://www.technologyreview.com//s/604148/the-technology-behind-bitcoin-is-shaking-up-much-more-than-money/">3. The Technology Behind Bitcoin Is Shaking Up Much More than Money</A></STRONG>&nbsp; &mdash;&nbsp;Blockchains are being used to trace blood diamonds, verify health records, and secure supply chains. </DIV>
+
+
+<DIV ID="3d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="3p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a4"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(4,true,1)" ONMOUSEOUT="overitem(4,false,1)"><DIV CLASS="itc2" ID="4"><DIV CLASS="item" ID="4i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Simon Parkin / <A HREF="https://www.technologyreview.com/">www.technologyreview.com</A>:</CITE>
+
+</td><td><span id="s4i1" pml="4" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://www.technologyreview.com//s/604197/inside-an-intergalactic-video-game-a-search-for-real-alien-worlds/"><IMG CLASS="ill" SRC="http://bzline.cn/ainews/images/top_new_00001.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://www.technologyreview.com//s/604197/inside-an-intergalactic-video-game-a-search-for-real-alien-worlds/">4. Inside an Intergalactic Video Game, a Search for Real Alien Worlds</A></STRONG>&nbsp; &mdash;&nbsp;Showing that algorithms are often no match for human vision, players of EVE Online will sift through satellite imagery in a vast citizen science hunt for exoplanets. </DIV>
+
+
+<DIV ID="4d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="4p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a5"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(5,true,1)" ONMOUSEOUT="overitem(5,false,1)"><DIV CLASS="itc2" ID="5"><DIV CLASS="item" ID="5i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Mike Orcutt / <A HREF="https://www.technologyreview.com/">www.technologyreview.com</A>:</CITE>
+
+</td><td><span id="s5i1" pml="5" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://www.technologyreview.com//s/604196/welcome-to-internet-privacy-limbo/"><IMG CLASS="ill" SRC="http://bzline.cn/ainews/images/top_new_00001.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://www.technologyreview.com//s/604196/welcome-to-internet-privacy-limbo/">5. Welcome to Internet Privacy Limbo</A></STRONG>&nbsp; &mdash;&nbsp;Trump’s first move on consumer Internet privacy was decidedly pro-business, but mostly it made the future of online privacy a lot more uncertain. </DIV>
+
+
+<DIV ID="5d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="5p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a6"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(6,true,1)" ONMOUSEOUT="overitem(6,false,1)"><DIV CLASS="itc2" ID="6"><DIV CLASS="item" ID="6i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Emily Mullin / <A HREF="https://www.technologyreview.com/">www.technologyreview.com</A>:</CITE>
+
+</td><td><span id="s6i1" pml="6" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://www.technologyreview.com//s/604126/edible-crispr-could-replace-antibiotics/"><IMG CLASS="ill" SRC="http://bzline.cn/ainews/images/top_new_00001.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://www.technologyreview.com//s/604126/edible-crispr-could-replace-antibiotics/">6. Edible CRISPR Could Replace Antibiotics</A></STRONG>&nbsp; &mdash;&nbsp;Researchers are developing a probiotic to make disease-causing bacteria self-destruct. </DIV>
+
+
+<DIV ID="6d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="6p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a7"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(7,true,1)" ONMOUSEOUT="overitem(7,false,1)"><DIV CLASS="itc2" ID="7"><DIV CLASS="item" ID="7i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Antonio Regalado / <A HREF="https://www.technologyreview.com/">www.technologyreview.com</A>:</CITE>
+
+</td><td><span id="s7i1" pml="7" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://www.technologyreview.com//s/604142/engineering-the-perfect-astronaut/"><IMG CLASS="ill" SRC="http://bzline.cn/ainews/images/top_new_00001.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://www.technologyreview.com//s/604142/engineering-the-perfect-astronaut/">7. Engineering the Perfect Astronaut</A></STRONG>&nbsp; &mdash;&nbsp;Some scientists are thinking about what human space travelers will look like in the future. They might be extra-small and radiation-proof. </DIV>
+
+
+<DIV ID="7d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="7p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a8"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(8,true,1)" ONMOUSEOUT="overitem(8,false,1)"><DIV CLASS="itc2" ID="8"><DIV CLASS="item" ID="8i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>腾讯科技 / <A HREF="http://tech.qq.com/">tech.qq.com</A>:</CITE>
+
+</td><td><span id="s8i1" pml="8" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://tech.qq.com/a/20170418/042147.htm"><IMG CLASS="ill" SRC="http://bzline.cn/ainews/images/top_new_00001.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://tech.qq.com/a/20170418/042147.htm">8. 双枪机器人！俄罗斯的太空机器人学会了双手开枪</A></STRONG>&nbsp; &mdash;&nbsp;【AI世代编者按】“终结者”系列电影很可能准确预测了我们的未来。不过，未来的“终结者”机器人很可能有着浓重的俄罗斯口音。俄罗斯科学家正在开发一款名为F.E.D.O.R.的机器人。这款机器人将被用于国际空间站，进行太空行走。过去多年，美国宇航局（NASA）也在利用Robotnaut平台去做同样的工作。最终，这两款机器人都将帮 </DIV>
+
+
+<DIV ID="8d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="8p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a9"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(9,true,1)" ONMOUSEOUT="overitem(9,false,1)"><DIV CLASS="itc2" ID="9"><DIV CLASS="item" ID="9i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>腾讯科技 / <A HREF="http://tech.qq.com/">tech.qq.com</A>:</CITE>
+
+</td><td><span id="s9i1" pml="9" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://tech.qq.com/a/20170418/027264.htm"><IMG CLASS="ill" SRC="http://bzline.cn/ainews/images/top_new_00001.png" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://tech.qq.com/a/20170418/027264.htm">9. 微软小冰首次进驻综艺节目 揭秘其背后技术推动力</A></STRONG>&nbsp; &mdash;&nbsp;腾讯科技讯（卜祥）4月16日，湖南卫视芒果娱乐正式推出综艺新栏目《超次元偶像》，在北京举行的发布会上，微软人工智能“小冰”出现并参与互动、游戏。发布会上，小冰不仅与何炅、何冰、徐海乔等嘉宾主持调侃互动，还现场测试评价明星选手以及栏目总导演的颜值，献唱歌曲《好想你》，并联合太湖之光超级计算机运用大数据生 </DIV>
+
+
+<DIV ID="9d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="9p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a10"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(10,true,1)" ONMOUSEOUT="overitem(10,false,1)"><DIV CLASS="itc2" ID="10"><DIV CLASS="item" ID="10i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>mittrchina.com / <A HREF="http://www.mittrchina.com">www.mittrchina.com</A>:</CITE>
+
+</td><td><span id="s10i1" pml="10" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.mittrchina.com//Home/Article/getContent/article_id/177"><IMG CLASS="ill" SRC="http://www.mittrchina.com//Public/uploadfiles/149248501958f57fda9fd8f_small.jpg" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.mittrchina.com//Home/Article/getContent/article_id/177">10. 案例 | 俄罗斯编造MH17航班坠毁弥天大谎？觉醒的黑客技术力图还原灾难真相</A></STRONG>&nbsp; &mdash;&nbsp;案例 | 俄罗斯编造MH17航班坠毁弥天大谎？觉醒的黑客技术力图还原灾难真相 </DIV>
+
+
+<DIV ID="10d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="10p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a11"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(11,true,1)" ONMOUSEOUT="overitem(11,false,1)"><DIV CLASS="itc2" ID="11"><DIV CLASS="item" ID="11i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>吴德新 / <A HREF="http://www.leiphone.com/">www.leiphone.com</A>:</CITE>
+
+</td><td><span id="s11i1" pml="11" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.leiphone.com/news/201703/K5vstf90wy2BsxP1.html"><IMG CLASS="ill" SRC="http://static.leiphone.com/uploads/new/article/pic/201704/58f56ddb4a632.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.leiphone.com/news/201703/K5vstf90wy2BsxP1.html">11. PlusAI刘万千：拿到加州测试牌照，敲定两家车企合作，投身自动驾驶这一年</A></STRONG>&nbsp; &mdash;&nbsp;硅谷自动驾驶的繁荣，不仅是因为加州在自动驾驶上开放的政策，更是因为硅谷丰富的技术人才和优渥的资本环境。 </DIV>
+
+
+<DIV ID="11d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="11p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a12"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(12,true,1)" ONMOUSEOUT="overitem(12,false,1)"><DIV CLASS="itc2" ID="12"><DIV CLASS="item" ID="12i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>杨晓凡 / <A HREF="http://www.leiphone.com/">www.leiphone.com</A>:</CITE>
+
+</td><td><span id="s12i1" pml="12" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.leiphone.com/news/201704/uXQQZbBR1urHIGmZ.html"><IMG CLASS="ill" SRC="http://static.leiphone.com/uploads/new/article/pic/201704/58f5bab44467d.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.leiphone.com/news/201704/uXQQZbBR1urHIGmZ.html">12. 五年过去，Hinton的《神经网络和机器学习》还是最好的机器学习课程吗？</A></STRONG>&nbsp; &mdash;&nbsp;自《神经网络和机器学习》在2012年首次上线以来，关于深度学习的课程如同雨后春笋出现。那么五年过去，它还是最好的机器学习课程吗？ </DIV>
+
+
+<DIV ID="12d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="12p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a13"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(13,true,1)" ONMOUSEOUT="overitem(13,false,1)"><DIV CLASS="itc2" ID="13"><DIV CLASS="item" ID="13i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>晞萌 / <A HREF="http://www.leiphone.com/">www.leiphone.com</A>:</CITE>
+
+</td><td><span id="s13i1" pml="13" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.leiphone.com/news/201704/EHV2LSPT43FrGWJQ.html"><IMG CLASS="ill" SRC="http://static.leiphone.com/uploads/new/article/pic/201704/58eb9dfea2547.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.leiphone.com/news/201704/EHV2LSPT43FrGWJQ.html">13. 谷歌研究院在化学发力：应用机器学习技术预测分子性质</A></STRONG>&nbsp; &mdash;&nbsp;谷歌研究院发表的两篇论文，推进了机器学习在化学领域的研究发展。 </DIV>
+
+
+<DIV ID="13d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="13p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a14"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(14,true,1)" ONMOUSEOUT="overitem(14,false,1)"><DIV CLASS="itc2" ID="14"><DIV CLASS="item" ID="14i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>高云河 / <A HREF="http://www.leiphone.com/">www.leiphone.com</A>:</CITE>
+
+</td><td><span id="s14i1" pml="14" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.leiphone.com/news/201704/KGo6izlfdKJGe3rj.html"><IMG CLASS="ill" SRC="http://static.leiphone.com/uploads/new/article/pic/201704/58f57b61cde6b.png?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.leiphone.com/news/201704/KGo6izlfdKJGe3rj.html">14. 纽约大学提出端到端优化图像压缩方法，全面超越JPEG 2000 | ICLR 2017</A></STRONG>&nbsp; &mdash;&nbsp;ICLR 2017中一篇论文提供了一种端到端优化的图像压缩方法，该方法实现了显著的视觉上的质量提升，全面超越JPEG以及JPEG 2000. </DIV>
+
+
+<DIV ID="14d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="14p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a15"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(15,true,1)" ONMOUSEOUT="overitem(15,false,1)"><DIV CLASS="itc2" ID="15"><DIV CLASS="item" ID="15i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>蒋鸿昌 / <A HREF="http://www.leiphone.com/">www.leiphone.com</A>:</CITE>
+
+</td><td><span id="s15i1" pml="15" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.leiphone.com/news/201704/mmxueylABJmyF5V7.html"><IMG CLASS="ill" SRC="http://static.leiphone.com/uploads/new/article/pic/201704/58f575d381f37.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.leiphone.com/news/201704/mmxueylABJmyF5V7.html">15. 机锋网创始人谈毅再创业，这次他要在智能家居上分发AI应用程序</A></STRONG>&nbsp; &mdash;&nbsp;“未来智能家庭应用的核心和入口，不应该是app，而应该是掌管家中一切的人工智能（AI）管家。” </DIV>
+
+
+<DIV ID="15d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="15p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a16"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(16,true,1)" ONMOUSEOUT="overitem(16,false,1)"><DIV CLASS="itc2" ID="16"><DIV CLASS="item" ID="16i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Paul Sawers / <A HREF="https://venturebeat.com/">venturebeat.com</A>:</CITE>
+
+</td><td><span id="s16i1" pml="16" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://venturebeat.com/2017/04/16/how-the-people-of-the-future-will-view-the-robots-of-today/"><IMG CLASS="ill" SRC="https://venturebeat.com/wp-content/uploads/2017/04/early-airplane.jpg?resize=350%2C175&amp;strip=all" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://venturebeat.com/2017/04/16/how-the-people-of-the-future-will-view-the-robots-of-today/">16. How the people of the future </A></STRONG>&nbsp; &mdash;&nbsp;How the people of the future will view the robots of today </DIV>
+
+
+<DIV ID="16d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="16p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a17"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(17,true,1)" ONMOUSEOUT="overitem(17,false,1)"><DIV CLASS="itc2" ID="17"><DIV CLASS="item" ID="17i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Jensen Harris, Textio / <A HREF="https://venturebeat.com/">venturebeat.com</A>:</CITE>
+
+</td><td><span id="s17i1" pml="17" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://venturebeat.com/2017/04/15/the-sudden-rise-of-the-headless-ai/"><IMG CLASS="ill" SRC="https://venturebeat.com/wp-content/uploads/2017/04/shutterstock_593309024.jpg?resize=350%2C175&amp;strip=all" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://venturebeat.com/2017/04/15/the-sudden-rise-of-the-headless-ai/">17. The sudden rise o</A></STRONG>&nbsp; &mdash;&nbsp;The sudden rise of the headless AI </DIV>
+
+
+<DIV ID="17d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="17p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a18"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(18,true,1)" ONMOUSEOUT="overitem(18,false,1)"><DIV CLASS="itc2" ID="18"><DIV CLASS="item" ID="18i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Mariya Yao, Topbots / <A HREF="https://venturebeat.com/">venturebeat.com</A>:</CITE>
+
+</td><td><span id="s18i1" pml="18" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://venturebeat.com/2017/04/15/brands-see-visual-intelligence-as-key-part-of-ai-strategy/"><IMG CLASS="ill" SRC="https://venturebeat.com/wp-content/uploads/2017/04/clarifai_1200px_topbots_vb.jpg?resize=350%2C175&amp;strip=all" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://venturebeat.com/2017/04/15/brands-see-visual-intelligence-as-key-part-of-ai-strategy/">18. Brands see visual intelligen</A></STRONG>&nbsp; &mdash;&nbsp;Brands see visual intelligence as key part of AI strategy </DIV>
+
+
+<DIV ID="18d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="18p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a19"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(19,true,1)" ONMOUSEOUT="overitem(19,false,1)"><DIV CLASS="itc2" ID="19"><DIV CLASS="item" ID="19i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Paul Sawers / <A HREF="https://venturebeat.com/">venturebeat.com</A>:</CITE>
+
+</td><td><span id="s19i1" pml="19" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://venturebeat.com/2017/04/15/the-art-of-algorithms-how-automation-is-affecting-creativity/"><IMG CLASS="ill" SRC="https://venturebeat.com/wp-content/uploads/2017/04/computer.jpg?resize=350%2C175&amp;strip=all" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://venturebeat.com/2017/04/15/the-art-of-algorithms-how-automation-is-affecting-creativity/">19. The art of algorithms: How aut</A></STRONG>&nbsp; &mdash;&nbsp;The art of algorithms: How automation is affecting creativity </DIV>
+
+
+<DIV ID="19d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="19p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a20"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(20,true,1)" ONMOUSEOUT="overitem(20,false,1)"><DIV CLASS="itc2" ID="20"><DIV CLASS="item" ID="20i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Khari Johnson / <A HREF="https://venturebeat.com/">venturebeat.com</A>:</CITE>
+
+</td><td><span id="s20i1" pml="20" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="https://venturebeat.com/2017/04/15/ahead-of-f8-developers-talk-the-future-of-bots-on-facebook-messenger/"><IMG CLASS="ill" SRC="https://venturebeat.com/wp-content/uploads/2016/06/Facebook-sign-F8-041216-Novet-2.jpg?resize=350%2C175&amp;strip=all" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="https://venturebeat.com/2017/04/15/ahead-of-f8-developers-talk-the-future-of-bots-on-facebook-messenger/">20. Ahead of F8, developers talk the f</A></STRONG>&nbsp; &mdash;&nbsp;Ahead of F8, developers talk the future of bots on Facebook Messenger </DIV>
+
+
+<DIV ID="20d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="20p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a21"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(21,true,1)" ONMOUSEOUT="overitem(21,false,1)"><DIV CLASS="itc2" ID="21"><DIV CLASS="item" ID="21i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Alex Kantrowitz / <A HREF="http://www.buzzfeed.com/">www.buzzfeed.com</A>:</CITE>
+
+</td><td><span id="s21i1" pml="21" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think"><IMG CLASS="ill" SRC="http://www.techmeme.com/170417/i12.jpg" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think">21. Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted</A></STRONG>&nbsp; &mdash;&nbsp;Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
+  —  miles away from Facebook&#39;s Menlo Park headquarters, in an old, beige office building in downtown Manhattan, a group of company employees … </DIV>
+
+
+<DIV ID="21d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="21p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a22"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(22,true,1)" ONMOUSEOUT="overitem(22,false,1)"><DIV CLASS="itc2" ID="22"><DIV CLASS="item" ID="22i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Cade Metz / <A HREF="http://www.wired.com/">www.wired.com</A>:</CITE>
+
+</td><td><span id="s22i1" pml="22" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.wired.com/2017/04/googles-dueling-neural-networks-spar-get-smarter-no-humans-required/"><IMG CLASS="ill" SRC="http://www.techmeme.com/170417/i4.jpg" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.wired.com/2017/04/googles-dueling-neural-networks-spar-get-smarter-no-humans-required/">22. AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning</A></STRONG>&nbsp; &mdash;&nbsp;AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning
+  —  The day Richard Feynman died, the blackboard in his classroom read: “What I cannot create, I do not understand.” </DIV>
+
+
+<DIV ID="22d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="22p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a23"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(23,true,1)" ONMOUSEOUT="overitem(23,false,1)"><DIV CLASS="itc2" ID="23"><DIV CLASS="item" ID="23i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>James Vincent / <A HREF="http://www.theverge.com/">www.theverge.com</A>:</CITE>
+
+</td><td><span id="s23i1" pml="23" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.theverge.com/2017/4/12/15271874/ai-adversarial-images-fooling-attacks-artificial-intelligence"><IMG CLASS="ill" SRC="http://www.techmeme.com/170415/i2.jpg" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.theverge.com/2017/4/12/15271874/ai-adversarial-images-fooling-attacks-artificial-intelligence">23. A look at adversarial images, which target and trick AI systems into misidentifying people or objects</A></STRONG>&nbsp; &mdash;&nbsp;A look at adversarial images, which target and trick AI systems into misidentifying people or objects
+  —  There&#39;s a scene in William Gibson&#39;s 2010 novel Zero History, in which a character embarking on a high-stakes raid dons what the narrator refers to as the “ugliest T-shirt” in existence … </DIV>
+
+
+<DIV ID="23d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="23p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a24"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(24,true,1)" ONMOUSEOUT="overitem(24,false,1)"><DIV CLASS="itc2" ID="24"><DIV CLASS="item" ID="24i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>Will Knight / <A HREF="http://www.technologyreview.com/">www.technologyreview.com</A>:</CITE>
+
+</td><td><span id="s24i1" pml="24" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/"><IMG CLASS="ill" SRC="http://www.techmeme.com/170415/i1.jpg" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/">24. Deep learning AI systems, which may help make important decisions in the future, are neither understandable to their creators nor accountable to their users</A></STRONG>&nbsp; &mdash;&nbsp;Deep learning AI systems, which may help make important decisions in the future, are neither understandable to their creators nor accountable to their users
+  —  No one really knows how the most advanced algorithms do what they do.  That could be a problem. </DIV>
+
+
+<DIV ID="24d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="24p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a25"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(25,true,1)" ONMOUSEOUT="overitem(25,false,1)"><DIV CLASS="itc2" ID="25"><DIV CLASS="item" ID="25i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>吴攀 / <A HREF="http://www.jiqizhixin.com/">www.jiqizhixin.com</A>:</CITE>
+
+</td><td><span id="s25i1" pml="25" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.jiqizhixin.com//article/2673"><IMG CLASS="ill" SRC="http://www.jiqizhixin.com//data/upload/20170418/58f5d5d637e25.jpeg" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.jiqizhixin.com//article/2673">25. DeepMind新论文提出循环环境模拟器：可适应多种不同环境</A></STRONG>&nbsp; &mdash;&nbsp;循环环境模拟器可被用来改进探索过程，还能适应多种不同的环境（包括 Atari 游戏、3D 赛车和迷宫）。 </DIV>
+
+
+<DIV ID="25d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="25p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a26"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(26,true,1)" ONMOUSEOUT="overitem(26,false,1)"><DIV CLASS="itc2" ID="26"><DIV CLASS="item" ID="26i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>黄小天 / <A HREF="http://www.jiqizhixin.com/">www.jiqizhixin.com</A>:</CITE>
+
+</td><td><span id="s26i1" pml="26" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.jiqizhixin.com//article/2672"><IMG CLASS="ill" SRC="http://www.jiqizhixin.com//data/upload/20170418/58f5d1a31e450.jpg" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.jiqizhixin.com//article/2672">26. Kaggle CTO Ben Hamner ：机器学习的八个步骤</A></STRONG>&nbsp; &mdash;&nbsp;上个月，Kaggle CTO Ben Hamner 在 Quora 上回答了有关 Kaggle、机器学习和人工智能的一系... </DIV>
+
+
+<DIV ID="26d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="26p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a27"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(27,true,1)" ONMOUSEOUT="overitem(27,false,1)"><DIV CLASS="itc2" ID="27"><DIV CLASS="item" ID="27i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>蒋思源 / <A HREF="http://www.jiqizhixin.com/">www.jiqizhixin.com</A>:</CITE>
+
+</td><td><span id="s27i1" pml="27" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.jiqizhixin.com//article/2671"><IMG CLASS="ill" SRC="http://www.jiqizhixin.com//data/upload/20170418/58f5cd77c57af.jpeg" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.jiqizhixin.com//article/2671">27. 生成对抗网络新进展与论文全集</A></STRONG>&nbsp; &mdash;&nbsp;机器之心总结了 GitHub 上两篇文章，一篇介绍了 GAN 的新理论和实践，另一篇则集中展示了大量 GAN 相关的论文... </DIV>
+
+
+<DIV ID="27d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="27p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+        <DIV CLASS="clus">
+
+<A NAME="a28"></A>
+<DIV CLASS="itc1" ONMOUSEOVER="overitem(28,true,1)" ONMOUSEOUT="overitem(28,false,1)"><DIV CLASS="itc2" ID="28"><DIV CLASS="item" ID="28i1">
+
+<table class="shrtbl"><tr><td>
+
+<CITE>机器之心 / <A HREF="http://www.jiqizhixin.com/">www.jiqizhixin.com</A>:</CITE>
+
+</td><td><span id="s28i1" pml="28" twid="847846083191595009"></span></td></tr></table>
+<DIV CLASS="ii"><A HREF="http://www.jiqizhixin.com//article/2668"><IMG CLASS="ill" SRC="http://www.jiqizhixin.com//data/upload/20170418/58f5898d50280.jpeg" heigh="76" width="136"></A>
+
+<STRONG CLASS="L2"><A CLASS="ourh" HREF="http://www.jiqizhixin.com//article/2668">28. 招商局创投领投，氪信科技完成 B 轮融资</A></STRONG>&nbsp; &mdash;&nbsp;借助此次融资，氪信会进一步加大在人工智能技术研发上的投入，同时不断加深与相关行业机构的合作。 </DIV>
+
+
+<DIV ID="28d1">
+<DIV CLASS="dbpt">
+
+
+</DIV>
+</DIV>
+
+<DIV ID="28p1" STYLE="display: none;">
+<DIV CLASS="dbpt">
+
+
+
+
+</DIV>
+</DIV>
+
+
+</DIV></DIV></DIV>
+</DIV>
+
+
+<!---end all news-->
+</DIV> <!--end topcol1-->
+
+
+<DIV ID="topcol23">
+<DIV ID="topcol2">
+
+<DIV ID="sponsorposts">
+<H2>技术动态</H2>
+
+
+
+<DIV CLASS="item">
+<CITE><A HREF="http://blog.bzline.cn">Computer Vision</A>:</CITE>
+<DIV CLASS="ii"><A HREF="http://imgur.com/AXYduYT"><IMG CLASS="ill" SRC="http://www.bzline.cn/ainews/images/tech_trends_00001.png"></A>
+<STRONG CLASS="L1"><A HREF="http://imgur.com/AXYduYT">1. 人工智能有哪些误区</A></STRONG>&nbsp; &mdash;&nbsp; Russell 是加州大学伯克利分校人工智能系统中心创始人兼计算机科学专业教授，同时还是人工智能领域里「标准教科书」《人工智能：一种现代方法》作者（谷歌研究主管 Peter Norvig 也是该书作者）。在这篇文章中，他以 Q&amp;A 的方式讲解了人工智能的未来以及常见的误解</DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE><A HREF="http://blog.bzline.cn">Computer Vision</A>:</CITE>
+<DIV CLASS="ii"><A HREF="http://imgur.com/AXYduYT"><IMG CLASS="ill" SRC="http://www.bzline.cn/ainews/images/tech_trends_00001.png"></A>
+<STRONG CLASS="L1"><A HREF="http://imgur.com/AXYduYT">2. 人工智能有哪些误区</A></STRONG>&nbsp; &mdash;&nbsp; Russell 是加州大学伯克利分校人工智能系统中心创始人兼计算机科学专业教授，同时还是人工智能领域里「标准教科书」《人工智能：一种现代方法》作者（谷歌研究主管 Peter Norvig 也是该书作者）。在这篇文章中，他以 Q&amp;A 的方式讲解了人工智能的未来以及常见的误解</DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE><A HREF="http://blog.bzline.cn">Computer Vision</A>:</CITE>
+<DIV CLASS="ii"><A HREF="http://imgur.com/AXYduYT"><IMG CLASS="ill" SRC="http://www.bzline.cn/ainews/images/tech_trends_00001.png"></A>
+<STRONG CLASS="L1"><A HREF="http://imgur.com/AXYduYT">3. 人工智能有哪些误区</A></STRONG>&nbsp; &mdash;&nbsp; Russell 是加州大学伯克利分校人工智能系统中心创始人兼计算机科学专业教授，同时还是人工智能领域里「标准教科书」《人工智能：一种现代方法》作者（谷歌研究主管 Peter Norvig 也是该书作者）。在这篇文章中，他以 Q&amp;A 的方式讲解了人工智能的未来以及常见的误解</DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE><A HREF="http://blog.bzline.cn">Computer Vision</A>:</CITE>
+<DIV CLASS="ii"><A HREF="http://imgur.com/AXYduYT"><IMG CLASS="ill" SRC="http://www.bzline.cn/ainews/images/tech_trends_00001.png"></A>
+<STRONG CLASS="L1"><A HREF="http://imgur.com/AXYduYT">4. 人工智能有哪些误区</A></STRONG>&nbsp; &mdash;&nbsp; Russell 是加州大学伯克利分校人工智能系统中心创始人兼计算机科学专业教授，同时还是人工智能领域里「标准教科书」《人工智能：一种现代方法》作者（谷歌研究主管 Peter Norvig 也是该书作者）。在这篇文章中，他以 Q&amp;A 的方式讲解了人工智能的未来以及常见的误解</DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE><A HREF="http://blog.bzline.cn">Computer Vision</A>:</CITE>
+<DIV CLASS="ii"><A HREF="http://imgur.com/AXYduYT"><IMG CLASS="ill" SRC="http://www.bzline.cn/ainews/images/tech_trends_00001.png"></A>
+<STRONG CLASS="L1"><A HREF="http://imgur.com/AXYduYT">5. 人工智能有哪些误区</A></STRONG>&nbsp; &mdash;&nbsp; Russell 是加州大学伯克利分校人工智能系统中心创始人兼计算机科学专业教授，同时还是人工智能领域里「标准教科书」《人工智能：一种现代方法》作者（谷歌研究主管 Peter Norvig 也是该书作者）。在这篇文章中，他以 Q&amp;A 的方式讲解了人工智能的未来以及常见的误解</DIV>
+</DIV>
+
+
+
+<div CLASS="cnvl">
+<A HREF="http://blog.bzline.cn">More...</A>
+</div>
+</DIV>
+<DIV ID="hiring">
+<H2>Who's Hiring In Tech?</H2>
+
+
+
+
+
+<DIV CLASS="cosp"><A HREF="bzline.cn"><IMG CLASS="down2" WIDTH=16 SRC="http://bzline.cn/ainews/images/hiring_000001.png"><SPAN>1. Bzline</SPAN>: The Best Place to Play,Connect anything. Change everything.</A></DIV>
+
+
+
+<DIV CLASS="cosp"><A HREF="bzline.cn"><IMG CLASS="down2" WIDTH=16 SRC="http://bzline.cn/ainews/images/hiring_000001.png"><SPAN>2. Bzline</SPAN>: The Best Place to Play,Connect anything. Change everything.</A></DIV>
+
+
+
+<DIV CLASS="cosp"><A HREF="bzline.cn"><IMG CLASS="down2" WIDTH=16 SRC="http://bzline.cn/ainews/images/hiring_000001.png"><SPAN>3. Bzline</SPAN>: The Best Place to Play,Connect anything. Change everything.</A></DIV>
+
+
+
+<DIV CLASS="cosp"><A HREF="bzline.cn"><IMG CLASS="down2" WIDTH=16 SRC="http://bzline.cn/ainews/images/hiring_000001.png"><SPAN>4. Bzline</SPAN>: The Best Place to Play,Connect anything. Change everything.</A></DIV>
+
+
+
+<DIV CLASS="cosp"><A HREF="bzline.cn"><IMG CLASS="down2" WIDTH=16 SRC="http://bzline.cn/ainews/images/hiring_000001.png"><SPAN>5. Bzline</SPAN>: The Best Place to Play,Connect anything. Change everything.</A></DIV>
+
+
+
+
+</DIV>
+</DIV>
+
+<DIV ID="topcol3">
+<DIV id="newpostscounter" onclick="window.location.href=window.location.pathname;"></DIV>
+<DIV id="countercolspaceholder">&nbsp;</DIV>
+<DIV id="countercol">
+
+<H2>行业应用</H2>
+
+
+
+<DIV CLASS="item">
+<CITE>1. 寒武纪 / 智能芯片:</CITE><BR>
+<DIV CLASS="ii"><A CLASS="nfdl ourh" HREF="http://www.cambricon.com">寒武纪科技是全球智能芯片领域的先行者，宗旨是打造各类智能云服务器、智能终端以及智能机器人的核心处理器芯片。</A></DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE>2. 格灵深瞳 / 计算机视觉:</CITE><BR>
+<DIV CLASS="ii"><A CLASS="nfdl ourh" HREF="http://www.deepglint.com">格灵深瞳是一家将计算机视觉和深度学习技术应用于商业领域的科技公司，自主研发的深瞳技术在人和车的检测、跟踪与识别方面居于世界领先水平。公司借助海量数据，让计算机像人一样看懂这个世界，实时获取自然世界正在发生的一切，打造自然世界的搜索引擎。</A></DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE>3. Face++旷视科技 / 人脸识别:</CITE><BR>
+<DIV CLASS="ii"><A CLASS="nfdl ourh" HREF="https://www.megvii.com">北京旷视科技有限公司是一家专注机器视觉和人工智能的极客技术公司，打造领先的人脸识别，图像识别，和深度学习技术服务云平台。旷视科技将致力于“先让机器看懂世界，再让机器真正思考”</A></DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE>4. 图森 / 自动驾驶:</CITE><BR>
+<DIV CLASS="ii"><A CLASS="nfdl ourh" HREF="http://www.tusimple.com">北京图森未来科技有限公司是一家科技创新企业,专注于人工智能和计算机视觉技术的研发与应用。公司成立于2015年, 工程及商业化团队位于中国北京,核心算法研究院位于美国圣地亚哥</A></DIV>
+</DIV>
+
+
+
+<DIV CLASS="item">
+<CITE>5. 商汤科技 / 计算机视觉:</CITE><BR>
+<DIV CLASS="ii"><A CLASS="nfdl ourh" HREF="http://www.sensetime.com">专注于计算机视觉和深度学习原创技术</A></DIV>
+</DIV>
+
+
+
+
+<div CLASS="cnvl">
+<A HREF="http://blog.bzline.cn/blog/2017/03/16/yu-ren-gong-zhi-neng-xiang-guan-de-chuang-ye-gong-si-huo-tuan-dui/">More...</A>
+</div>
+
+</DIV>
+</DIV>
+<STYLE TYPE="text/css" MEDIA="all">
+.evhed {padding-top:1em;border-top:#174a61 solid 2px}
+#events H2 {padding-bottom:0.9em}
+#events {width:96%;float:left}
+#events {margin-top:1em;padding:1em;background:#f4f4f4;}
+#events a:visited {color:#002848;}
+#events a {color:#000}
+#events a:visited {color:#000}
+#events a div {float:left}
+#events a > div:first-child {width:18%;padding-right:2%}
+#events a > div:first-child + div {width:46%;padding-right:2%;font-weight:bold;}
+#events .nf a > div:first-child + div {font-weight:normal;}
+#events a > div:first-child + div + div {width:31.9%;color:#444}
+#events .ne {clear:both;}
+#events .rhov {float:left;width:100%;padding:0.3em 0;}
+#events .rhov:hover {text-decoration:underline;background:#d0e8f4;}
+#events .ne .rhov {border-top:solid 1px #ccc;}
+#events .featured .rhov {background:#ffd;padding:0.5em 0;}
+#events .featured span {float:right;background:#a56;color:#fff;font-size:0.8em;padding:0.2em 0.2em 0;margin-bottom:0.1em;margin-top:-0.1em;border-top:solid 1px #ecc;border-bottom:solid 1px #945;}
+#events .featured .rhov:hover {background:#d0e8f4}
+#events .efoot {font-weight:bold;width:100%}
+#events .efoot A {color:#802848;}
+#events .efoot A:visited {color:#802848;}
+#events .efoot {clear:both;padding:1.2em 0 0}
+#events .efoot .fn1 {float:left}
+#events .efoot .fn2 {width:33%;margin:0 auto;}
+#events .efoot .fn3 {float:right}
+</STYLE>
+<DIV ID="events">
+<H2>Upcoming Tech Events</H2>
+
+
+<div class="ne"><div class="rhov"><a href="bzline.cn"><div>1. April 7 - 10</div><div>Black Hat USA</div><div>Shanghai</div></a></div></div>
+
+<div class="ne"><div class="rhov"><a href="bzline.cn"><div>2. April 7 - 10</div><div>Black Hat USA</div><div>Shanghai</div></a></div></div>
+
+<div class="ne"><div class="rhov"><a href="bzline.cn"><div>3. April 7 - 10</div><div>Black Hat USA</div><div>Shanghai</div></a></div></div>
+
+<div class="ne"><div class="rhov"><a href="bzline.cn"><div>4. April 7 - 10</div><div>Black Hat USA</div><div>Shanghai</div></a></div></div>
+
+<div class="ne"><div class="rhov"><a href="bzline.cn"><div>5. April 7 - 10</div><div>Black Hat USA</div><div>Shanghai</div></a></div></div>
+
+
+
+</DIV>
+</DIV>
+
+<DIV CLASS="navbar">
+<DIV CLASS="navtabs">
+<DIV CLASS="sisnav">
+</DIV>
+<A HREF="/" TITLE="RatioClub copyright">© 2017 RatioClub. All rights reserved. | 沪备ICP 15032174 | 沪公网安备 31011202003624号</A>
+</DIV>
+</DIV>
+</div>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-433897-4");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</BODY>
+</HTML>
