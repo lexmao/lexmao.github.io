@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://jiqizhixin.com/data/upload/ueditor/20170413/58ef193c3da8e.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://static.leiphone.com/uploads/new/article/pic/201704/58f6b94e289dd.png?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-吴攀 / 
-www.jiqizhixin.com:
+吴德新 / 
+www.leiphone.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.jiqizhixin.com//article/2640"
+    href="http://www.leiphone.com/news/201704/9hJdTYxJPcGP5Uc5.html"
     target="_blank"
 >
-谷歌提出贝叶斯循环神经网络：优于传统RNN
+重磅！百度开放自动驾驶技术平台
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  谷歌研究者最近在 arXiv 上发布了一篇论文，介绍了一种新的网络：贝叶斯循环神经网络 
+&nbsp; &mdash;&nbsp;  今年七月份将率先开放封闭场地的自动驾驶能力，年底输出在城市简单路况下的自动驾驶能力，在2020年前逐步开放至高速公路和普通城市道路上的全自动驾驶。 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ www.jiqizhixin.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com//article/2640"
+    href="http://weibo.com/chuangyejia?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-吴攀 / 
-www.jiqizhixin.com
+创业家传媒 / 
+s.weibo.com
 </span>
-<span class="title">谷歌研究者最近在 arXiv 上发布了一篇论文，介绍了一种新的网络：贝叶斯循环神经网络</span>
+<span class="title">【百度发布阿波罗计划】百度今日发布“Apollo计划”，将向汽车行业及自动驾驶领域合作伙伴提供一个开放、完整、安全的软件平台。Apollo具体计划是：2017年7月，开放封闭场地的自动驾驶能力；2017年底，输出在城市简单路况下的自动驾驶能力;2020年前逐步开放至高速公路和普通城市道路上的全自动驾驶。 ​</span>
 </a>
 </div>
 
@@ -70,14 +70,14 @@ www.jiqizhixin.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/synced?refer_flag=1001030103_"
+    href="http://weibo.com/ifengtechdigi?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-机器之心synced / 
+凤凰科技 / 
 s.weibo.com
 </span>
-<span class="title">谷歌提出贝叶斯循环神经网络：优于传统RNN 网页链接 ​</span>
+<span class="title">【百度宣布开放自动驾驶平台 命名为“Apollo”计划】百度发布一项名为“Apollo”的新计划，将向汽车行业及自动驾驶领域的合作伙伴提供软件平台，帮助他们结合车辆和硬件系统，快速搭建一套属于自己的完整的自动驾驶系统。|百度宣布开... ​</span>
 </a>
 </div>
 
@@ -87,14 +87,48 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/looooker?refer_flag=1001030103_"
+    href="http://weibo.com/baiduguanfang?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-北大新媒体 / 
+百度 / 
 s.weibo.com
 </span>
-<span class="title">【新技术帮助AI更快识别目标】Gamalon公司的新技术“贝叶斯程序合成”（BPS）可使AI深度学习的进程提升100倍，并称远比谷歌基于机器学习的AI机智。例如，谷歌AI无法同时识别两个不同的目标，BPS系统却可以在有多个对象干扰的情况下同时锁定指定的多个目标。传统的机器学习要求AI进行至少500个训练案例 ​
+<span class="title">百度决定发布“Apollo计划”，我们将向汽车行业及自动驾驶领域的合作伙伴提供一个开放、完整、安全的软件平台。希望未来可以解放双手，使每个人开车时也能自由地仰望星空 |百度发布阿... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/caixincn?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+财新网 / 
+s.weibo.com
+</span>
+<span class="title">【百度推“阿波罗计划” 开放自动驾驶能力】（记者 孙文婧）继上个月重组智能汽车业务之后，4月19日，百度发布一项名为“Apollo”（阿波罗）的新计划，将向汽车行业及自动驾驶领域的其他合作伙伴提供开放的软件平台，令其能够结合车辆和硬件系统，搭建自己的自动驾驶系统。 |百度推“阿... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/zhangtengyuan23?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+张腾元-Ternence / 
+s.weibo.com
+</span>
+<span class="title">Apollo项目提供一套完整的软硬件和服务的解决方案，包括车辆平台、硬件平台、软件平台、云端数据服务等四大部分。百度将开放环境感知、路径规划、车辆控制、车载操作系统等功能的代码或能力，并且提供完整的开发测试工具。百度还将在车辆和传感器等领域选择协同度和兼容性最好的合作伙伴，共同组成协 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -105,14 +139,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/DataScientistUnion?refer_flag=1001030103_"
+    href="http://weibo.com/fadway?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-数盟社区 / 
+EC品牌观察 / 
 s.weibo.com
 </span>
-<span class="title">学界 | 谷歌提出深度概率编程语言Edward：融合了贝叶斯、深度学习和概率编程网页链接 ​</span>
+<span class="title">【百度发布Apollo计划，开放完整的自动驾驶平台！】百度方面介绍，今年七月份将率先开放封闭场地的自动驾驶能力，年底输出在城市简单路况下的自动驾驶能力，在 2020 年前逐步开放至高速公路和普通城市道路上的全自动驾驶！ 网页链接 ​</span>
 </a>
 </div>
 
@@ -122,14 +156,15 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/alidw?refer_flag=1001030103_"
+    href="http://weibo.com/iphone91?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-阿里巴巴数据仓库 / 
+91门户 / 
 s.weibo.com
 </span>
-<span class="title">#数据挖掘资讯# 3-3【一些机器学习在线资料】 前CMU机器学习系教授Andrew Moore在跳槽去当谷歌匹兹堡主管前，写了一系列相当棒的统计数据挖掘教程：包括决策树，信息论，概率基础，贝叶斯网络，隐变量模型，统计学习理论，经典AI算法等 |Statistica... ​</span>
+<span class="title">【百度推出阿波罗计划：开放自动驾驶平台】作为全球范围内第一家宣布对外开放自己技术和平台的无人车技术领先企业，百度决定选择“Apollo”作为此次计划的代号，向另一个叫做人工智能的宇宙出发！1969年，“阿波罗计划”使阿姆斯特朗在月球上迈出了人类的一大步。今天，我们希望未来可以解放双手，使每 ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -139,14 +174,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/2621600632?refer_flag=1001030103_"
+    href="http://weibo.com/cyzone?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-善科网 / 
+创业邦杂志 / 
 s.weibo.com
 </span>
-<span class="title">【善科文库：贝叶斯规则推进无人驾驶汽车】谷歌无人驾驶汽车走街串巷上万公里毫无事故！从摄像头、雷达传感器等收集的海量数据， 可帮助无人驾驶汽车作出正确判断。你知不知道，这种快速判断能力源于18世纪的一条数学 定理——贝叶斯公式。网页链接 ​</span>
+<span class="title">【百度宣布开放自动驾驶平台，取名“阿波罗计划”】百度今日宣布开放自动驾驶平台，在这个取名“Apollo”的新计划中，百度表示将向汽车行业及自动驾驶领域的合作伙伴提供一个开放、完整、安全的软件平台，帮助他们结合车辆和硬件系统，快速搭建一套属于自己的完整的自动驾驶系统。|百度宣布开... ​</span>
 </a>
 </div>
 
@@ -156,14 +191,82 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/21480232"
+    href="http://weibo.com/u/6128740659?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Bruce Lan / 
+皖西学院文传GuangGao / 
+s.weibo.com
+</span>
+<span class="title">#广告周边 “百度发布Apollo计划，宣布对外共享其自动驾驶能力” 网页链接 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/xiquechuanzhang?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+喜鹊船长 / 
+s.weibo.com
+</span>
+<span class="title">分享网易新闻 《百度宣布“Apollo”计划 开放其自动驾驶平台》|百度宣布“A... 来自@网易新闻客户端 #网易新闻#点赞！ ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/5220257429?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+GwenStefaniDaily / 
+s.weibo.com
+</span>
+<span class="title">新鲜份的狗粮 Shefani在昨晚Apollo In The Hamptons的慈善晚宴上表演了 最后一张是Gwen对熊唱歌@BlakeShelton百度贴吧 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/5220257429?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+GwenStefaniDaily / 
+s.weibo.com
+</span>
+<span class="title">昨晚在Apollo In The Hamptons慈善晚宴的Shefani@BlakeShelton百度贴吧 熊爷爷吃得挺好 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://www.zhihu.com//question/19585414"
+    target="_blank"
+>
+<span class="cite">
+史学楷 Apollogt / 
 www.zhihu.com
 </span>
-<span class="title">能够从原始数据当中生成自己的理解解决一些复杂问题从而提升谷歌的产品将软件工程的工作量最小化尽可能的推进我们最先进的技术海量的数据文本:英语+其他语言... 11.7%错误率词语包+词向量+更多调整工具:11.1%错误率词语包+二元语法+贝叶斯算法:9%错误率语句...</span>
+<span class="title">个人使用时对于数据定位,汇总,关联的体验比较好.关联(内部超链接)的体验可能是笔记本软件中体验最好的.当初做了个教学ppt 第一部分 第二部分12-10 更新链接;这么健康的资源百度屏蔽个什么劲啊...[apollo]onenote不完全教程 第一部分:产品概述 v 1.1_字体.pp...</span>
 </a>
 </div>
 
@@ -173,14 +276,32 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/39902308"
+    href="http://www.theverge.com/2017/4/18/15352462/baidu-project-apollo-self-driving-cars-autonomous"
     target="_blank"
 >
 <span class="cite">
-陆君慨 / 
-www.zhihu.com
+Rich McCormick / 
+www.theverge.com
 </span>
-<span class="title">从算法上来说,谷歌和facebook的大致思路是相同的,都放弃了单纯的神经网络,而是利用神经网络来优化传统的mcts(蒙特卡罗树搜索).mcts是06年提出的,第一次... 虽然zen和crazystone都另外采用了一定的机器学习算法(由于他们不公开,个人推测是提取特征的贝叶斯学...</span>
+<span class="title">Baidu opens up self-driving vehicle platform Apollo, encompassing both hardware and software, which aims to offer fully autonomous driving by 2020
+  —  Project Apollo aims to offer fully autonomous driving by 2020  —  Chinese tech giant Baidu has announced a new autonomous vehicle platform …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.jiqizhixin.com//article/2675"
+    target="_blank"
+>
+<span class="cite">
+机器之心 / 
+www.jiqizhixin.com
+</span>
+<span class="title">今天，百度发布了「Apollo」新计划，向汽车行业及自动驾驶领域的合作伙伴提供一个开放、完整、安全的软件平台。</span>
 </a>
 </div>
 

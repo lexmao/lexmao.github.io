@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://www.jiqizhixin.com//data/upload/20170417/58f4b08709985.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://www.jiqizhixin.com//data/upload/20170419/58f6df9c6d0ba.jpg" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-小琳哥哥 / 
+李泽南 / 
 www.jiqizhixin.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.jiqizhixin.com//article/2667"
+    href="http://www.jiqizhixin.com//article/2676"
     target="_blank"
 >
-百度自动驾驶再「结盟」，高精地图、HMI技术惊艳亮相
+英伟达嵌入式计算平台Jetson TX2：让神经网络走进终端设备
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  4月17日消息，博世与百度、高德、四维图新签署基于高精地图的自动驾驶战略合作协议。 
+&nbsp; &mdash;&nbsp;  英伟达举行的 Jetson TX2 Editor&#39;s Day 活动中，向人们展示了新一代 Jetson 计算平台的强大计... 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ www.jiqizhixin.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/57676697"
+    href="http://weibo.com/ithome?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-PingWest品玩 / 
-www.zhihu.com
+IT之家 / 
+s.weibo.com
 </span>
-<span class="title">喊完&#34;三年商用、五年量产&#34;的口号,百度负责无人车业务的王劲还是走了作者:王飞2017年3月1日,百度通过内部邮件的方式宣布了两个大消息——百度将成立了智能驾驶事业群组(idg),由自动驾驶事业部(l4)、智能汽车事业部(l3)、车联网业务(carlifeetc.)共同组成.集...</span>
+<span class="title">【英伟达推Jetson TX2移动SoC平台，专为物联网产品】Tegra之后，英伟达已经很久没有发布过移动SoC产品了。不过今日英伟达发布了名为Jetson TX2的移动SoC平台产品，主要用于机器人、无人机和智能摄影机等物联网产品……详情点击：网页链接 ​</span>
 </a>
 </div>
 
@@ -70,14 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/37689312"
+    href="http://weibo.com/mrgamer?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-AreYouKiddingMe / 
-www.zhihu.com
+游戏先生mrgamer / 
+s.weibo.com
 </span>
-<span class="title">百度自动驾驶都有人敢用.自动带你到福建人的医院做无痛人流.您 的车正在使用百度自动驾驶.对话框弹出:我是你爹,请选择 :a,爹!b, 确认.正在为您 自动安装:百度洗车,汽车卫士,百度修车,xx浏览器,边开车边玩的小游戏,百度影音,百度管家,百度开车助手,百度仪表盘,...</span>
+<span class="title">#MG号外# 英伟达在今天正式发布搭载 Tegra X2 的SoC解决方案 Jetson TX2。这款全新的芯片组或是16年8月曝光的 “Parker”。Jetson TX2 相比前代完全采用 Pascal 构架，内存性能提升8倍，功耗方面也有大幅优化，分为节能模式（7.5W）和性能优先模式（15W），最大支持4K60帧硬解码。下半年推出零售版本。 ​</span>
 </a>
 </div>
 
@@ -87,14 +87,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/26756771"
+    href="http://weibo.com/synced?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-雷感衷 / 
-www.zhihu.com
+机器之心synced / 
+s.weibo.com
 </span>
-<span class="title">以前也有人认为人在天上飞也是挺扯淡的,甚至90年代 大多数人认为手势操作也是 扯淡</span>
+<span class="title">英伟达发布Jetson TX2计算平台，助力人工智能终端技术进步 网页链接 → 英伟达今天发布了新一代嵌入式计算平台 Jetson TX2，人工智能终端计算解决方案的 Jetson 系列也进入了 Pascal 架构时代。 ​</span>
 </a>
 </div>
 
@@ -104,14 +104,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/26225533"
+    href="http://weibo.com/zhikeshuma?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-炫姐姐 / 
-www.zhihu.com
+ZAEKE知客 / 
+s.weibo.com
 </span>
-<span class="title">滴滴在美国成立自动驾驶实验室,英特尔收购以色列公司 mobileye,首辆自动驾驶赛车 roborace 上赛道……回想今年刚过去 3 个多月的时间里,自动驾驶业界的新动向似乎就未消停过,且到目前还呈持续高涨的状态.我们来继续说说最近发生的一些新事件:成立 1 年后,驭...</span>
+<span class="title">@NVIDIA英伟达 并没有停止推出移动SoC平台，推出名为Jetson TX2的移动SoC平台产品。主要面对是机器人、无人机和智能摄影机等物联网产品。详→网页链接 ​</span>
 </a>
 </div>
 
@@ -121,14 +121,84 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/58056204"
+    href="http://weibo.com/gpucomputing?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Xtecher / 
-www.zhihu.com
+GPU计算 / 
+s.weibo.com
 </span>
-<span class="title">去年5月投资1.822亿美元到大数据公司做大数据驱动(收集数据、分析数据);去年7月投资660万美元,布局3d地图;去年8月和百度一起投资1.5亿美元给激光雷达公司.单看投资额,福特在自动驾驶领域的投资已经达到十数亿美元,更是涵盖了自动驾驶技术数个关键组成部分....</span>
+<span class="title">首期中国计算机学会（CCF）企业合作技术讲座—英伟达智能机器人课程成功开讲啦！该讲座首次采用线上直播的方式，介绍了NVIDIA现有的机器人课程与资源，现场演示基于NVIDIA Jetson TK1的智能机器人，并与听众展开积极的线上互动与讨论。本次讲座邀请到CCF秘书长杜子德、会员与分部主任罗训、英伟达全球 ​
+			...展开全文c</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/21its?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+智能交通网 / 
+s.weibo.com
+</span>
+<span class="title">【宇视：联合NVIDIA发布最强智能分析服务器】2016年10月，宇视科技（uniview）与英伟达（NVIDIA）联合宣布，推出新一代大容量分布式的云结构化智能分析服务器（代号“昆仑”），在4U的高度上支持了80颗NVIDIA Jetson TX1处理器，为业界最高密度、最强性能。 网页链接 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/2491989963?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+宇视科技 / 
+s.weibo.com
+</span>
+<span class="title">『昆仑出世 | 宇视联合NVIDIA发布最强智能分析服务器』恭喜宇视科技（uniview）与英伟达（NVIDIA），握有新时代入场券！双方联合宣布，推出新一代大容量分布式的云结构化智能分析服务器（代号“昆仑”），在4U的高度上支持了80颗NVIDIA Jetson TX1处理器。一台昆仑可并发处理640张/秒的人脸识别、160路 ​
+			...展开全文c</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/saitchina?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+深度学习日记本er / 
+s.weibo.com
+</span>
+<span class="title">#AI产业界# 海康威视联合英伟达、Movidius发布基于深度学习智能安防新品 |海康威视联... 发布的最新双目智能摄像机产品基于NVIDIA Jetson TX1，实现多种智能分析功能。基于深度学习技术，支持人员行为，客流统计，人体属性，人脸识别等，适用于公共场所，银行，商场，景区等环境 | from@新智元 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/5324801137?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+百度未来商店 / 
+s.weibo.com
+</span>
+<span class="title">根据国外媒体的报道，英伟达近日发布了一段珠峰VR项目的预告片，让人相当期待。英伟达表示，借助自家的移动超级计算机Jetson TX1，英伟达与Solfar工作室以及RVX公司一同对超过30万张珠峰高清照片进行了合成，最终创建了珠峰的3D模型并且制作了虚拟现实场景。珠峰的虚拟现实体验项目将于明年正式上线。 ​</span>
 </a>
 </div>
 
@@ -145,7 +215,7 @@ www.zhihu.com
 车云网 / 
 s.weibo.com
 </span>
-<span class="title">博世宣布，已经与百度、高德及四维图新三家中国地图供应商达成合作，共同开发，把博世道路特征Bosch Road Signature引入中国自动驾驶市场。 |博世与三家... ​</span>
+<span class="title">#车云资讯#英伟达Jetson TK1平台亮相GTC2014，并助力奥迪无人驾驶汽车首秀。Jetson TK1使用的是开发者用于PC和移动终端上的视觉工作套件。该套件售价$192，被誉为“移动的超级电脑”。而基于Tegra K1开发套件的奥迪无人驾驶车载智能系统，可提供自动驾驶、导航、碰撞感应、智能链接等功能。 ​</span>
 </a>
 </div>
 
@@ -155,14 +225,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/iyiou?refer_flag=1001030103_"
+    href="https://zhuanlan.zhihu.com/p/25639467"
     target="_blank"
 >
 <span class="cite">
-亿欧 / 
-s.weibo.com
+机器之心 / 
+www.zhihu.com
 </span>
-<span class="title">【一周回顾丨人工智能行业一周大事件盘点（03.12-03.18）】值得关注事件：①英特尔153亿美元收购Mobileye；②软银投资AI创业公司ObEN；③英伟达与博世、PACCAR建立合作，推广自动驾驶技术；④百度推出AI转录应用SwiftScribe​。 |一周回顾丨... ​</span>
+<span class="title">英伟达于今天发布了新一代嵌入式计算平台 jetson tx2.至此,作为人工智能终端计算解决方案的 jetson 系列也进入了 pascal 架构时代.本次发布的 jetson tx2 延续了该系列小体积、高度集成的特性,在名片大小的尺寸上整合了 4 核 arm a57 cpu、pascal 架构 gpu(...</span>
 </a>
 </div>
 
@@ -172,15 +242,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/darrentsuei?refer_flag=1001030103_"
+    href="https://zhuanlan.zhihu.com/p/23661781"
     target="_blank"
 >
 <span class="cite">
-翠翠DixiaoCui / 
-s.weibo.com
+undefined / 
+www.zhihu.com
 </span>
-<span class="title">知乎圆桌有关「人工智能.自动驾驶」的专题讨论已经开始，将持续约一周。我有幸与奥迪自动驾驶工程师薛神、博世自动驾驶工程师大学好友Kevin、图森互联CTO侯晓迪、乐骋汽车技术总监王飞、百度自动驾驶大牛猴哥等作为圆桌讨论嘉宾，将在一周时间内回答大家有关自动驾驶的问题。欢迎大家提问，感谢大 ​
-			...展开全文c</span>
+<span class="title">tensorflow搭建网上已经有很教程了.但是基于英伟达的tx1芯片几乎没有.所以本教程基本是我搭建环境几个星期踩的坑.平时都是下班折腾的所以花的时间比较长.先做好基本环境的搭建,cuda8.0,cudnn这些tensorflow基本要的.这些用英伟达提供的工具包jetpack 2.3 l4...</span>
 </a>
 </div>
 
@@ -190,14 +259,66 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com//article/2667"
+    href="https://www.zhihu.com//question/51788678"
     target="_blank"
 >
 <span class="cite">
-小琳哥哥 / 
+硅谷密探 / 
+www.zhihu.com
+</span>
+<span class="title">在英伟达显卡垄断深度学习硬件市场的背景和黄教主all-in深度学习的宣言下,英伟达的股票一年涨了三倍.但是具体到自动驾驶,大家都希望有专用的芯片,轻量化低功耗,而不是载着核弹到处跑,英伟达之前的jetson系列嵌入式板子,把原本用到手机的平台拉来跑神经网络,...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.anandtech.com/show/11185/nvidia-announces-jetson-tx2-parker"
+    target="_blank"
+>
+<span class="cite">
+Ryan Smith / 
+www.anandtech.com
+</span>
+<span class="title">Nvidia unveils Jetson TX2 Pascal-powered AI board computer; pre-order dev kit for $599, or the module from $399, shipping Q2
+  —  For a few years now, NVIDIA has been offering their line of Jetson embedded system kits.  Originally launched using Tegra K1 in 2014, the first Jetson was designed …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.jiqizhixin.com//article/2676"
+    target="_blank"
+>
+<span class="cite">
+李泽南 / 
 www.jiqizhixin.com
 </span>
-<span class="title">4月17日消息，博世与百度、高德、四维图新签署基于高精地图的自动驾驶战略合作协议。</span>
+<span class="title">英伟达举行的 Jetson TX2 Editor&#39;s Day 活动中，向人们展示了新一代 Jetson 计算平台的强大计算能力。</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.jiqizhixin.com//article/2430"
+    target="_blank"
+>
+<span class="cite">
+李泽南 / 
+www.jiqizhixin.com
+</span>
+<span class="title">随着TX2的发布，作为人工智能终端计算解决方案的Jetson系列也进入了Pascal时代</span>
 </a>
 </div>
 

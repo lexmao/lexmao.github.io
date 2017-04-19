@@ -54,91 +54,6 @@ Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 res
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25693690"
-    target="_blank"
->
-<span class="cite">
-DeepTech深科技 / 
-www.zhihu.com
-</span>
-<span class="title">这背后的人工神经网络技术引领了人工智能潮流的爆发.这也是为什么谷歌和facebook能让你在图册中进行搜索,这项技术还支持了脸部识别类的新应用. 如今,人工智能领域大神级人物、facebook人工智能主管 yann lecun 表示,机器视觉的下一站将会是以自主观察世界的...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/23422467"
-    target="_blank"
->
-<span class="cite">
-机器之心小助手 / 
-www.zhihu.com
-</span>
-<span class="title">选自business insider作者:sam shead机器之心编译参与:蒋思源、李泽南yann lecun是人工智能界的著名学者,现任facebook人工智能研究部门的主管.就在上周,lecun作为神经网络的先驱获得了lovie终身成就奖,business insider专访了这位来自巴黎的学者.yann lecun...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24112818"
-    target="_blank"
->
-<span class="cite">
-机器之心 / 
-www.zhihu.com
-</span>
-<span class="title">facebook 人工智能研究实验室主管 yann lecun 和 facebook 应用机器学习部门主管 joaquin quiñonero candela 发表了一篇题为《artificial intelligence, revealed》的文章,介绍了人工智能的基本概念和应用,并讨论了相关应用和研究上的未来前景.除此之外,...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25942743"
-    target="_blank"
->
-<span class="cite">
-张重阳 / 
-www.zhihu.com
-</span>
-<span class="title">2017年3月22日星期三,空气重度污染的北京迎来了人工智能领域一位重量级的嘉宾——facebook人工智能实验室主任,卷积神经网络的发明人yann lecun教授.yann lecun一行上午在中国科学院自动化研究所举行了40分钟的小型座谈会,下午在清华大学举办了&#34;深度学习与人...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25750919"
-    target="_blank"
->
-<span class="cite">
-将门 / 
-www.zhihu.com
-</span>
-<span class="title">最近,你的朋友圈是不是已被3月22日facebook人工智能研究院院长yann lecun将在清华演讲的消息刷屏了?此次讲座是由清华大学经济管理学院、清华x-lab、facebook主办,lecun教授将会带来一场2小时全新深入的对ai了解与体验.作为密切关注人工智能发展的创投机构和...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
     href="http://weibo.com/u/3235040884?refer_flag=1001030103_"
     target="_blank"
 >
@@ -319,6 +234,199 @@ s.weibo.com
 s.weibo.com
 </span>
 <span class="title">【75页PPT干货教你如何预测学习替代无监督学习】日前，Facebook AI 实验室负责人、纽约年夜学教授 Yann LeCun 受邀在今年的 NIPS 年夜会揭橥主旨演讲，畅谈深度学习最近技术进展。网页链接 @江苏道法自然 @江苏环保 @下岗工人01 @-娃娃戏水- @理性思考-中药深度开发者 学习 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/25693690"
+    target="_blank"
+>
+<span class="cite">
+DeepTech深科技 / 
+www.zhihu.com
+</span>
+<span class="title">这背后的人工神经网络技术引领了人工智能潮流的爆发.这也是为什么谷歌和facebook能让你在图册中进行搜索,这项技术还支持了脸部识别类的新应用. 如今,人工智能领域大神级人物、facebook人工智能主管 yann lecun 表示,机器视觉的下一站将会是以自主观察世界的...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/23422467"
+    target="_blank"
+>
+<span class="cite">
+机器之心小助手 / 
+www.zhihu.com
+</span>
+<span class="title">选自business insider作者:sam shead机器之心编译参与:蒋思源、李泽南yann lecun是人工智能界的著名学者,现任facebook人工智能研究部门的主管.就在上周,lecun作为神经网络的先驱获得了lovie终身成就奖,business insider专访了这位来自巴黎的学者.yann lecun...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/24112818"
+    target="_blank"
+>
+<span class="cite">
+机器之心 / 
+www.zhihu.com
+</span>
+<span class="title">facebook 人工智能研究实验室主管 yann lecun 和 facebook 应用机器学习部门主管 joaquin quiñonero candela 发表了一篇题为《artificial intelligence, revealed》的文章,介绍了人工智能的基本概念和应用,并讨论了相关应用和研究上的未来前景.除此之外,...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/25942743"
+    target="_blank"
+>
+<span class="cite">
+张重阳 / 
+www.zhihu.com
+</span>
+<span class="title">2017年3月22日星期三,空气重度污染的北京迎来了人工智能领域一位重量级的嘉宾——facebook人工智能实验室主任,卷积神经网络的发明人yann lecun教授.yann lecun一行上午在中国科学院自动化研究所举行了40分钟的小型座谈会,下午在清华大学举办了&#34;深度学习与人...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/25750919"
+    target="_blank"
+>
+<span class="cite">
+将门 / 
+www.zhihu.com
+</span>
+<span class="title">最近,你的朋友圈是不是已被3月22日facebook人工智能研究院院长yann lecun将在清华演讲的消息刷屏了?此次讲座是由清华大学经济管理学院、清华x-lab、facebook主办,lecun教授将会带来一场2小时全新深入的对ai了解与体验.作为密切关注人工智能发展的创投机构和...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think"
+    target="_blank"
+>
+<span class="cite">
+Alex Kantrowitz / 
+www.buzzfeed.com
+</span>
+<span class="title">Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
+  —  miles away from Facebook&#39;s Menlo Park headquarters, in an old, beige office building in downtown Manhattan, a group of company employees …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://blogs.wsj.com/digits/2015/06/02/facebook-opens-third-artificial-intelligence-research-hub-in-paris/"
+    target="_blank"
+>
+<span class="cite">
+Deepa Seetharaman / 
+www.wsj.com
+</span>
+<span class="title">Facebook Opens Third Artificial-Intelligence Research Hub in Paris
+  —  Facebook is bolstering its artificial-intelligence expertise with a third center in Paris to help the social network better sift through photos, posts and videos shared by its 1.4 billion users.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://spectrum.ieee.org/automaton/robotics/artificial-intelligence/facebook-ai-director-yann-lecun-on-deep-learning"
+    target="_blank"
+>
+<span class="cite">
+Lee Gomes / 
+spectrum.ieee.org
+</span>
+<span class="title">Facebook AI Director Yann LeCun on His Quest to Unleash Deep Learning and Make Machines Smarter
+  —  Deep Learning expert Yann LeCun leads Facebook&#39;s AI research lab.  —  Artificial intelligence has gone through some dismal periods, which those in the field gloomily refer to as “AI winters.”</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.wired.com/2014/12/fb/"
+    target="_blank"
+>
+<span class="cite">
+Cade Metz / 
+www.wired.com
+</span>
+<span class="title">Inside Facebook&#39;s one-year-old Artificial Intelligence Research lab, led by Yann LeCun
+  —  Facebook Envisions A.I. That Keeps You From Uploading Embarrassing Pics  —  Let&#39;s say you&#39;re out drinking with your buddies, things get out of hand, you pull out your smartphone …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://gigaom.com/2014/07/29/twitter-acquires-deep-learning-startup-madbits/"
+    target="_blank"
+>
+<span class="cite">
+Derrick Harris / 
+gigaom.com
+</span>
+<span class="title">Twitter acquires deep learning startup Madbits
+  —  Twitter has acquired Madbits, a deep-learning-based computer vision startup founded by proteges of Facebook AI director Yann LeCun.  It&#39;s the latest in a spate of deep learning and computer vision acquisitions that also includes Google, Yahoo, Dropbox and Pinterest.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://gigaom.com/2013/12/09/facebook-hires-nyu-deep-learning-expert-to-run-its-new-ai-lab/"
+    target="_blank"
+>
+<span class="cite">
+Derrick Harris / 
+gigaom.com
+</span>
+<span class="title">Facebook hires NYU deep learning expert to run its new AI lab
+  —  Facebook launched a new artificial intelligence lab in September, and now we know the person who will run it — New York University deep learning expert Yann LeCun.  He has been an instrumental figure in the space …</span>
 </a>
 </div>
 
