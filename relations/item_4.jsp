@@ -16,23 +16,24 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://www.jiqizhixin.com//data/upload/20170419/58f6df9c6d0ba.jpg" style="border-style:none;" heigh="83" width="124" >
+<img src="http://www.techmeme.com/170417/i12.jpg" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-李泽南 / 
-www.jiqizhixin.com:
+Alex Kantrowitz / 
+www.buzzfeed.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.jiqizhixin.com//article/2676"
+    href="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think"
     target="_blank"
 >
-英伟达嵌入式计算平台Jetson TX2：让神经网络走进终端设备
+Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  英伟达举行的 Jetson TX2 Editor&#39;s Day 活动中，向人们展示了新一代 Jetson 计算平台的强大计... 
+&nbsp; &mdash;&nbsp;  Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
+  —  miles away from Facebook&#39;s Menlo Park headquarters, in an old, beige office building in downtown Manhattan, a group of company employees … 
 </span>
 
 </div>
@@ -53,14 +54,14 @@ www.jiqizhixin.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/ithome?refer_flag=1001030103_"
+    href="http://weibo.com/u/3235040884?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-IT之家 / 
+毅马当闲 / 
 s.weibo.com
 </span>
-<span class="title">【英伟达推Jetson TX2移动SoC平台，专为物联网产品】Tegra之后，英伟达已经很久没有发布过移动SoC产品了。不过今日英伟达发布了名为Jetson TX2的移动SoC平台产品，主要用于机器人、无人机和智能摄影机等物联网产品……详情点击：网页链接 ​</span>
+<span class="title">去年底Facebook的Yann LeCun和Microsoft的沈向洋答应将参加上科大信息学院今年七月初的SIST Symposium。无独有偶，他们俩都是今年刚宣布的美国工程院的新晋院士。看来一是我们请人的眼光不错，二是国际同仁们对信息学院的支持和认可越来越高。上海七月，Big Party！ ​</span>
 </a>
 </div>
 
@@ -70,14 +71,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/mrgamer?refer_flag=1001030103_"
+    href="http://weibo.com/u/5703921756?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-游戏先生mrgamer / 
+新智元 / 
 s.weibo.com
 </span>
-<span class="title">#MG号外# 英伟达在今天正式发布搭载 Tegra X2 的SoC解决方案 Jetson TX2。这款全新的芯片组或是16年8月曝光的 “Parker”。Jetson TX2 相比前代完全采用 Pascal 构架，内存性能提升8倍，功耗方面也有大幅优化，分为节能模式（7.5W）和性能优先模式（15W），最大支持4K60帧硬解码。下半年推出零售版本。 ​</span>
+<span class="title">【新智元导读】昨天清华大学大礼堂迎来 Facebook 人工智能研究院院长 Yann LeCun，他就《深度学习与人工智能的未来》为题，为现场百余名听众展开了一场讲座。本文带来本次讲座的内容精华。|Yann LeCun... ​</span>
 </a>
 </div>
 
@@ -87,14 +88,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/synced?refer_flag=1001030103_"
+    href="http://weibo.com/lewhwa?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-机器之心synced / 
+网路冷眼 / 
 s.weibo.com
 </span>
-<span class="title">英伟达发布Jetson TX2计算平台，助力人工智能终端技术进步 网页链接 → 英伟达今天发布了新一代嵌入式计算平台 Jetson TX2，人工智能终端计算解决方案的 Jetson 系列也进入了 Pascal 架构时代。 ​</span>
+<span class="title">【Yann LeCun清华演讲：讲述深度学习与人工智能的未来】昨日下午，Facebook人工智能研究院院长、卷积神经网络之父Yann LeCun在清华大学带来题为《深度学习与人工智能的未来》的演讲。本文据演讲内容总结而来。|Yann LeCun... ​</span>
 </a>
 </div>
 
@@ -104,31 +105,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/zhikeshuma?refer_flag=1001030103_"
+    href="http://weibo.com/u/6004911042?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-ZAEKE知客 / 
+清华大学数据科学研究院数据派 / 
 s.weibo.com
 </span>
-<span class="title">@NVIDIA英伟达 并没有停止推出移动SoC平台，推出名为Jetson TX2的移动SoC平台产品。主要面对是机器人、无人机和智能摄影机等物联网产品。详→网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/gpucomputing?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-GPU计算 / 
-s.weibo.com
-</span>
-<span class="title">首期中国计算机学会（CCF）企业合作技术讲座—英伟达智能机器人课程成功开讲啦！该讲座首次采用线上直播的方式，介绍了NVIDIA现有的机器人课程与资源，现场演示基于NVIDIA Jetson TK1的智能机器人，并与听众展开积极的线上互动与讨论。本次讲座邀请到CCF秘书长杜子德、会员与分部主任罗训、英伟达全球 ​
+<span class="title">【独家】深扒Yann LeCun清华演讲中提到的深度学习与人工智能技术（PPT+视频）LeCun现任Facebook AI研究院院长，同时他也是美国纽约大学的终身教授。他的研究兴趣包括机器学习、计算机视觉、移动机器人以及计算神经学等。他因著名且影响深远的卷积神经网络（CNN）相关的工作而被人称为CNN之父。看看他来 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -139,14 +123,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/21its?refer_flag=1001030103_"
+    href="http://weibo.com/51661970?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-智能交通网 / 
+自动化网官方微博 / 
 s.weibo.com
 </span>
-<span class="title">【宇视：联合NVIDIA发布最强智能分析服务器】2016年10月，宇视科技（uniview）与英伟达（NVIDIA）联合宣布，推出新一代大容量分布式的云结构化智能分析服务器（代号“昆仑”），在4U的高度上支持了80颗NVIDIA Jetson TX1处理器，为业界最高密度、最强性能。 网页链接 ​</span>
+<span class="title">【AI专家清华开讲：机器可以像人一样有创造力】近日清华大学“深度学习与人工智能的未来”公开课开讲，此公开课系《创新与创业：硅谷洞察》课程的一节。公开课邀请到Facebook #人工智能#研究院院长Yann LeCun教授主讲，他围绕 “深度学习与人工智能的未来”这一主题......网页链接 ​</span>
 </a>
 </div>
 
@@ -156,14 +140,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/2491989963?refer_flag=1001030103_"
+    href="http://weibo.com/paperweekly?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-宇视科技 / 
+PaperWeekly / 
 s.weibo.com
 </span>
-<span class="title">『昆仑出世 | 宇视联合NVIDIA发布最强智能分析服务器』恭喜宇视科技（uniview）与英伟达（NVIDIA），握有新时代入场券！双方联合宣布，推出新一代大容量分布式的云结构化智能分析服务器（代号“昆仑”），在4U的高度上支持了80颗NVIDIA Jetson TX1处理器。一台昆仑可并发处理640张/秒的人脸识别、160路 ​
+<span class="title">Predicting Deeper into the Future of Semantic Segmentation (Natalia Neverova, Pauline Luc, Camille Couprie, Jakob Verbeek, Yann LeCun) 来自Facebook AI Research给定一个语义分割过的视频序列，预测尚未观看到的帧的分割结果，可以预测短时(2秒内较准确)、中时和长时的分割结果，总体上比ba ​
 			...展开全文c</span>
 </a>
 </div>
@@ -174,14 +158,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/saitchina?refer_flag=1001030103_"
+    href="http://weibo.com/u/5499597986?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-深度学习日记本er / 
+lixinlang9527 / 
 s.weibo.com
 </span>
-<span class="title">#AI产业界# 海康威视联合英伟达、Movidius发布基于深度学习智能安防新品 |海康威视联... 发布的最新双目智能摄像机产品基于NVIDIA Jetson TX1，实现多种智能分析功能。基于深度学习技术，支持人员行为，客流统计，人体属性，人脸识别等，适用于公共场所，银行，商场，景区等环境 | from@新智元 ​</span>
+<span class="title">Facebook AI Director Yann LeCun on His Quest to Unleash Deep Learning and Make Machines Smarter - IEEE Spectrum …网页链接 ​</span>
 </a>
 </div>
 
@@ -191,14 +175,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/5324801137?refer_flag=1001030103_"
+    href="http://weibo.com/u/5639460902?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-百度未来商店 / 
+机器学习研究会 / 
 s.weibo.com
 </span>
-<span class="title">根据国外媒体的报道，英伟达近日发布了一段珠峰VR项目的预告片，让人相当期待。英伟达表示，借助自家的移动超级计算机Jetson TX1，英伟达与Solfar工作室以及RVX公司一同对超过30万张珠峰高清照片进行了合成，最终创建了珠峰的3D模型并且制作了虚拟现实场景。珠峰的虚拟现实体验项目将于明年正式上线。 ​</span>
+<span class="title">【讲座】Facebook Yann LeCun邀您畅谈：深度学习与人工智能的未来 |【讲座】Fa... ​</span>
 </a>
 </div>
 
@@ -208,14 +192,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/CHEYUN?refer_flag=1001030103_"
+    href="http://weibo.com/51661970?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-车云网 / 
+自动化网官方微博 / 
 s.weibo.com
 </span>
-<span class="title">#车云资讯#英伟达Jetson TK1平台亮相GTC2014，并助力奥迪无人驾驶汽车首秀。Jetson TK1使用的是开发者用于PC和移动终端上的视觉工作套件。该套件售价$192，被誉为“移动的超级电脑”。而基于Tegra K1开发套件的奥迪无人驾驶车载智能系统，可提供自动驾驶、导航、碰撞感应、智能链接等功能。 ​</span>
+<span class="title">【Facebook、微软人工智能“大牛”入选美国国家工程院院士】美国国家工程院公布了最新入选的84名院士和22名外籍院士名单。在今年的名单中，人工智能领域有两位著名人物入选。分别是Facebook人工智能实验室主任杨乐昆（Yann LeCun），微软全球执行副总裁沈向洋。|美国国家工... ​</span>
 </a>
 </div>
 
@@ -225,14 +209,82 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25639467"
+    href="http://weibo.com/fly51fly?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+爱可可-爱生活 / 
+s.weibo.com
+</span>
+<span class="title">《“OK Facebook”—Why stop at assistants? Facebook has grander ambitions for modern AI | Ars Technica》by Steven Max Patterson 网页链接 《Facebook AI 野心与LeCun的小目标：拥有类人智能的对话助理》via:@新智元 |Facebook A... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/cloudgrid?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+专注云计算 / 
+s.weibo.com
+</span>
+<span class="title">【75页PPT干货教你如何预测学习替代无监督学习】日前，Facebook AI 实验室负责人、纽约年夜学教授 Yann LeCun 受邀在今年的 NIPS 年夜会揭橥主旨演讲，畅谈深度学习最近技术进展。网页链接 @江苏道法自然 @江苏环保 @下岗工人01 @-娃娃戏水- @理性思考-中药深度开发者 学习 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/25693690"
+    target="_blank"
+>
+<span class="cite">
+DeepTech深科技 / 
+www.zhihu.com
+</span>
+<span class="title">这背后的人工神经网络技术引领了人工智能潮流的爆发.这也是为什么谷歌和facebook能让你在图册中进行搜索,这项技术还支持了脸部识别类的新应用. 如今,人工智能领域大神级人物、facebook人工智能主管 yann lecun 表示,机器视觉的下一站将会是以自主观察世界的...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/23422467"
+    target="_blank"
+>
+<span class="cite">
+机器之心小助手 / 
+www.zhihu.com
+</span>
+<span class="title">选自business insider作者:sam shead机器之心编译参与:蒋思源、李泽南yann lecun是人工智能界的著名学者,现任facebook人工智能研究部门的主管.就在上周,lecun作为神经网络的先驱获得了lovie终身成就奖,business insider专访了这位来自巴黎的学者.yann lecun...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/24112818"
     target="_blank"
 >
 <span class="cite">
 机器之心 / 
 www.zhihu.com
 </span>
-<span class="title">英伟达于今天发布了新一代嵌入式计算平台 jetson tx2.至此,作为人工智能终端计算解决方案的 jetson 系列也进入了 pascal 架构时代.本次发布的 jetson tx2 延续了该系列小体积、高度集成的特性,在名片大小的尺寸上整合了 4 核 arm a57 cpu、pascal 架构 gpu(...</span>
+<span class="title">facebook 人工智能研究实验室主管 yann lecun 和 facebook 应用机器学习部门主管 joaquin quiñonero candela 发表了一篇题为《artificial intelligence, revealed》的文章,介绍了人工智能的基本概念和应用,并讨论了相关应用和研究上的未来前景.除此之外,...</span>
 </a>
 </div>
 
@@ -242,14 +294,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/23661781"
+    href="https://zhuanlan.zhihu.com/p/25942743"
     target="_blank"
 >
 <span class="cite">
-undefined / 
+张重阳 / 
 www.zhihu.com
 </span>
-<span class="title">tensorflow搭建网上已经有很教程了.但是基于英伟达的tx1芯片几乎没有.所以本教程基本是我搭建环境几个星期踩的坑.平时都是下班折腾的所以花的时间比较长.先做好基本环境的搭建,cuda8.0,cudnn这些tensorflow基本要的.这些用英伟达提供的工具包jetpack 2.3 l4...</span>
+<span class="title">2017年3月22日星期三,空气重度污染的北京迎来了人工智能领域一位重量级的嘉宾——facebook人工智能实验室主任,卷积神经网络的发明人yann lecun教授.yann lecun一行上午在中国科学院自动化研究所举行了40分钟的小型座谈会,下午在清华大学举办了&#34;深度学习与人...</span>
 </a>
 </div>
 
@@ -259,14 +311,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/51788678"
+    href="https://zhuanlan.zhihu.com/p/25750919"
     target="_blank"
 >
 <span class="cite">
-硅谷密探 / 
+将门 / 
 www.zhihu.com
 </span>
-<span class="title">在英伟达显卡垄断深度学习硬件市场的背景和黄教主all-in深度学习的宣言下,英伟达的股票一年涨了三倍.但是具体到自动驾驶,大家都希望有专用的芯片,轻量化低功耗,而不是载着核弹到处跑,英伟达之前的jetson系列嵌入式板子,把原本用到手机的平台拉来跑神经网络,...</span>
+<span class="title">最近,你的朋友圈是不是已被3月22日facebook人工智能研究院院长yann lecun将在清华演讲的消息刷屏了?此次讲座是由清华大学经济管理学院、清华x-lab、facebook主办,lecun教授将会带来一场2小时全新深入的对ai了解与体验.作为密切关注人工智能发展的创投机构和...</span>
 </a>
 </div>
 
@@ -276,15 +328,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.anandtech.com/show/11185/nvidia-announces-jetson-tx2-parker"
+    href="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think"
     target="_blank"
 >
 <span class="cite">
-Ryan Smith / 
-www.anandtech.com
+Alex Kantrowitz / 
+www.buzzfeed.com
 </span>
-<span class="title">Nvidia unveils Jetson TX2 Pascal-powered AI board computer; pre-order dev kit for $599, or the module from $399, shipping Q2
-  —  For a few years now, NVIDIA has been offering their line of Jetson embedded system kits.  Originally launched using Tegra K1 in 2014, the first Jetson was designed …</span>
+<span class="title">Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
+  —  miles away from Facebook&#39;s Menlo Park headquarters, in an old, beige office building in downtown Manhattan, a group of company employees …</span>
 </a>
 </div>
 
@@ -294,31 +346,104 @@ www.anandtech.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com//article/2676"
+    href="http://blogs.wsj.com/digits/2015/06/02/facebook-opens-third-artificial-intelligence-research-hub-in-paris/"
     target="_blank"
 >
 <span class="cite">
-李泽南 / 
+Deepa Seetharaman / 
+www.wsj.com
+</span>
+<span class="title">Facebook Opens Third Artificial-Intelligence Research Hub in Paris
+  —  Facebook is bolstering its artificial-intelligence expertise with a third center in Paris to help the social network better sift through photos, posts and videos shared by its 1.4 billion users.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://spectrum.ieee.org/automaton/robotics/artificial-intelligence/facebook-ai-director-yann-lecun-on-deep-learning"
+    target="_blank"
+>
+<span class="cite">
+Lee Gomes / 
+spectrum.ieee.org
+</span>
+<span class="title">Facebook AI Director Yann LeCun on His Quest to Unleash Deep Learning and Make Machines Smarter
+  —  Deep Learning expert Yann LeCun leads Facebook&#39;s AI research lab.  —  Artificial intelligence has gone through some dismal periods, which those in the field gloomily refer to as “AI winters.”</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.wired.com/2014/12/fb/"
+    target="_blank"
+>
+<span class="cite">
+Cade Metz / 
+www.wired.com
+</span>
+<span class="title">Inside Facebook&#39;s one-year-old Artificial Intelligence Research lab, led by Yann LeCun
+  —  Facebook Envisions A.I. That Keeps You From Uploading Embarrassing Pics  —  Let&#39;s say you&#39;re out drinking with your buddies, things get out of hand, you pull out your smartphone …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://gigaom.com/2014/07/29/twitter-acquires-deep-learning-startup-madbits/"
+    target="_blank"
+>
+<span class="cite">
+Derrick Harris / 
+gigaom.com
+</span>
+<span class="title">Twitter acquires deep learning startup Madbits
+  —  Twitter has acquired Madbits, a deep-learning-based computer vision startup founded by proteges of Facebook AI director Yann LeCun.  It&#39;s the latest in a spate of deep learning and computer vision acquisitions that also includes Google, Yahoo, Dropbox and Pinterest.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://gigaom.com/2013/12/09/facebook-hires-nyu-deep-learning-expert-to-run-its-new-ai-lab/"
+    target="_blank"
+>
+<span class="cite">
+Derrick Harris / 
+gigaom.com
+</span>
+<span class="title">Facebook hires NYU deep learning expert to run its new AI lab
+  —  Facebook launched a new artificial intelligence lab in September, and now we know the person who will run it — New York University deep learning expert Yann LeCun.  He has been an instrumental figure in the space …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.jiqizhixin.com//article/2670"
+    target="_blank"
+>
+<span class="cite">
+机器之心 / 
 www.jiqizhixin.com
 </span>
-<span class="title">英伟达举行的 Jetson TX2 Editor&#39;s Day 活动中，向人们展示了新一代 Jetson 计算平台的强大计算能力。</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com//article/2430"
-    target="_blank"
->
-<span class="cite">
-李泽南 / 
-www.jiqizhixin.com
-</span>
-<span class="title">随着TX2的发布，作为人工智能终端计算解决方案的Jetson系列也进入了Pascal时代</span>
+<span class="title">近日，美国著名网络新闻媒体 BuzzFeed 发布了一篇对 Yann LeCun 的专题特写文章。</span>
 </a>
 </div>
 

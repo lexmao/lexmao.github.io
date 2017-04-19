@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://static.leiphone.com/uploads/new/article/pic/201704/58eb9dfea2547.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
+<img src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-晞萌 / 
-www.leiphone.com:
+John Mannes / 
+techcrunch.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.leiphone.com/news/201704/EHV2LSPT43FrGWJQ.html"
+    href="https://techcrunch.com/2017/04/18/facebook-open-sources-caffe2-its-flexible-deep-learning-framework-of-choice/"
     target="_blank"
 >
-谷歌研究院在化学发力：应用机器学习技术预测分子性质
+Facebook open sources Caffe2, its flexible deep learning framework of choice
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  谷歌研究院发表的两篇论文，推进了机器学习在化学领域的研究发展。 
+&nbsp; &mdash;&nbsp;  Today Facebook open sourced Caffe2. The deep learning framework follows in the steps of the original Caffe, a project started at the University of California, Berkeley. Caffe2 offers developers greater flexibility for building high-performance products that deploy efficiently. Read More 
 </span>
 
 </div>
@@ -53,48 +53,14 @@ www.leiphone.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25138515"
+    href="http://weibo.com/synced?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-机器之心 / 
-www.zhihu.com
-</span>
-<span class="title">技术,在谷歌发表的一篇论文中有详细介绍(deep learning with dynamic computation graphs).以上动图演示了动态批处理运行的递归神经网络.带有同样的颜色的运算... learning with dynamic computation graphs摘要:在包括自然语言处理(解析树)与化学信息学(分...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24513049"
-    target="_blank"
->
-<span class="cite">
-DeepTech深科技 / 
-www.zhihu.com
-</span>
-<span class="title">这种平衡是一种生物化学机制,与营养有关,其中一个叫tor,另一个是胰岛素.科学家已经充分研究过这种机制了,但calico又用新技术来进一步探索.&#34;我们一直在尝试证... 说.有些人对研究进行资助因为他们想长生不老,但这同样是不现实的.提出calico设想的是谷歌风险...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/xmunews?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-厦门大学 / 
+机器之心synced / 
 s.weibo.com
 </span>
-<span class="title">#小夏学术#《美国化学会志》（Journal of the American Chemical Society,JACS）可以说是每个材料与化学人梦寐以求的能发一篇论文的地方。是材料与化学类杂志的龙头（谷歌学术将所有学科分为八大领域，jacs位列材料与化学大领域第一）。总引证次数和被引次数雄踞第一（远远超过第二名），这说明JACS的 ​
+<span class="title">Facebook宣布开源Caffe2：可在手机与树莓派上训练和部署模型网页链接 在今年的 F8 开发者大会上，Facebook 正式宣布开源其全新深度学习框架 Caffe2。据 Caffe2 官方博客介绍，该框架可以用在 iOS、Android 和树莓派上训练和部署模型；而且 Facebook 已经与英伟达、高通、英特尔、亚马 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -105,14 +71,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/ithome?refer_flag=1001030103_"
+    href="http://weibo.com/u/1657470871?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-IT之家 / 
+王威廉 / 
 s.weibo.com
 </span>
-<span class="title">【今日谷歌涂鸦：纪念一位化学家及他的发明】今天的谷歌涂鸦是纪念一位科学家，多亏了他，我们能在雨天中保持身上干爽，他就是苏格兰化学家及发明家、防水雨衣发明者——查尔斯·麦金塔……详情点击：网页链接 ​</span>
+<span class="title">Facebook公司今天新开源了深度学习软件Caffe2：Open Source Brings Cross Platform Machine Learning Tools to Developers 网页链接 ​</span>
 </a>
 </div>
 
@@ -122,14 +88,15 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/imaibonet?refer_flag=1001030103_"
+    href="http://weibo.com/u/5703921756?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-投资脉搏网 / 
+新智元 / 
 s.weibo.com
 </span>
-<span class="title">【量子计算迎重要突破】日前谷歌研究实验室开发了一款量子计算机，能解决物理和化学领域的多种问题。其技术可以成为通用算法，从而拓展至任意的大型量子计算机。届时，对量子动力学的模拟将成为可能。三力士1月宣布发起设立量子科技产业基金；华工科技从事量子点激光器的研发和推广。 ​</span>
+<span class="title">【新智元导读】Facebook 开发者大会今天召开。同时，Facebook 宣布开源 production-ready 的深度学习框架 Caffe2，轻量级、模块化，在移动端和云上都做了优化。同时提供的还有 C++ 和 Python API，以及模型库 Caffe2 Model Zoo，里面有视觉、语音、翻译等预训练模型，方便开发人员和研究者直接使用。 ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -139,14 +106,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/ceociomagazine?refer_flag=1001030103_"
+    href="https://techcrunch.com/2017/04/18/facebook-open-sources-caffe2-its-flexible-deep-learning-framework-of-choice/"
     target="_blank"
 >
 <span class="cite">
-IT经理世界杂志 / 
-s.weibo.com
+John Mannes / 
+techcrunch.com
 </span>
-<span class="title">【谷歌开发通用量子计算机取得重要突破】过去30年，研究人员一直试图开发能解决任何计算问题的通用量子计算机。目前，来自美国加州圣芭芭拉谷歌研究实验室的科学家和西班牙的一支团队开发了一款原型设备，能解决物理和化学领域的多种问题，而未来还有可能被应用至更广泛的领域。新浪科技 ​</span>
+<span class="title">Today Facebook open sourced Caffe2. The deep learning framework follows in the steps of the original Caffe, a project started at the University of California, Berkeley. Caffe2 offers developers greater flexibility for building high-performance products that deploy efficiently. Read More</span>
 </a>
 </div>
 
@@ -156,14 +123,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/sinatech?refer_flag=1001030103_"
+    href="https://www.zhihu.com//question/58698158"
     target="_blank"
 >
 <span class="cite">
-新浪科技 / 
-s.weibo.com
+idonknow / 
+www.zhihu.com
 </span>
-<span class="title">【谷歌开发通用量子计算机取得重要突破】过去30年，研究人员一直试图开发能解决任何计算问题的通用量子计算机。目前，来自美国加州圣芭芭拉谷歌研究实验室的科学家和西班牙的一支团队开发了一款原型设备，能解决物理和化学领域的多种问题，而未来还有可能被应用至更广泛的领域。|谷歌量子计... ​</span>
+<span class="title">占沙发,坐等大佬.估计大佬都在吃饭&lt;&gt;_&lt;&gt;facebook现在主要的是torch(pytorch)和caffe(2)了,yangqingjia也说了这两个项目的差别比较大,两者的目标就不同,pytorch比较适合实验研究用,适合开发一些结构新奇的网络,caffe2官方文档里面就交代了是production-ready...</span>
 </a>
 </div>
 
@@ -173,14 +140,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/ukbiubiu?refer_flag=1001030103_"
+    href="https://zhuanlan.zhihu.com/p/26447781"
     target="_blank"
 >
 <span class="cite">
-BiuBiu必优 / 
-s.weibo.com
+机器之心 / 
+www.zhihu.com
 </span>
-<span class="title">【Biu新闻】今日谷歌涂鸦Google doodle - 美国化学家威尔伯·史高维尔Wilbur Scoville。他制订了度量辣椒素含量的标准- 辣度SHU，也是最早提出‘可以用牛奶来解辣’的人。在游戏中，教授不停地作死生吃辣椒，同时你要用冰激凌帮助教授解辣。世界最辣的卡羅萊納死神辣椒大魔王有156万9300SHU，试一下？ ​</span>
+<span class="title">在今年的 f8 开发者大会上,facebook 正式宣布开源其全新深度学习框架 caffe2.据 caffe2 官方博客介绍,该框架可以用在 ios、android 和树莓派上训练和部署模型;而且 facebook 已经与英伟达、高通、英特尔、亚马逊和微软等公司展开了合作来实现对移动端的优化...</span>
 </a>
 </div>
 
@@ -190,14 +157,31 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/guokr42?refer_flag=1001030103_"
+    href="https://www.zhihu.com//question/51292554"
     target="_blank"
 >
 <span class="cite">
-果壳网 / 
-s.weibo.com
+解浚源 / 
+www.zhihu.com
 </span>
-<span class="title">【辣椒到底有多辣？你得感谢他】今天是美国化学家威尔伯·史高维尔诞辰151周年的日子，他制订了度量辣椒素含量的一项指标，称为“史高维尔辣度单位”，缩写为SHU，甜椒大概是0-5SHU，而普通辣椒能达到10,000SHU。今儿的谷歌Doodle是冰淇淋大战辣椒小游戏，你能过几关？网页链接 ​</span>
+<span class="title">这件事情感觉很多人还是有误解.俞凯这段话发在朋友圈主要是说给大厂听的,对于小公司和个人来说确实很难理解.其实美国的大厂从搞硬件的intel,nvidia到搞云的amazon,ms,还有facebook,大家对tf都是拒绝的或者至少是心存芥蒂的.比如facebook在自己造torch和caffe2...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.jiqizhixin.com//article/2674"
+    target="_blank"
+>
+<span class="cite">
+机器之心 / 
+www.jiqizhixin.com
+</span>
+<span class="title">在今年的 F8 开发者大会上，Facebook 正式宣布开源其全新深度学习框架 Caffe2。</span>
 </a>
 </div>
 
