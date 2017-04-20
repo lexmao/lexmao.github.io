@@ -40,7 +40,7 @@ var _hmt = _hmt || [];
         if (browser.versions.mobile) {//判断是否是移动设备打开。browser代码在下面
             //alert("mobile");
         }else {
-            window.location.href = "http://readai.me/ai.html";
+            window.location.href = "http://readai.me/today.html";
         }
         /*else {
         //否则就是PC浏览器打开
@@ -784,8 +784,8 @@ function preloadImages(){
 
 // tab selection
 
-var activeTabSelectorId = 'top_items_selector';
-var activeTabId = 'top_items';
+var activeTabSelectorId = 'new_items_selector';
+var activeTabId = 'new_items';
 
 function selectTab(selector, tabId) {
 
@@ -1224,7 +1224,7 @@ function FBLike(itemId, url) {
 
 <div class="top_pane">
 <div class="date">
-2017-04-20 22:02:43
+2017-04-20 22:23:56
 </div>
 
 <div class="logo">
@@ -1241,11 +1241,9 @@ function FBLike(itemId, url) {
 <div class="tab_selectors">
 
 <div class="narrowest_tabs">
-<span id="top_items_selector" 
-    class="active_tab_selector" 
-    onclick="selectTab(this,'top_items')"
->
-值得关注
+
+<span id="new_items_selector" class="active_tab_selector" onclick="selectTab(this,'new_items')" >
+最新资讯
 </span>
 
 
@@ -1255,9 +1253,10 @@ More
 </span>
 -->
 
-<span id="new_items_selector" class="tab_selector" onclick="selectTab(this,'new_items')">
-最新资讯
+<span id="top_items_selector" class="tab_selector" onclick="selectTab(this,'top_items')">
+值得关注
 </span>
+
 
 <span id="app_items_selector" class="tab_selector" onclick="selectTab(this,'app_items')">
 行业应用
@@ -1277,246 +1276,12 @@ More
 </div>
 
 
-<!-- Top Items -->
-
-<ul id="top_items" style="display:block"> 
-
-
-
-
-
-<li id="mi1" > <!-- pml -->
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item" 
-    href="http://www.leiphone.com/news/201704/uln5QhWAcjtMqEgu.html"
-    target="_blank"
->
-
-
-<span class="cite">
-吴德新 / 
-www.leiphone.com:
-</span>
-<span class="title">陆奇来了：百度开放自动驾驶技术，创业者不要重复造轮子</span>
-<span class="summary"> 陆奇来了。上一次，他和李彦宏一起谈论加盟百度和人工智能的未来，这一次则是宣布百度自动驾驶技术将以平台形式开放。</span>
-</a>
-</td>
-
-<td class="nav_to_more" onclick="openItemPage('1',this, ['http://static.leiphone.com/uploads/new/article/pic/201704/58f702e6449ff.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90'])">
-<div> 
-&nbsp;
-</div>
-</td>
-</tr>
-</table>
-</li>
-
-
-
-<li id="mi2" > <!-- pml -->
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item" 
-    href="http://finance.sina.com.cn/roll/2017-04-19/doc-ifyepnea4101415.shtml"
-    target="_blank"
->
-
-
-<span class="cite">
-新浪科技 / 
-tags.tech.sina.com.cn:
-</span>
-<span class="title">百度携手奇瑞战略合作 加速无人驾驶升级</span>
-<span class="summary"> 完整、安全的软件平台，帮助他们结合车辆和硬件系统，快速搭建一套属于自己的完整的自动驾驶系统，未来将发挥百度在人工智能领域的技术优势，携手合作伙伴，共同促进自动驾驶技术 ...[详细]</span>
-</a>
-</td>
-
-<td class="nav_to_more" onclick="openItemPage('2',this, ['http://bzline.cn/ainews/images/top_new_00001.png'])">
-<div> 
-&nbsp;
-</div>
-</td>
-</tr>
-</table>
-</li>
-
-
-
-<li id="mi3" > <!-- pml -->
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item" 
-    href="http://www.wired.com/2017/04/googles-dueling-neural-networks-spar-get-smarter-no-humans-required/"
-    target="_blank"
->
-
-
-<span class="cite">
-Cade Metz / 
-www.wired.com:
-</span>
-<span class="title">AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning</span>
-<span class="summary"> AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning
-  —  The day Richard Feynman died, the blackboard in his classroom read: “What I cannot create, I do not understand.”</span>
-</a>
-</td>
-
-<td class="nav_to_more" onclick="openItemPage('3',this, ['http://www.techmeme.com/170417/i4.jpg'])">
-<div> 
-&nbsp;
-</div>
-</td>
-</tr>
-</table>
-</li>
-
-
-
-<li id="mi4" > <!-- pml -->
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item" 
-    href="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think"
-    target="_blank"
->
-
-
-<span class="cite">
-Alex Kantrowitz / 
-www.buzzfeed.com:
-</span>
-<span class="title">Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted</span>
-<span class="summary"> Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
-  —  miles away from Facebook&#39;s Menlo Park headquarters, in an old, beige office building in downtown Manhattan, a group of company employees …</span>
-</a>
-</td>
-
-<td class="nav_to_more" onclick="openItemPage('4',this, ['http://www.techmeme.com/170417/i12.jpg'])">
-<div> 
-&nbsp;
-</div>
-</td>
-</tr>
-</table>
-</li>
-
-
-
-<li id="mi5" > <!-- pml -->
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item" 
-    href="http://www.jiqizhixin.com//article/2676"
-    target="_blank"
->
-
-
-<span class="cite">
-李泽南 / 
-www.jiqizhixin.com:
-</span>
-<span class="title">英伟达嵌入式计算平台Jetson TX2：让神经网络走进终端设备</span>
-<span class="summary"> 英伟达举行的 Jetson TX2 Editor&#39;s Day 活动中，向人们展示了新一代 Jetson 计算平台的强大计...</span>
-</a>
-</td>
-
-<td class="nav_to_more" onclick="openItemPage('5',this, ['http://www.jiqizhixin.com//data/upload/20170419/58f6df9c6d0ba.jpg'])">
-<div> 
-&nbsp;
-</div>
-</td>
-</tr>
-</table>
-</li>
-
-
-
-<li id="mi6" > <!-- pml -->
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item" 
-    href="http://www.leiphone.com/news/201704/9hJdTYxJPcGP5Uc5.html"
-    target="_blank"
->
-
-
-<span class="cite">
-吴德新 / 
-www.leiphone.com:
-</span>
-<span class="title">重磅！百度开放自动驾驶技术平台</span>
-<span class="summary"> 今年七月份将率先开放封闭场地的自动驾驶能力，年底输出在城市简单路况下的自动驾驶能力，在2020年前逐步开放至高速公路和普通城市道路上的全自动驾驶。</span>
-</a>
-</td>
-
-<td class="nav_to_more" onclick="openItemPage('6',this, ['http://static.leiphone.com/uploads/new/article/pic/201704/58f6b94e289dd.png?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90'])">
-<div> 
-&nbsp;
-</div>
-</td>
-</tr>
-</table>
-</li>
-
-
-
-<li id="mi7" > <!-- pml -->
-<table class="nav_table">
-<tr>
-<td class="nav_away">
-<a 
-    class="item" 
-    href="https://techcrunch.com/2017/04/18/facebook-open-sources-caffe2-its-flexible-deep-learning-framework-of-choice/"
-    target="_blank"
->
-
-
-<span class="cite">
-John Mannes / 
-techcrunch.com:
-</span>
-<span class="title">Facebook open sources Caffe2, its flexible deep learning framework of choice</span>
-<span class="summary"> Today Facebook open sourced Caffe2. The deep learning framework follows in the steps of the original Caffe, a project started at the University of California, Berkeley. Caffe2 offers developers greater flexibility for building high-performance products that deploy efficiently. Read More</span>
-</a>
-</td>
-
-<td class="nav_to_more" onclick="openItemPage('7',this, ['https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png'])">
-<div> 
-&nbsp;
-</div>
-</td>
-</tr>
-</table>
-</li>
-
-
-
-
-
-</ul>
-
-
-<!-- More Items -->
-
 
 
 
 <!-- New Items -->
 
-<ul id="new_items" style="display:none">
+<ul id="new_items" style="display:block">
 
 
 
@@ -3117,7 +2882,6 @@ John Mannes / techcrunch.com:
 
 
 
-
 <li class="footer" name="hfstop_items">
 <span style="display:block; float:right; font-size:13px; padding-right:8px;">
 <span style="color:#118" onclick="window.scrollTo(0,1);">
@@ -3130,8 +2894,244 @@ Top
 
 
 
-    
-</ul> 
+
+</ul>
+
+
+
+
+
+<!-- Top Items -->
+
+<ul id="top_items" style="display:none"> 
+
+
+
+
+
+<li id="mi1" > <!-- pml -->
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item" 
+    href="http://www.leiphone.com/news/201704/uln5QhWAcjtMqEgu.html"
+    target="_blank"
+>
+
+
+<span class="cite">
+吴德新 / 
+www.leiphone.com:
+</span>
+<span class="title">陆奇来了：百度开放自动驾驶技术，创业者不要重复造轮子</span>
+<span class="summary"> 陆奇来了。上一次，他和李彦宏一起谈论加盟百度和人工智能的未来，这一次则是宣布百度自动驾驶技术将以平台形式开放。</span>
+</a>
+</td>
+
+<td class="nav_to_more" onclick="openItemPage('1',this, ['http://static.leiphone.com/uploads/new/article/pic/201704/58f702e6449ff.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90'])">
+<div> 
+&nbsp;
+</div>
+</td>
+</tr>
+</table>
+</li>
+
+
+
+<li id="mi2" > <!-- pml -->
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item" 
+    href="http://finance.sina.com.cn/roll/2017-04-19/doc-ifyepnea4101415.shtml"
+    target="_blank"
+>
+
+
+<span class="cite">
+新浪科技 / 
+tags.tech.sina.com.cn:
+</span>
+<span class="title">百度携手奇瑞战略合作 加速无人驾驶升级</span>
+<span class="summary"> 完整、安全的软件平台，帮助他们结合车辆和硬件系统，快速搭建一套属于自己的完整的自动驾驶系统，未来将发挥百度在人工智能领域的技术优势，携手合作伙伴，共同促进自动驾驶技术 ...[详细]</span>
+</a>
+</td>
+
+<td class="nav_to_more" onclick="openItemPage('2',this, ['http://bzline.cn/ainews/images/top_new_00001.png'])">
+<div> 
+&nbsp;
+</div>
+</td>
+</tr>
+</table>
+</li>
+
+
+
+<li id="mi3" > <!-- pml -->
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item" 
+    href="http://www.wired.com/2017/04/googles-dueling-neural-networks-spar-get-smarter-no-humans-required/"
+    target="_blank"
+>
+
+
+<span class="cite">
+Cade Metz / 
+www.wired.com:
+</span>
+<span class="title">AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning</span>
+<span class="summary"> AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning
+  —  The day Richard Feynman died, the blackboard in his classroom read: “What I cannot create, I do not understand.”</span>
+</a>
+</td>
+
+<td class="nav_to_more" onclick="openItemPage('3',this, ['http://www.techmeme.com/170417/i4.jpg'])">
+<div> 
+&nbsp;
+</div>
+</td>
+</tr>
+</table>
+</li>
+
+
+
+<li id="mi4" > <!-- pml -->
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item" 
+    href="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think"
+    target="_blank"
+>
+
+
+<span class="cite">
+Alex Kantrowitz / 
+www.buzzfeed.com:
+</span>
+<span class="title">Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted</span>
+<span class="summary"> Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
+  —  miles away from Facebook&#39;s Menlo Park headquarters, in an old, beige office building in downtown Manhattan, a group of company employees …</span>
+</a>
+</td>
+
+<td class="nav_to_more" onclick="openItemPage('4',this, ['http://www.techmeme.com/170417/i12.jpg'])">
+<div> 
+&nbsp;
+</div>
+</td>
+</tr>
+</table>
+</li>
+
+
+
+<li id="mi5" > <!-- pml -->
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item" 
+    href="http://www.jiqizhixin.com//article/2676"
+    target="_blank"
+>
+
+
+<span class="cite">
+李泽南 / 
+www.jiqizhixin.com:
+</span>
+<span class="title">英伟达嵌入式计算平台Jetson TX2：让神经网络走进终端设备</span>
+<span class="summary"> 英伟达举行的 Jetson TX2 Editor&#39;s Day 活动中，向人们展示了新一代 Jetson 计算平台的强大计...</span>
+</a>
+</td>
+
+<td class="nav_to_more" onclick="openItemPage('5',this, ['http://www.jiqizhixin.com//data/upload/20170419/58f6df9c6d0ba.jpg'])">
+<div> 
+&nbsp;
+</div>
+</td>
+</tr>
+</table>
+</li>
+
+
+
+<li id="mi6" > <!-- pml -->
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item" 
+    href="http://www.leiphone.com/news/201704/9hJdTYxJPcGP5Uc5.html"
+    target="_blank"
+>
+
+
+<span class="cite">
+吴德新 / 
+www.leiphone.com:
+</span>
+<span class="title">重磅！百度开放自动驾驶技术平台</span>
+<span class="summary"> 今年七月份将率先开放封闭场地的自动驾驶能力，年底输出在城市简单路况下的自动驾驶能力，在2020年前逐步开放至高速公路和普通城市道路上的全自动驾驶。</span>
+</a>
+</td>
+
+<td class="nav_to_more" onclick="openItemPage('6',this, ['http://static.leiphone.com/uploads/new/article/pic/201704/58f6b94e289dd.png?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90'])">
+<div> 
+&nbsp;
+</div>
+</td>
+</tr>
+</table>
+</li>
+
+
+
+<li id="mi7" > <!-- pml -->
+<table class="nav_table">
+<tr>
+<td class="nav_away">
+<a 
+    class="item" 
+    href="https://techcrunch.com/2017/04/18/facebook-open-sources-caffe2-its-flexible-deep-learning-framework-of-choice/"
+    target="_blank"
+>
+
+
+<span class="cite">
+John Mannes / 
+techcrunch.com:
+</span>
+<span class="title">Facebook open sources Caffe2, its flexible deep learning framework of choice</span>
+<span class="summary"> Today Facebook open sourced Caffe2. The deep learning framework follows in the steps of the original Caffe, a project started at the University of California, Berkeley. Caffe2 offers developers greater flexibility for building high-performance products that deploy efficiently. Read More</span>
+</a>
+</td>
+
+<td class="nav_to_more" onclick="openItemPage('7',this, ['https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png'])">
+<div> 
+&nbsp;
+</div>
+</td>
+</tr>
+</table>
+</li>
+
+
+
+
+
+</ul>
+
 
 
 <!-- Events -->
