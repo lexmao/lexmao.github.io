@@ -16,24 +16,24 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://www.techmeme.com/170417/i12.jpg" style="border-style:none;" heigh="83" width="124" >
+<img src="http://www.techmeme.com/170417/i4.jpg" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-Alex Kantrowitz / 
-www.buzzfeed.com:
+Cade Metz / 
+www.wired.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think"
+    href="http://www.wired.com/2017/04/googles-dueling-neural-networks-spar-get-smarter-no-humans-required/"
     target="_blank"
 >
-Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
+AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
-  —  miles away from Facebook&#39;s Menlo Park headquarters, in an old, beige office building in downtown Manhattan, a group of company employees … 
+&nbsp; &mdash;&nbsp;  AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning
+  —  The day Richard Feynman died, the blackboard in his classroom read: “What I cannot create, I do not understand.” 
 </span>
 
 </div>
@@ -54,14 +54,14 @@ Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 res
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/3235040884?refer_flag=1001030103_"
+    href="http://weibo.com/linlin9253?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-毅马当闲 / 
+_菲奥娜_ / 
 s.weibo.com
 </span>
-<span class="title">去年底Facebook的Yann LeCun和Microsoft的沈向洋答应将参加上科大信息学院今年七月初的SIST Symposium。无独有偶，他们俩都是今年刚宣布的美国工程院的新晋院士。看来一是我们请人的眼光不错，二是国际同仁们对信息学院的支持和认可越来越高。上海七月，Big Party！ ​</span>
+<span class="title">我就想知道你们机器学习工作者们念GAN(generative adversarial networks)的时候都是怎么发音的 ​</span>
 </a>
 </div>
 
@@ -71,186 +71,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/5703921756?refer_flag=1001030103_"
+    href="https://www.zhihu.com//question/49217195"
     target="_blank"
 >
 <span class="cite">
-新智元 / 
-s.weibo.com
-</span>
-<span class="title">【新智元导读】昨天清华大学大礼堂迎来 Facebook 人工智能研究院院长 Yann LeCun，他就《深度学习与人工智能的未来》为题，为现场百余名听众展开了一场讲座。本文带来本次讲座的内容精华。|Yann LeCun... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/lewhwa?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-网路冷眼 / 
-s.weibo.com
-</span>
-<span class="title">【Yann LeCun清华演讲：讲述深度学习与人工智能的未来】昨日下午，Facebook人工智能研究院院长、卷积神经网络之父Yann LeCun在清华大学带来题为《深度学习与人工智能的未来》的演讲。本文据演讲内容总结而来。|Yann LeCun... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/6004911042?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-清华大学数据科学研究院数据派 / 
-s.weibo.com
-</span>
-<span class="title">【独家】深扒Yann LeCun清华演讲中提到的深度学习与人工智能技术（PPT+视频）LeCun现任Facebook AI研究院院长，同时他也是美国纽约大学的终身教授。他的研究兴趣包括机器学习、计算机视觉、移动机器人以及计算神经学等。他因著名且影响深远的卷积神经网络（CNN）相关的工作而被人称为CNN之父。看看他来 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/51661970?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-自动化网官方微博 / 
-s.weibo.com
-</span>
-<span class="title">【AI专家清华开讲：机器可以像人一样有创造力】近日清华大学“深度学习与人工智能的未来”公开课开讲，此公开课系《创新与创业：硅谷洞察》课程的一节。公开课邀请到Facebook #人工智能#研究院院长Yann LeCun教授主讲，他围绕 “深度学习与人工智能的未来”这一主题......网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/paperweekly?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-PaperWeekly / 
-s.weibo.com
-</span>
-<span class="title">Predicting Deeper into the Future of Semantic Segmentation (Natalia Neverova, Pauline Luc, Camille Couprie, Jakob Verbeek, Yann LeCun) 来自Facebook AI Research给定一个语义分割过的视频序列，预测尚未观看到的帧的分割结果，可以预测短时(2秒内较准确)、中时和长时的分割结果，总体上比ba ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/5499597986?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-lixinlang9527 / 
-s.weibo.com
-</span>
-<span class="title">Facebook AI Director Yann LeCun on His Quest to Unleash Deep Learning and Make Machines Smarter - IEEE Spectrum …网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/5639460902?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-机器学习研究会 / 
-s.weibo.com
-</span>
-<span class="title">【讲座】Facebook Yann LeCun邀您畅谈：深度学习与人工智能的未来 |【讲座】Fa... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/51661970?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-自动化网官方微博 / 
-s.weibo.com
-</span>
-<span class="title">【Facebook、微软人工智能“大牛”入选美国国家工程院院士】美国国家工程院公布了最新入选的84名院士和22名外籍院士名单。在今年的名单中，人工智能领域有两位著名人物入选。分别是Facebook人工智能实验室主任杨乐昆（Yann LeCun），微软全球执行副总裁沈向洋。|美国国家工... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/fly51fly?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-爱可可-爱生活 / 
-s.weibo.com
-</span>
-<span class="title">《“OK Facebook”—Why stop at assistants? Facebook has grander ambitions for modern AI | Ars Technica》by Steven Max Patterson 网页链接 《Facebook AI 野心与LeCun的小目标：拥有类人智能的对话助理》via:@新智元 |Facebook A... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/cloudgrid?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-专注云计算 / 
-s.weibo.com
-</span>
-<span class="title">【75页PPT干货教你如何预测学习替代无监督学习】日前，Facebook AI 实验室负责人、纽约年夜学教授 Yann LeCun 受邀在今年的 NIPS 年夜会揭橥主旨演讲，畅谈深度学习最近技术进展。网页链接 @江苏道法自然 @江苏环保 @下岗工人01 @-娃娃戏水- @理性思考-中药深度开发者 学习 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25693690"
-    target="_blank"
->
-<span class="cite">
-DeepTech深科技 / 
+高华佐 / 
 www.zhihu.com
 </span>
-<span class="title">这背后的人工神经网络技术引领了人工智能潮流的爆发.这也是为什么谷歌和facebook能让你在图册中进行搜索,这项技术还支持了脸部识别类的新应用. 如今,人工智能领域大神级人物、facebook人工智能主管 yann lecun 表示,机器视觉的下一站将会是以自主观察世界的...</span>
+<span class="title">(即欺骗discriminator).discriminator最完美的输出是p(image | dataset) / p(image | generator),而在discriminator的输出是完美的情况下,generator的最优输出是与真实图片概率分布相同的图片.和adversarial examples没有直接关系,但是adversarial examples...</span>
 </a>
 </div>
 
@@ -260,14 +88,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/23422467"
+    href="https://www.zhihu.com//question/52278809"
     target="_blank"
 >
 <span class="cite">
-机器之心小助手 / 
+张扬 / 
 www.zhihu.com
 </span>
-<span class="title">选自business insider作者:sam shead机器之心编译参与:蒋思源、李泽南yann lecun是人工智能界的著名学者,现任facebook人工智能研究部门的主管.就在上周,lecun作为神经网络的先驱获得了lovie终身成就奖,business insider专访了这位来自巴黎的学者.yann lecun...</span>
+<span class="title">从class生成图像.下面两个工作都是其变体.unsupervised representation learning with deep convolutional generative adversarial networkshttps://arxiv.org/abs/1511.06434deep generative image models using a ￼laplacian pyramid of adversarial networksdeep gene...</span>
 </a>
 </div>
 
@@ -277,14 +105,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24112818"
+    href="https://www.zhihu.com//question/52602529"
     target="_blank"
 >
 <span class="cite">
-机器之心 / 
+Finlay / 
 www.zhihu.com
 </span>
-<span class="title">facebook 人工智能研究实验室主管 yann lecun 和 facebook 应用机器学习部门主管 joaquin quiñonero candela 发表了一篇题为《artificial intelligence, revealed》的文章,介绍了人工智能的基本概念和应用,并讨论了相关应用和研究上的未来前景.除此之外,...</span>
+<span class="title">gan最近的发展挺快的,可以去看iclr 2017 conference track,可以参考最近的博文:gan论文整理 iclr 2017 | gan missing modes 和 gan 这几天nips2016,goodfellow做了gan《(nips 2016 tutorial)generative adversarial networks (gans)》http://t.cn/rfgelkj,...</span>
 </a>
 </div>
 
@@ -294,14 +122,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25942743"
+    href="https://zhuanlan.zhihu.com/p/26270773"
     target="_blank"
 >
 <span class="cite">
-张重阳 / 
+傅渥成 / 
 www.zhihu.com
 </span>
-<span class="title">2017年3月22日星期三,空气重度污染的北京迎来了人工智能领域一位重量级的嘉宾——facebook人工智能实验室主任,卷积神经网络的发明人yann lecun教授.yann lecun一行上午在中国科学院自动化研究所举行了40分钟的小型座谈会,下午在清华大学举办了&#34;深度学习与人...</span>
+<span class="title">近年来,生成对抗网络(generative adversarial networks, gan)成为了人工智能领域最为炙手可热的研究方向.gan 的想法最早由 ian goodfellow 在 2014 年提出.gan 用对抗的方法,同时训练了一个「生成模型(g)」与一个「判别模型(d)」,在学习的过程中,生成模型的...</span>
 </a>
 </div>
 
@@ -311,14 +139,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25750919"
+    href="https://www.zhihu.com//question/54414709"
     target="_blank"
 >
 <span class="cite">
-将门 / 
+Xun Huang / 
 www.zhihu.com
 </span>
-<span class="title">最近,你的朋友圈是不是已被3月22日facebook人工智能研究院院长yann lecun将在清华演讲的消息刷屏了?此次讲座是由清华大学经济管理学院、清华x-lab、facebook主办,lecun教授将会带来一场2小时全新深入的对ai了解与体验.作为密切关注人工智能发展的创投机构和...</span>
+<span class="title">dumoulin et al., adversarially learned inference, 2016[3] donahue et al., adversarial feature learning, 2016[4] denton et al., semi-supervised learning with context-conditional generative adversarial networks, 2016[5] huang et. al., stack...</span>
 </a>
 </div>
 
@@ -328,15 +156,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.buzzfeed.com/alexkantrowitz/meet-the-man-who-makes-facebooks-machines-think"
+    href="https://www.zhihu.com//question/56171002"
     target="_blank"
 >
 <span class="cite">
-Alex Kantrowitz / 
-www.buzzfeed.com
+元峰 / 
+www.zhihu.com
 </span>
-<span class="title">Profile of Yann LeCun, who leads Facebook&#39;s AI efforts with a team of 80 researchers, and whose once-rejected theories about AI are now widely accepted
-  —  miles away from Facebook&#39;s Menlo Park headquarters, in an old, beige office building in downtown Manhattan, a group of company employees …</span>
+<span class="title">gan与其他生成模型相比有什么优势,这个问题只有一个人回答,很幸运的是,他就是ian goodfellow,gan的发明人,他在quora上的签名就是&#34;i invented generative adversarial networks&#34;. 而另一个问题是gans的优缺点是什么?, 良心大神goodfellow也做了回答! 我把他...</span>
 </a>
 </div>
 
@@ -346,15 +173,14 @@ www.buzzfeed.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://blogs.wsj.com/digits/2015/06/02/facebook-opens-third-artificial-intelligence-research-hub-in-paris/"
+    href="https://zhuanlan.zhihu.com/p/26394806"
     target="_blank"
 >
 <span class="cite">
-Deepa Seetharaman / 
-www.wsj.com
+洪佳鹏 / 
+www.zhihu.com
 </span>
-<span class="title">Facebook Opens Third Artificial-Intelligence Research Hub in Paris
-  —  Facebook is bolstering its artificial-intelligence expertise with a third center in Paris to help the social network better sift through photos, posts and videos shared by its 1.4 billion users.</span>
+<span class="title">前些天我在公众号上&#34;偷懒&#34;,没有写读书笔记,而是推送了一篇&#34;论文推荐&#34;.其中有一篇推荐的论文就是began:boundary equilibrium generative adversarial networks[1].文章没有多少创新,细节也没去深入理解,我也没太当回事,只是觉得他提出来的diversity ratio参...</span>
 </a>
 </div>
 
@@ -364,33 +190,15 @@ www.wsj.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://spectrum.ieee.org/automaton/robotics/artificial-intelligence/facebook-ai-director-yann-lecun-on-deep-learning"
-    target="_blank"
->
-<span class="cite">
-Lee Gomes / 
-spectrum.ieee.org
-</span>
-<span class="title">Facebook AI Director Yann LeCun on His Quest to Unleash Deep Learning and Make Machines Smarter
-  —  Deep Learning expert Yann LeCun leads Facebook&#39;s AI research lab.  —  Artificial intelligence has gone through some dismal periods, which those in the field gloomily refer to as “AI winters.”</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.wired.com/2014/12/fb/"
+    href="http://www.wired.com/2017/04/googles-dueling-neural-networks-spar-get-smarter-no-humans-required/"
     target="_blank"
 >
 <span class="cite">
 Cade Metz / 
 www.wired.com
 </span>
-<span class="title">Inside Facebook&#39;s one-year-old Artificial Intelligence Research lab, led by Yann LeCun
-  —  Facebook Envisions A.I. That Keeps You From Uploading Embarrassing Pics  —  Let&#39;s say you&#39;re out drinking with your buddies, things get out of hand, you pull out your smartphone …</span>
+<span class="title">AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning
+  —  The day Richard Feynman died, the blackboard in his classroom read: “What I cannot create, I do not understand.”</span>
 </a>
 </div>
 
@@ -400,15 +208,15 @@ www.wired.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://gigaom.com/2014/07/29/twitter-acquires-deep-learning-startup-madbits/"
+    href="http://www.theverge.com/2013/10/4/4803646/james-clapper-justifies-tor-breaking-as-necessary-to-fight-terrorists"
     target="_blank"
 >
 <span class="cite">
-Derrick Harris / 
-gigaom.com
+Adi Robertson / 
+www.theverge.com
 </span>
-<span class="title">Twitter acquires deep learning startup Madbits
-  —  Twitter has acquired Madbits, a deep-learning-based computer vision startup founded by proteges of Facebook AI director Yann LeCun.  It&#39;s the latest in a spate of deep learning and computer vision acquisitions that also includes Google, Yahoo, Dropbox and Pinterest.</span>
+<span class="title">DNI responds to latest NSA revelations, emphasizing Tor is used by “our foreign adversaries”
+  —  Intelligence chief says the US attacks encryption because the bad guys use it  —  Director of National Intelligence James Clapper has responded to leaks showing how the NSA tried …</span>
 </a>
 </div>
 
@@ -418,15 +226,15 @@ gigaom.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://gigaom.com/2013/12/09/facebook-hires-nyu-deep-learning-expert-to-run-its-new-ai-lab/"
+    href="http://www.theverge.com/2013/6/27/4471904/us-defense-department-updates-its-rules-of-engagement-for-cyber"
     target="_blank"
 >
 <span class="cite">
-Derrick Harris / 
-gigaom.com
+Carl Franzen / 
+www.theverge.com
 </span>
-<span class="title">Facebook hires NYU deep learning expert to run its new AI lab
-  —  Facebook launched a new artificial intelligence lab in September, and now we know the person who will run it — New York University deep learning expert Yann LeCun.  He has been an instrumental figure in the space …</span>
+<span class="title">US Defense Department developing secure 4G network and updating rules for cyberwarfare
+  —  The US military is in the process of building its own secure 4G wireless network and is also updating its rules of engagement — the guidelines that combat personnel are required to follow when deciding …</span>
 </a>
 </div>
 
@@ -436,14 +244,15 @@ gigaom.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com//article/2670"
+    href="http://www.wired.com/dangerroom/2009/08/marines-ban-twitter-myspace-facebook/"
     target="_blank"
 >
 <span class="cite">
-机器之心 / 
-www.jiqizhixin.com
+Noah Shachtman / 
+www.wired.com
 </span>
-<span class="title">近日，美国著名网络新闻媒体 BuzzFeed 发布了一篇对 Yann LeCun 的专题特写文章。</span>
+<span class="title">Marines Ban Twitter, MySpace, Facebook
+  —  The U.S. Marine Corps has banned Twitter, Facebook, MySpace and other social media sites from its networks, effective immediately.  —  “These internet sites in general are a proven haven for malicious actors and content and are particularly high risk due …</span>
 </a>
 </div>
 
