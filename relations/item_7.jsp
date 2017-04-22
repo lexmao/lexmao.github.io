@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/210x210.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://static.leiphone.com/uploads/new/article/pic/201704/58f6b94e289dd.png?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-John Mannes / 
-techcrunch.com:
+吴德新 / 
+www.leiphone.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="https://techcrunch.com/2017/04/18/facebook-open-sources-caffe2-its-flexible-deep-learning-framework-of-choice/"
+    href="http://www.leiphone.com/news/201704/9hJdTYxJPcGP5Uc5.html"
     target="_blank"
 >
-Facebook open sources Caffe2, its flexible deep learning framework of choice
+重磅！百度开放自动驾驶技术平台
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  Today Facebook open sourced Caffe2. The deep learning framework follows in the steps of the original Caffe, a project started at the University of California, Berkeley. Caffe2 offers developers greater flexibility for building high-performance products that deploy efficiently. Read More 
+&nbsp; &mdash;&nbsp;  今年七月份将率先开放封闭场地的自动驾驶能力，年底输出在城市简单路况下的自动驾驶能力，在2020年前逐步开放至高速公路和普通城市道路上的全自动驾驶。 
 </span>
 
 </div>
@@ -53,14 +53,82 @@ Facebook open sources Caffe2, its flexible deep learning framework of choice
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/synced?refer_flag=1001030103_"
+    href="http://weibo.com/chuangyejia?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-机器之心synced / 
+创业家传媒 / 
 s.weibo.com
 </span>
-<span class="title">Facebook宣布开源Caffe2：可在手机与树莓派上训练和部署模型网页链接 在今年的 F8 开发者大会上，Facebook 正式宣布开源其全新深度学习框架 Caffe2。据 Caffe2 官方博客介绍，该框架可以用在 iOS、Android 和树莓派上训练和部署模型；而且 Facebook 已经与英伟达、高通、英特尔、亚马 ​
+<span class="title">【百度发布阿波罗计划】百度今日发布“Apollo计划”，将向汽车行业及自动驾驶领域合作伙伴提供一个开放、完整、安全的软件平台。Apollo具体计划是：2017年7月，开放封闭场地的自动驾驶能力；2017年底，输出在城市简单路况下的自动驾驶能力;2020年前逐步开放至高速公路和普通城市道路上的全自动驾驶。 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/ifengtechdigi?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+凤凰科技 / 
+s.weibo.com
+</span>
+<span class="title">【百度宣布开放自动驾驶平台 命名为“Apollo”计划】百度发布一项名为“Apollo”的新计划，将向汽车行业及自动驾驶领域的合作伙伴提供软件平台，帮助他们结合车辆和硬件系统，快速搭建一套属于自己的完整的自动驾驶系统。|百度宣布开... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/baiduguanfang?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+百度 / 
+s.weibo.com
+</span>
+<span class="title">百度决定发布“Apollo计划”，我们将向汽车行业及自动驾驶领域的合作伙伴提供一个开放、完整、安全的软件平台。希望未来可以解放双手，使每个人开车时也能自由地仰望星空 |百度发布阿... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/caixincn?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+财新网 / 
+s.weibo.com
+</span>
+<span class="title">【百度推“阿波罗计划” 开放自动驾驶能力】（记者 孙文婧）继上个月重组智能汽车业务之后，4月19日，百度发布一项名为“Apollo”（阿波罗）的新计划，将向汽车行业及自动驾驶领域的其他合作伙伴提供开放的软件平台，令其能够结合车辆和硬件系统，搭建自己的自动驾驶系统。 |百度推“阿... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/zhangtengyuan23?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+张腾元-Ternence / 
+s.weibo.com
+</span>
+<span class="title">Apollo项目提供一套完整的软硬件和服务的解决方案，包括车辆平台、硬件平台、软件平台、云端数据服务等四大部分。百度将开放环境感知、路径规划、车辆控制、车载操作系统等功能的代码或能力，并且提供完整的开发测试工具。百度还将在车辆和传感器等领域选择协同度和兼容性最好的合作伙伴，共同组成协 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -71,14 +139,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/1657470871?refer_flag=1001030103_"
+    href="http://weibo.com/fadway?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-王威廉 / 
+EC品牌观察 / 
 s.weibo.com
 </span>
-<span class="title">Facebook公司今天新开源了深度学习软件Caffe2：Open Source Brings Cross Platform Machine Learning Tools to Developers 网页链接 ​</span>
+<span class="title">【百度发布Apollo计划，开放完整的自动驾驶平台！】百度方面介绍，今年七月份将率先开放封闭场地的自动驾驶能力，年底输出在城市简单路况下的自动驾驶能力，在 2020 年前逐步开放至高速公路和普通城市道路上的全自动驾驶！ 网页链接 ​</span>
 </a>
 </div>
 
@@ -88,14 +156,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/5703921756?refer_flag=1001030103_"
+    href="http://weibo.com/iphone91?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-新智元 / 
+91门户 / 
 s.weibo.com
 </span>
-<span class="title">【新智元导读】Facebook 开发者大会今天召开。同时，Facebook 宣布开源 production-ready 的深度学习框架 Caffe2，轻量级、模块化，在移动端和云上都做了优化。同时提供的还有 C++ 和 Python API，以及模型库 Caffe2 Model Zoo，里面有视觉、语音、翻译等预训练模型，方便开发人员和研究者直接使用。 ​
+<span class="title">【百度推出阿波罗计划：开放自动驾驶平台】作为全球范围内第一家宣布对外开放自己技术和平台的无人车技术领先企业，百度决定选择“Apollo”作为此次计划的代号，向另一个叫做人工智能的宇宙出发！1969年，“阿波罗计划”使阿姆斯特朗在月球上迈出了人类的一大步。今天，我们希望未来可以解放双手，使每 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -106,14 +174,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://techcrunch.com/2017/04/18/facebook-open-sources-caffe2-its-flexible-deep-learning-framework-of-choice/"
+    href="http://weibo.com/cyzone?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-John Mannes / 
-techcrunch.com
+创业邦杂志 / 
+s.weibo.com
 </span>
-<span class="title">Today Facebook open sourced Caffe2. The deep learning framework follows in the steps of the original Caffe, a project started at the University of California, Berkeley. Caffe2 offers developers greater flexibility for building high-performance products that deploy efficiently. Read More</span>
+<span class="title">【百度宣布开放自动驾驶平台，取名“阿波罗计划”】百度今日宣布开放自动驾驶平台，在这个取名“Apollo”的新计划中，百度表示将向汽车行业及自动驾驶领域的合作伙伴提供一个开放、完整、安全的软件平台，帮助他们结合车辆和硬件系统，快速搭建一套属于自己的完整的自动驾驶系统。|百度宣布开... ​</span>
 </a>
 </div>
 
@@ -123,14 +191,82 @@ techcrunch.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/58698158"
+    href="http://weibo.com/u/6128740659?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-idonknow / 
+皖西学院文传GuangGao / 
+s.weibo.com
+</span>
+<span class="title">#广告周边 “百度发布Apollo计划，宣布对外共享其自动驾驶能力” 网页链接 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/xiquechuanzhang?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+喜鹊船长 / 
+s.weibo.com
+</span>
+<span class="title">分享网易新闻 《百度宣布“Apollo”计划 开放其自动驾驶平台》|百度宣布“A... 来自@网易新闻客户端 #网易新闻#点赞！ ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/5220257429?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+GwenStefaniDaily / 
+s.weibo.com
+</span>
+<span class="title">新鲜份的狗粮 Shefani在昨晚Apollo In The Hamptons的慈善晚宴上表演了 最后一张是Gwen对熊唱歌@BlakeShelton百度贴吧 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/5220257429?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+GwenStefaniDaily / 
+s.weibo.com
+</span>
+<span class="title">昨晚在Apollo In The Hamptons慈善晚宴的Shefani@BlakeShelton百度贴吧 熊爷爷吃得挺好 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://www.zhihu.com//question/19585414"
+    target="_blank"
+>
+<span class="cite">
+史学楷 Apollogt / 
 www.zhihu.com
 </span>
-<span class="title">占沙发,坐等大佬.估计大佬都在吃饭&lt;&gt;_&lt;&gt;facebook现在主要的是torch(pytorch)和caffe(2)了,yangqingjia也说了这两个项目的差别比较大,两者的目标就不同,pytorch比较适合实验研究用,适合开发一些结构新奇的网络,caffe2官方文档里面就交代了是production-ready...</span>
+<span class="title">个人使用时对于数据定位,汇总,关联的体验比较好.关联(内部超链接)的体验可能是笔记本软件中体验最好的.当初做了个教学ppt 第一部分 第二部分12-10 更新链接;这么健康的资源百度屏蔽个什么劲啊...[apollo]onenote不完全教程 第一部分:产品概述 v 1.1_字体.pp...</span>
 </a>
 </div>
 
@@ -140,14 +276,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/26447781"
+    href="http://www.theverge.com/2017/4/18/15352462/baidu-project-apollo-self-driving-cars-autonomous"
     target="_blank"
 >
 <span class="cite">
-机器之心 / 
-www.zhihu.com
+Rich McCormick / 
+www.theverge.com
 </span>
-<span class="title">在今年的 f8 开发者大会上,facebook 正式宣布开源其全新深度学习框架 caffe2.据 caffe2 官方博客介绍,该框架可以用在 ios、android 和树莓派上训练和部署模型;而且 facebook 已经与英伟达、高通、英特尔、亚马逊和微软等公司展开了合作来实现对移动端的优化...</span>
+<span class="title">Baidu opens up self-driving vehicle platform Apollo, encompassing both hardware and software, which aims to offer fully autonomous driving by 2020
+  —  Project Apollo aims to offer fully autonomous driving by 2020  —  Chinese tech giant Baidu has announced a new autonomous vehicle platform …</span>
 </a>
 </div>
 
@@ -157,31 +294,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/51292554"
-    target="_blank"
->
-<span class="cite">
-解浚源 / 
-www.zhihu.com
-</span>
-<span class="title">这件事情感觉很多人还是有误解.俞凯这段话发在朋友圈主要是说给大厂听的,对于小公司和个人来说确实很难理解.其实美国的大厂从搞硬件的intel,nvidia到搞云的amazon,ms,还有facebook,大家对tf都是拒绝的或者至少是心存芥蒂的.比如facebook在自己造torch和caffe2...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com//article/2674"
+    href="http://www.jiqizhixin.com//article/2675"
     target="_blank"
 >
 <span class="cite">
 机器之心 / 
 www.jiqizhixin.com
 </span>
-<span class="title">在今年的 F8 开发者大会上，Facebook 正式宣布开源其全新深度学习框架 Caffe2。</span>
+<span class="title">今天，百度发布了「Apollo」新计划，向汽车行业及自动驾驶领域的合作伙伴提供一个开放、完整、安全的软件平台。</span>
 </a>
 </div>
 
