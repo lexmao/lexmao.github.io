@@ -72,7 +72,7 @@
 </td> 
 <td>
 <span class="company_name">图森</span>
-<span class="tag_line">一家专注于人工智能和计算机视觉技术的科技创新公司</span>
+<span class="tag_line">专注于人工智能和计算机视觉技术</span>
 </td>
 </tr>
 </table>
@@ -132,7 +132,7 @@
 </td> 
 <td>
 <span class="company_name">驭势科技</span>
-<span class="tag_line">智能驾驶企业，用人工智能和大数据重构人和物的交通</span>
+<span class="tag_line">智能驾驶，用人工智能重构人和物的交通</span>
 </td>
 </tr>
 </table>
@@ -212,7 +212,7 @@
 </td> 
 <td>
 <span class="company_name">地平线机器人</span>
-<span class="tag_line">嵌入式人工智能领导者，致力于提供嵌入式人工智能解决方案</span>
+<span class="tag_line">致力于提供嵌入式人工智能解决方案</span>
 </td>
 </tr>
 </table>
@@ -272,7 +272,7 @@
 </td> 
 <td>
 <span class="company_name">竹间智能</span>
-<span class="tag_line">致力打造中文市场上首款人工智能伴侣，以情感计算研究为核心</span>
+<span class="tag_line">致力打造中文市场上首款人工智能伴侣</span>
 </td>
 </tr>
 </table>
@@ -292,7 +292,7 @@
 </td> 
 <td>
 <span class="company_name">iPIN</span>
-<span class="tag_line">致力于打造一个更加广泛的商业认知平台，涵盖商业语言理解和智能信息分析</span>
+<span class="tag_line">致力于打造一个更加广泛的商业认知平台</span>
 </td>
 </tr>
 </table>
