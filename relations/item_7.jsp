@@ -26,7 +26,7 @@ www.jiqizhixin.com:
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.jiqizhixin.com//article/2676"
+    href="http://www.jiqizhixin.com/article/2676"
     target="_blank"
 >
 英伟达嵌入式计算平台Jetson TX2：让神经网络走进终端设备
@@ -259,7 +259,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/51788678"
+    href="https://www.zhihu.com/question/51788678"
     target="_blank"
 >
 <span class="cite">
@@ -294,7 +294,7 @@ www.anandtech.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com//article/2676"
+    href="http://www.jiqizhixin.com/article/2676"
     target="_blank"
 >
 <span class="cite">
@@ -311,7 +311,7 @@ www.jiqizhixin.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com//article/2430"
+    href="http://www.jiqizhixin.com/article/2430"
     target="_blank"
 >
 <span class="cite">

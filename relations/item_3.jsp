@@ -228,7 +228,7 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/56901104"
+    href="https://www.zhihu.com/question/56901104"
     target="_blank"
 >
 <span class="cite">
@@ -245,7 +245,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/57449748"
+    href="https://www.zhihu.com/question/57449748"
     target="_blank"
 >
 <span class="cite">
@@ -262,7 +262,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/57450874"
+    href="https://www.zhihu.com/question/57450874"
     target="_blank"
 >
 <span class="cite">
@@ -279,7 +279,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com//article/2675"
+    href="http://www.jiqizhixin.com/article/2675"
     target="_blank"
 >
 <span class="cite">

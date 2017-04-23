@@ -436,7 +436,7 @@ gigaom.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com//article/2670"
+    href="http://www.jiqizhixin.com/article/2670"
     target="_blank"
 >
 <span class="cite">

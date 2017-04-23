@@ -71,7 +71,7 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/49217195"
+    href="https://www.zhihu.com/question/49217195"
     target="_blank"
 >
 <span class="cite">
@@ -88,7 +88,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/52278809"
+    href="https://www.zhihu.com/question/52278809"
     target="_blank"
 >
 <span class="cite">
@@ -105,7 +105,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/52602529"
+    href="https://www.zhihu.com/question/52602529"
     target="_blank"
 >
 <span class="cite">
@@ -139,7 +139,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/54414709"
+    href="https://www.zhihu.com/question/54414709"
     target="_blank"
 >
 <span class="cite">
@@ -156,7 +156,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/56171002"
+    href="https://www.zhihu.com/question/56171002"
     target="_blank"
 >
 <span class="cite">

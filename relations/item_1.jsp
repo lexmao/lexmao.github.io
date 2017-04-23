@@ -53,7 +53,7 @@ www.leiphone.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/58600886"
+    href="https://www.zhihu.com/question/58600886"
     target="_blank"
 >
 <span class="cite">

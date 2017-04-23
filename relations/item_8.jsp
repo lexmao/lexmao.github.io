@@ -259,7 +259,7 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/19585414"
+    href="https://www.zhihu.com/question/19585414"
     target="_blank"
 >
 <span class="cite">
@@ -294,7 +294,7 @@ www.theverge.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com//article/2675"
+    href="http://www.jiqizhixin.com/article/2675"
     target="_blank"
 >
 <span class="cite">

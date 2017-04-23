@@ -53,7 +53,7 @@ www.leiphone.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/58698158"
+    href="https://www.zhihu.com/question/58698158"
     target="_blank"
 >
 <span class="cite">
@@ -104,7 +104,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com//article/2674"
+    href="http://www.jiqizhixin.com/article/2674"
     target="_blank"
 >
 <span class="cite">

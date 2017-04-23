@@ -295,7 +295,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/23555357"
+    href="https://www.zhihu.com/question/23555357"
     target="_blank"
 >
 <span class="cite">
@@ -312,7 +312,7 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com//question/54217494"
+    href="https://www.zhihu.com/question/54217494"
     target="_blank"
 >
 <span class="cite">
