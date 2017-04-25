@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://bzline.cn/ainews/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://static.leiphone.com/uploads/new/article/pic/201704/58f702e6449ff.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-新浪科技 / 
-tags.tech.sina.com.cn:
+吴德新 / 
+www.leiphone.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://finance.sina.com.cn/roll/2017-04-19/doc-ifyepnea4101415.shtml"
+    href="http://www.leiphone.com/news/201704/uln5QhWAcjtMqEgu.html"
     target="_blank"
 >
-百度携手奇瑞战略合作 加速无人驾驶升级
+陆奇来了：百度开放自动驾驶技术，创业者不要重复造轮子
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  完整、安全的软件平台，帮助他们结合车辆和硬件系统，快速搭建一套属于自己的完整的自动驾驶系统，未来将发挥百度在人工智能领域的技术优势，携手合作伙伴，共同促进自动驾驶技术 ...[详细] 
+&nbsp; &mdash;&nbsp;  陆奇来了。上一次，他和李彦宏一起谈论加盟百度和人工智能的未来，这一次则是宣布百度自动驾驶技术将以平台形式开放。 
 </span>
 
 </div>
@@ -53,82 +53,14 @@ tags.tech.sina.com.cn:
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/278511225?refer_flag=1001030103_"
+    href="http://weibo.com/chinesewsj?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-暮光卮城 / 
+华尔街日报中文网 / 
 s.weibo.com
 </span>
-<span class="title">百度携手奇瑞展开战略合作 加速无人驾驶升级​在第十七届上海国际汽车工业展览期间，百度与奇瑞签署战略合作协议，双方将在车联网、高度自动驾驶、无人驾驶等方面展开全面合作，以“互联网+汽车”创新合作模式，共同探索自动驾驶技术成熟和商业化 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/yongjinbaowan2jiaoyi?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-国金证券-佣金宝 / 
-s.weibo.com
-</span>
-<span class="title">百度携手奇瑞展开战略合作，加速无人驾驶升级。（证券时报） ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/1564529607?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-新岳-四轮时间背包客 / 
-s.weibo.com
-</span>
-<span class="title">最近心里泛起了怀旧之情，把一年前录的一些精品小段再次置顶，给大家分享一下吧，爱车，要懂汽车的历史，我不想讲那些百度上烂大街的奔驰宝马红旗解放的历史，只想给您分享一些你不知道的中国自主汽车历史。奇瑞汽车发展史,网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/2088072743?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-投资潮网站微博 / 
-s.weibo.com
-</span>
-<span class="title">【百度高级VP王劲：五天后将离开百度独立创业】在过去一段时间里，王劲所带领的百度无人车曾取得不俗进展，曾在2015年底宣布在国内首次实现了城市、环路及高速道路混合路况下的全自动驾驶，并先后与宝马、奇瑞进行了合作。|百度高级VP... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/CECHR?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-CECHR环境规划咨讯 / 
-s.weibo.com
-</span>
-<span class="title">截至星期二，百度自驾车已完成200多人次的出行。车辆配备有照相机，Velodyne LiDAR，毫米波雷达以及位于后备箱内处理所有数据的计算机。 如在其他地方的试验程序一样，为防止意外发生公司雇员坐在乘客座位。数据处理设备是由百度开发的，车辆本身是由比亚迪，北汽和奇瑞提供的零件改装产品。值得注意的 ​
+<span class="title">【百度将开源自动驾驶技术】- 百度称，将在自动驾驶汽车领域分享公司正在研发的软件技术，以追赶通用汽车公司和Alphabet Inc.旗下自动驾驶业务Waymo等竞争对手。百度集团总裁陆奇在一次访谈中称，百度在路线规划、车辆控制和操作系统等方面拥有实力，以开源方式提供上述能力，百度和自动驾驶行业都能实 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -139,119 +71,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/2005342162?refer_flag=1001030103_"
+    href="http://weibo.com/sinatech?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-奇瑞汽车 / 
+新浪科技 / 
 s.weibo.com
 </span>
-<span class="title">11月15日-18日，在乌镇世界互联网大会期间，奇瑞与百度合作开发的10辆EQ全自动无人驾驶汽车在桐乡市智能汽车和智慧交通示范区进行了国内首次开放城市道路试运营。此次百度无人车在乌镇的动态运营，是在全开放城市道路的复杂路况下，实现的全程无人工干预的L4级自动驾驶，其自动驾驶技术处于世界一流水 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/52hardware?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-热点科技-原52硬件 / 
-s.weibo.com
-</span>
-<span class="title">第三届世界互联网大会在乌镇如期举行，百度“云骁无人驾驶系统”在智能汽车示范区内公开亮相。此次，百度无人车队首次在国内开放道路上进行了L4级自动驾驶试运营。“云骁”车队由三款车型组成，分别是奇瑞EQ、北汽EU260和比亚迪。详情链接：网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/3649062440?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-安徽新闻联播 / 
-s.weibo.com
-</span>
-<span class="title">同时亮相博览会的还有奇瑞与百度联合打造的无人驾驶汽车，同样吸引了许多人的驻足停留（记者 刘雪瑶 聂宗权） ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/newscri?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-国际在线新闻 / 
-s.weibo.com
-</span>
-<span class="title">乌镇无人驾驶车很抢眼 也很贵国际在线报道（记者 黎萌）15日，在乌镇互联网大会上看到了今年的新宠——云骁无人驾驶车。车本身是一款奇瑞的小Mini ，贵不了，但传感系统很贵很贵，主打的就车顶的这种全方位雷达，美国产，单价要60多万人民币。据参与开发这款车的百度公司相关人士现场透露，未来在国 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/chinaaudi?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-美车集 / 
-s.weibo.com
-</span>
-<span class="title">云骁无人驾驶，这是哪家的？是@奇瑞汽车 @比亚迪汽车 还是@百度 家的？ ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/chinadailywebsite?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-中国日报 / 
-s.weibo.com
-</span>
-<span class="title">【百度无人车将在乌镇试乘运营】没有驾驶员，可以自动定位行驶在正确的路线上，红灯停绿灯行，看见行人或障碍物会停，按照设置线路转弯掉头，这样的汽车不只出现在电影中了。它将在本月乌镇举行的世界互联网大会上亮相，百度将联合奇瑞、比亚迪、首汽等厂商，推出十几辆无人车的试乘。在往返5公里的道 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/2434473393?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-峰峰李响 / 
-s.weibo.com
-</span>
-<span class="title">【奇瑞艾瑞泽7发动机机械部分维修手册】(分享自@百度文库)奇瑞 M16 发动机机械部分维修手册 奇瑞 M16 发动机机械部分维修手册 版本：01 版 编辑：吴要标 时间：2013.08 未...阅读全文请戳右边 网页链接 ​</span>
+<span class="title">【百度成立智能驾驶事业群组 陆奇任总经理】百度成立智能驾驶事业群组（IDG），由自动驾驶事业部（L4）、智能汽车事业部（L3）、车联网业务（Car Life etc。）组成。百度集团总裁和首席运营官陆奇兼任总经理。高级副总裁王劲因个人和家庭原因将不再任自动驾驶事业部（L4）总经理。|百度成立智... ​</span>
 </a>
 </div>
 
@@ -268,7 +95,8 @@ s.weibo.com
 36氪 / 
 s.weibo.com
 </span>
-<span class="title">【自动驾驶】百度自动驾驶事业部总经理王劲GIC演讲：百度无人车奇瑞EQ正在考驾照，已经过了一科 （氪君：可是……科目一不是全是选择吗…？）|百度自动驾... ​</span>
+<span class="title">【百度汽车业务做出重大调整：成立智能驾驶事业群组】领导这个事业群的，是前不久刚刚出任百度集团总裁和首席运营官的陆奇。新事业群成立之后，将包括三方面的业务：自动驾驶、智能汽车、车联网。为了便于你更好的理解这次架构调整的意义，我们来梳理一下这一两年百度在汽车业务方面的布局： ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -278,14 +106,15 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/23720518"
+    href="http://weibo.com/51661970?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-罗超 / 
-www.zhihu.com
+自动化网官方微博 / 
+s.weibo.com
 </span>
-<span class="title">这种体验相对于单次高速路测而言,已经具有&#34;准商用价值&#34;,而不是实验室产品.百度这次给大家体验的无人车分为两款,一款是与比亚迪合作,一款与奇瑞合作,都是纯电动车.之所以选择这两款产品,有支持国产车的考虑,从车牌可以看到,这些车是百度专门从北京运到浙江的...</span>
+<span class="title">#车业聚焦##自动驾驶# 4月19日消息，百度发布一项名为“Apollo”的新计划，将向汽车行业及自动驾驶领域的合作伙伴提供软件平台，帮助他们结合车辆和硬件系统，快速搭建一套属于自己的完整的自动驾驶系统。百度集团总裁兼首席运营官陆奇表示，人工智能技术在推动社会发展方面拥有巨大的潜力，而智能汽车 ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -295,14 +124,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/23555357"
+    href="http://weibo.com/316593888?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-沐青 / 
-www.zhihu.com
+电商报 / 
+s.weibo.com
 </span>
-<span class="title">可以!而且是活生生的例子!奇瑞和以色列一家公司合资的新品牌:观致.以色列(只提供资金,无技术.所以仍然差不多属于国品)奇瑞下血本请国际大牌设计师,新研发发动机,变速箱等等等~他的容貌,品质,外媒对它的评价你自己百度下就一目了然了.手机党流量有限,以后他...</span>
+<span class="title">【陆奇上任第一炮！百度宣布开放自动驾驶平台 取名“阿波罗计划”】今年七月份将率先开放封闭场地的自动驾驶能力，年底输出在城市简单路况下的自动驾驶能力，在2020年前逐步开放至高速公路和普通城市道路上的全自动驾驶。 ​</span>
 </a>
 </div>
 
@@ -312,14 +141,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/54217494"
+    href="http://weibo.com/vittimes?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-辣笔小星 / 
-www.zhihu.com
+IT时报 / 
+s.weibo.com
 </span>
-<span class="title">2017年1月4日更新分割线针对评论中提到的百度以及乐视汽车,补充一些信息百度与多家国内车企也展开了合作,分别包括比亚迪、奇瑞、北汽和福田.在2016年11月乌镇召开的互联网大会上,百度展示了基于比亚迪、奇瑞、北汽的无人驾驶测试车↑基于比亚迪秦插电混动汽...</span>
+<span class="title">【吴恩达出走后，百度王劲又确认离职 将投身无人车创业已获投资】百度高级副总裁、原无人车事业部总经理王劲表示，4月起将正式离职百度，并围绕自动驾驶进行创业，目前已获洪泰基金投资。今年3月1日，百度通过内部邮件宣布，成立智能驾驶事业群组，由百度集团总裁陆奇兼任总经理。 ​</span>
 </a>
 </div>
 
@@ -329,14 +158,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24349627"
+    href="http://weibo.com/admin5?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-罗超 / 
-www.zhihu.com
+A5站长网 / 
+s.weibo.com
 </span>
-<span class="title">这一次新浪投资图森应该也是慎重考量的结果.陈默对中国自动驾驶产业具有很强的信心.一方面,自动驾驶需要深入运营意味着海外巨头没有机会,uber中国败北就说明了这一点,事实上百度无人车也已全面倾向于奇瑞等国产车厂;另一方面;中国的法律法规政策相对宽松,对...</span>
+<span class="title">李彦宏“杯酒释兵权” 百度大清洗为妻子和陆奇铺路  自从经过了水逆的2016，百度在管理层换血，和组织架构调整的脚步并没有放慢。在此之前，百度两个核心业务，百度糯米和自动驾驶事业部的两个副总裁相继离职，再加上此次的吴恩达，短网页链接 ​</span>
 </a>
 </div>
 
@@ -346,14 +175,118 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25142563"
+    href="http://weibo.com/51661970?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-辣笔小星 / 
+自动化网官方微博 / 
+s.weibo.com
+</span>
+<span class="title">【百度成立智能驾驶事业群组 】3月1日，百度宣布成立智能驾驶事业群组，将由自动驾驶事业部、智能汽车事业部、车联网业务共同组成，旨在进一步提升效率、协同发展，更好地推动人工智能时代的传统汽车产业升级。由百度集团总裁和首席运营官陆奇兼任总经理。#自动驾驶##智能自动化#|百度成立智... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/cyzone?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+创业邦杂志 / 
+s.weibo.com
+</span>
+<span class="title">【百度成立智能驾驶事业群组 陆奇掌舵】昨日，百度通过内部邮件宣布，成立智能驾驶事业群组（IDG），将由自动驾驶事业部（L4）、智能汽车事业部（L3）、车联网业务（Car Life etc. ）共同组成。由百度集团总裁和首席运营官陆奇兼任总经理。高级副总裁王劲交出自动驾驶事业部负责权，百度方面解释称，王 ​
+			...展开全文c</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/51661970?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+自动化网官方微博 / 
+s.weibo.com
+</span>
+<span class="title">#车业聚焦# 百度通过内部邮件宣布，成立智能驾驶事业群组（IDG），由百度集团总裁和首席运营官陆奇兼任总经理。此次百度新成立的智能驾驶事业群组（IDG），将由#自动驾驶#事业部（L4）、智能汽车事业部（L3）、车联网业务（Car Life etc. ）共同组成。『百度成立智能驾驶事业群组_手机新浪网』 ​
+			...展开全文c</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://www.zhihu.com/question/56901104"
+    target="_blank"
+>
+<span class="cite">
+淘美股 / 
 www.zhihu.com
 </span>
-<span class="title">data技术如下的加州无人驾驶测试许可也说明了这一点.中国车厂的数量不输于美国.其中互联网车企(百度、乐视汽车、蔚来汽车)扮演者举足轻重的角色.↑加州dmv无人驾驶测试许可百度与多家国内车企也展开了合作,分别包括比亚迪、奇瑞、北汽和福田.在2016年11月乌...</span>
+<span class="title">且百度医生项目也已经下线.三、成立度秘事业部加码人机交互:2月16日,陆奇将原度秘团队升级为度秘事业部,直接向其汇报,以加速人工智能布局,及其产品化和市场化.四、合并自驾部门,王劲冷藏:3月1日,百度自动驾驶事业部(l4)、百度智能汽车事业部(l3)、百度车联...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://www.zhihu.com/question/57449748"
+    target="_blank"
+>
+<span class="cite">
+腾讯科技 / 
+www.zhihu.com
+</span>
+<span class="title">总负责人,同时晋升为estaff成员,转向百度集团总裁和首席运营官陆奇汇报.aig成为继idg(百度智能驾驶事业群组)后百度最新的事业群组.aig即ai技术平台体系,将进... &#34;百度至少有好几百个人工智能项目.&#34;这些项目包括大的比如搜索、广告、自动驾驶等,也有一些小项...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://www.zhihu.com/question/57450874"
+    target="_blank"
+>
+<span class="cite">
+景辰 / 
+www.zhihu.com
+</span>
+<span class="title">原微软资深副总裁陆奇加入百度担任总裁之后,吴恩达的离职对于百度来说又是另一场人事地震.但不论是从吴恩达的内部信还是twitter状态,均未发现吴恩达的离职原因... 我猜测离职后的吴恩达很有可能重返硅谷,毕竟在硅谷有一家足够引起他重视的自动驾驶创业公司,...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.jiqizhixin.com/article/2675"
+    target="_blank"
+>
+<span class="cite">
+机器之心 / 
+www.jiqizhixin.com
+</span>
+<span class="title">今天，百度发布了「Apollo」新计划，向汽车行业及自动驾驶领域的合作伙伴提供一个开放、完整、安全的软件平台。</span>
 </a>
 </div>
 
