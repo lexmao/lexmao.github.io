@@ -2,6 +2,46 @@
 <li class="job_ad">
 <a 
     class="item" 
+    href="https://www.4paradigm.com/recruit.html"
+    target="_blank"
+>
+<table>
+<tr>
+<td>
+<img class="company_logo" src="http://readai.me/images/hiring_000001.png">
+</td> 
+<td>
+<span class="company_name">第四范式</span>
+<span class="tag_line">人工智能技术与服务提供商</span>
+</td>
+</tr>
+</table>
+</a>
+</li>
+
+<li class="job_ad">
+<a 
+    class="item" 
+    href="http://www.tusimple.com/join.html"
+    target="_blank"
+>
+<table>
+<tr>
+<td>
+<img class="company_logo" src="http://readai.me/images/hiring_000001.png">
+</td> 
+<td>
+<span class="company_name">图森</span>
+<span class="tag_line">专注于人工智能和计算机视觉技术</span>
+</td>
+</tr>
+</table>
+</a>
+</li>
+
+<li class="job_ad">
+<a 
+    class="item" 
     href="http://www.cambricon.com/zhaoxiannashi/"
     target="_blank"
 >
@@ -42,7 +82,7 @@
 <li class="job_ad">
 <a 
     class="item" 
-    href="http://hr.sensetime.com"
+    href="http://www.aispeech.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=49"
     target="_blank"
 >
 <table>
@@ -51,8 +91,8 @@
 <img class="company_logo" src="http://readai.me/images/hiring_000001.png">
 </td> 
 <td>
-<span class="company_name">商汤科技</span>
-<span class="tag_line">专注于计算机视觉和深度学习原创技术</span>
+<span class="company_name">思必驰</span>
+<span class="tag_line">智能硬件领域的语音公司</span>
 </td>
 </tr>
 </table>
@@ -82,7 +122,7 @@
 <li class="job_ad">
 <a 
     class="item" 
-    href="http://www.aispeech.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=49"
+    href="http://ai.tencent.com/ailab/"
     target="_blank"
 >
 <table>
@@ -91,48 +131,8 @@
 <img class="company_logo" src="http://readai.me/images/hiring_000001.png">
 </td> 
 <td>
-<span class="company_name">思必驰</span>
-<span class="tag_line">智能硬件领域的语音公司</span>
-</td>
-</tr>
-</table>
-</a>
-</li>
-
-<li class="job_ad">
-<a 
-    class="item" 
-    href="http://www.tusimple.com/join.html"
-    target="_blank"
->
-<table>
-<tr>
-<td>
-<img class="company_logo" src="http://readai.me/images/hiring_000001.png">
-</td> 
-<td>
-<span class="company_name">图森</span>
-<span class="tag_line">专注于人工智能和计算机视觉技术</span>
-</td>
-</tr>
-</table>
-</a>
-</li>
-
-<li class="job_ad">
-<a 
-    class="item" 
-    href="http://idl.baidu.com/IDL-jobs.html?"
-    target="_blank"
->
-<table>
-<tr>
-<td>
-<img class="company_logo" src="http://readai.me/images/hiring_000001.png">
-</td> 
-<td>
-<span class="company_name">百度深度学习实验室</span>
-<span class="tag_line">深度学习&amp;机器学习</span>
+<span class="company_name">腾讯AI Lab</span>
+<span class="tag_line">让 AI 无处不在</span>
 </td>
 </tr>
 </table>
