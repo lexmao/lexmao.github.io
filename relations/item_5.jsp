@@ -16,24 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://www.techmeme.com/170505/i5.jpg" style="border-style:none;" heigh="83" width="124" >
+<img src="https://venturebeat.com/wp-content/uploads/2017/05/h2o-ai.jpg?resize=350%2C175&amp;strip=all" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-Brian Fagioli / 
-www.betanews.com:
+Dean Takahashi / 
+venturebeat.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://betanews.com/2017/05/04/google-open-source-raspberry-pi-diy-voice-kit/"
+    href="https://venturebeat.com/2017/05/09/h2o-ai-teams-up-with-nvidia-to-take-machine-learning-to-the-enterprise/"
     target="_blank"
 >
-Google releases DIY open source Raspberry Pi voice kit hardware, which will be included for free with the next issue of MagPi Magazine
+H2O.ai teams up with Nvidia to take
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  Google releases DIY open source Raspberry Pi voice kit hardware, which will be included for free with the next issue of MagPi Magazine
-  —  Google has long been focused on artificial intelligence.  Its Google Now and voice assistance projects have used AI to better the lives of users. 
+&nbsp; &mdash;&nbsp;  H2O.ai teams up with Nvidia to take machine learning to the enterprise 
 </span>
 
 </div>
@@ -54,14 +53,14 @@ Google releases DIY open source Raspberry Pi voice kit hardware, which will be i
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/zhikeshuma?refer_flag=1001030103_"
+    href="https://www.zhihu.com/question/40368949"
     target="_blank"
 >
 <span class="cite">
-ZAEKE知客 / 
-s.weibo.com
+Ivy W / 
+www.zhihu.com
 </span>
-<span class="title">AI语音助手也能自己做？Google发布DIY开源AI硬件Voice Kit。详→网页链接 ​</span>
+<span class="title">声明:本人比较技术小白,也还在学习ing.大牛们轻拍~ 本人是h2o.ai员工~-----------------据我了解,h2o.ai的主要优势是:@luckison sun 提到的:易上手.不管是用r,python,java, scala, rest都可以直接上手,开始使用,不需要太多的setup.还有一个非代码界面叫flow...</span>
 </a>
 </div>
 
@@ -71,15 +70,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://betanews.com/2017/05/04/google-open-source-raspberry-pi-diy-voice-kit/"
+    href="https://zhuanlan.zhihu.com/p/25068223"
     target="_blank"
 >
 <span class="cite">
-Brian Fagioli / 
-www.betanews.com
+文兄 / 
+www.zhihu.com
 </span>
-<span class="title">Google releases DIY open source Raspberry Pi voice kit hardware, which will be included for free with the next issue of MagPi Magazine
-  —  Google has long been focused on artificial intelligence.  Its Google Now and voice assistance projects have used AI to better the lives of users.</span>
+<span class="title">本文由本专栏作者@hunter 投稿,经本人编辑整理前言关于r的并行化计算,有parral包等将现有程序转化为apply或者for之后来实现并行计算.今天要介绍的是h2o.ai.h2o.ai是一个开源的机器学习框架.其内部使用java编程,实现多线程以及多机计算,可以通过r来调用.原理...</span>
 </a>
 </div>
 
@@ -89,15 +87,14 @@ www.betanews.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://news.cnet.com/8301-17939_109-10306650-2.html"
+    href="https://www.zhihu.com/question/48422804"
     target="_blank"
 >
 <span class="cite">
-Rafe Needleman / 
-news.cnet.com
+Ivy W / 
+www.zhihu.com
 </span>
-<span class="title">What&#39;s the best phone for Google Voice?
-  —  Dear readers: We are testing a new commenting system, JS-Kit&#39;s Echo, in this post.  In addition to providing a more comprehensive sign-on system and real-time updating, Echo also collates comments on this story from other Web sources, such as Twitter.</span>
+<span class="title">我是h2o.ai的设计师,我自己也在学习,但可以帮助转问题给我司的大牛们...我们有很多好的教程在这里:h2o.ai - ai for business你也可以在gitter提问:h2oai/h2o-3 - gitter</span>
 </a>
 </div>
 
@@ -107,15 +104,66 @@ news.cnet.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://arstechnica.com/news.ars/post/20080714-app-developers-grow-impatient-with-lack-of-android-updates.html"
+    href="https://www.zhihu.com/question/55916738"
     target="_blank"
 >
 <span class="cite">
-Ryan Paul / 
-arstechnica.com
+张鹏 / 
+www.zhihu.com
 </span>
-<span class="title">App developers grow impatient with lack of Android updates
-  —  The community of third-party software developers who are building applications for Google&#39;s Linux-based Android mobile operating system are voicing new concerns about the absence of software development kit (SDK) …</span>
+<span class="title">相较谷歌的76.2%还要高..他是认知计算领域的重要企业,构建了可以分析任何形式的非结构化和结构化数据的认知计算平台 synthesys,为金融、信息、国防、医疗等领域提供解决方案.15. h2o.ai(美国)h2o.ai 是一个独立开源机器学习平台,主要服务于数据科学家和开发...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://www.zhihu.com/question/30156262"
+    target="_blank"
+>
+<span class="cite">
+彭顺利 / 
+www.zhihu.com
+</span>
+<span class="title">包括机器人室内视觉定位、自主导航、智能避障、自然人机交互... openai 公司- openai是一家非营利性人工智能研究公司,致力于研究人工智能和其他机器学习技术,目前准备打造家用机器人. h2o.ai 公司- h2o.ai 是一个开源机器学习平台,主要服务于数据科学家和开...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/25893676"
+    target="_blank"
+>
+<span class="cite">
+[已重置] / 
+www.zhihu.com
+</span>
+<span class="title">人工智能(artificial intelligence)是一个最广泛的概念,人工智能的目的就是让计算机这台机器能够象人一样思考,而机器学习(machine learning)是人工智能的分支,... reasoning systems:确保合规性,保持安全性,并快速准确地分析信息.h2o.ai:h2o是世界领先的开...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://techcrunch.com/2015/11/09/h2o-ai-raises-20m-for-its-open-source-machine-learning-platform/"
+    target="_blank"
+>
+<span class="cite">
+Frederic Lardinois / 
+techcrunch.com
+</span>
+<span class="title">H2O.ai, the company behind H20 open source platform for data scientists and developers, raises $20M Series B
+  —  H2O.ai Raises $20M For Its Open Source Machine Learning Platform  —  H2O is an open source platform for data scientists and developers who need a fast machine learning engine for their applications.</span>
 </a>
 </div>
 

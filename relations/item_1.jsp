@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://cms-bucket.nosdn.127.net/8089cfafe3454d18a2f042aaae86602b20170510095330.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://bzline.cn/ainews/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-网易智能 / 
-tech.163.com:
+腾讯科技 / 
+tech.qq.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://tech.163.com/17/0510/09/CK2LC0Q400098GJ5.html"
+    href="http://tech.qq.com/a/20170511/012504.htm"
     target="_blank"
 >
-微软宣布HoloLens正式进入中国：价格2.3万起
+错失移动互联网的微软押注下一个未来：云和人工智能
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  微软宣布HoloLens正式进入中国：价格2.3万起 
+&nbsp; &mdash;&nbsp;  腾讯科技纪振宇5月10日西雅图报道错失移动互联网时代的软件巨头微软，如今正试图在下一个行业变革趋势中赢得先机。微软认为，下一个大趋势便是人工智能。在10日进行的微软2017年Build开发者大会上，微软进一步向外界明确表达了这样的愿景和具体的努力。与此前所提出的“移动为先、云为先“相比，微软战略方向如今演变成了 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ tech.163.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/27755622"
+    href="https://www.zhihu.com/question/56250357"
     target="_blank"
 >
 <span class="cite">
-孟德尔 / 
+微软亚洲研究院 / 
 www.zhihu.com
 </span>
-<span class="title">看答案之前,建议先看一下这个ar原型.微软的ar黑科技又来啦——hololens holoportation实际上ar未来最大的作用不是成为建筑设计的工具,而是会代替建筑外观本身,现在的建筑设计方法和思路会有很大变化.简单说,我们现在的建筑有很多装饰性的成本,国家歌剧院和...</span>
+<span class="title">微软亚洲研究院机器学习组一直致力于推动机器学习理论、算法和应用的学术前沿.我们的研究课题涉及机器学习和人工智能研究的各个方面,目前的研究重点为深度学习... 对生命在无限时空中的渺小发出的一声无奈的叹息.&#34;——刘慈欣《诗云》与此形成对比,deepcoder...</span>
 </a>
 </div>
 
@@ -70,14 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/27744659"
+    href="https://www.zhihu.com/question/57355451"
     target="_blank"
 >
 <span class="cite">
-vczh / 
+PingWest品玩 / 
 www.zhihu.com
 </span>
-<span class="title">然后,估计会有一些年轻人买房不用装修了,眼境一带啥都有啊.====================================关于这个问题,可以看一下psycho pass第一季,感受一下……</span>
+<span class="title">在179个国家提供超过100项服务,watson的人工智能api作为主要的吸引源.在世界范围内,与ibm在云服务国际市场竞赛的还有亚马逊的aws、微软的azure.但在国际市场的风生水起未必意味着在国内也能取得同样效果.中国公有云市场正在迅速增长,有数据显示,截止去年增...</span>
 </a>
 </div>
 
@@ -87,99 +87,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/19942482"
+    href="http://weibo.com/u/5781251201?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Vinjn张静 / 
-www.zhihu.com
-</span>
-<span class="title">由于摄像头的镜片出厂时都存在扭曲,为了得到精确的数据需要在使用前进行较正.常用的方法是基于棋盘的各个姿态拍几次,然后计算相机的矩阵参赛.下图便是常见的... mapping and tracking为什么我认为 hololens 与 kinect fushion 有关?答案在这个页面中 ...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://www.zhihu.com/question/27721289"
-    target="_blank"
->
-<span class="cite">
-112 / 
-www.zhihu.com
-</span>
-<span class="title">有现场记者的使用体验啊.http://www.businessinsider.com/microsoft-hololens-hands-on-2015-1</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://www.zhihu.com/question/27742866"
-    target="_blank"
->
-<span class="cite">
-赵劼 / 
-www.zhihu.com
-</span>
-<span class="title">这种黑科技那是必须有研究背景,比如这种:网上可以搜到论文:handpose: fully articulated hand tracking科学家才是推动人类社会进步的根本动力.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://www.zhihu.com/question/55075178"
-    target="_blank"
->
-<span class="cite">
-沈万马 / 
-www.zhihu.com
-</span>
-<span class="title">hololens.不说移动性,只说meta 2的宣传视频效果还不如hololens真机.那个抖啊抖的ar,挺逗的.hololens最大的缺点是性能不够好,没法给你看到效果极佳的渲染,画面效果也不是最强(当然和meta 2比还是比得过的).但画面与现实的合成我没看过更好的.即便考虑vr,也不...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://www.zhihu.com/question/27759227"
-    target="_blank"
->
-<span class="cite">
-冬未至 / 
-www.zhihu.com
-</span>
-<span class="title">holoporn…</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/zealerchina?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-ZEALER中国 / 
+3C数码产品之家 / 
 s.weibo.com
 </span>
-<span class="title">【微软 Microsoft HoloLens 国行版正式开售了】Microsoft HoloLens 是微软第一个完全独立的、运行 Windows 10 的全息计算机设备。它完全无线（没有电线），无需连接到手机或 PC。其中商业套件版售 39188 元，开发者版本售 23488 元。现在预约，5月24日起陆续发货。 ​</span>
+<span class="title">微软Build 2017综述：AI人工智能要搞事情了！ |微软Build ... ​</span>
 </a>
 </div>
 
@@ -189,14 +104,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/sinatech?refer_flag=1001030103_"
+    href="http://weibo.com/ithome?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-新浪科技 / 
+IT之家 / 
 s.weibo.com
 </span>
-<span class="title">#微软Build大会#【微软宣布HoloLens进入中国：10日预售 2.3万元起】微软将于今晚召开2017年Build开发者大会，大会前夕，微软今日宣布Microsoft HoloLens 正式进入中国市场，并于10日开启预售。中国企业用户和开发者可通过微软中国官方商城和天猫商城的微软中国官方旗舰店预订。|微软宣布Ho... ​</span>
+<span class="title">【微软推出全新Azure IoT Edge云服务：资源分配更智能】在今天的Build 2017开发者大会上，微软今天宣布推出一款名为Azure IoT Edge的新云服务。它是一种新的Azure云服务，可将AI人工智能和高级分析功能提供给支持该服务的设备。……详情点击：网页链接 ​</span>
 </a>
 </div>
 
@@ -206,14 +121,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/517656716?refer_flag=1001030103_"
+    href="http://weibo.com/leo7zheng?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-新浪游戏 / 
+鄭峻 / 
 s.weibo.com
 </span>
-<span class="title">微软HoloLens官方微博今日宣布，Microsoft HoloLens正式进入中国市场！而且就在今天开启预售，中国企业用户和开发者可以通过微软中国官方商城和天猫商城的微软中国官方旗舰店预订Microsoft HoloLens。价格方面，Microsoft HoloLens商业套件，售价39,188元，开发者版本售价23,488元。 ​</span>
+<span class="title">微软Build大会在时隔数年后再度回到西雅图。之前刚发了面向教育的Win 10 S和新笔记本，今天应该不会有太多硬件。微软和三星旗下哈曼卡顿的Cortana智能音箱可能会亮相。今年的大会，主题应该是Windows、云计算、人工智能。 ​</span>
 </a>
 </div>
 
@@ -223,14 +138,15 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/a9vg?refer_flag=1001030103_"
+    href="http://weibo.com/msra?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-A9VG / 
+微软亚洲研究院 / 
 s.weibo.com
 </span>
-<span class="title">微软今天宣布Microsoft HoloLens正式进入中国市场，并于今日开启预售。商业套件售价39188元，包含多项企业功能；开发者版本售价23488元，价格相对较低但减少了相关的服务内容。详情：|微软HoloLe... ​</span>
+<span class="title">#Build 2017#倒计时2小时，准备好瓜子板凳蹲直播了吗？今年的开发者大会上，微软将展示最新的开发进展以及未来的趋势展望。包括混合现实、最前沿的智能云应用、简化的端到端开发运维、面向几乎任何设备的移动体验，还有从未想象过的基于人工智能应用等热点话题 @微软中国MSDN 戳链接观看直播： ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -240,14 +156,15 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/mantgh?refer_flag=1001030103_"
+    href="http://weibo.com/themakers?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-msp的昌伟哥哥 / 
+创客星球THEMAKERS / 
 s.weibo.com
 </span>
-<span class="title">『Microsoft HoloLens正式开启预售』|Microsoft ... ​</span>
+<span class="title">#微软Build大会# 【微软Build 2017大会今晚开幕，这次微软软硬皆施】微软公司的年度开发者大会Build 2017将于今晚召开。微软不但会在此次大会上向开发者提供编写应用或开发Windows硬件所需工具，还会概述未来的愿景。微软可能会在此次大会上发布新版Windows 10、人工智能助手“小娜”(Cortana)、全息眼 ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -257,14 +174,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/sinadigi?refer_flag=1001030103_"
+    href="http://weibo.com/ifanr?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-新浪数码 / 
+爱范儿 / 
 s.weibo.com
 </span>
-<span class="title">【微软邮件提醒Hololens国行版即将上市】微软HoloLens自从发布以来一直受到很多用户的关注，继月初上线微软中国官方商城之后，不少拥有微软邮箱账号的小伙伴们都收到了《Microsoft Hololens即将登陆》的邮件提醒。看来微软HoloLens国行版上市的日期已经不远了。|微软Holole... ​</span>
+<span class="title">【蹭情人节热点：微软 Build 2017 大会将于 2 月 14 日开放注册】微软的 Hololens 眼镜、云服务、移动应用、人工智能技术等都将露面。 |蹭情人节热... ​</span>
 </a>
 </div>
 
@@ -274,14 +191,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/ryuetsuya?refer_flag=1001030103_"
+    href="http://weibo.com/businessweekchina?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-日_推 / 
+商业周刊中文版 / 
 s.weibo.com
 </span>
-<span class="title">『Microsoft HoloLens』与初音未来在现实世界约会 秒拍视频 . ​</span>
+<span class="title">【夜读·微软人工智能计划背后的华人力量】今年的微软Build大会上，微软CEO萨提亚·纳德拉展示了一款能够订购达美乐Pizza的机器人。只需要对着你的移动设备说“想吃Pizza”，约定时间内，Pizza就被送到你的手里。（彭博社）网页链接 |微软人工智... ​</span>
 </a>
 </div>
 
@@ -291,14 +208,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/kaiyaneyepetizer?refer_flag=1001030103_"
+    href="http://weibo.com/ithome?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-开眼精选视频 / 
+IT之家 / 
 s.weibo.com
 </span>
-<span class="title">微软史诗级黑科技登陆中国，HoloLens 是 MR（混合现实）的代表作，是微软首个不受线缆限制的全息计算机设备，能够让你与数字内容交互，并与周围真实环境中的全息影像互动。在美国首发两年后登陆中国官网。From Microsoft HoloLen #HoloLen# #开眼VR# 开眼精选视... ​</span>
+<span class="title">【安卓版《Skype》更新：全新聊天机器人】微软今天为安卓设备用户推送了Skype应用更新，新增支持多款全新的聊天机器人，带来一系列Bug修复和性能提升等等。Skype聊天机器人是微软在Build2016大会上推出的人工智能产品，聊天机器人可以自动帮助用户完成任务。……详情点击：|网页链接 ​</span>
 </a>
 </div>
 
@@ -308,15 +225,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.zdnet.com/article/heres-how-microsoft-is-ramping-up-windows-mixed-reality-marketing-sales-efforts/"
+    href="http://weibo.com/microsofthelps?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Mary Jo Foley / 
-www.zdnet.com
+微软帮助和支持 / 
+s.weibo.com
 </span>
-<span class="title">Microsoft says HoloLens has 150 apps one year after dev kit launch; Elizabeth Hamren, former chief marketing officer at Oculus, will head marketing for HoloLens
-  —  MIcrosoft has hired Elizabeth Hamren, the former CMO of Oculus VR at Facebook, to run a new dedicated Mixed Reality marketing team.</span>
+<span class="title">#村长有话说#随着微软Build 2016开发者大会的落幕，在人工智能领域的吸引了无数目光的微软小娜（Cortana），也吸引了更多其他领域的开发者。日前，微软小娜（Cortana）与美团外卖正式达成合作意向，双方将共同努力，打造满足用户最佳体验的智能专属服务。 |微软小娜（... ​</span>
 </a>
 </div>
 
@@ -326,15 +242,15 @@ www.zdnet.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.thurrott.com/hardware/90780/microsoft-accelerates-hololens-v3-development-sidesteps-v2"
+    href="http://weibo.com/seattlepot?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Brad Sams / 
-www.thurrott.com
+西雅图黄都督 / 
+s.weibo.com
 </span>
-<span class="title">Sources: Microsoft shuffles HoloLens&#39; roadmap, cancelling the planned second version of the device to focus on more ambitious hardware slated to launch in 2019
-  —  It was a little over two years ago that Microsoft first showed the world HoloLens and the company immediately grabbed headlines around …</span>
+<span class="title">微软在下一盘很大的棋？据西雅图时报自动报道，微软在其Build 2016上今天发布了一项震惊世界的产品：Artificial Stupidity (AS)。“人工智能已经过时了，”微软CEO那的啦说，“我们的目标是走的更远，更深，让我们的发展目标与美国的未来方向保持一致。” 微软本已仿照电影终结者制造天网， ，在安装AS ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -344,105 +260,15 @@ www.thurrott.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.theverge.com/2017/2/13/14588178/microsoft-hololens-video-capture-augmented-reality-headset-apps"
-    target="_blank"
->
-<span class="cite">
-Lauren Goode / 
-www.theverge.com
-</span>
-<span class="title">Microsoft debuts “spectator view” for HoloLens, a way to create video of peoples&#39; experience with mixed reality holograms, requires camera with HDMI output
-  —  A way to show not just holograms, but people interacting with them  —  Virtual reality and augmented reality headsets …</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.theverge.com/2016/12/8/13894000/magic-leap-ar-microsoft-hololens-way-behind"
-    target="_blank"
->
-<span class="cite">
-Nick Statt / 
-www.theverge.com
-</span>
-<span class="title">Former Magic Leap employees say planned release won&#39;t include tech seen in early prototypes; Magic Leap recruited with video created by a visual effects studio
-  —  Reality check  —  Magic Leap&#39;s allegedly revolutionary augmented reality technology may in fact be years away from completion and …</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://mashable.com/2016/10/26/microsoft-3d-platform/"
-    target="_blank"
->
-<span class="cite">
-Pete Pachal / 
-mashable.com
-</span>
-<span class="title">Microsoft&#39;s plan for 3D ubiquity: offer capture apps for mobile devices; expand tools across Word, PowerPoint, Paint, Edge, more; leverage HoloLens, Minecraft
-  —  There&#39;s a model of an odd-looking boat on a tabletop in front of me, and a woman is capturing it with her phone&#39;s camera.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://live.theverge.com/microsoft-event-live-blog-2016-surface-hardware-windows-10/"
-    target="_blank"
->
-<span class="cite">
-The Verge / 
-live.theverge.com
-</span>
-<span class="title">Live blog: Microsoft expected to unveil Surface all-in-one PC, Echo competitor, Microsoft Paint app with 3D, and more
-  —  Follow along with us as we attend Microsoft&#39;s Surface PC event.  Expect to hear about Surface, Windows 10, Xbox, HoloLens, and more.  There&#39;s a magic selection tool, and tools to create shapes and objects.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.theverge.com/2016/10/24/13379386/microsoft-surface-event-windows-10-devices-preview"
-    target="_blank"
->
-<span class="cite">
-Tom Warren / 
-www.theverge.com
-</span>
-<span class="title">What to expect at Microsoft&#39;s October 26 event: Surface all-in-one PC, Microsoft Paint app with 3D, Echo competitor, HoloLens on Windows 10
-  —  Microsoft is returning to New York City this week to host a special press event on October 26th.  While Microsoft held a similar event last year in October …</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://techcrunch.com/2016/10/12/hololens-goes-global/"
+    href="http://techcrunch.com/2017/05/10/microsoft-is-extending-azure-iot-to-the-edge-of-the-network/"
     target="_blank"
 >
 <span class="cite">
 Frederic Lardinois / 
 techcrunch.com
 </span>
-<span class="title">Microsoft expands availability of its $3K Hololens to Germany, France, UK, Ireland, Australia, and New Zealand; preorders are live now, units ship next month
-  —  HoloLens, Microsoft&#39;s $3,000 mixed-reality goggles (or “the world&#39;s first self-contained holographic computer” in Microsoft&#39;s parlance) …</span>
+<span class="title">Microsoft unveils IoT Edge, which will run services like Azure Machine Learning and AI Services on Windows, Linux, and small devices like the Raspberry Pi
+  —  The launch of Azure IoT Edge was one of Microsoft&#39;s slightly more esoteric but interesting announcements at its Build developer conference in Seattle today.</span>
 </a>
 </div>
 
@@ -452,15 +278,15 @@ techcrunch.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.businessinsider.com/microsoft-hololens-roadshow-2016-9?op=1"
+    href="http://venturebeat.com/2017/05/10/developers-can-now-publish-microsoft-teams-apps-to-the-office-store/"
     target="_blank"
 >
 <span class="cite">
-Matt Weinberger / 
-www.businessinsider.com
+Emil Protalinski / 
+venturebeat.com
 </span>
-<span class="title">Microsoft hosting HoloLens demos at various stores in US during September and October
-  —  Microsoft is taking its HoloLens “holographic” goggles on the road this September and October with the so-called HoloLens Roadshow.  —  If you live in or around a HoloLens Roadshow stop …</span>
+<span class="title">All devs can now publish Microsoft Teams apps to Office Store, not just select ones; features added to preview include 3rd-party notifications in activity feed
+  —  At its Build 2017 developer conference today, Microsoft announced that all developers can now publish Microsoft Teams apps to the Office Store.</span>
 </a>
 </div>
 
@@ -470,15 +296,158 @@ www.businessinsider.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.theregister.co.uk/2016/08/22/microsoft_hololens_hpu/"
+    href="http://techcrunch.com/2017/05/10/microsofs-cognitive-services-get-customizable-models-for-search-image-classification-and-ab-testing/"
     target="_blank"
 >
 <span class="cite">
-Chris Williams / 
-www.theregister.co.uk
+Frederic Lardinois / 
+techcrunch.com
 </span>
-<span class="title">Microsoft details HoloLens&#39; Holographic Processing Unit: TSMC-made, 24-core, performs 1T calculations/second, handles all environmental sensing and other inputs
-  —  How to make your own virtual reality brain  —  Hot Chips Microsoft today revealed a first look at the inside …</span>
+<span class="title">Microsoft&#39;s Cognitive Services get customizable models for search, image classification, and A/B testing, and launches video indexer to make videos searchable
+  —  At its Build developer conference, Microsoft&#39;s Cognitive Services, its platform for making various kinds of machine learning …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://venturebeat.com/2017/05/10/microsoft-introduces-azure-cosmos-db-a-globally-distributed-database-with-5-consistency-choices/"
+    target="_blank"
+>
+<span class="cite">
+Emil Protalinski / 
+venturebeat.com
+</span>
+<span class="title">Microsoft debuts Azure Cosmos DB, a globally distributed database with five consistency choices, and new MySQL and PostgreSQL options for Azure Database
+  —  Arguably the biggest Azure news to come out of Microsoft&#39;s Build 2017 developer conference is the debut of Azure Cosmos DB.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://techcrunch.com/2017/05/10/microsofts-presentation-translator-translates-presentations-in-real-time/"
+    target="_blank"
+>
+<span class="cite">
+Frederic Lardinois / 
+techcrunch.com
+</span>
+<span class="title">Microsoft shows off Presentation Translator, which translates PowerPoint slides in real-time, now available in closed preview
+  —  A lot of what Microsoft is showing at its Build conference this week is squarely aimed at developers.  But in the barrage of news about Azure, Visual Studio and .NET …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://venturebeat.com/2017/05/10/microsoft-launches-cortana-skills-kit-in-public-preview/"
+    target="_blank"
+>
+<span class="cite">
+Khari Johnson / 
+venturebeat.com
+</span>
+<span class="title">Microsoft releases public preview of its Cortana Skills Kit, which lets developers build voice apps for its assistant
+  —  Microsoft today announced a public preview of its Cortana Skills Kit that allows developers to create voice apps for the intelligent assistant.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://techcrunch.com/2017/05/10/microsoft-launches-a-new-service-for-training-deep-neural-networks-on-azure/"
+    target="_blank"
+>
+<span class="cite">
+Frederic Lardinois / 
+techcrunch.com
+</span>
+<span class="title">Microsoft debuts Azure Batch AI Training for training neural networks using Azure, available in private preview
+  —  At its Build developer conference, Microsoft today announced the launch of Azure Batch AI Training.  While that&#39;s a mouthful, the name pretty much tells you what it is …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://venturebeat.com/2017/05/10/microsoft-launches-visual-studio-2017-for-mac-out-of-preview/"
+    target="_blank"
+>
+<span class="cite">
+Emil Protalinski / 
+venturebeat.com
+</span>
+<span class="title">Microsoft launches Visual Studio 2017 for Mac out of preview
+  —  At Microsoft&#39;s Build 2017 developer conference, its biggest Visual Studio news wasn&#39;t even for its own platform: Visual Studio 2017 for Mac has hit general availability (download here, requires OS X El Capitan 10.11 or higher).</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.theverge.com/2017/5/10/15604374/microsoft-windows-10-500-million-devices"
+    target="_blank"
+>
+<span class="cite">
+Tom Warren / 
+www.theverge.com
+</span>
+<span class="title">Microsoft says 500M devices are now running Windows 10, up from 400M in September 2016
+  —  Microsoft is announcing today that 500 million active machines are now running Windows 10.  The latest statistic comes almost 8 months after the company revealed 400 million devices were running Windows 10.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://news.microsoft.com/build2017/"
+    target="_blank"
+>
+<span class="cite">
+Microsoft / 
+news.microsoft.com
+</span>
+<span class="title">Live stream of Microsoft&#39;s Build 2017 keynote from Seattle
+  —  Join us starting May 10 at 8 a.m. PT to learn more about what&#39;s on the horizon for Microsoft.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://techcrunch.com/2017/05/10/after-harman-kardon-hp-signs-on-to-launch-cortana-enabled-devices-too/"
+    target="_blank"
+>
+<span class="cite">
+Frederic Lardinois / 
+techcrunch.com
+</span>
+<span class="title">Earlier this week, Harman Kardon announced the Invoke, its Cortana-enabled Amazon Echo competitor. While Harman Kardon was the first company to integrate Cortana into this kind of device, it’s not going to be the only one for long. As Microsoft announced today, HP has also signed on to build similar devices. Intel, too, is getting into this game. Read More</span>
 </a>
 </div>
 

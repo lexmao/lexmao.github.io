@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://www.jiqizhixin.com//data/upload/20170424/58fd9dde38283.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://bzline.cn/ainews/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-李泽南 / 
-www.jiqizhixin.com:
+Jamie Condliffe / 
+www.technologyreview.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.jiqizhixin.com/article/2700"
+    href="https://www.technologyreview.com/s/604258/will-self-driving-cars-be-better-drivers-if-they-can-chat-with-each-other/"
     target="_blank"
 >
-Facebook ICLR 2017研究成果概述，对话研究的创新与优势
+Will Self-Driving Cars Be Better Drivers If They Can Chat with Each Other?
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  Facebook在ICLR 2017前夕对FAIR近期在对话系统上的研究进行了梳理，并列出了将在大会上发表的 7 篇论文... 
+&nbsp; &mdash;&nbsp;  Ambitious trials of autonomous cars between London and Oxford could inspire more companies to freely share data between vehicles. 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ Facebook ICLR 2017研究成果概述，对话研究的创新与优势
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/52311422"
+    href="https://www.zhihu.com/question/51788894"
     target="_blank"
 >
 <span class="cite">
-周博磊 / 
+Ryan Woo / 
 www.zhihu.com
 </span>
-<span class="title">谢邀,那我又来抛砖引玉一下(搞cvpr的不务正业时间).因为我自己比较关注跟computer vision和general ai比较相关的工作,所以挑选出来的纯属个人喜好.我也很期待其他朋友的分享.先介绍下背景,iclr的论文是open review, 所以deadline过后可以立刻看到投稿的论文...</span>
+<span class="title">奔驰在自动辅助驾驶中越过了道路中央的黄线,并且跑到了逆行车道,我们不得不人工把车调回来,因为车完全没意识到自己已经逆向行驶.tesla始终保持在黄线内测,... 也确实开得越来越好.如果在正确环境下使用,它确实比单纯人工开车感到安全.在目前adas市场上,是无...</span>
 </a>
 </div>
 
@@ -70,14 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/56151007"
+    href="https://zhuanlan.zhihu.com/p/25037377"
     target="_blank"
 >
 <span class="cite">
-周博磊 / 
+Mingche Su / 
 www.zhihu.com
 </span>
-<span class="title">更新:刚发现这篇论文被评为iclr&#39;17 best paper award (monday april 24, 2017).谢邀.我觉得吧,往往有争议的文章,激发大家讨论的文章,才是有意思的文章(好与坏本身太主观).深度学习越来越演变成了门实验科学,本身跟炼丹差不多(笑),有人云亦云,也有意外和反直...</span>
+<span class="title">然而,无人驾驶并不只是科技巨头的专利,你,也可以造一辆无人驾驶汽车.在春节来临之际,为回馈所有bittiger同学一年以来对我们无私的支持,本次课程仅象征性收取10usd.通过本次课程你将获得self-driving 领域最新研究成果无人车技术的关键难点无人驾驶的新思路...</span>
 </a>
 </div>
 
@@ -87,14 +87,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25129666"
+    href="https://www.zhihu.com/question/56262041"
     target="_blank"
 >
 <span class="cite">
-魏秀参 / 
+进击的铁皮人 / 
 www.zhihu.com
 </span>
-<span class="title">素有深度学习届顶会&#34;无冕之王&#34;之称的iclr 2017今天公布了会议录用结果.总计490篇投稿,最终录用oral 15篇(录用率3%),poster 181篇(录用率36.9%).虽说iclr相比其他同领域顶会录用率奇高,但也从侧面反映了iclr投稿质量之优.无法克制心中好奇,趁热撸了一遍录用...</span>
+<span class="title">那么自己家的员工带着点技术去做布道者的角色.再加上之前自动驾驶在moonshoot,管理作风相对宽松,(从这个报道也能看出点google当年是怎么在自动驾驶上管理松散的http://jalopnik.com/google-paid-fuck-you-money-at-self-driving-car-projec-1792306694google给了自动驾驶部门员工超乎寻常...</span>
 </a>
 </div>
 
@@ -104,14 +104,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/23807875"
+    href="https://www.zhihu.com/question/52665993"
     target="_blank"
 >
 <span class="cite">
-Flood Sung / 
+彭河森 / 
 www.zhihu.com
 </span>
-<span class="title">1 前言iclr 2017中和deep reinforcement learning相关的论文我这边收集了一下,一共有30篇(可能有漏),大部分来自于deepmind和openai,可见drl依然主要由deepmind和openai把持.由于论文太多,时间有限,先把论文列出来.之后根据情况做一定分析.也欢迎大家一起补...</span>
+<span class="title">经网友指正,更新了deepmind vs google brain === (2011)g: 为什么我们的self-driving car 还没上路?a: 因为我们没有机器学习牛人g: 给我把斯坦佛的牛人的学生都找来!(2012)g: 为什么我们的self-driving car 还没上路?斯坦佛牛人的学生们都去哪儿了?a: 牛逼...</span>
 </a>
 </div>
 
@@ -121,14 +121,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/23454387"
+    href="https://www.zhihu.com/question/55576523"
     target="_blank"
 >
 <span class="cite">
-田渊栋 / 
+张航 / 
 www.zhihu.com
 </span>
-<span class="title">iclr2017的投稿时间终于截止.这次投了三篇文章出去,是我个人做研究以来单次会议投稿数最多的一次.1. 如何用增强学习中的actor-critic模型再加上课程学习来训练doom ai拿到ai比赛冠军:training agent for first-person shooter game with actor-critic curri...</span>
+<span class="title">去年暑假在nvidia自动驾驶(bb8)的组里面实习,这里附上我们组的blog和视频地址(self-driving car demo like no other | nvidia blog).因为不是汽车公司,所以我们的方法比较大胆,直接使用end-to-end的深度学习算法,让cnn根据输入的video stream直接控制汽车的...</span>
 </a>
 </div>
 
@@ -138,270 +138,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25431051"
+    href="https://www.zhihu.com/question/24256129"
     target="_blank"
 >
 <span class="cite">
-机器之心 / 
+崔迪潇 / 
 www.zhihu.com
 </span>
-<span class="title">公司聚焦于稀疏化神经网络处理得技术路线,提出的 deep compression 算法可以将模型尺寸压缩数十倍大小而不损失预测精度,并结合专用的深度学习处理架构来实现加速.而 iclr 2016 和 fpga 2017 两篇最佳论文的获奖,也证实深鉴科技所聚焦的稀疏化路线越来越得到...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/2700"
-    target="_blank"
->
-<span class="cite">
-李泽南 / 
-www.jiqizhixin.com
-</span>
-<span class="title">Facebook在ICLR 2017前夕对FAIR近期在对话系统上的研究进行了梳理，并列出了将在大会上发表的 7 篇论文。</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/2697"
-    target="_blank"
->
-<span class="cite">
-吴攀 / 
-www.jiqizhixin.com
-</span>
-<span class="title">当地时间 2017 年 4 月 24-26 日，第五届 ICLR 会议将在法国土伦举行。</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/2349"
-    target="_blank"
->
-<span class="cite">
-曹瑞 / 
-www.jiqizhixin.com
-</span>
-<span class="title">机器学习系统第一次获得了自我编码的能力，剑桥与微软联合提交ICLR 2017的论文提出DeepCoder，可以组合其它程序代码生成新程序。</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/1784"
-    target="_blank"
->
-<span class="cite">
-杜夏德 / 
-www.jiqizhixin.com
-</span>
-<span class="title">这篇文章将介绍 Yann LeCun 参与的在 ICLR2017上提交的所有论文（共 5 篇）</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/2111"
-    target="_blank"
->
-<span class="cite">
-吴攀 / 
-www.jiqizhixin.com
-</span>
-<span class="title">Google Brain 的最新研究提出了一种用于深度学习的大规模终身记忆模块，实现了终身一次性学习</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/1994"
-    target="_blank"
->
-<span class="cite">
-杜夏德 / 
-www.jiqizhixin.com
-</span>
-<span class="title">论文介绍了一种新模型：循环实体网络（EntNet/Recurrent Entity Network）。</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/1777"
-    target="_blank"
->
-<span class="cite">
-吴攀 / 
-www.jiqizhixin.com
-</span>
-<span class="title">OUTRAGEOUSLY LARGE NEURAL NETWORKS</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/138147022?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-星空下的巫师 / 
-s.weibo.com
-</span>
-<span class="title">#ICLR2017# ICLR 2017，今天在法国Toulon正式开始了，还没用Valse的热闹中沉静下来，就又在网上看见ICLR的人山人海了，据说满火车的人都是去参加ICLR的，好多人都带着Poster。大会的第一个报告来自NYU的Eero Simoncelli教授。 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/synced?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-机器之心synced / 
-s.weibo.com
-</span>
-<span class="title">改进卷积神经网络，你需要这14种设计模式  |改进卷积神... 深度学习领域近来已经发展出大量的新架构，而如何选择使用这些新架构提升卷积神经网络的性能就显得越发重要了。机器之心之前报道过提交 ICLR 2017 的论文：解析深度卷积神经网络的14种设计模式也正是关注于此。而本文在描述14种设计 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/1657470871?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-王威廉 / 
-s.weibo.com
-</span>
-<span class="title">特征学习顶会ICLR 2017三篇最佳论文 Understanding deep learning requires rethinking generalization 网页链接 Semi-supervised Knowledge Transfer for Deep Learning... 网页链接 Making Neural Programming Architectures Generalize via Recursion 网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/lewhwa?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-网路冷眼 / 
-s.weibo.com
-</span>
-<span class="title">【除了LeCun和Bengio，还有哪些大牛也是ICLR的幕后英雄？| ICLR 2017】在今天开幕式上，LeCun 及高级评委会主席 Marc&#39; Aurelio Ranzato 分别对本次会议做出贡献的组委会主要成员做出了感谢。|除了LeCun... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/lewhwa?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-网路冷眼 / 
-s.weibo.com
-</span>
-<span class="title">【英特尔通过预测变量实现策略性强化学习，夺冠 Doom 游戏竞赛 | ICLR 2017】英特尔提出了一种旨在辅助进步的感觉运动控制方法，以克服强化学习的两大挑战。|英特尔通过... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/haoawesome?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-好东西传送门 / 
-s.weibo.com
-</span>
-<span class="title">第946期机器学习日报(2017-04-21) 1) 面向数据科学家的40道深度学习测试题 2) 大数据语义分析与应用实践报告 3) 深度学习入门实战——像Prisma一样算法生成梵高风格画像 4) 才办了五年的 ICLR，为何被誉为“深度学习的顶级会议”？ 5) 生成模型集锦 完整版19条 网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/truth4sex?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-the2 / 
-s.weibo.com
-</span>
-<span class="title">#唇读# 1）被ICLR2017拒稿的LipNet: End-to-End Sentence-level Lipreading [Assael et al, arXiv&#39;16]网页链接 2）被CVPR2017录为口头报告的Lip Reading Sentences in the Wild [Chung et al, CVPR&#39;17]网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/hongliangjieml?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-洪亮劼 / 
-s.weibo.com
-</span>
-<span class="title">今天我们来读一篇ICLR 2017的文章，来自微软研究院以及纽约哥伦比亚大学的学者，讲如何结合深度学习中的序列模型利器RNN以及文档分析领域的标准模型，话题模型（Topic Models）。这篇文章提出的模型非常直观，试验详实，适合相关读者精度。 |【论文每日... ​</span>
+<span class="title">借通过对比google现行技术和cruise的方案,给感兴趣的朋友参考,也使自己进行一些思考.其余相关问题的内容,也争取在这里涉及到.烦请刘老师协助编辑下.关于cruise... 与google无人驾驶车的主要区别1)cruise定位于人类驾驶行为的部分取代,而google的self-driving...</span>
 </a>
 </div>
 
@@ -418,24 +162,7 @@ s.weibo.com
 爱可可-爱生活 / 
 s.weibo.com
 </span>
-<span class="title">《ICLR 2017 vs arxiv-sanity》by Andrej Karpathy 网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/hongliangjieml?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-洪亮劼 / 
-s.weibo.com
-</span>
-<span class="title">ICLR 2017是深度学习领域最近兴起的新会议。我们在这篇文章里给大家导读部分精选论文，有深度学习架构方面的、有优化算法方面的、有关于对话系统的，也有关于GANs的论文。 |【论文每日... ​</span>
+<span class="title">《College Dropout Says He’s Cracked Self-Driving Cars’ Most Crucial Component | MIT Technology Review》by Tom Simonite 网页链接 《22岁辍学大学生突破自动驾驶难题，为无人车安上“眼睛”》via:DeepTech深科技 |22岁辍学大... ​</span>
 </a>
 </div>
 

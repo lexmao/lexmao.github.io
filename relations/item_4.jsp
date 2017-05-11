@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://cms-bucket.nosdn.127.net/1190cd5860ac45b89f76f0b249426d8820170509085716.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://www.jiqizhixin.com/data/upload/20170509/59115ce30a638.jpeg" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-网易智能 / 
-tech.163.com:
+李泽南 / 
+www.jiqizhixin.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://tech.163.com/17/0509/08/CJVVPBLO00098GJ5.html"
+    href="http://www.jiqizhixin.com/article/2787"
     target="_blank"
 >
-拉上宝马等伙伴 英特尔无人驾驶实验室迎来处女秀
+英伟达GTC大会开幕，盘点首日三大亮点
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  在美国加州圣何塞，英特尔拉上了宝马、德尔福等合作方，揭开了其硅谷最新无人驾驶实验室神秘面纱。 
+&nbsp; &mdash;&nbsp;  昨天，GPU 开发者的年度盛会，GPU 技术大会（GTC）在美国加州圣何塞开始举行。 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ tech.163.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/57052990"
+    href="https://zhuanlan.zhihu.com/p/19981444"
     target="_blank"
 >
 <span class="cite">
-爱范儿 / 
+DeepTech深科技 / 
 www.zhihu.com
 </span>
-<span class="title">另外,在ces上mobileye展示自动驾驶软件技术的同时,英特尔还公布了自家的自动驾驶平台intelgo,可以预见的是,在未来并入mobileye的英特尔自动驾驶部门,会结合英特尔本身的芯片、5g等硬件技术,以及mobileye和here所优化的自动驾驶地图和决策算法等软件技术,让全...</span>
+<span class="title">文/大卫·塔尔博特英伟达产品的引进是&#34;深度学习&#34;技术具有里程碑意义的时刻,此技术通过模仿大脑的工作模式来有效处理传感器信息.得益于此款商业设备强大的图像和信息处理能力,汽车能够解读360°摄像头视角的数据. 英伟达ceo黄仁勋在本月举办的gpu科技大会(gtc...</span>
 </a>
 </div>
 
@@ -70,14 +70,221 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25840899"
+    href="https://zhuanlan.zhihu.com/p/24706935"
     target="_blank"
 >
 <span class="cite">
-张竞扬 / 
+机器之心 / 
 www.zhihu.com
 </span>
-<span class="title">2015-2017年英特尔的研发支出 那么英特尔的研发重点在哪里呢? 如一开始说的那样, 英特尔已经将其研发重点从pc(个人计算机)转移到移动调制解调器、ai(人工智能)、5g网络、自动驾驶汽车、非易失性存储器,以及物联网(iot). 英特尔在物联网领域的研发工作几乎翻...</span>
+<span class="title">vega gpu 架构的机器学习芯片.另外,dsp 供应商 ceva、fpga 供应商 xilinx 和处理器技术提供商 imagination 等厂商也都已经在机器学习领域进行了布局.英伟达 ceo 黄仁勋在 gtc europe 2016 上演讲互联网巨头似乎也从计算硬件领域发现了新的机会.2016 年 5 月...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/21933614"
+    target="_blank"
+>
+<span class="cite">
+Vinjn张静 / 
+www.zhihu.com
+</span>
+<span class="title">(二维码自动识别)大会日程、分会场信息、场地平面图、午餐就餐信息以及演讲人介绍,所有相关细节均可在我们大会的官方微信平台轻松获得. 扫描以下二维码,关注&#34;英伟达nvidia专业解决方案&#34;公众号,点击&#34;gtc china 2016&#34;, 精彩内容即可一键获得.现场注册开放时间...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.jiqizhixin.com/article/2789"
+    target="_blank"
+>
+<span class="cite">
+黄小天 / 
+www.jiqizhixin.com
+</span>
+<span class="title">通过受限范围或者只是把原来有的应用程序单独放在替换平台上，规模经济获得了出乎意料的效率。</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.jiqizhixin.com/article/2787"
+    target="_blank"
+>
+<span class="cite">
+李泽南 / 
+www.jiqizhixin.com
+</span>
+<span class="title">昨天，GPU 开发者的年度盛会，GPU 技术大会（GTC）在美国加州圣何塞开始举行。</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/1657470871?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+王威廉 / 
+s.weibo.com
+</span>
+<span class="title">斯坦福大学在英伟达GTC上透露了其医学ImageNet构想：据说要放出0.5PB的医学影像。Photo via jwan584 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/kinsonloo?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+卢健生 / 
+s.weibo.com
+</span>
+<span class="title">英伟达Nvidia今天发布，使用深圳视觉科技@ZCAM V1 Pro影视级立体VR相机，一根网线连接PC，仅需两个Quadro P6000 GPU，实时拼接8路视频源，生成4K3D立体360°VR视频。无与伦比的世界顶级VR体验，明早在圣荷西展馆GPU技术大会#GTC#VR Village现场，我亲自给大家演示。 |美国·San J... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/gpucomputing?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+GPU计算 / 
+s.weibo.com
+</span>
+<span class="title">英伟达ECS新兴企业峰会已连年为创投界指明黑马，迄今已有十多家ECS参会企业通过峰会实现腾飞。在GTC CHINA 2016期间，中国初创公司推想科技Infervision、彩云天气ColorfulClouds通过专家评委的层层遴选，分别摘得ECS最佳展示奖和ECS社会创新奖等两项大奖。ECS鼓励新兴企业借助GPU推动行业创新变革，目 ​
+			...展开全文c</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/gpucomputing?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+GPU计算 / 
+s.weibo.com
+</span>
+<span class="title">在GTC欧洲大会上，NVIDIA CEO黄仁勋宣布，英伟达将联合全球高端导航集团TomTom（TOM2）合作开发用于云端至汽车的制图系统，这次合作将涵盖120,000公里公路和高速路，将广泛高清地图覆盖范围与NVIDIA DRIVE PX 2计算平台相整合。该解决方案将更快地为公路驾驶的实时车载定位和制图提供支持，强大的GPU应 ​
+			...展开全文c</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/51661970?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+自动化网官方微博 / 
+s.weibo.com
+</span>
+<span class="title">【Nvidia发布两款深度学习芯片】9月13日，NVIDIA（英伟达）在北京国际饭店会议中心召开GTC China 2016大会。在会上，NVIDIA发布了Tesla P4和Tesla P40两款Pascal架构GPU。据悉Pascal架构能助推深度学习加速65倍，最新一代的架构Pascal是首个专为深度学习而设计的GPU。#深度学习#|Nvidia发布... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/52mlnet?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+我爱机器学习 / 
+s.weibo.com
+</span>
+<span class="title">[NVIDIA Announces Tesla P40 &amp; Tesla P4 - Neural Network Inference, Big &amp; Small]网页链接 9月13日，NVIDIA（英伟达）在北京国际饭店会议中心召开了GTC China 2016大会，发布了Tesla P4和P40两款Pascal架构GPU，未来将替代M4和M40，图中有详细对比数据。 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/5866810652?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+AndrewNg吴恩达 / 
+s.weibo.com
+</span>
+<span class="title">很荣幸能够受邀在Nvidia（英伟达）GTC演讲。百度的深度学习非常依赖基于GPU的高性能计算。我们还搭建了很多高性能计算基础硬件帮助我们的研究者能更有效的运行实验并且发明新的算法。我感到非常幸运能和Jensen Huang (黄仁勋）这样有远见的伙伴一起合作！ ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/bigheadwy?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+大老客大大 / 
+s.weibo.com
+</span>
+<span class="title">北京时间4月6日凌晨，大家翘首以盼的新一代GPU“帕斯卡”终于登台亮相了。由NVIDIA主办的GTC图形技术大会不仅是全球规模最大、最具影响力的GPU开发者大会，同时也是NVIDIA展示最新成果的舞台。而就在半个月...@英伟达NVIDIA中国 |“帕斯卡”来... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/52hardware?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+热点科技-原52硬件 / 
+s.weibo.com
+</span>
+<span class="title">英伟达在这次的英伟达GTC大会上，秀了一把自家的VR显示屏，刷新率达到了恐怖的1700Hz！比Oculus和HTC的90Hz高了足足18倍！英伟达把这块显示着NVIDIA标志的显示屏放到了轨道交通系统上，进行前后的快速晃动，然后用摄像头拍摄标志的清晰度。虽然看上去标志略显模糊，但是依旧不影响观看。 ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -94,75 +301,7 @@ www.zhihu.com
 新浪科技 / 
 s.weibo.com
 </span>
-<span class="title">#5G与未来#【才买Mobileye没多久 英特尔无人驾驶研发中心已揭幕】英特尔的“自动驾驶车库”将与宝马进行合作，将从事无人驾驶技术的研发。英特尔称无人驾驶汽车将产生海量数据，因此需要基于5G技术的高速无线数据通道，以及用于数据处理的人工智能技术。|英特尔无人... 英特尔无人... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/pingwest?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-PingWest品玩 / 
-s.weibo.com
-</span>
-<span class="title">【在硅谷创新大道101号，英特尔把办公楼变成无人驾驶研发工厂】收购 Mobileye 后，英特尔自信满满。他们宣称 CPU+FPGA+5G 技术配合 Mobileye、Delphi 的算法和制造经验，是世界上最完整和最好的自动驾驶解决方案。这信心从哪来的？我们来到这座工厂，和英特尔高管对谈，一探究竟。|在硅谷创新... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/caixincn?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-财新网 / 
-s.weibo.com
-</span>
-<span class="title">【英特尔在华首次详解自动驾驶策略】（记者 张而弛）随着自动驾驶概念的升温，汽车市场正成为各家科技企业的必争之地。3月8日，英特尔在北京举办无人驾驶分享会，推介自己包含汽车端、5G和云端的端到端解决方案。英特尔的无人驾驶事业部成立于2016年11月。 |英特尔在华... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/3202566940?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-智玩派 / 
-s.weibo.com
-</span>
-<span class="title">分享图片无论是英特尔发展5G/物联网还是自动驾驶技术，其都要发展人工智能，更何况英特尔在打造完整的产业链，其依托自身芯片，打造完整的物联网体系，将自身芯片、自动驾驶技术以及5G通讯融合为一体。 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/1291491193?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-MaidouDEmaidou / 
-s.weibo.com
-</span>
-<span class="title">昨天看到英特尔收购mobileye的消息，我第一反应是：卧槽，mobileye已经沦落到也开始走下坡路了？  INTEL想在汽车领域插一脚的目标很明确，目前几个大的布局看起来似乎也有布局大场的感觉：FPGA，ADAS，5G车联网。但是总感觉这几个点很难做成活眼。 目前为止，mobileye应该说在自动驾驶领域已经不 ​
+<span class="title">【英伟达展示黑科技：屏幕刷新率1700帧 未来将用于VR】英伟达在今年GTC上发布了一款刷新率达到1700Hz的显示屏。这款设备在虚拟现实领域有很大潜力。高刷新率将有助于减少图像的延迟和模糊，消除用户在使用VR时的不适感。目前，VR设备的屏幕刷新率通常为90Hz。#两弹元勋黄仁勋#英伟达展示... ​
 			...展开全文c</span>
 </a>
 </div>
@@ -173,170 +312,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/ccidcom?refer_flag=1001030103_"
+    href="http://weibo.com/ithome?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-通信产业报网 / 
+IT之家 / 
 s.weibo.com
 </span>
-<span class="title">#英特尔5G+网络转型玩转MWC#近期全球最引人瞩目的科技产业界活动，是刚刚落下帷幕的MWC2017大展。它的焦点再一次锁定5G，但来赴会的可不仅仅是手机厂商、电信设备和软件提供商及电信运营商，宝马也把它的自动驾驶汽车搬上了这次巴展的舞台，也许你会有疑问，它和5G有何关联? 网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/C114txw?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-C114中国通信网 / 
-s.weibo.com
-</span>
-<span class="title">#英特尔5G+网络转型玩转MWC# 【不修通5G大道 谈何自动驾驶？】英特尔CEO科再奇曾展示过一组数据：每辆自动驾驶的汽车每天会产生4000GB的数据，当前的网络肯定力不从心，唯有5G才可将自动驾驶这一庞大复杂的生态系统整合在一起，唯有5G才是实现自动驾驶愿景的无线数据高速公路。网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/579613399?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-科技吐槽王 / 
-s.weibo.com
-</span>
-<span class="title">#MWC2017# #英特尔5G+网络转型玩转MWC# 继续玩出新花样！5G驱动下的自动驾驶将是被赋予智慧与灵魂的智能管家，释放你的双手，真正实现“高速、安全、智能”的自动驾驶愿景！ ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/intelbiz?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-英特尔商用频道 / 
-s.weibo.com
-</span>
-<span class="title">#MWC2017# 看 #英特尔5G+网络转型玩转MWC# 如何将“速度”与“智能”完美融合！当5G遇到自动驾驶，这场高速与智能的结合，必将带给你不一样的万物互联超快感。 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/ccidcom?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-通信产业报网 / 
-s.weibo.com
-</span>
-<span class="title">#英特尔5G+网络转型玩转MWC#【MWC2017英特尔5G+网络转型组合秀】英特尔在MWC2017的展台中分为四个区域，分别展示5G网络下的自动驾驶、智慧城市、智能家庭，以及VR领域的诸多应用。现场中超大的5G频繁在LED屏幕上飘过，展示着英特尔在5G领域的雄心壮志。网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/ccidcom?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-通信产业报网 / 
-s.weibo.com
-</span>
-<span class="title">#直击MWC2017#【英特尔蓄力5G下注未来】英特尔在MWC2017的展台中分为四个区域，分别展示5G网络下的自动驾驶、智慧城市、智能家庭，以及VR领域的诸多应用。现场中超大的5G频繁在LED屏幕上飘过，展示着英特尔在5G领域的雄心壮志。|MWC2017 英... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/intelbiz?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-英特尔商用频道 / 
-s.weibo.com
-</span>
-<span class="title">#MWC2017#让#英特尔5G+网络转型玩转MWC#带你体验物联网下不一样的自动驾驶、智慧城市与智能家居！在科技驱动下，生活秒变智能，魅力倍增，所有的可能都将发生在今天的MWC2017！ ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.anandtech.com/show/10288/intel-broxton-sofia-smartphone-socs-cancelled"
-    target="_blank"
->
-<span class="cite">
-AnandTech / 
-www.anandtech.com
-</span>
-<span class="title">Intel&#39;s Changing Future: Smartphone SoCs Broxton &amp; SoFIA Officially Cancelled
-  —  The past two weeks have been a busy - if not tumultuous - period for Intel.  Driven by continued challenges in various semiconductor markets, culminating in weaker-than-desired earnings in the most recent quarter …</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.pcworld.com/article/3061210/"
-    target="_blank"
->
-<span class="cite">
-Mark Hachman / 
-www.pcworld.com
-</span>
-<span class="title">Intel CEO outlines new strategy: focus on connected things like PC and IoT, cloud, new memory business like 3D XPoint, 5G, manufacturing and fab innovation
-  —  Intel declares independence from the PC as it lays out a broader 5-point strategy  —  The PC&#39;s just another ‘connected thing’ in this new world order.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.wired.com/2016/02/facebook-open-source-wireless-gear-forge-5g-world/"
-    target="_blank"
->
-<span class="cite">
-Cade Metz / 
-www.wired.com
-</span>
-<span class="title">Facebook announces Telecom Infra Project, an open, collaborative effort to accelerate innovation in telecom networks; Intel, Nokia, several telecoms are members
-  —  Facebook Will Open Source Wireless Gear to Forge a 5G World  —  A year ago, when he appeared onstage at the Mobile World Congress …</span>
+<span class="title">【英伟达展示自家VR显示屏：刷新率高达1700Hz】在GTC2016上，Nvidia推出了自家全新的VR显示器，据称屏幕刷新率高达1700Hz，Nvidia为了展示这种技术的独特性和先进性，他们把这台VR显示屏放到了轨道交通系统上，前后快速晃动……详情点击：|英伟达展示... ​</span>
 </a>
 </div>
 

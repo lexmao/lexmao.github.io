@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://static.leiphone.com/uploads/new/article/pic/201704/58f702e6449ff.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
+<img src="http://static.leiphone.com/uploads/new/article/pic/201704/58fb149d66b11.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-吴德新 / 
+思佳 / 
 www.leiphone.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.leiphone.com/news/201704/uln5QhWAcjtMqEgu.html"
+    href="http://www.leiphone.com/news/201704/PmZ1FhdaYT1frhoI.html"
     target="_blank"
 >
-陆奇来了：百度开放自动驾驶技术，创业者不要重复造轮子
+外资争相拥抱中国新能源市场，中国或将成为全球电动汽车研发中心 | 上海车展 2017
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  陆奇来了。上一次，他和李彦宏一起谈论加盟百度和人工智能的未来，这一次则是宣布百度自动驾驶技术将以平台形式开放。 
+&nbsp; &mdash;&nbsp;  这一结论来自上海车展期间数位业界高管的共识。 
 </span>
 
 </div>
@@ -53,189 +53,14 @@ www.leiphone.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/chinesewsj?refer_flag=1001030103_"
+    href="https://www.zhihu.com/question/58600886"
     target="_blank"
 >
 <span class="cite">
-华尔街日报中文网 / 
-s.weibo.com
-</span>
-<span class="title">【百度将开源自动驾驶技术】- 百度称，将在自动驾驶汽车领域分享公司正在研发的软件技术，以追赶通用汽车公司和Alphabet Inc.旗下自动驾驶业务Waymo等竞争对手。百度集团总裁陆奇在一次访谈中称，百度在路线规划、车辆控制和操作系统等方面拥有实力，以开源方式提供上述能力，百度和自动驾驶行业都能实 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/sinatech?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-新浪科技 / 
-s.weibo.com
-</span>
-<span class="title">【百度成立智能驾驶事业群组 陆奇任总经理】百度成立智能驾驶事业群组（IDG），由自动驾驶事业部（L4）、智能汽车事业部（L3）、车联网业务（Car Life etc。）组成。百度集团总裁和首席运营官陆奇兼任总经理。高级副总裁王劲因个人和家庭原因将不再任自动驾驶事业部（L4）总经理。|百度成立智... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/wow36kr?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-36氪 / 
-s.weibo.com
-</span>
-<span class="title">【百度汽车业务做出重大调整：成立智能驾驶事业群组】领导这个事业群的，是前不久刚刚出任百度集团总裁和首席运营官的陆奇。新事业群成立之后，将包括三方面的业务：自动驾驶、智能汽车、车联网。为了便于你更好的理解这次架构调整的意义，我们来梳理一下这一两年百度在汽车业务方面的布局： ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/51661970?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-自动化网官方微博 / 
-s.weibo.com
-</span>
-<span class="title">#车业聚焦##自动驾驶# 4月19日消息，百度发布一项名为“Apollo”的新计划，将向汽车行业及自动驾驶领域的合作伙伴提供软件平台，帮助他们结合车辆和硬件系统，快速搭建一套属于自己的完整的自动驾驶系统。百度集团总裁兼首席运营官陆奇表示，人工智能技术在推动社会发展方面拥有巨大的潜力，而智能汽车 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/316593888?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-电商报 / 
-s.weibo.com
-</span>
-<span class="title">【陆奇上任第一炮！百度宣布开放自动驾驶平台 取名“阿波罗计划”】今年七月份将率先开放封闭场地的自动驾驶能力，年底输出在城市简单路况下的自动驾驶能力，在2020年前逐步开放至高速公路和普通城市道路上的全自动驾驶。 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/vittimes?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-IT时报 / 
-s.weibo.com
-</span>
-<span class="title">【吴恩达出走后，百度王劲又确认离职 将投身无人车创业已获投资】百度高级副总裁、原无人车事业部总经理王劲表示，4月起将正式离职百度，并围绕自动驾驶进行创业，目前已获洪泰基金投资。今年3月1日，百度通过内部邮件宣布，成立智能驾驶事业群组，由百度集团总裁陆奇兼任总经理。 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/admin5?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-A5站长网 / 
-s.weibo.com
-</span>
-<span class="title">李彦宏“杯酒释兵权” 百度大清洗为妻子和陆奇铺路  自从经过了水逆的2016，百度在管理层换血，和组织架构调整的脚步并没有放慢。在此之前，百度两个核心业务，百度糯米和自动驾驶事业部的两个副总裁相继离职，再加上此次的吴恩达，短网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/51661970?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-自动化网官方微博 / 
-s.weibo.com
-</span>
-<span class="title">【百度成立智能驾驶事业群组 】3月1日，百度宣布成立智能驾驶事业群组，将由自动驾驶事业部、智能汽车事业部、车联网业务共同组成，旨在进一步提升效率、协同发展，更好地推动人工智能时代的传统汽车产业升级。由百度集团总裁和首席运营官陆奇兼任总经理。#自动驾驶##智能自动化#|百度成立智... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/cyzone?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-创业邦杂志 / 
-s.weibo.com
-</span>
-<span class="title">【百度成立智能驾驶事业群组 陆奇掌舵】昨日，百度通过内部邮件宣布，成立智能驾驶事业群组（IDG），将由自动驾驶事业部（L4）、智能汽车事业部（L3）、车联网业务（Car Life etc. ）共同组成。由百度集团总裁和首席运营官陆奇兼任总经理。高级副总裁王劲交出自动驾驶事业部负责权，百度方面解释称，王 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/51661970?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-自动化网官方微博 / 
-s.weibo.com
-</span>
-<span class="title">#车业聚焦# 百度通过内部邮件宣布，成立智能驾驶事业群组（IDG），由百度集团总裁和首席运营官陆奇兼任总经理。此次百度新成立的智能驾驶事业群组（IDG），将由#自动驾驶#事业部（L4）、智能汽车事业部（L3）、车联网业务（Car Life etc. ）共同组成。『百度成立智能驾驶事业群组_手机新浪网』 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://www.zhihu.com/question/56901104"
-    target="_blank"
->
-<span class="cite">
-淘美股 / 
+爱范儿 / 
 www.zhihu.com
 </span>
-<span class="title">且百度医生项目也已经下线.三、成立度秘事业部加码人机交互:2月16日,陆奇将原度秘团队升级为度秘事业部,直接向其汇报,以加速人工智能布局,及其产品化和市场化.四、合并自驾部门,王劲冷藏:3月1日,百度自动驾驶事业部(l4)、百度智能汽车事业部(l3)、百度车联...</span>
+<span class="title">名爵和合资品牌上汽大众、雪佛兰、别克等旗下的车型将在1馆登台亮相.1.荣威erx5上市之初,荣威就曾经宣布rx5将会推出混动、纯电动版本的rx5.上海车展期间,这台基于荣威爆款suv打造的新能源汽车将会再一次亮相.纯电版erx5续航里程最高可达425公里,直流快充40...</span>
 </a>
 </div>
 
@@ -245,14 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/57449748"
+    href="http://weibo.com/kankanews?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-腾讯科技 / 
-www.zhihu.com
+看看新闻KNEWS / 
+s.weibo.com
 </span>
-<span class="title">总负责人,同时晋升为estaff成员,转向百度集团总裁和首席运营官陆奇汇报.aig成为继idg(百度智能驾驶事业群组)后百度最新的事业群组.aig即ai技术平台体系,将进... &#34;百度至少有好几百个人工智能项目.&#34;这些项目包括大的比如搜索、广告、自动驾驶等,也有一些小项...</span>
+<span class="title">【#2017上海车展#113辆新车全球首发 新能源车成主角】本次车展有1400辆整车参展，无论是内行看门道还是外行看热闹都能得到满足。本次展会上不仅有第一次进入中国的豪车品牌，还有不少国内自主品牌推出的高端车型，亮点颇多。看看新闻Knews记者在现场为您带来最新资讯。 |微博直播 . ​</span>
 </a>
 </div>
 
@@ -262,14 +87,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/57450874"
+    href="http://weibo.com/534109123?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-景辰 / 
-www.zhihu.com
+车市观察V / 
+s.weibo.com
 </span>
-<span class="title">原微软资深副总裁陆奇加入百度担任总裁之后,吴恩达的离职对于百度来说又是另一场人事地震.但不论是从吴恩达的内部信还是twitter状态,均未发现吴恩达的离职原因... 我猜测离职后的吴恩达很有可能重返硅谷,毕竟在硅谷有一家足够引起他重视的自动驾驶创业公司,...</span>
+<span class="title">#2017年上海车展# 活着就得折腾！这句话在观致汽车身上再合适不过。传统汽车亏得一塌糊涂，转身做新能源跑车，可以看出钱真不是自己的。2017上海车展上观致Model 科尼塞克合作K-EV纯电动跑车概念车正式发布，智能碳纤维车身框架，柯尼塞格提供的E-drive电驱系统，最大功率为960kW（1305Ps）的电动机， ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -279,14 +105,271 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com/article/2675"
+    href="http://weibo.com/234124860?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-机器之心 / 
-www.jiqizhixin.com
+幽默大风车 / 
+s.weibo.com
 </span>
-<span class="title">今天，百度发布了「Apollo」新计划，向汽车行业及自动驾驶领域的合作伙伴提供一个开放、完整、安全的软件平台。</span>
+<span class="title">上海车展各种新能源纯电动汽车，精致！！！ |上海·松江... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/tzdxk?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+穿石老蔡 / 
+s.weibo.com
+</span>
+<span class="title">发表了博文《汽车智能网联将开启万亿市场。。。》　2017上海车展正在火爆进行，从参展面积、展车数量，以及概念车、新能源汽车、全球首发车数量等方面都创造了一系列的记录。记者在此间了解到，在发展方向上，中|汽车智能网... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/3986774075?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+青岛今日 / 
+s.weibo.com
+</span>
+<span class="title">本届#上海车展# 上，世界冠军 #张继科# 现身助阵新能源国产车品牌。有么有 人和小编一样被 我们青岛小哥  帅到@张继科 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/3741573602?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+汗蒸冠军 / 
+s.weibo.com
+</span>
+<span class="title">应该是在高一的时候，好多汽车杂志，都在质疑电动汽车，并表示电动最多也只是新能源（氢气 核能等）的过度，看看上海车展的报道，这个过度怕是要过很长时间了吧 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/georgeren123?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+童济仁 / 
+s.weibo.com
+</span>
+<span class="title">#直击新车#今天，上海车展媒体日落下帷幕，众多车企在这片舞台上争奇斗艳，亮点频现。有新能源汽车的百花齐放、互联网造车的高调扩界、新概念汽车的预见未来、本土车企的绝地反击。 |智能新车，... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/5993531560?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+中新经纬 / 
+s.weibo.com
+</span>
+<span class="title">【一周热点：人民的名义盗版猖獗 易到乐视互掐】轻松聊财经，一周经纬说，经纬君带您回顾本周值得关注的财经事件：人民的名义盗版猖獗；易到乐视互掐，到底谁有问题？上海车展：新能源成主旋律；微信关闭iOS版公号打赏功能只因苹果想分成？男子直播杀人扎克伯格表示遗憾。人民的名义... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/wuhufabu?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+芜湖发布 / 
+s.weibo.com
+</span>
+<span class="title">#微播江城#【奇瑞“最强阵容”亮相上海车展】4月19日，2017上海国际车展在全球最大的中国博览会会展综合体拉开帷幕。奇瑞汽车携艾瑞泽、瑞虎、新能源系列共9款车型、14款展车及两大动力总成亮相上海车展。详见|奇瑞“最强... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/changheauto?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+昌河汽车 / 
+s.weibo.com
+</span>
+<span class="title">#2017上海车展#2017年4月19—4月28 日，包括全球首发车113辆、概念车56辆、新能源车159辆，1000多家车企超过1400多种车型集中亮相。如果每一种车都代表了一种生活方式，那么1400多种车型意味着我们将选择1400多种生活。一切伟大的科技，都是为了实现当下美好的生活，这是2017上海国际车展想说的。也 ​
+			...展开全文c</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/asusu?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+苏雨农 / 
+s.weibo.com
+</span>
+<span class="title">#2017上海车展# 在本届车展的新面孔中，有包括蔚来、奇点在内的互联网造车企业终于“靴子落地”，也包括获得了新一批新能源牌照的车企亮相，还有正道这样的神秘来客，以及老牌自主品牌企业在高端化方面的探索。 |上海车展，... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/tmtpost?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+钛媒体 / 
+s.weibo.com
+</span>
+<span class="title">#互联网x汽车##2017上海车展#【Jeep的未来SUV，将如何平衡技术升级和驾驶体验？】特斯拉之所以成为先行者，是因其对于纯电动汽车的极致追求。但显然，在真正全路况SUV的新能源技术上，Jeep和特斯拉有着不同理解，选择了不同的路径。|Jeep的未来... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/shjtgb?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+上海交通广播 / 
+s.weibo.com
+</span>
+<span class="title">#2017上海车展#@新浪汽车 本次展会上，除了传统车企带来的传统车型之外，蔚来，之诺等新兴互联网车企的加盟将为观众带来耳目一新的产品和智能化的全新体验。在这个互联网、新能源等科技不断爆发的时代，旧的汽车“三大件”发动机、底盘、变速箱，将向“新四化”电动化、智能化、网联化、共享化转变。蔚 ​
+			...展开全文c</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/shjtgb?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+上海交通广播 / 
+s.weibo.com
+</span>
+<span class="title">#2017上海车展#新能源浪潮滚滚而来~@新浪汽车 从目前车展上传递出的信号来看，新能源已经成为了汽车行业不可逆转的大趋势，本届上海国际车展上新能源展车有159辆，国内厂商96辆。新发布的新能源量产车已经超过了传统汽车的数量。我国新能源汽车已经率先实现 规模化市场，新能源车是潮流，更是需要。 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/6086072138?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+范团视频 / 
+s.weibo.com
+</span>
+<span class="title">【范团视频】上海车展第二天：自主品牌新势力：领克、蔚来、BYD、WEY。昨天带大家看了这次车展上的几辆新能源汽车，今天我们将把焦点转到自主品牌上，带大家来看看这股新势力。#上海车展##新能源汽车# 范团视频的... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/wglxh?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+兰小欢 / 
+s.weibo.com
+</span>
+<span class="title">今年的上海车展可能有历史意义，国产的新能源车纷纷首秀。看好蔚来。 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/5587497675?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+女神范多梦琉璃门 / 
+s.weibo.com
+</span>
+<span class="title">#2017上海车展# 今晚最后发一波，凯迪拉克 CT6 的插电混合动力。新能源都是近几年车展的主旋律。致力.美好生活！ #上优酷看人民的名义# ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/niugs7787?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+牛一龙 / 
+s.weibo.com
+</span>
+<span class="title">#垂直中小v推荐计划#上海车展“业问”访谈精彩语录第三辑。今年老板们访谈中的关注点：新能源，汽车颜值，口碑 ​</span>
 </a>
 </div>
 
