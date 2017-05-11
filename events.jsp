@@ -38,6 +38,24 @@
 <li class="event">
 <a 
     class="item" 
+    href="http://www.gputechconf.com"
+    target="_blank"
+>
+<table>
+<tr>
+<td>May 8-11</td>
+<td>
+<span class="event_name">GPU 技术大会 (GTC)</span>
+<span class="event_location">美国加州圣荷西</span>
+</td>
+</tr>
+</table>
+</a>
+</li>
+
+<li class="event">
+<a 
+    class="item" 
     href="http://2017gaitc.caai.cn"
     target="_blank"
 >
