@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://bzline.cn/ainews/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://static.leiphone.com/uploads/new/article/pic/201704/58ff057abf875.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-Jamie Condliffe / 
-www.technologyreview.com:
+奕欣 / 
+www.leiphone.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="https://www.technologyreview.com/s/604258/will-self-driving-cars-be-better-drivers-if-they-can-chat-with-each-other/"
+    href="http://www.leiphone.com/news/201704/J681IDlb2T1cNlRf.html"
     target="_blank"
 >
-Will Self-Driving Cars Be Better Drivers If They Can Chat with Each Other?
+Ian Goodfellow撰文总结：谷歌的 ICLR 2017 硕果累累
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  Ambitious trials of autonomous cars between London and Oxford could inspire more companies to freely share data between vehicles. 
+&nbsp; &mdash;&nbsp;  谷歌大脑团队的 Ian Goodfellow 今日在研究院官网上撰文，总结了谷歌在 ICLR 2017 上所做的学术贡献。 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ Will Self-Driving Cars Be Better Drivers If They Can Chat with Each Other?
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/51788894"
+    href="https://www.zhihu.com/question/41022427"
     target="_blank"
 >
 <span class="cite">
-Ryan Woo / 
+成勇敢 / 
 www.zhihu.com
 </span>
-<span class="title">奔驰在自动辅助驾驶中越过了道路中央的黄线,并且跑到了逆行车道,我们不得不人工把车调回来,因为车完全没意识到自己已经逆向行驶.tesla始终保持在黄线内测,... 也确实开得越来越好.如果在正确环境下使用,它确实比单纯人工开车感到安全.在目前adas市场上,是无...</span>
+<span class="title">浏览器里收藏了一段时间了,每次有不懂的总是点进去看看,基本上都能得到解答.所以仅谈一下我的看法.首先说下我了解的八卦,ian goodfellow似乎是bengio的博后,也是牛人,从google去了openai,另一作者(我没注意过名字)是同校的助理教授,大牛之间相互认同,可以看...</span>
 </a>
 </div>
 
@@ -70,14 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25037377"
+    href="https://zhuanlan.zhihu.com/p/24267544"
     target="_blank"
 >
 <span class="cite">
-Mingche Su / 
+YJango / 
 www.zhihu.com
 </span>
-<span class="title">然而,无人驾驶并不只是科技巨头的专利,你,也可以造一辆无人驾驶汽车.在春节来临之际,为回馈所有bittiger同学一年以来对我们无私的支持,本次课程仅象征性收取10usd.通过本次课程你将获得self-driving 领域最新研究成果无人车技术的关键难点无人驾驶的新思路...</span>
+<span class="title">(yoshua bengio) http://www.tudou.com/programs/view/92qktdrmfq4/ 实用论层面 ian goodfellow, google - practical methodology for deploying machine learning #a http://... 不过感觉功能很受限,也不知道具体流程是什么样子的.我希望整体思路可以在其中较好的体现.时间...</span>
 </a>
 </div>
 
@@ -87,14 +87,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/56262041"
+    href="https://zhuanlan.zhihu.com/p/24897387"
     target="_blank"
 >
 <span class="cite">
-进击的铁皮人 / 
+机智的大群主 / 
 www.zhihu.com
 </span>
-<span class="title">那么自己家的员工带着点技术去做布道者的角色.再加上之前自动驾驶在moonshoot,管理作风相对宽松,(从这个报道也能看出点google当年是怎么在自动驾驶上管理松散的http://jalopnik.com/google-paid-fuck-you-money-at-self-driving-car-projec-1792306694google给了自动驾驶部门员工超乎寻常...</span>
+<span class="title">goodfellow的一篇论文首次将其引入,虽然时间很短,但我们看google的搜索热度和google学术上论文引用的次数,它一直受到学术界广泛的关注,而且热度一直快速增... 那么,gan为什么会受到这样广泛的关注呢?goodfellow在他的论文中,给出了一些解释.gan是更好的生成...</span>
 </a>
 </div>
 
@@ -104,14 +104,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/52665993"
+    href="https://zhuanlan.zhihu.com/p/22086190"
     target="_blank"
 >
 <span class="cite">
-彭河森 / 
+罗韵 / 
 www.zhihu.com
 </span>
-<span class="title">经网友指正,更新了deepmind vs google brain === (2011)g: 为什么我们的self-driving car 还没上路?a: 因为我们没有机器学习牛人g: 给我把斯坦佛的牛人的学生都找来!(2012)g: 为什么我们的self-driving car 还没上路?斯坦佛牛人的学生们都去哪儿了?a: 牛逼...</span>
+<span class="title">goodfellow的知名度可能没有那么高,但是goodfellow是yoshua bengio的学生,前google科学家,现在被elon musk招到openai做科学家. 那到底什么是对抗样本? 深度学... 传统神经网络需要一个人类科学家精心打造的成本函数.但是,对于生成式模型这样复杂的过程来说,...</span>
 </a>
 </div>
 
@@ -121,14 +121,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/55576523"
+    href="https://zhuanlan.zhihu.com/p/24939201"
     target="_blank"
 >
 <span class="cite">
-张航 / 
+机器之心 / 
 www.zhihu.com
 </span>
-<span class="title">去年暑假在nvidia自动驾驶(bb8)的组里面实习,这里附上我们组的blog和视频地址(self-driving car demo like no other | nvidia blog).因为不是汽车公司,所以我们的方法比较大胆,直接使用end-to-end的深度学习算法,让cnn根据输入的video stream直接控制汽车的...</span>
+<span class="title">近日,哥伦比亚大学、adobe research、google research 和 google brain 的研究者联合发表了一篇论文,介绍一种新的图灵完备的概率编程语言.该论文表示 edward 集成... tran et al., 2016b)和生成对抗网络(goodfellow et al., 2014)上的进展已经变得非常重要...</span>
 </a>
 </div>
 
@@ -138,14 +138,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/24256129"
+    href="http://www.jiqizhixin.com/article/2440"
     target="_blank"
 >
 <span class="cite">
-崔迪潇 / 
-www.zhihu.com
+李泽南 / 
+www.jiqizhixin.com
 </span>
-<span class="title">借通过对比google现行技术和cruise的方案,给感兴趣的朋友参考,也使自己进行一些思考.其余相关问题的内容,也争取在这里涉及到.烦请刘老师协助编辑下.关于cruise... 与google无人驾驶车的主要区别1)cruise定位于人类驾驶行为的部分取代,而google的self-driving...</span>
+<span class="title">谷歌对于人工智能人才的吸引力正在不断提升</span>
 </a>
 </div>
 
@@ -155,14 +155,32 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/fly51fly?refer_flag=1001030103_"
+    href="http://weibo.com/kuqin?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-爱可可-爱生活 / 
+IT程序猿 / 
 s.weibo.com
 </span>
-<span class="title">《College Dropout Says He’s Cracked Self-Driving Cars’ Most Crucial Component | MIT Technology Review》by Tom Simonite 网页链接 《22岁辍学大学生突破自动驾驶难题，为无人车安上“眼睛”》via:DeepTech深科技 |22岁辍学大... ​</span>
+<span class="title">【深度学习对抗样本的八个误解与事实】Yoshua Bengio的学生、Google科学家Ian Goodfellow在本文中澄清关于深度学习对抗样本的八个误解与神话。|深度学习对...（来自： CSDN ） ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.wired.com/2017/04/googles-dueling-neural-networks-spar-get-smarter-no-humans-required/"
+    target="_blank"
+>
+<span class="cite">
+Cade Metz / 
+www.wired.com
+</span>
+<span class="title">AI technique called “generative adversarial networks”, where neural networks are pitted against one another, could lead to unsupervised learning
+  —  The day Richard Feynman died, the blackboard in his classroom read: “What I cannot create, I do not understand.”</span>
 </a>
 </div>
 

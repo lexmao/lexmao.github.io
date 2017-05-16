@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://www.jiqizhixin.com/data/upload/20170510/59132a4db30a7.jpg" style="border-style:none;" heigh="83" width="124" >
+<img src="http://static.leiphone.com/uploads/new/article/pic/201705/5913de5e31c4d.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-彭君韬 / 
-www.jiqizhixin.com:
+杨晓凡 / 
+www.leiphone.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.jiqizhixin.com/article/2795"
+    href="http://www.leiphone.com/news/201705/ha09s0W4zTLjrGyX.html"
     target="_blank"
 >
-深度布局AI的Nvidia在GTC大会上强调了哪些重点？
+英伟达的新GPU来了，FPGA和ASIC要扔掉吗？
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  显卡应用、分布式人工智能、智慧云及自动驾驶，正在成为Nvidia重要增长引擎，这家芯片制造商现在正在成为一家AI计算公司... 
+&nbsp; &mdash;&nbsp;  黄仁勋在GTC2017上发布了新的GPU Volta，最大的亮点是推理性能的成倍提高 
 </span>
 
 </div>
@@ -53,15 +53,14 @@ www.jiqizhixin.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/looooker?refer_flag=1001030103_"
+    href="https://www.zhihu.com/question/26791369"
     target="_blank"
 >
 <span class="cite">
-北大新媒体 / 
-s.weibo.com
+王天祺 / 
+www.zhihu.com
 </span>
-<span class="title">【Nvidia预测未来：管道闭路电视系统和AI将严密监视你的一举一动】以设计智核芯片组为主的无晶圆（Fabless）IC半导体公司Nvidia开发了一种系统，可以通过城市中的十亿管道闭路电视镜头持续提供数据，用以在拥堵路段简化交通和追踪大型超市里购物的人，以及制造自主安保类机器人。该系统预计在2020年投 ​
-			...展开全文c</span>
+<span class="title">拿fpga跟gpu、cpu比计算能力,这就有点关公战秦琼的感觉了.首先计算能力本就不是fpga的主业,一般大家都是把fpga跟通用处理器(cpu)和专用集成电路(asic)来进行对比的.fpga能精确地控制时序,这是cpu或gpu做不到的;再有批fpga开发难度高,开发周期长的,这完全比...</span>
 </a>
 </div>
 
@@ -71,14 +70,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/laoyaoba?refer_flag=1001030103_"
+    href="https://www.zhihu.com/question/28639592"
     target="_blank"
 >
 <span class="cite">
-集微网官网 / 
-s.weibo.com
+洪春涛 / 
+www.zhihu.com
 </span>
-<span class="title">|台积电营收... 台积电改攻新兴科技，全力开发人工智能芯片与高效能运算芯片，紧跟市场趋势。台积电表示，未来AI需要的制程相当先进，将切入7纳米为主要制程，预估到2020年，将占其近25%营收。2016年在台积电的营收中，苹果占比17%，高通占比11%，海思、联发科和Nvidia各占比5%。 ​</span>
+<span class="title">这种定制asic性能功耗比远高于fpga.于是fpga就变成了一种介于通用cpu和定制asic之间的产品.这就比较尴尬了:这两者都会挤压fpga的市场.先说说fpga的各项所谓优势:1. 可编程性.在这点上, 通用cpu/gpu &gt;&gt; fpga &gt; 定制asic.通用cpu/gpu直接写软件就好了,fpga需...</span>
 </a>
 </div>
 
@@ -88,15 +87,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://siliconangle.com/blog/2017/05/09/nvidia-shares-jump-ai-gaming-drive-graphics-chip-demand/"
+    href="https://www.zhihu.com/question/21610984"
     target="_blank"
 >
 <span class="cite">
-Robert Hof / 
-siliconangle.com
+廖闻骄 / 
+www.zhihu.com
 </span>
-<span class="title">Nvidia beats with Q1 revenue of $1.94B, up 48% YoY, net income of $507M, up 144%, gaming revenue up 49% to $1.03B, thanks to Switch; stock up 14%+
-  —  Artificial intelligence and gaming once again boosted the fortunes of Nvidia Corp. as the maker of graphics chips reported better-than-expected results for the eighth quarter in a row.</span>
+<span class="title">首先,这两个方向的差别还是很大的.据我所知fpga在工业界是用来做asic验证的,在流片之前先在fpga上做逻辑验证,流片价格很贵的!工程上是没有人用fpga来做产品的,单价太高了.gpu嘛,我其实不了解,这方面的工作主要是针对芯片结构,算法等方面进行研究的吧.fpga只...</span>
 </a>
 </div>
 
@@ -106,15 +104,14 @@ siliconangle.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://venturebeat.com/2017/05/08/nvidia-metropolis-video-analytics-paves-the-way-for-ai-cities/"
+    href="https://zhuanlan.zhihu.com/p/25802425"
     target="_blank"
 >
 <span class="cite">
-Dean Takahashi / 
-venturebeat.com
+Forever snow / 
+www.zhihu.com
 </span>
-<span class="title">NVIDIA partners with 50+ companies that make security cameras as it introduces Metropolis, new analytics that uses AI to analyze video surveillance data
-  —  In a city of the future, it would be nice to know quickly if there&#39;s a fire burning out of control, a crime in progress at a certain location …</span>
+<span class="title">accelerating recurrent neural networks in analytics servers: comparison of fpga, cpu, gpu &amp; asic————presenter: eriko nurvitadhi, accelerator architecture lab @ intel labsauthors: e. nurvitadhi, j. sim, d. sheffield, a. mishra, s. kris...</span>
 </a>
 </div>
 
@@ -124,15 +121,14 @@ venturebeat.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/"
+    href="https://www.zhihu.com/question/29366062"
     target="_blank"
 >
 <span class="cite">
-Will Knight / 
-www.technologyreview.com
+阿补 / 
+www.zhihu.com
 </span>
-<span class="title">Deep learning AI systems, which may help make important decisions in the future, are neither understandable to their creators nor accountable to their users
-  —  No one really knows how the most advanced algorithms do what they do.  That could be a problem.</span>
+<span class="title">软件硬件分开应该是一种工程上的取舍,折中而来的结果.但专用硬件运行特定应用或许是效率最优化的选择,最典型的就是矿机.从最早的cpu矿机,到gpu,fpga,asic矿机.题主所说这一类型(&#34;硬件变软&#34;)计算机确实存在,而且就在中国.详见:1.solidot | 中国研制出&#34;拟态计...</span>
 </a>
 </div>
 
@@ -142,15 +138,14 @@ www.technologyreview.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.theverge.com/2017/3/15/14934934/bosch-nvidia-self-driving-ai-autonomous-car-supplier"
+    href="https://zhuanlan.zhihu.com/p/24696237"
     target="_blank"
 >
 <span class="cite">
-Jordan Golson / 
-www.theverge.com
+库易网 / 
+www.zhihu.com
 </span>
-<span class="title">Nvidia partners with Bosch to sell its AI-powered driver-assistant platform to automakers
-  —  Nvidia has announced a new partnership with Bosch to sell its Drive PX 2 driver-assist platform to automakers.  In effect, the deal gives Nvidia a go-to-market strategy for its self-driving hardware and software platform.</span>
+<span class="title">从目前来看,深度学习大量的使用,主要集中在训练方面.那么在这个领域,gpu确实是非常适合的,这也体现在所有的这些工业界的大佬如bat、谷歌,facebook等等,都在使用gpu在做训练.&#34;nvidia如是说.面对fpga以及asic的挑战,nvidia表示&#34;考虑是否设计低功耗的gpu,来满...</span>
 </a>
 </div>
 
@@ -160,15 +155,14 @@ www.theverge.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.anandtech.com/show/11185/nvidia-announces-jetson-tx2-parker"
+    href="https://zhuanlan.zhihu.com/p/23966798"
     target="_blank"
 >
 <span class="cite">
-Ryan Smith / 
-www.anandtech.com
+李一雷 / 
+www.zhihu.com
 </span>
-<span class="title">Nvidia unveils Jetson TX2 Pascal-powered AI board computer; pre-order dev kit for $599, or the module from $399, shipping Q2
-  —  For a few years now, NVIDIA has been offering their line of Jetson embedded system kits.  Originally launched using Tegra K1 in 2014, the first Jetson was designed …</span>
+<span class="title">并有多家公司和学校发表了相关研究结果.那么,现在服务器端人工智能应用gpu和fpga到底哪个强?本文将作深入分析.关于fpga在移动端人工智能的讨论请见fpga vs. asic,谁将引领移动端人工智能潮流?为什么gpu和fpga能加速机器学习算法?gpu(上图)与fpga(下图)在很...</span>
 </a>
 </div>
 
@@ -178,15 +172,14 @@ www.anandtech.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://techcrunch.com/2017/01/31/soundhound-raises-75m-to-bring-its-voice-enabled-ai-everywhere/"
+    href="https://www.zhihu.com/question/46304349"
     target="_blank"
 >
 <span class="cite">
-Matthew Lynley / 
-techcrunch.com
+Sean / 
+www.zhihu.com
 </span>
-<span class="title">SoundHound raises $75M from NVIDIA, Samsung Catalyst Fund, and others, to expand its voice-enabled AI everywhere
-  —  SoundHound has been around for 10 years and, before today, had raised around $40 million in financing as it&#39;s worked to build a massive conversational AI platform.</span>
+<span class="title">谢邀..感觉这种话题已经是月经贴了,每隔一段时间就会有这种新闻标题跳出来博眼球:&#34;gpu/fpga/某asic 即将颠覆cpu!&#34; cpu哪那么容易被颠覆啊...我记得有人举过一个很形象的例子,就是耕地的时候你用牛(cpu),但是你把一把米洒在地上,让牛去啄干净,那就瞎了,不如...</span>
 </a>
 </div>
 
@@ -196,69 +189,14 @@ techcrunch.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://techcrunch.com/2017/01/06/nvidia-and-mercedes-benz-to-bring-an-ai-car-to-market-within-a-year/"
+    href="http://www.jiqizhixin.com/article/2589"
     target="_blank"
 >
 <span class="cite">
-Darrell Etherington / 
-techcrunch.com
+吴攀 / 
+www.jiqizhixin.com
 </span>
-<span class="title">Nvidia and Mercedes-Benz announce partnership for AI car technology, with first product expected to roll out within 12 months
-  —  Nvidia already announced a partnership at CES to bring a AI self-driving car to production, and now Mercedes-Benz is also teaming up with the GPU-maker on a vehicle with AI on board.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://techcrunch.com/2017/01/04/nvidia-and-audi-aim-to-bring-a-self-driving-ai-car-to-market-by-2020/"
-    target="_blank"
->
-<span class="cite">
-Darrell Etherington / 
-techcrunch.com
-</span>
-<span class="title">Nvidia partners with Audi to bring a self-driving AI car to market by 2020
-  —  Nvidia announced several new partners for its efforts to bring autonomous cars to public roads in a production capacity today, but the biggest by far was Audi.  Nvidia is working with the carmaker to bring its AI driving tech …</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://techcrunch.com/2017/01/04/nvidia-debuts-new-shield-with-4k-an-ai-mic-add-on-and-google-assistant/"
-    target="_blank"
->
-<span class="cite">
-Darrell Etherington / 
-techcrunch.com
-</span>
-<span class="title">Nvidia debuts $200 4K Shield TV with built in Google Assistant, and Nvidia Spot, a mic device to offer always-on listening, coming later this year for $50
-  —  Nvidia has a new Shield streaming device that has 4K streaming capability, with built-in streaming support for 4K content via Netflix and other services.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.bloomberg.com/news/articles/2016-12-21/nvidia-surges-in-2016-using-graphics-chips-to-challenge-intel"
-    target="_blank"
->
-<span class="cite">
-Ian King / 
-www.bloomberg.com
-</span>
-<span class="title">How Nvidia used the growing need for powerful GPUs in AI, self-driving cars, and data centers to rapidly expand, after missing out on smartphone chips
-  —  CEO Huang&#39;s evangelism is paying off, boosting earnings  —  Data-center operators, automakers turning to PC-gaming part</span>
+<span class="title">作者Eugenio Culurciello简述了几类硬件设计，希望能为大家更快的运行神经网络提供洞见。</span>
 </a>
 </div>
 
