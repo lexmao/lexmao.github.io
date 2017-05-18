@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://www.jiqizhixin.com/data/upload/20170509/59115ce30a638.jpeg" style="border-style:none;" heigh="83" width="124" >
+<img src="http://cms-bucket.nosdn.127.net/8089cfafe3454d18a2f042aaae86602b20170510095330.png" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-李泽南 / 
-www.jiqizhixin.com:
+网易智能 / 
+tech.163.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.jiqizhixin.com/article/2787"
+    href="http://tech.163.com/17/0510/09/CK2LC0Q400098GJ5.html"
     target="_blank"
 >
-英伟达GTC大会开幕，盘点首日三大亮点
+微软宣布HoloLens正式进入中国：价格2.3万起
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  昨天，GPU 开发者的年度盛会，GPU 技术大会（GTC）在美国加州圣何塞开始举行。 
+&nbsp; &mdash;&nbsp;  微软宣布HoloLens正式进入中国：价格2.3万起 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ www.jiqizhixin.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/19981444"
+    href="https://www.zhihu.com/question/27755622"
     target="_blank"
 >
 <span class="cite">
-DeepTech深科技 / 
+孟德尔 / 
 www.zhihu.com
 </span>
-<span class="title">文/大卫·塔尔博特英伟达产品的引进是&#34;深度学习&#34;技术具有里程碑意义的时刻,此技术通过模仿大脑的工作模式来有效处理传感器信息.得益于此款商业设备强大的图像和信息处理能力,汽车能够解读360°摄像头视角的数据. 英伟达ceo黄仁勋在本月举办的gpu科技大会(gtc...</span>
+<span class="title">看答案之前,建议先看一下这个ar原型.微软的ar黑科技又来啦——hololens holoportation实际上ar未来最大的作用不是成为建筑设计的工具,而是会代替建筑外观本身,现在的建筑设计方法和思路会有很大变化.简单说,我们现在的建筑有很多装饰性的成本,国家歌剧院和...</span>
 </a>
 </div>
 
@@ -70,14 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24706935"
+    href="https://www.zhihu.com/question/27744659"
     target="_blank"
 >
 <span class="cite">
-机器之心 / 
+vczh / 
 www.zhihu.com
 </span>
-<span class="title">vega gpu 架构的机器学习芯片.另外,dsp 供应商 ceva、fpga 供应商 xilinx 和处理器技术提供商 imagination 等厂商也都已经在机器学习领域进行了布局.英伟达 ceo 黄仁勋在 gtc europe 2016 上演讲互联网巨头似乎也从计算硬件领域发现了新的机会.2016 年 5 月...</span>
+<span class="title">然后,估计会有一些年轻人买房不用装修了,眼境一带啥都有啊.====================================关于这个问题,可以看一下psycho pass第一季,感受一下……</span>
 </a>
 </div>
 
@@ -87,14 +87,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/21933614"
+    href="https://zhuanlan.zhihu.com/p/19942482"
     target="_blank"
 >
 <span class="cite">
 Vinjn张静 / 
 www.zhihu.com
 </span>
-<span class="title">(二维码自动识别)大会日程、分会场信息、场地平面图、午餐就餐信息以及演讲人介绍,所有相关细节均可在我们大会的官方微信平台轻松获得. 扫描以下二维码,关注&#34;英伟达nvidia专业解决方案&#34;公众号,点击&#34;gtc china 2016&#34;, 精彩内容即可一键获得.现场注册开放时间...</span>
+<span class="title">由于摄像头的镜片出厂时都存在扭曲,为了得到精确的数据需要在使用前进行较正.常用的方法是基于棋盘的各个姿态拍几次,然后计算相机的矩阵参赛.下图便是常见的... mapping and tracking为什么我认为 hololens 与 kinect fushion 有关?答案在这个页面中 ...</span>
 </a>
 </div>
 
@@ -104,14 +104,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com/article/2789"
+    href="https://www.zhihu.com/question/27721289"
     target="_blank"
 >
 <span class="cite">
-黄小天 / 
-www.jiqizhixin.com
+112 / 
+www.zhihu.com
 </span>
-<span class="title">通过受限范围或者只是把原来有的应用程序单独放在替换平台上，规模经济获得了出乎意料的效率。</span>
+<span class="title">有现场记者的使用体验啊.http://www.businessinsider.com/microsoft-hololens-hands-on-2015-1</span>
 </a>
 </div>
 
@@ -121,14 +121,14 @@ www.jiqizhixin.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.jiqizhixin.com/article/2787"
+    href="https://www.zhihu.com/question/27742866"
     target="_blank"
 >
 <span class="cite">
-李泽南 / 
-www.jiqizhixin.com
+赵劼 / 
+www.zhihu.com
 </span>
-<span class="title">昨天，GPU 开发者的年度盛会，GPU 技术大会（GTC）在美国加州圣何塞开始举行。</span>
+<span class="title">这种黑科技那是必须有研究背景,比如这种:网上可以搜到论文:handpose: fully articulated hand tracking科学家才是推动人类社会进步的根本动力.</span>
 </a>
 </div>
 
@@ -138,153 +138,48 @@ www.jiqizhixin.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/1657470871?refer_flag=1001030103_"
+    href="https://www.zhihu.com/question/55075178"
     target="_blank"
 >
 <span class="cite">
-王威廉 / 
+沈万马 / 
+www.zhihu.com
+</span>
+<span class="title">hololens.不说移动性,只说meta 2的宣传视频效果还不如hololens真机.那个抖啊抖的ar,挺逗的.hololens最大的缺点是性能不够好,没法给你看到效果极佳的渲染,画面效果也不是最强(当然和meta 2比还是比得过的).但画面与现实的合成我没看过更好的.即便考虑vr,也不...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://www.zhihu.com/question/27759227"
+    target="_blank"
+>
+<span class="cite">
+冬未至 / 
+www.zhihu.com
+</span>
+<span class="title">holoporn…</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/zealerchina?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+ZEALER中国 / 
 s.weibo.com
 </span>
-<span class="title">斯坦福大学在英伟达GTC上透露了其医学ImageNet构想：据说要放出0.5PB的医学影像。Photo via jwan584 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/kinsonloo?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-卢健生 / 
-s.weibo.com
-</span>
-<span class="title">英伟达Nvidia今天发布，使用深圳视觉科技@ZCAM V1 Pro影视级立体VR相机，一根网线连接PC，仅需两个Quadro P6000 GPU，实时拼接8路视频源，生成4K3D立体360°VR视频。无与伦比的世界顶级VR体验，明早在圣荷西展馆GPU技术大会#GTC#VR Village现场，我亲自给大家演示。 |美国·San J... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/gpucomputing?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-GPU计算 / 
-s.weibo.com
-</span>
-<span class="title">英伟达ECS新兴企业峰会已连年为创投界指明黑马，迄今已有十多家ECS参会企业通过峰会实现腾飞。在GTC CHINA 2016期间，中国初创公司推想科技Infervision、彩云天气ColorfulClouds通过专家评委的层层遴选，分别摘得ECS最佳展示奖和ECS社会创新奖等两项大奖。ECS鼓励新兴企业借助GPU推动行业创新变革，目 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/gpucomputing?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-GPU计算 / 
-s.weibo.com
-</span>
-<span class="title">在GTC欧洲大会上，NVIDIA CEO黄仁勋宣布，英伟达将联合全球高端导航集团TomTom（TOM2）合作开发用于云端至汽车的制图系统，这次合作将涵盖120,000公里公路和高速路，将广泛高清地图覆盖范围与NVIDIA DRIVE PX 2计算平台相整合。该解决方案将更快地为公路驾驶的实时车载定位和制图提供支持，强大的GPU应 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/51661970?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-自动化网官方微博 / 
-s.weibo.com
-</span>
-<span class="title">【Nvidia发布两款深度学习芯片】9月13日，NVIDIA（英伟达）在北京国际饭店会议中心召开GTC China 2016大会。在会上，NVIDIA发布了Tesla P4和Tesla P40两款Pascal架构GPU。据悉Pascal架构能助推深度学习加速65倍，最新一代的架构Pascal是首个专为深度学习而设计的GPU。#深度学习#|Nvidia发布... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/52mlnet?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-我爱机器学习 / 
-s.weibo.com
-</span>
-<span class="title">[NVIDIA Announces Tesla P40 &amp; Tesla P4 - Neural Network Inference, Big &amp; Small]网页链接 9月13日，NVIDIA（英伟达）在北京国际饭店会议中心召开了GTC China 2016大会，发布了Tesla P4和P40两款Pascal架构GPU，未来将替代M4和M40，图中有详细对比数据。 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/5866810652?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-AndrewNg吴恩达 / 
-s.weibo.com
-</span>
-<span class="title">很荣幸能够受邀在Nvidia（英伟达）GTC演讲。百度的深度学习非常依赖基于GPU的高性能计算。我们还搭建了很多高性能计算基础硬件帮助我们的研究者能更有效的运行实验并且发明新的算法。我感到非常幸运能和Jensen Huang (黄仁勋）这样有远见的伙伴一起合作！ ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/bigheadwy?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-大老客大大 / 
-s.weibo.com
-</span>
-<span class="title">北京时间4月6日凌晨，大家翘首以盼的新一代GPU“帕斯卡”终于登台亮相了。由NVIDIA主办的GTC图形技术大会不仅是全球规模最大、最具影响力的GPU开发者大会，同时也是NVIDIA展示最新成果的舞台。而就在半个月...@英伟达NVIDIA中国 |“帕斯卡”来... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/52hardware?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-热点科技-原52硬件 / 
-s.weibo.com
-</span>
-<span class="title">英伟达在这次的英伟达GTC大会上，秀了一把自家的VR显示屏，刷新率达到了恐怖的1700Hz！比Oculus和HTC的90Hz高了足足18倍！英伟达把这块显示着NVIDIA标志的显示屏放到了轨道交通系统上，进行前后的快速晃动，然后用摄像头拍摄标志的清晰度。虽然看上去标志略显模糊，但是依旧不影响观看。 ​
-			...展开全文c</span>
+<span class="title">【微软 Microsoft HoloLens 国行版正式开售了】Microsoft HoloLens 是微软第一个完全独立的、运行 Windows 10 的全息计算机设备。它完全无线（没有电线），无需连接到手机或 PC。其中商业套件版售 39188 元，开发者版本售 23488 元。现在预约，5月24日起陆续发货。 ​</span>
 </a>
 </div>
 
@@ -301,8 +196,7 @@ s.weibo.com
 新浪科技 / 
 s.weibo.com
 </span>
-<span class="title">【英伟达展示黑科技：屏幕刷新率1700帧 未来将用于VR】英伟达在今年GTC上发布了一款刷新率达到1700Hz的显示屏。这款设备在虚拟现实领域有很大潜力。高刷新率将有助于减少图像的延迟和模糊，消除用户在使用VR时的不适感。目前，VR设备的屏幕刷新率通常为90Hz。#两弹元勋黄仁勋#英伟达展示... ​
-			...展开全文c</span>
+<span class="title">#微软Build大会#【微软宣布HoloLens进入中国：10日预售 2.3万元起】微软将于今晚召开2017年Build开发者大会，大会前夕，微软今日宣布Microsoft HoloLens 正式进入中国市场，并于10日开启预售。中国企业用户和开发者可通过微软中国官方商城和天猫商城的微软中国官方旗舰店预订。|微软宣布Ho... ​</span>
 </a>
 </div>
 
@@ -312,14 +206,279 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/ithome?refer_flag=1001030103_"
+    href="http://weibo.com/517656716?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-IT之家 / 
+新浪游戏 / 
 s.weibo.com
 </span>
-<span class="title">【英伟达展示自家VR显示屏：刷新率高达1700Hz】在GTC2016上，Nvidia推出了自家全新的VR显示器，据称屏幕刷新率高达1700Hz，Nvidia为了展示这种技术的独特性和先进性，他们把这台VR显示屏放到了轨道交通系统上，前后快速晃动……详情点击：|英伟达展示... ​</span>
+<span class="title">微软HoloLens官方微博今日宣布，Microsoft HoloLens正式进入中国市场！而且就在今天开启预售，中国企业用户和开发者可以通过微软中国官方商城和天猫商城的微软中国官方旗舰店预订Microsoft HoloLens。价格方面，Microsoft HoloLens商业套件，售价39,188元，开发者版本售价23,488元。 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/a9vg?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+A9VG / 
+s.weibo.com
+</span>
+<span class="title">微软今天宣布Microsoft HoloLens正式进入中国市场，并于今日开启预售。商业套件售价39188元，包含多项企业功能；开发者版本售价23488元，价格相对较低但减少了相关的服务内容。详情：|微软HoloLe... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/mantgh?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+msp的昌伟哥哥 / 
+s.weibo.com
+</span>
+<span class="title">『Microsoft HoloLens正式开启预售』|Microsoft ... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/sinadigi?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+新浪数码 / 
+s.weibo.com
+</span>
+<span class="title">【微软邮件提醒Hololens国行版即将上市】微软HoloLens自从发布以来一直受到很多用户的关注，继月初上线微软中国官方商城之后，不少拥有微软邮箱账号的小伙伴们都收到了《Microsoft Hololens即将登陆》的邮件提醒。看来微软HoloLens国行版上市的日期已经不远了。|微软Holole... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/ryuetsuya?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+日_推 / 
+s.weibo.com
+</span>
+<span class="title">『Microsoft HoloLens』与初音未来在现实世界约会 秒拍视频 . ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/kaiyaneyepetizer?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+开眼精选视频 / 
+s.weibo.com
+</span>
+<span class="title">微软史诗级黑科技登陆中国，HoloLens 是 MR（混合现实）的代表作，是微软首个不受线缆限制的全息计算机设备，能够让你与数字内容交互，并与周围真实环境中的全息影像互动。在美国首发两年后登陆中国官网。From Microsoft HoloLen #HoloLen# #开眼VR# 开眼精选视... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.zdnet.com/article/heres-how-microsoft-is-ramping-up-windows-mixed-reality-marketing-sales-efforts/"
+    target="_blank"
+>
+<span class="cite">
+Mary Jo Foley / 
+www.zdnet.com
+</span>
+<span class="title">Microsoft says HoloLens has 150 apps one year after dev kit launch; Elizabeth Hamren, former chief marketing officer at Oculus, will head marketing for HoloLens
+  —  MIcrosoft has hired Elizabeth Hamren, the former CMO of Oculus VR at Facebook, to run a new dedicated Mixed Reality marketing team.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.thurrott.com/hardware/90780/microsoft-accelerates-hololens-v3-development-sidesteps-v2"
+    target="_blank"
+>
+<span class="cite">
+Brad Sams / 
+www.thurrott.com
+</span>
+<span class="title">Sources: Microsoft shuffles HoloLens&#39; roadmap, cancelling the planned second version of the device to focus on more ambitious hardware slated to launch in 2019
+  —  It was a little over two years ago that Microsoft first showed the world HoloLens and the company immediately grabbed headlines around …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.theverge.com/2017/2/13/14588178/microsoft-hololens-video-capture-augmented-reality-headset-apps"
+    target="_blank"
+>
+<span class="cite">
+Lauren Goode / 
+www.theverge.com
+</span>
+<span class="title">Microsoft debuts “spectator view” for HoloLens, a way to create video of peoples&#39; experience with mixed reality holograms, requires camera with HDMI output
+  —  A way to show not just holograms, but people interacting with them  —  Virtual reality and augmented reality headsets …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.theverge.com/2016/12/8/13894000/magic-leap-ar-microsoft-hololens-way-behind"
+    target="_blank"
+>
+<span class="cite">
+Nick Statt / 
+www.theverge.com
+</span>
+<span class="title">Former Magic Leap employees say planned release won&#39;t include tech seen in early prototypes; Magic Leap recruited with video created by a visual effects studio
+  —  Reality check  —  Magic Leap&#39;s allegedly revolutionary augmented reality technology may in fact be years away from completion and …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://mashable.com/2016/10/26/microsoft-3d-platform/"
+    target="_blank"
+>
+<span class="cite">
+Pete Pachal / 
+mashable.com
+</span>
+<span class="title">Microsoft&#39;s plan for 3D ubiquity: offer capture apps for mobile devices; expand tools across Word, PowerPoint, Paint, Edge, more; leverage HoloLens, Minecraft
+  —  There&#39;s a model of an odd-looking boat on a tabletop in front of me, and a woman is capturing it with her phone&#39;s camera.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://live.theverge.com/microsoft-event-live-blog-2016-surface-hardware-windows-10/"
+    target="_blank"
+>
+<span class="cite">
+The Verge / 
+live.theverge.com
+</span>
+<span class="title">Live blog: Microsoft expected to unveil Surface all-in-one PC, Echo competitor, Microsoft Paint app with 3D, and more
+  —  Follow along with us as we attend Microsoft&#39;s Surface PC event.  Expect to hear about Surface, Windows 10, Xbox, HoloLens, and more.  There&#39;s a magic selection tool, and tools to create shapes and objects.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.theverge.com/2016/10/24/13379386/microsoft-surface-event-windows-10-devices-preview"
+    target="_blank"
+>
+<span class="cite">
+Tom Warren / 
+www.theverge.com
+</span>
+<span class="title">What to expect at Microsoft&#39;s October 26 event: Surface all-in-one PC, Microsoft Paint app with 3D, Echo competitor, HoloLens on Windows 10
+  —  Microsoft is returning to New York City this week to host a special press event on October 26th.  While Microsoft held a similar event last year in October …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://techcrunch.com/2016/10/12/hololens-goes-global/"
+    target="_blank"
+>
+<span class="cite">
+Frederic Lardinois / 
+techcrunch.com
+</span>
+<span class="title">Microsoft expands availability of its $3K Hololens to Germany, France, UK, Ireland, Australia, and New Zealand; preorders are live now, units ship next month
+  —  HoloLens, Microsoft&#39;s $3,000 mixed-reality goggles (or “the world&#39;s first self-contained holographic computer” in Microsoft&#39;s parlance) …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.businessinsider.com/microsoft-hololens-roadshow-2016-9?op=1"
+    target="_blank"
+>
+<span class="cite">
+Matt Weinberger / 
+www.businessinsider.com
+</span>
+<span class="title">Microsoft hosting HoloLens demos at various stores in US during September and October
+  —  Microsoft is taking its HoloLens “holographic” goggles on the road this September and October with the so-called HoloLens Roadshow.  —  If you live in or around a HoloLens Roadshow stop …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.theregister.co.uk/2016/08/22/microsoft_hololens_hpu/"
+    target="_blank"
+>
+<span class="cite">
+Chris Williams / 
+www.theregister.co.uk
+</span>
+<span class="title">Microsoft details HoloLens&#39; Holographic Processing Unit: TSMC-made, 24-core, performs 1T calculations/second, handles all environmental sensing and other inputs
+  —  How to make your own virtual reality brain  —  Hot Chips Microsoft today revealed a first look at the inside …</span>
 </a>
 </div>
 
