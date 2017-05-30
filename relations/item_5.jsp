@@ -20,19 +20,19 @@ Back
 </span>
 
 <div class="cite">
-腾讯科技 / 
-tech.qq.com:
+新浪科技 / 
+tags.tech.sina.com.cn:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://tech.qq.com/a/20170523/037227.htm"
+    href="http://tech.sina.com.cn/it/2017-05-25/doc-ifyfqvmh8773367.shtml"
     target="_blank"
 >
-人机大战首日柯洁失利：AlphaGo赢四分之一子
+对话Alphabet 董事长施密特： AI的潜能在哪儿
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  腾讯科技讯5月23日，中国棋手柯洁与人工智能AlphaGo展开的围棋人机大战正式打响。比赛从今日上午10:30正式开始，柯洁执黑子，AlphaGo执白子。经过近四个多小时连续酣战，柯洁最终不敌AlphaGo，首战失利，AlphaGo赢四分之一子。不过，此次对战采取三番棋赛制，无论输赢双方必须要下满三局，柯洁仍有机会战胜AlphaGo。中国围 
+&nbsp; &mdash;&nbsp;  的潜能，从第一场的结果来看，差距也非常小。一个小插曲是，在3个月前的RSA安全大会上，施密特曾承认自己错了，误判了人工智能。过去他对人工智能持一定的怀疑态度，直到后来他意 ...[详细] 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ tech.qq.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/60156451"
+    href="https://zhuanlan.zhihu.com/p/20635113"
     target="_blank"
 >
 <span class="cite">
-胡勇 / 
+吴军 / 
 www.zhihu.com
 </span>
-<span class="title">一个围棋直播都要封禁,怕成这个鸟样,还整天吹b说你上下左右都自信,自信个nmb</span>
+<span class="title">2016年3月9日,google(或者叫alphabet)公司开发的具有&#34;深度思维&#34;的下围棋机器人alphago在同世界著名选手李世石的对局中,中盘获胜,成为第一个战胜围棋世界冠军的机器人,这是继1997年ibm深蓝战胜卡斯帕罗夫后,人类在机器智能领域取得的又一个里程碑性质的胜利....</span>
 </a>
 </div>
 
@@ -70,14 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/60201198"
+    href="https://www.zhihu.com/question/40001206"
     target="_blank"
 >
 <span class="cite">
-韩迪 / 
+朱棋圣 / 
 www.zhihu.com
 </span>
-<span class="title">只能祁同伟上了</span>
+<span class="title">alphago在2016年1月28日爆出大新闻之前,google(alphabet)的人透风,要给大家一个惊喜.首先鼓掌,他们做到了!我当时不怎么在意.再之前,听过google用神经网络搞这个,当时认为这就像占卜,不靠谱.毕竟围棋要精确计算判断的,计算机再厉害,模糊算法毕竟都有漏洞.再...</span>
 </a>
 </div>
 
@@ -87,14 +87,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/41191131"
+    href="https://www.zhihu.com/question/41183187"
     target="_blank"
 >
 <span class="cite">
-不会功夫的潘达 / 
+周筠 / 
 www.zhihu.com
 </span>
-<span class="title">这篇文章里柯洁的回答都非常好,和之前接受采访时忽高忽低的说话水平相比,进步很大.其中提到了模仿棋的事,柯洁是这样说的:问:当时因为住院最后一战没上场,还发微博说准备了秘密武器?柯洁:当时准备对付alphago的是模仿棋,因为没人用过.不过*古哥*肯定测试过,...</span>
+<span class="title">转一篇吴军老师刚写的专栏:人类的胜利——评alphago和李世石之战 - 文明之光 - 知乎专栏人类的胜利——评alphago和李世石之战吴军 · 11 分钟前2016年3月9日,google(或者叫alphabet)公司开发的具有&#34;深度思维&#34;的下围棋机器人alphago在同世界著名选手李世石的...</span>
 </a>
 </div>
 
@@ -104,14 +104,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/47117628"
+    href="https://zhuanlan.zhihu.com/p/24721942"
     target="_blank"
 >
 <span class="cite">
-不开心 / 
+Laura / 
 www.zhihu.com
 </span>
-<span class="title">这天比赛开始前,柯洁默默的将黑白棋子有序的摆在棋盘上,看似是在打谱,所有人都不知道他在干什么.此时已经进化出人工智能的alphago好奇的扫描了一下&#34;这是.....二维码!看看里面有什么,咦,xx卫士是什么,这个xx管家又是什么,唔,能加快开机速度!还能自动清理内存...</span>
+<span class="title">《自然》杂志的封面.该杂志封面的巨幅副本装饰着办公大厅的墙壁.第一幅是关于一款电子游戏ai程序,第二次则是学习古老的亚洲棋盘游戏——围棋.这个围棋ai以它的母公司alphabet为名,取名alphago,在2016年3月击败了韩国冠军李世石,此后一举登上了世界各个媒体...</span>
 </a>
 </div>
 
@@ -121,99 +121,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/58124356"
+    href="http://weibo.com/cpcw?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-RunTime Error / 
-www.zhihu.com
+电脑报 / 
+s.weibo.com
 </span>
-<span class="title">这次比起上次颠覆认知的对局,期待值低了很多.最好的结局是能拿下一盘.但,不管是什么结果,柯洁的名字都将载入史册.也不是一件非要酸酸地说必败的事情.以下是我对柯洁和李世石两人的一个对比,顺便也参了点私货,大家凑合看.1、计算力,柯洁远胜李世石.回顾他们...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://www.zhihu.com/question/58289749"
-    target="_blank"
->
-<span class="cite">
-amaze / 
-www.zhihu.com
-</span>
-<span class="title">你就是开飞机的,你自己也跑不过刘翔.柯洁就是输给狗,他也是人类中围棋最强的.无论是科学家,还是运动员,都是人类中最优秀的一批人,他们是探索人类极限的英雄.至于围棋的未来,完全没必要担心.人类早就不用依靠双腿去狩猎了,赛跑依然是一项惊心动魄的运动,可以...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/2899"
-    target="_blank"
->
-<span class="cite">
-机器之心 / 
-www.jiqizhixin.com
-</span>
-<span class="title">第一战，AlphaGo 赢了！几乎不出人意料。</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/2641"
-    target="_blank"
->
-<span class="cite">
-机器之心 / 
-www.jiqizhixin.com
-</span>
-<span class="title">一场精彩的人机 PK「战役」即将在北京上演，和 AlphaGo 不一样，这次代表机器参与这次比赛的是搜狗研发的人工智能系统汪仔。</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/2630"
-    target="_blank"
->
-<span class="cite">
-李泽南 / 
-www.jiqizhixin.com
-</span>
-<span class="title">4 月 10 日下午，谷歌在北京正式宣布 AlphaGo 将于今年 5 月 23 日在浙江乌镇对决以柯洁为代表的中国顶尖棋手。</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.jiqizhixin.com/article/2624"
-    target="_blank"
->
-<span class="cite">
-机器之心 / 
-www.jiqizhixin.com
-</span>
-<span class="title">谷歌在北京中国棋院的发布会上宣布了AlphaGo人机大战的时间：5月23日到27日</span>
+<span class="title">中国乌镇围棋峰会今天在浙江乌镇正式召开，围棋世界冠军柯洁九段将在未来5天内挑战围棋人工智能AlphaGo。Alphabet董事长埃里克·施密特表示，这一次围棋比赛不是人机之间的对弈，而是用电脑来帮助人类；AI还能帮助让人类的生活更美好，科学家可以利用AI去做到人类做不到的事情.. ​</span>
 </a>
 </div>
 
@@ -230,7 +145,7 @@ www.jiqizhixin.com
 新浪科技 / 
 s.weibo.com
 </span>
-<span class="title">#人机围棋对决# 围棋峰会柯洁对阵AlphaGo三番棋首局人机大战在浙江桐乡战罢。最终，由Deepmind团队研发的围棋人工智能AlphaGo执白1/4子战胜目前等级分排名世界第一的中国棋手柯洁九段。双方的第二局比赛将于25日10：30继续进行。猛戳链接，了解比赛详情 |人机大战第... ​</span>
+<span class="title">#人机围棋对决#柯洁、DeepMind创始人及CEO戴米斯·哈萨比斯、Alphabet公司董事长埃里克·施密特、欧洲围棋冠军樊麾、以及帮助AlphaGo落子的黄士杰悉数登台合影，围棋峰会正式开始！猛戳链接了解更多比赛详情，|DeepMind创... 专题：|AlphaGo大... ​</span>
 </a>
 </div>
 
@@ -240,116 +155,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/2208460524?refer_flag=1001030103_"
+    href="http://weibo.com/geekpark?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-韵味古风 / 
+GeekPark / 
 s.weibo.com
 </span>
-<span class="title">围棋人机大战柯洁不敌AlphaGo，柯洁执黑先行最终以1/4子的劣势不敌AlphaGo。昨天柯洁深夜发文表达自己将“拼尽全力后，无论结果.....”。不过，王思聪也来评论了一脚，他怼柯洁“当时李和AlphaGo下的时候你那嚣张劲哪儿去了。” ​聂卫平精彩点评及历届人机大战视频戳网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/huanqiushibaoguanwei?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-环球时报 / 
-s.weibo.com
-</span>
-<span class="title">【首战失利！围棋人机大战柯洁不敌AlphaGo】今天，柯洁与AlphaGo的围棋人机大战三番棋进行第一局比赛。柯洁执黑先行，最终不敌AlphaGo。另外两场比赛将于本月25日和27日进行。 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/5230569371?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-华米科技 / 
-s.weibo.com
-</span>
-<span class="title">【 柯洁 对战 AlphaGo 】 亦知终不胜，战败有余荣。即使输了四分之一子，你仍是英雄 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/sportschannel?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-新浪体育 / 
-s.weibo.com
-</span>
-<span class="title">【柯洁对阵乃单机版AlphaGo 比李世石版本强十倍】Deepmind团队负责人哈萨比斯与AlphaGo团队负责人席尔瓦在接受采访时表示：“AlphaGo去年是分布式实施，有很多机器。这次是单独机器，利用谷歌云，可认为是单机版，这台机器更好、更快、结果更好，比李世石对弈的版本要高十倍。”#人机大战第二季# ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/wallstreetcn?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-华尔街见闻APP / 
-s.weibo.com
-</span>
-<span class="title">【人机大战巅峰对决第一局：柯洁惜败阿尔法狗】人机大战第一局结果出炉，围棋“当今第一人”柯洁不敌AlphaGo输掉第一局，裁判宣布后者赢四分之一子，第二局将于25日上午正式开始。广发张超称，围棋AI迅速发展是今年人工智能突破性的缩影。详见网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/jinrongbaguanv?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-金融八卦女 / 
-s.weibo.com
-</span>
-<span class="title">柯洁仍是人类最强，但 AlphaGo 重演了一部进化史 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/zhangsan30?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-三张张三 / 
-s.weibo.com
-</span>
-<span class="title">王思聪怼柯洁，说：“哟，当时李和alphago下的时候你那嚣张劲儿哪儿去了”，我估计柯洁不会有什么正面回复。因为，虽然王思聪的话虽然很欠扁，但柯洁当时说的话在现在看来确实有点打脸了，估计柯洁现在也有点小后悔说了那话。去年，AlphaGo战胜韩国棋手李世石，柯洁在李世石被击败后发表微博说：“就算 ​
+<span class="title">在昨天柯洁和 AlphaGo 的第一盘棋结束之后，大家关注的焦点除了人类不可避免的失败之外，基本上都集中在了「AlphaGo 到底有多强」这个问题上。所以，虽然今天没有比赛，但乌镇吸引的关注度仍然不低，因为在今天的 AI 论坛上，Alphabet 董事长 Eric Schmidt、DeepMind CEO Demis Hassabis、AlphaGo 团队 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -360,31 +173,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/ifengtechdigi?refer_flag=1001030103_"
+    href="http://weibo.com/windzx?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-凤凰科技 / 
+Wind资讯 / 
 s.weibo.com
 </span>
-<span class="title">发布了头条文章：《柯洁复盘与AlphaGo首战：它已经像是“围棋上帝”》 |柯洁复盘与... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/cne?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-中国企业家杂志 / 
-s.weibo.com
-</span>
-<span class="title">【AlphaGo又赢了，人工智能要逆天，人类能拿它怎么办？】几乎没有什么悬念，AlphaGo又赢了。乌镇围棋峰会与柯洁的首战中，虽然柯洁出手漂亮，但这款明星AI还是以1/4子获胜。从现场直播来看，柯洁状态不错，偶尔思考时用他标志性的“抓头发”、“皱眉心”等小动作。在最后“官子”阶段，胜负即将分明时 ​
+<span class="title">【赢柯洁算什么！AlphaGo背后的团队在 AI 领域全面开火，福特都紧张了】AlphaGo 赢了柯洁，AI 再次让大众见识到它的先进可靠。AlphaGo 背后的团队谷歌的母公司Alphabet已经在AI 领域做了最全面的布局，在无人驾驶领域遥遥领先于其他同行。最先感到危机逼近的，是作为美国三大汽车制造商之一的福特。 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -395,14 +191,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/ohmygossip?refer_flag=1001030103_"
+    href="http://weibo.com/yxtw?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-关爱八卦成长协会 / 
+银杏酒店管理学院团委 / 
 s.weibo.com
 </span>
-<span class="title">#王思聪怼柯洁#今天围棋冠军柯洁对战AlphaGo，胜负引发关注。不过没想到，他在对战的前夜发的一篇微博，却被#王思聪# 给怼了，还酸他太嚣张。到底怎么回事呢？关爱八卦成... ​</span>
+<span class="title">#锁定人机大战#中国乌镇围棋峰会今天将在浙江乌镇开幕，中国职业围棋九段柯洁将与AlphaGo进行三番战，在首战开始前，柯洁与Deepmind创始人哈萨比斯和Alphabet公司(Google母公司)董事长施密特在开幕式现场见面。你们期待谁胜利呢？ ​</span>
 </a>
 </div>
 
@@ -412,65 +208,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/hbmntj?refer_flag=1001030103_"
+    href="http://weibo.com/u/2347429293?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-淮北美女推荐 / 
+武陵之荣光 / 
 s.weibo.com
 </span>
-<span class="title">#王思聪怼柯洁# 今天柯洁在围棋人机大战中以1/4子负于AlphaGo。昨晚柯洁曾深夜发文表达将“拼尽全力后，无论结果....”，今早王思聪在评论区疑似怼柯洁：“当时李和AlphaGo下的时候你那嚣张劲哪儿去了。” ​惹了众怒，网友纷纷怼了回去，这下连“前首富之子”、“国民老公”的光环都罩不住他了。 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/58330?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-手机上的新浪 / 
-s.weibo.com
-</span>
-<span class="title">【王思聪怼柯洁：你那嚣张劲儿哪儿去了？】围棋人机大战柯洁最终以1/4子的劣势不敌AlphaGo。昨天柯洁发文表达自己将“拼尽全力后，无论结果.....”。不过，王思聪却怼柯洁称“当时李和AlphaGo下的时候你那嚣张劲哪儿去了。” 这事让网友看不下去了，扔出一句话回击↓↓|王思聪怼柯... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/sinatech?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-新浪科技 / 
-s.weibo.com
-</span>
-<span class="title">#人机围棋对决#【人机大战首局发布会实录：单机版阿法狗比上次强10倍】柯洁称当前的AlphaGo为围棋上帝，还未发现弱点，AlphaG教会他要大胆创新。Deepmind创始人称：1）此次的AlphaGo版本是单机版，靠谷歌云进行计算；2）当前版本比跟李世石下棋的版本快10倍，用的是谷歌自研TPU。|人机大战:... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/139996685?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-蓉城往事 / 
-s.weibo.com
-</span>
-<span class="title">angelababy 王文也合影，这年头，跟明星合个影都是那么难的事啊。而另一位明星，一直以来在网络中就比较火，只要他出手，基本上关注的人就多了。就像今天，围棋人机大战柯洁不敌#AlphaGo#，王思聪怼柯洁说，“当时李和AlphaGo下的时候你那嚣张劲哪儿去了。” ​这也难怪，本来#王思聪#就是这样的风格。 ​
+<span class="title">#人机围棋对决# 【DeepMind创始人：无论结果如何 胜利都属于人类】5月23日上午消息，中国乌镇围棋峰会今天上午在浙江乌镇正式召开，围棋世界冠军柯洁九段将在未来5天内挑战围棋人工智能AlphaGo。除柯洁与DeepMind创始人及CEO戴米斯·哈萨比斯之外，Alphabet公司董事长埃里克·施密特、欧洲围棋冠军樊麾、 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -481,14 +226,65 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/1582799320?refer_flag=1001030103_"
+    href="http://weibo.com/hebuststunion?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-弦歌雅集 / 
+河北科技大学学生会 / 
 s.weibo.com
 </span>
-<span class="title">柯洁对决AlphaGo，输赢不太重要。从某种角度看，这是柯洁对Alpha Go进行的一次软件测试，如果找出一点bug就是大收获。与柯洁的对弈会使狗狗继续进步，与狗狗的对弈也能拓展柯洁的思维。Alpha Go并不是人类的敌人，而是人类的杰作。同时，因为这次棋局，一些平时潜水的围棋爱好者都浮上来了，多好啊。最 ​
+<span class="title">#河北科技大学学生会！##人机围棋对决#柯洁、DeepMind创始人及CEO戴米斯·哈萨比斯、Alphabet公司董事长埃里克·施密特、欧洲围棋冠军樊麾、以及帮助AlphaGo落子的黄士杰悉数登台合影，围棋峰会正式开始！了解更多比赛详情→|DeepMind创... 专题：|AlphaGo大... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/chessnews?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+棋牌新闻 / 
+s.weibo.com
+</span>
+<span class="title">#人机大战第二季# #围棋峰会# 人机大战开幕正在进行中，除柯洁与DeepMind创始人及CEO戴米斯·哈萨比斯之外，Alphabet公司董事长埃里克·施密特、欧洲围棋冠军樊麾、以及帮助AlphaGo落子的黄士杰也出席了峰会开幕式。更多高清图戳→|高清-人机... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/chessnews?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+棋牌新闻 / 
+s.weibo.com
+</span>
+<span class="title">#人机大战第二季# #围棋峰会# 开幕式正在进行，@棋士柯洁 与Alphabet董事长施密特和DeepMind创始人哈萨比斯合影，现场消息：这次AlphaGo的“人肉臂”还是黄士杰博士。开幕式新闻更新链接|人机大战开... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/thepapernewsapp?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+澎湃新闻 / 
+s.weibo.com
+</span>
+<span class="title">【AlphaGo，只是Alphabet改变世界的一只狗】AlphaGo仅仅只是Alphabet改变世界的冰山一角，Alphabet还拥有可以在被雪覆盖的山坡上自如行走的人形机器人，被世人熟知的无人驾驶汽车项目。在太空探索上，Alphabet也不甘落后，它一直以来都希望能够通过卫星互联网系统普及互联网服务。此外，Alphabet对与人 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -499,15 +295,31 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/wuxiaobopd?refer_flag=1001030103_"
+    href="http://weibo.com/neweekly?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-吴晓波频道 / 
+新周刊 / 
 s.weibo.com
 </span>
-<span class="title">#小巴说新闻#【1:0，AlphaGo 打败柯洁，用的处理器只有上次的 1/10】乌镇，5 月 23 日 14 点 52 分。AlphaGo 1，柯洁 0。柯洁执黑先手，布局阶段使用了 AlphaGo 之前所用，而人类棋手几乎不会使用的开局“点三三”下法落子。和 AlphaGo 最终进行到官子阶段，在第 286 手之后开始数子。根据双方约定的中 ​
-			...展开全文c</span>
+<span class="title">人机大战的最后一场结果已出，赢家为谷歌围棋人工智能AlphaGo。李世石对战阿法狗总比分定格在1:4。谷歌母公司Alphabet董事长埃里克·施密特说：“无论最终结果是什么，赢家都是人类。”(新浪) |手机新浪网... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/1888689111?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+Eva翼 / 
+s.weibo.com
+</span>
+<span class="title">Alphabet，AlphaGo，阿尔法麻麻，阿尔法爸，阿尔法拉拉，阿尔法祖~玩儿心不死，改变世界 ​</span>
 </a>
 </div>
 
