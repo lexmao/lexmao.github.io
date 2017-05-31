@@ -16,24 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://www.techmeme.com/170529/i1.jpg" style="border-style:none;" heigh="83" width="124" >
+<img src="http://bzline.cn/ainews/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-Vlad Savov / 
-www.theverge.com:
+新浪科技 / 
+tags.tech.sina.com.cn:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.theverge.com/2017/5/29/15707606/arm-cortex-a75-a55-mali-g72-specs-announced"
+    href="http://tech.sina.com.cn/it/2017-05-30/doc-ifyfqqyh9005873.shtml"
     target="_blank"
 >
-ARM announces next-generation CPUs and GPUs focused on efficient machine learning; ARM Cortex-A75 is new flagship mobile chip, now with 22% better performance
+人民日报海外版：中国人工智能发展将驶入快车道
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  ARM announces next-generation CPUs and GPUs focused on efficient machine learning; ARM Cortex-A75 is new flagship mobile chip, now with 22% better performance
-  —  ML plus AI, AR, and VR — ARM is taking on the full set of trendy initialisms  —  On the eve of Computex … 
+&nbsp; &mdash;&nbsp;  一月三十一日，宁夏科技馆推出“闻鸡起舞闹新春”春节科普活动。“年俗科普”“人工智能”等多项主题展览吸引市民前来参观。图为观众在观看机器人表演。新华社记者 王 鹏摄 来源 ...[详细] 
 </span>
 
 </div>
@@ -54,14 +53,14 @@ ARM announces next-generation CPUs and GPUs focused on efficient machine learnin
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/23104117"
+    href="https://www.zhihu.com/question/41255186"
     target="_blank"
 >
 <span class="cite">
-星橦 / 
+张天杭 / 
 www.zhihu.com
 </span>
-<span class="title">那就需要人工智能,这些其实都是一脉相承的,其实还是跟着未来的大方向,大家都在探索更多的切入点.q小饭桌:蓝驰会怎么去追随这个方向?朱天宇 :对于早期投资... 去找到最本质的东西.像孙正义就是用30年的尺度来看未来,所以他收购了arm.像我们刚才说的ai和大数...</span>
+<span class="title">至于&#34;人工智能不会高兴&#34;的这个说法,就目前来看,是对的.&#34;我很高兴&#34;这个结果不会作为人工智能的运行结果输出,因为没有必要,没有必要的东西不会在决策树里出现,也不会在训练过程中成为自我修正的结果.另外那些把黑人民日报当政治正确的人啊,歇歇,你没黑对人,这...</span>
 </a>
 </div>
 
@@ -71,14 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/27114029"
+    href="https://www.zhihu.com/question/24089451"
     target="_blank"
 >
 <span class="cite">
-施百鴻 / 
+陈丹奕 / 
 www.zhihu.com
 </span>
-<span class="title">arm 的效能被超越是迟早的事情5y70也不过gb跑到多线程4000分 单线程2300分但是ipad air2 的a8x 3处理器gb3已经达到4400分了 单线程1800分gb3跑分资料库 a8x 同时脉校能arm大赢x86http://browser.primatelabs.com/geekbench3/search?page=2&amp;q=5y70http://browser.primatelabs.com/ios-benchmarkshttp://browser.primatelabs.com/...</span>
+<span class="title">谢邀.我的回答是:在真正可以完整模拟人脑的人工智能出现前,分析师不可能被取代.节选两段我之前的回答(来源:为什么需要数据分析人员而不能全部由机器和算法... 看有哪些报纸可以进行组合促销,最后得出个光明日报和人民日报关联系数90%多,所以这俩报纸可以组...</span>
 </a>
 </div>
 
@@ -88,14 +87,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/22236022"
+    href="https://www.zhihu.com/question/53508924"
     target="_blank"
 >
 <span class="cite">
-炫姐姐 / 
+无名 / 
 www.zhihu.com
 </span>
-<span class="title">arm,抢占人工智能和物联网生态的制高点.而早在 2014 年 7 月,软银就成了软银机器人子公司,研发和销售 pepper 人形机器人.今年还有其他「大」的收购案:截止到 ... 21 世纪会控制世界.· goole i/o 2016 上发布的 google ai 语音助手.对于人工智能领域发展状...</span>
+<span class="title">人工智能明显比中医low得多 你看alphago就算能下赢世界冠军人民日报也会说他没思想 人家中医明明啥效果都没有也能把一群人骗得团团转</span>
 </a>
 </div>
 
@@ -105,15 +104,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.theverge.com/2017/5/29/15707606/arm-cortex-a75-a55-mali-g72-specs-announced"
+    href="https://zhuanlan.zhihu.com/p/20704619"
     target="_blank"
 >
 <span class="cite">
-Vlad Savov / 
-www.theverge.com
+李书航 / 
+www.zhihu.com
 </span>
-<span class="title">ARM announces next-generation CPUs and GPUs focused on efficient machine learning; ARM Cortex-A75 is new flagship mobile chip, now with 22% better performance
-  —  ML plus AI, AR, and VR — ARM is taking on the full set of trendy initialisms  —  On the eve of Computex …</span>
+<span class="title">事情好像变得有些奇怪.原先都是官样文章的人民日报和新华社,在评论人与机器之间的优劣时,突然一下子变成了诗人,毫不吝惜溢美之词来赞扬人类从棋局胜负之外跳出来,所产生的种种情怀和心思.人民日报说,人工智能&#34;有智能没智慧,有智商没情商,会计算不会算计&#34;,如...</span>
 </a>
 </div>
 
@@ -123,15 +121,15 @@ www.theverge.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://venturebeat.com/2017/03/20/arm-unveils-dynamiq-multicore-chip-designs-for-faster-ai-and-cloud-computing/"
+    href="http://weibo.com/lanjingtmt?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Dean Takahashi / 
-venturebeat.com
+蓝鲸TMT网 / 
+s.weibo.com
 </span>
-<span class="title">ARM unveils Dynamiq multicore chip designs for faster AI and cloud computing, enabling flexible multicore processing
-  —  Chip design firm ARM has unveiled its Dynamiq technology to make better multicore processors that can handle artificial intelligence, cloud computing, and new kinds of devices.</span>
+<span class="title">【李嘉诚请阿尔法狗之父给自己“上课”，听得很激动数度站起来】蓝鲸TMT 5月30日讯，据李嘉诚基金会官方微博透露，李嘉诚5月26日在香港会见了DeepMind创始人、阿尔法狗（AlphaGo）之父Demis和Mustafa。微博称，“因为DeepMind两创办人Demis和Mustafa到香港为他 上课 ，讲解人工智能研究方向与各种应用 ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -141,15 +139,15 @@ venturebeat.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://techcrunch.com/2016/12/12/microsoft-ventures-launches-new-fund-for-ai-startups-and-backs-element-ai-incubator/"
+    href="http://weibo.com/fm93?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Ingrid Lunden / 
-techcrunch.com
+FM93浙江交通之声 / 
+s.weibo.com
 </span>
-<span class="title">Microsoft Ventures launches new fund for AI startups and backs Element AI, a new Montreal-based incubator co-founded by renowned AI expert Yoshua Bengio
-  —  Microsoft Ventures today announced two steps that point to how the tech giant&#39;s VC arm wants to get involved in artificial intelligence in a big way.</span>
+<span class="title">【李嘉诚请阿尔法狗之父给自己上课 听得激动数度站起】89岁的李嘉诚对人工智能前沿技术乐此不疲。据李嘉诚基金会官方微博5月28日消息，李嘉诚5月26日在香港会见了DeepMind创始人、阿尔法狗之父。 “李先生听课很激动，数度站起来，害得两创办人也连忙礼貌地陪站。”上述微博写道。|李嘉诚请阿... ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -159,15 +157,32 @@ techcrunch.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.nytimes.com/2016/12/05/technology/uber-bets-on-artificial-intelligence-with-acquisition-and-new-lab.html"
+    href="http://weibo.com/yufenghui?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Mike Isaac / 
+余丰慧 / 
+s.weibo.com
+</span>
+<span class="title">#慧眼财经# |无比佩服 ... 李嘉诚5月26日在香港会见了DeepMind创始人、阿尔法狗（AlphaGo）之父Demis和Mustafa。会见中，Demis还对政府政策如何支持和平衡人工智能的发展发表了看法，他表示对人工智能用于国防和武器发展不无顾虑。#微博股票# ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.nytimes.com/2017/05/27/technology/china-us-ai-artificial-intelligence.html"
+    target="_blank"
+>
+<span class="cite">
+New York Times / 
 www.nytimes.com
 </span>
-<span class="title">Uber acquires AI startup Geometric Intelligence, appoints co-founders Gary Marcus and Zoubin Ghahramani as co-directors of its new research arm, A.I. Labs
-  —  SAN FRANCISCO — Uber envisions a future in which a fleet of vehicles can make the most complex maneuvers while carting passengers around without the help of a driver.</span>
+<span class="title">China is investing heavily in AI and is preparing for a concerted nationwide push, while Trump proposes budget cuts that would impact AI research
+  —  HONG KONG — Sören Schwertfeger finished his postdoctorate research on autonomous robots in Germany, and seemed set to go to Europe or the United States …</span>
 </a>
 </div>
 
@@ -177,15 +192,123 @@ www.nytimes.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.wsj.com/article_email/hp-launches-group-to-invest-in-startups-1462885202-lMyQjAxMTI2MzE2MDMxOTA1Wj"
+    href="http://www.nytimes.com/2017/05/23/business/google-deepmind-alphago-go-champion-defeat.html"
     target="_blank"
 >
 <span class="cite">
-Don Clark / 
+Paul Mozur / 
+www.nytimes.com
+</span>
+<span class="title">Google&#39;s AlphaGo beats world&#39;s top Go player, China&#39;s Ke Jie; China reportedly blocked livestreams of the match, despite enormous interest within the country
+  —  HONG KONG — It isn&#39;t looking good for humanity.  —  The world&#39;s best player of what might be humankind&#39;s most complicated board game …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.chinamoneynetwork.com/2017/04/20/sailing-capital-leads-60m-round-in-chinese-ai-firm-sensetime"
+    target="_blank"
+>
+<span class="cite">
+Pan Yue / 
+www.chinamoneynetwork.com
+</span>
+<span class="title">Beijing-based SenseTime, which develops facial recognition tech, announces $60M round led by Sailing Capital; company had revealed a $120M round in December
+  —  Sailing Capital International (Shanghai) Co., Ltd., a RMB-denominated investment and loan fund created under the support …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.chinamoneynetwork.com/2017/04/07/volkswagen-invests-180m-in-joint-venture-with-chinese-artificial-intelligence-firm-mobvoi"
+    target="_blank"
+>
+<span class="cite">
+Pan Yue / 
+www.chinamoneynetwork.com
+</span>
+<span class="title">Volkswagen invests $180M in Chinese AI startup Mobvoi&#39;s Series D, to create a 50:50 joint venture with a voice operated rear-view mirror as an initial product
+  —  In a further sign of China&#39;s technological advancement, Volkswagen Group China, a subsidiary of German automotive giant Volkswagen Group …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.recode.net/2017/3/8/14845892/didi-self-driving-lab-mountain-view-uber-charlie-miller"
+    target="_blank"
+>
+<span class="cite">
+Johana Bhuiyan / 
+recode.net
+</span>
+<span class="title">Didi Chuxing opens AI lab in Mountain View, California, and hires Uber engineer Charlie Miller to lead security and development teams
+  —  The Mountain View lab will focus on AI-based security and intelligent driving systems for cars.  —  Didi, China&#39;s largest ride-hail player, is getting serious about self-driving cars.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.thurrott.com/windows/windows-10/86295/microsoft-partners-intel-project-evo-improve-pc-2017"
+    target="_blank"
+>
+<span class="cite">
+Paul Thurrott / 
+www.thurrott.com
+</span>
+<span class="title">Microsoft and Intel announce plans to bring advanced security features, mixed reality, and new gaming capabilities to PCs through Project Evo
+  —  At its WinHEC 2016 opening keynote in Shenzhen, China Thursday morning, Microsoft announced a new collaboration with longtime partner Intel aimed …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.theverge.com/2016/10/11/13240434/baidu-medical-chatbot-china-melody"
+    target="_blank"
+>
+<span class="cite">
+James Vincent / 
+www.theverge.com
+</span>
+<span class="title">Baidu adds AI-powered conversational chatbot to its Baidu Doctor app to speed up diagnosing and help doctors collect patient info
+  —  An English translation of Baidu&#39;s Melody Chatbot  —  Chinese search engine giant Baidu is launching a medical chatbot designed to make diagnosing illnesses easier.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.wsj.com/article_email/sinovation-ventures-raises-675-million-in-fresh-capital-1473648511-lMyQjAxMTA2NjExMjQxMzI2Wj"
+    target="_blank"
+>
+<span class="cite">
+Li Yuan / 
 www.wsj.com
 </span>
-<span class="title">HP launches HP Tech Ventures to invest in 3D-printing, VR, AI, wearable, and IoT startups
-  —  HP Tech Ventures will target fields such as 3-D printing, virtual reality and artificial intelligence  —  HP Inc., a descendant of Silicon Valley&#39;s original startup, plans to bet on the next generation of entrepreneurs.</span>
+<span class="title">China&#39;s Sinovation Ventures co-founded by Google, Microsoft veteran Kai-Fu Lee raises $675M for two funds to focus on AI, enterprise software, media startups
+  —  Environment for funding in China is cooling  —  HONG KONG—A Chinese venture-capital fund raised about 4.5 billion yuan …</span>
 </a>
 </div>
 
@@ -195,15 +318,15 @@ www.wsj.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.theguardian.com/technology/2015/jul/27/musk-wozniak-hawking-ban-ai-autonomous-weapons"
+    href="http://www.washingtonpost.com/sf/business/wp/2016/08/13/2016/08/13/tim-cook-the-interview-running-apple-is-sort-of-a-lonely-job/"
     target="_blank"
 >
 <span class="cite">
-Samuel Gibbs / 
-www.theguardian.com
+Jena McGregor / 
+www.washingtonpost.com
 </span>
-<span class="title">Musk, Wozniak and Hawking urge ban on warfare AI and autonomous weapons
-  —  More than 1,000 experts and leading robotics researchers sign open letter warning of military artificial intelligence arms race  —  Over 1,000 high-profile artificial intelligence experts and leading researchers …</span>
+<span class="title">As his fifth anniversary as Apple CEO approaches, Tim Cook reflects on his tenure and Apple&#39;s future: mistakes, progress made, AI and AR efforts, more
+  —  Apple&#39;s CEO talks iPhones, AI, privacy, civil rights, missteps, China, taxes, Steve Jobs — and steers right past the car rumors</span>
 </a>
 </div>
 
@@ -213,14 +336,15 @@ www.theguardian.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://techcrunch.com/2017/05/26/this-robot-arms-ai-thinks-like-we-do-about-how-to-grab-something/"
+    href="http://www.techinasia.com/baidu-ai-voice-assistant/"
     target="_blank"
 >
 <span class="cite">
-Devin Coldewey / 
-techcrunch.com
+Steven Millward / 
+www.techinasia.com
 </span>
-<span class="title">Robots are great at doing things they’ve been shown how to do, but when presented with a novel problem, such as an unfamiliar shape that needs to be gripped, they tend to choke. AI is helping there in the form of systems like Dex-Net, which uses deep learning to let a robotic arm improvise an effective grip for objects it’s never seen before. Read More</span>
+<span class="title">Baidu unveils AI-powered digital assistant Duer for its mobile search app
+  —  Baidu revamps its ‘Siri’ so that it helps you order stuff online  —  Baidu&#39;s revamped voice assistant, Du Secretary, pictured in action today.  —  At Baidu&#39;s annual corporate conference in Beijing today …</span>
 </a>
 </div>
 
