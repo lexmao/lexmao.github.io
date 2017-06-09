@@ -16,7 +16,7 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://www.jiqizhixin.com/data/upload/20170531/592ee696b3331.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://readai.me/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
