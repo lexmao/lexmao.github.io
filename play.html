@@ -427,6 +427,42 @@ td.searchbox {text-align:right}
 
 
 
+<DIV CLASS="item">
+<H2>用R-CNN统计小狗数量</H2>
+
+<DIV CLASS="dt_pl_l">
+Posted June 13, 2017 by <span style="font-weight:bold;color:#131">ReadAI</span> &nbsp; &nbsp; <A CLASS="nvc" HREF="/project/003.html">Permalink</A>
+</DIV>
+
+
+<h3 name="1612" id="1612" class="graf--h3 graf-after--p">项目介绍</h3><p></p>
+
+
+<p>我们的目标是利用机器学习技术来实时统计视频中每个画面上目标物体的数量，比如当前画面中有多少个人，多少辆车、多少条小狗等。
+这过程中，通常采用把视频分解成多个图片，然后针对每张图片来处理上面的问题，所以，我们简化问题为：
+
+<h5>利用什么样的技术，能够尽量精准地统计出下面这张图片上有多少条狗？</h5></p>
+<p><img src="http://readai.me/ai_projects/smail-dog.jpg" alt="" width="480" /></p>
+
+
+<p>在深度学习领域，有一个非常有意思的模型R-CNN(Region based Convolutional Neural Network)，可以用来识别图片上的目标
+并对目标进行定位。本例中利用Keras 来实现和执行这个模型。</p>
+
+先看一下执行的效果（目标名称后面的数字是识别的概率）：
+
+<p><img src="http://readai.me/ai_projects/test03.jpg" alt="" width="640" /></p>
+
+
+
+<h3 name="1612" id="1612" class="graf--h3 graf-after--p">项目代码</h3><p></p>
+<p>Github Repo <a href="https://github.com/softberries/keras-frcnn">softberries/keras-frcnn</a></p>
+</DIV>
+
+
+
+
+
+
 
 <DIV CLASS="item">
 <H2>Teaching Machines to Draw - 教机器学习画画</H2>
@@ -454,6 +490,11 @@ Posted MAY 19, 2017 by <span style="font-weight:bold;color:#131">ReadAI</span> &
 <p>Github Repo <a href="https://github.com/tensorflow/magenta/blob/master/magenta/models/sketch_rnn/README.md">Tensorflow/Magenta</a></p>
 
 </DIV>
+
+
+
+
+
 
 
 
@@ -491,9 +532,15 @@ Program that learns to play Flappy Bird by machine learning
 <H2>那些有趣的AI项目</H2>
 
 <DIV CLASS="item">
+<H2>2017.6</H2>
+<DIV CLASS="titem"><DIV STYLE="float:left; width:3em;">6/13</DIV> <A HREF="/ai_projects/003.html">用R-CNN统计小狗数量</A></DIV>
+</DIV>
+
+
+<DIV CLASS="item">
 <H2>2017.5</H2>
-<DIV CLASS="titem"><DIV STYLE="float:left; width:3em;">4/25</DIV> <A HREF="/ai_projects/001.html">Teaching Machines to Draw - 教机器学习画画</A></DIV>
-<DIV CLASS="titem"><DIV STYLE="float:left; width:3em;">4/25</DIV> <A HREF="/ai_projects/002.html">看AI怎么玩flappy birds</A></DIV>
+<DIV CLASS="titem"><DIV STYLE="float:left; width:3em;">5/25</DIV> <A HREF="/ai_projects/001.html">Teaching Machines to Draw - 教机器学习画画</A></DIV>
+<DIV CLASS="titem"><DIV STYLE="float:left; width:3em;">5/15</DIV> <A HREF="/ai_projects/002.html">看AI怎么玩flappy birds</A></DIV>
 
 </DIV>
 
