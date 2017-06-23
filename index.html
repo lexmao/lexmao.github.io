@@ -1096,6 +1096,13 @@ var tabRequestTimer;
 var tabRequestTimeoutInterval = 10000;
 
 function loadTab(selector, tabId, servlet, extraParams) {
+
+    if (tabId =="play"){
+        window.location.href="/play.html"
+        return;
+    }
+
+
     if (document.getElementById(tabId) != null)
         selectTab(selector, tabId);
     else {
@@ -1232,7 +1239,7 @@ function FBLike(itemId, url) {
 
 <div class="top_pane">
 <div class="date">
-2017-06-23 16:51:35
+2017-06-23 17:01:58
 </div>
 
 <div class="logo">
@@ -1293,9 +1300,8 @@ Sponsors
 </span>
 -->
 
-<span id="play_ads_selector" class="tab_selector">
-<a href="/play.html" target="_blank"> 好玩的AI </a>
-
+<span id="play_ads_selector" class="tab_selector" onclick="loadTab(this,'play','play.html')">
+好玩的AI
 </span>
 
 </div>
