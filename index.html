@@ -1105,10 +1105,13 @@ function loadTab(selector, tabId, servlet, extraParams) {
         var selectorText = selector.innerHTML;
         selector.innerHTML= '';
         selector.className = 'active_tab_selector tab_loading';
+
+        //add by stone
+        var timestamp = (new Date()).valueOf();
         
         // fetch data
         if (tabRequest.readyState == 4 || tabRequest.readyState == 0) {
-            tabRequest.open("GET", servlet + '?feed=1492437004000' + (extraParams? '&' + extraParams : ''));
+            tabRequest.open("GET", servlet + '?feed='+timestamp + (extraParams? '&' + extraParams : ''));
         
             tabRequest.onreadystatechange = function() { 
                 handleTabRequestStateChange(selector, tabId, selectorText);
@@ -1229,7 +1232,7 @@ function FBLike(itemId, url) {
 
 <div class="top_pane">
 <div class="date">
-2017-06-23 15:05:55
+2017-06-23 15:39:40
 </div>
 
 <div class="logo">
