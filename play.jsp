@@ -147,17 +147,9 @@ sup {
 	}
 }
 </style>
-<title>
-[![readai](http://readai.me/images/logo.png)](http://readai.me)
-
-
-===
-===
 
 *  ### 看AI怎么生成漫画</title>
 
-</head>
-<body>
 <p><a href="http://readai.me"><img src="http://readai.me/images/logo.png" alt="readai" /></a></p>
 
 <hr />
