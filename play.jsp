@@ -150,7 +150,6 @@ sup {
 
 *  ### 看AI怎么生成漫画</title>
 
-<p><a href="http://readai.me"><img src="http://readai.me/images/logo.png" alt="readai" /></a></p>
 
 <hr />
 
