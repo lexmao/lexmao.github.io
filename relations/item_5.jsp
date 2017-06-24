@@ -16,23 +16,24 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="https://static.leiphone.com/uploads/new/article/pic/201706/593e859c5de42.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
+<img src="http://www.techmeme.com/170613/i4.jpg" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-李秀琴 / 
-www.leiphone.com:
+Bloomberg / 
+www.bloomberg.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="https://www.leiphone.com/news/201706/yitcT0AuMzm7PLkO.html"
+    href="http://www.bloomberg.com/news/articles/2017-06-13/cook-says-apple-is-focusing-on-making-an-autonomous-car-system"
     target="_blank"
 >
-一文看懂考恩2017 AI研究报告：2020年AI市场规模将达4000亿美元
+Tim Cook says Apple is focusing on autonomous systems, which he sees as “the mother of all AI projects” and can be used for developing self-driving cars
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  数字营销、CRM和数据分析将成为AI / ML行业投资最成熟的三大领域。 
+&nbsp; &mdash;&nbsp;  Tim Cook says Apple is focusing on autonomous systems, which he sees as “the mother of all AI projects” and can be used for developing self-driving cars
+  —  For the first time, CEO elaborates on Apple&#39;s car plans  —  The company&#39;s automotive program has experienced turmoil 
 </span>
 
 </div>
@@ -53,14 +54,14 @@ www.leiphone.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/23643493"
+    href="https://zhuanlan.zhihu.com/p/27082155"
     target="_blank"
 >
 <span class="cite">
-星橦 / 
+园长 / 
 www.zhihu.com
 </span>
-<span class="title">今年以来,人工智能领域强势崛起,根据艾瑞咨询预计,2020年全球ai市场规模将达到1190亿元,年复合增速约19.7%;同期中国人工智能市场规模将达91亿元,年复合增速超50%.这个巨大的市场,很可能会造就又一个巨头. 眼下,bat在这一领域已深有布局,但是诸如科大讯飞、...</span>
+<span class="title">ar、电视内容订阅、自动驾驶、和语音助手.可能很多人都表示不屑,也有很多文章和观点,谈到苹果创新意识的消失.但这里有一个明确的客观事实:苹果就像猫一样紧盯着目标,看看 iphone、ipad、apple watch、airpods,这些都是他的战利品.通过十数年的证据表明,对于...</span>
 </a>
 </div>
 
@@ -70,158 +71,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/laoyaoba?refer_flag=1001030103_"
+    href="http://www.bloomberg.com/news/articles/2017-06-13/cook-says-apple-is-focusing-on-making-an-autonomous-car-system"
     target="_blank"
 >
 <span class="cite">
-集微网官网 / 
-s.weibo.com
-</span>
-<span class="title">|IDC：全球... IDC预测，2016年全球认知运算系统与AI市场规模将近80亿美元，未来4年将成长逾5倍，2020年市场规模可望突破470亿美元，年复合增长率高达55.1%。以地区市场来看，北美地区以62亿美元市场规模瓜分全球市场的大半，欧洲中东与非洲区则居次，但亚太区的快速成长，可望在2020年前拿下亚 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/mrjjxw?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-每日经济新闻 / 
-s.weibo.com
-</span>
-<span class="title">【人工智能市场规模年复合增速近20% 谷歌、微软等巨头加速布局】据艾瑞咨询数据，到2020年全球AI市场规模将达到1190亿元，年复合增速约19.7%。谷歌、微软等互联网巨头争相切入人工智能产业：Google已经成立母公司Alphabet；微软第三代“微软小冰”也已经发布。|人工智能市... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.theverge.com/2017/5/31/15716830/nest-cam-iq-announced-specs-features-release-date-price"
-    target="_blank"
->
-<span class="cite">
-Vlad Savov / 
-www.theverge.com
-</span>
-<span class="title">Nest unveils Cam IQ, a smart home camera with a 4K video sensor that uses Google&#39;s AI for facial recognition; preorder now for $299, ships end of June
-  —  The Cam IQ presents an intriguing mix of high-fidelity video and smart motion detection and alerts  —  You&#39;d be forgiven for thinking that Nest …</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://adexchanger.com/online-advertising/demandbase-gets-65-million-series-h-funding-double-ai/"
-    target="_blank"
->
-<span class="cite">
-Allison Schiff / 
-www.adexchanger.com
-</span>
-<span class="title">Demandbase raises $65M Series H to boost AI capabilities of its targeted B2B marketing cloud service
-  —  Businesses spend around $40 billion a year on digital content marketing, and Demandbase, which announced a $65 million financing round on Thursday, is looking to cut itself a slice of the pie.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.zdnet.com/article/microsoft-launches-ruuh-yet-another-ai-chatbot/"
-    target="_blank"
->
-<span class="cite">
-Mary Jo Foley / 
-www.zdnet.com
-</span>
-<span class="title">Microsoft is testing Ruuh, an English-speaking AI chatbot aimed at the Indian market
-  —  Microsoft is testing Ruuh, another new AI chatbot, which is aimed specifically at the Indian market.  —  First there was Tay.  Then there was Zo.  Now there&#39;s Ruuh — Microsoft&#39;s latest AI chatbot.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.geekwire.com/2017/amazon-web-services-jumps-call-center-market-new-amazon-connect-service/"
-    target="_blank"
->
-<span class="cite">
-Todd Bishop / 
-www.geekwire.com
-</span>
-<span class="title">AWS launches Amazon Connect, a tool for call centers that uses its Lex speech recognition and AI; Salesforce says it&#39;s integrating Einstein service with Connect
-  —  Amazon Web Services just unveiled a new service for running call centers, dubbed Amazon Connect, leveraging the same technology used …</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://venturebeat.com/2017/03/20/arm-unveils-dynamiq-multicore-chip-designs-for-faster-ai-and-cloud-computing/"
-    target="_blank"
->
-<span class="cite">
-Dean Takahashi / 
-venturebeat.com
-</span>
-<span class="title">ARM unveils Dynamiq multicore chip designs for faster AI and cloud computing, enabling flexible multicore processing
-  —  Chip design firm ARM has unveiled its Dynamiq technology to make better multicore processors that can handle artificial intelligence, cloud computing, and new kinds of devices.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.theverge.com/2017/3/15/14934934/bosch-nvidia-self-driving-ai-autonomous-car-supplier"
-    target="_blank"
->
-<span class="cite">
-Jordan Golson / 
-www.theverge.com
-</span>
-<span class="title">Nvidia partners with Bosch to sell its AI-powered driver-assistant platform to automakers
-  —  Nvidia has announced a new partnership with Bosch to sell its Drive PX 2 driver-assist platform to automakers.  In effect, the deal gives Nvidia a go-to-market strategy for its self-driving hardware and software platform.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.bloomberg.com/news/articles/2017-03-08/google-adds-more-cloud-customers-nabbing-verizon-from-microsoft"
-    target="_blank"
->
-<span class="cite">
-Mark Bergen / 
+Bloomberg / 
 www.bloomberg.com
 </span>
-<span class="title">Google announces several new high-profile Google cloud clients, including eBay, HSBC, Colgate-Palmolive, and Verizon, which a source says moved from Microsoft
-  —  Search giant announces new clients, partners at cloud event  —  Google touts security, AI as it chases market-leader Amazon</span>
+<span class="title">Tim Cook says Apple is focusing on autonomous systems, which he sees as “the mother of all AI projects” and can be used for developing self-driving cars
+  —  For the first time, CEO elaborates on Apple&#39;s car plans  —  The company&#39;s automotive program has experienced turmoil</span>
 </a>
 </div>
 
@@ -231,15 +89,15 @@ www.bloomberg.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://siliconangle.com/blog/2017/03/02/ozlo-finally-reveals-business-model-ai-training-app/"
+    href="http://www.bloomberg.com/news/articles/2017-04-27/check-out-the-lexus-that-apple-s-using-to-test-self-driving-car-technology"
     target="_blank"
 >
 <span class="cite">
-Kristen Nicole / 
-siliconangle.com
+Bloomberg / 
+www.bloomberg.com
 </span>
-<span class="title">AI firm Ozlo debuts knowledge base that contains over 2B data points on a wide variety of topics, available via three APIs that are priced by volume
-  —  Blame it on Iron Man, that genius, billionaire superhero with a most effective (and virtual) sidekick, Jarvis.</span>
+<span class="title">Apple&#39;s self-driving Lexus seen in Silicon Valley with 64-channel lidar, at least two radars and a series of cameras
+  —  Almost two weeks after Apple Inc. secured permission to test its autonomous-car technology in California, the first images of the vehicle have emerged from Silicon Valley roads.</span>
 </a>
 </div>
 
@@ -249,15 +107,15 @@ siliconangle.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://venturebeat.com/2017/01/12/kasisto-raises-9-2-million-to-go-beyond-personal-finance-bots/"
+    href="http://www.businessinsider.com/apple-officially-testing-self-driving-cars-california-dmv-confirms-2017-4?op=1"
     target="_blank"
 >
 <span class="cite">
-Khari Johnson / 
-venturebeat.com
+Kif Leswing / 
+www.businessinsider.com
 </span>
-<span class="title">Kasisto raises $9.2M from Propel Venture Partners, MasterCard, DBS Bank, and more to improve personal finance bot KAI and expand AI virtual assistant offerings
-  —  Bots and artificial intelligence company Kasisto today announced that it has raised $9.2 million.</span>
+<span class="title">Apple received permit to test autonomous vehicles in California; DMV spokesman says Apple applied to test three 2015 Lexus RX450h vehicles
+  —  Apple has received a permit to test autonomous cars in California, the first official confirmation that the maker of the iPhone sees the century-old automobile …</span>
 </a>
 </div>
 
@@ -267,15 +125,141 @@ venturebeat.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://techcrunch.com/2017/01/06/nvidia-and-mercedes-benz-to-bring-an-ai-car-to-market-within-a-year/"
+    href="http://techcrunch.com/2017/01/18/tomtom-acquires-autonomos-to-beef-up-in-self-driving-technology/"
     target="_blank"
 >
 <span class="cite">
-Darrell Etherington / 
+Ingrid Lunden / 
 techcrunch.com
 </span>
-<span class="title">Nvidia and Mercedes-Benz announce partnership for AI car technology, with first product expected to roll out within 12 months
-  —  Nvidia already announced a partnership at CES to bring a AI self-driving car to production, and now Mercedes-Benz is also teaming up with the GPU-maker on a vehicle with AI on board.</span>
+<span class="title">TomTom acquires Berlin-based startup Autonomos to bolster its self-driving technology
+  —  Navigation and mapping company TomTom — which provides data to companies like Uber and Apple as well as for its own GPS systems — has made an acquisition to add more autonomous driving technology to its platform.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://venturebeat.com/2016/12/02/apple-tells-feds-new-entrants-to-auto-industry-should-get-same-testing-rights-as-incumbents/"
+    target="_blank"
+>
+<span class="cite">
+Jordan Novet / 
+venturebeat.com
+</span>
+<span class="title">Apple hints at autonomous vehicle ambitions in letter advising NHTSA that new auto industry entrants should get the same testing rights as incumbents
+  —  Apple last week submitted a letter to the U.S. National Highway Traffic Safety Administration (NHTSA) that suggests it&#39;s interested in testing self-driving cars.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.bloomberg.com/news/articles/2016-10-25/apple-develops-car-operating-system-in-blackberry-country"
+    target="_blank"
+>
+<span class="cite">
+Bloomberg / 
+www.bloomberg.com
+</span>
+<span class="title">Sources: Apple has several engineers in Canada building a car OS, of which about two dozen came from Blackberry&#39;s QNX, is testing self-driving software with VR
+  —  Canada office hires engineers from BlackBerry&#39;s QNX unit  —  Apple said to test self-driving software with virtual reality</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.bloomberg.com/news/articles/2016-10-17/how-apple-scaled-back-its-titanic-plan-to-take-on-detroit"
+    target="_blank"
+>
+<span class="cite">
+Bloomberg / 
+www.bloomberg.com
+</span>
+<span class="title">Sources: Apple&#39;s car team gets late 2017 deadline to prove feasibility of the self-driving system, amid hundreds of job cuts and strategy disagreements
+  —  Company to decide fate of self-driving platform by late 2017  —  Hundreds of software, hardware engineers leave amid struggles</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.ft.com/cms/s/0%2F523422ba-7ffd-11e6-8e50-8ec15fb462f4.html"
+    target="_blank"
+>
+<span class="cite">
+Financial Times / 
+www.ft.com
+</span>
+<span class="title">Sources: Apple in talks with UK luxury carmaker and F1 team owner McLaren for a full takeover or strategic investment; McLaren&#39;s valuation is said to be £1B+
+  —  Apple has approached McLaren Technology Group, the British supercar engineer and Formula One team owner, about a potential acquisition …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.nytimes.com/2016/09/10/technology/apple-is-said-to-be-rethinking-strategy-on-self-driving-cars.html"
+    target="_blank"
+>
+<span class="cite">
+New York Times / 
+www.nytimes.com
+</span>
+<span class="title">Sources: Apple has shuttered parts of its self-driving car project, laid off dozens of employees as it rethinks its strategy
+  —  SAN FRANCISCO — Apple is rethinking what it plans to do about self-driving cars, just as other big tech companies appear ready to plow ahead with competing efforts.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.bloomberg.com/news/articles/2016-07-28/apple-taps-blackberry-talent-as-car-project-takes-software-turn"
+    target="_blank"
+>
+<span class="cite">
+Bloomberg / 
+www.bloomberg.com
+</span>
+<span class="title">Source: Apple&#39;s car project switches focus to developing an autonomous driving software system, though Apple isn&#39;t ditching efforts to create its own vehicle
+  —  Dan Dodge, former founder, CEO of QNX, joined Apple this year  —  Bob Mansfield took over cars initiative with emphasis on tech</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://techcrunch.com/2017/06/13/tim-cook-says-apples-car-project-is-the-mother-of-all-ai-projects/"
+    target="_blank"
+>
+<span class="cite">
+Romain Dillet / 
+techcrunch.com
+</span>
+<span class="title">In a very brief interview with Bloomberg, Apple CEO Tim Cook confirmed that the company has been working on an Apple car. This isn’t the first time Apple talked about the company’s ongoing work in the car industry.
+Cook described Apple’s car project as the combination of three different factors — self-driving cars, electric vehicles and ride-sharing. Those three… Read More</span>
 </a>
 </div>
 

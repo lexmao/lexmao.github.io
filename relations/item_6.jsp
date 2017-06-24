@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://readai.me/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
+<img src="https://static.leiphone.com/uploads/new/article/pic/201706/593e859c5de42.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-机器之心 / 
-www.jiqizhixin.com:
+李秀琴 / 
+www.leiphone.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.jiqizhixin.com/articles/3b7d8b33-58ad-4bda-adbc-99f201d47afa"
+    href="https://www.leiphone.com/news/201706/yitcT0AuMzm7PLkO.html"
     target="_blank"
 >
-我们和专家聊了聊，梳理了软银收购波士顿动力这件事
+一文看懂考恩2017 AI研究报告：2020年AI市场规模将达4000亿美元
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  日本著名软银集团收购谷歌母公司 Alphabet 旗下机器人公司 Schaft 和波士顿动力。 
+&nbsp; &mdash;&nbsp;  数字营销、CRM和数据分析将成为AI / ML行业投资最成熟的三大领域。 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ www.jiqizhixin.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/28164518"
+    href="https://zhuanlan.zhihu.com/p/23643493"
     target="_blank"
 >
 <span class="cite">
-陈天健 / 
+星橦 / 
 www.zhihu.com
 </span>
-<span class="title">谢谢邀请,我在美国研究双足行走对这个公司也算有一点点了解.boston dynamics的cto上次来我们学校做演讲的时候,我们一门课都不上了,老师把所有学生都动员去听他的演讲.这个公司确实是行走机器人产品的龙头老大,规模其实不算大但是水平非常高,估计最低学历也...</span>
+<span class="title">今年以来,人工智能领域强势崛起,根据艾瑞咨询预计,2020年全球ai市场规模将达到1190亿元,年复合增速约19.7%;同期中国人工智能市场规模将达91亿元,年复合增速超50%.这个巨大的市场,很可能会造就又一个巨头. 眼下,bat在这一领域已深有布局,但是诸如科大讯飞、...</span>
 </a>
 </div>
 
@@ -70,14 +70,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/26559668"
+    href="http://weibo.com/laoyaoba?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-lonelycorn / 
-www.zhihu.com
+集微网官网 / 
+s.weibo.com
 </span>
-<span class="title">以下提供一些个人观点.从系统的角度看, 航空器, 汽车和机器人都可以用下面的方程描述\dot x = f(x, u, t)y=h(x,u,t)其中x是state variable,u是control input,y是系统输出.因此可以将相同的控制方法用在相似的系统上.control law的选择取决于系统的结构,para...</span>
+<span class="title">|IDC：全球... IDC预测，2016年全球认知运算系统与AI市场规模将近80亿美元，未来4年将成长逾5倍，2020年市场规模可望突破470亿美元，年复合增长率高达55.1%。以地区市场来看，北美地区以62亿美元市场规模瓜分全球市场的大半，欧洲中东与非洲区则居次，但亚太区的快速成长，可望在2020年前拿下亚 ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -87,14 +88,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/55390619"
+    href="http://weibo.com/mrjjxw?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-张晓龙 / 
-www.zhihu.com
+每日经济新闻 / 
+s.weibo.com
 </span>
-<span class="title">首先, 波士顿动力和google已经渐行渐远.波士顿动力还是一如既往的释放令人炫目的控制技术,为无&#39;&#39;数高校研究所指明了下一步的研究方向,堪称教学界的明灯.工业圈的兄弟抬起头来看看波士顿动力,只是&#34;哦&#34;一声,表示知道了.之后继续埋头用&#34;落后技术&#34;与客户死磕,解...</span>
+<span class="title">【人工智能市场规模年复合增速近20% 谷歌、微软等巨头加速布局】据艾瑞咨询数据，到2020年全球AI市场规模将达到1190亿元，年复合增速约19.7%。谷歌、微软等互联网巨头争相切入人工智能产业：Google已经成立母公司Alphabet；微软第三代“微软小冰”也已经发布。|人工智能市... ​</span>
 </a>
 </div>
 
@@ -104,14 +105,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/40713069"
+    href="http://www.theverge.com/2017/5/31/15716830/nest-cam-iq-announced-specs-features-release-date-price"
     target="_blank"
 >
 <span class="cite">
-李淼robot / 
-www.zhihu.com
+Vlad Savov / 
+www.theverge.com
 </span>
-<span class="title">谢邀,国产优必选与altas没有可比性,一个是消费级的&#34;娱乐&#34;产品,一个象征着目前地球上最顶尖的机器人(人工智能)技术(也许对日本人不公平,后面会说到这点).也许把优必选和法国的nao机器人来比较会更公平一些.altas原型来自boston dynamics 的petman(the robot ...</span>
+<span class="title">Nest unveils Cam IQ, a smart home camera with a 4K video sensor that uses Google&#39;s AI for facial recognition; preorder now for $299, ships end of June
+  —  The Cam IQ presents an intriguing mix of high-fidelity video and smart motion detection and alerts  —  You&#39;d be forgiven for thinking that Nest …</span>
 </a>
 </div>
 
@@ -121,14 +123,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24210072"
+    href="http://adexchanger.com/online-advertising/demandbase-gets-65-million-series-h-funding-double-ai/"
     target="_blank"
 >
 <span class="cite">
-DeepTech深科技 / 
-www.zhihu.com
+Allison Schiff / 
+www.adexchanger.com
 </span>
-<span class="title">通过一种新的控制算法,美国佛罗里达州人机认知研究所(florida institute for human and machine cognition, ihmc)的机器人实验室实现了拟人的平衡能力.该算法的测试使用了波士顿动力公司(boston dynamics)的atlas机器人,在算法的控制下,atlas现在可以平稳的...</span>
+<span class="title">Demandbase raises $65M Series H to boost AI capabilities of its targeted B2B marketing cloud service
+  —  Businesses spend around $40 billion a year on digital content marketing, and Demandbase, which announced a $65 million financing round on Thursday, is looking to cut itself a slice of the pie.</span>
 </a>
 </div>
 
@@ -138,14 +141,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/40706087"
+    href="http://www.zdnet.com/article/microsoft-launches-ruuh-yet-another-ai-chatbot/"
     target="_blank"
 >
 <span class="cite">
-韩峰涛 / 
-www.zhihu.com
+Mary Jo Foley / 
+www.zdnet.com
 </span>
-<span class="title">谢邀,从各种朋友圈刷屏来看,boston dynamic无疑又一次震惊了机器人界,身边几乎每个人看完视频之后都是一副震惊&amp;膜拜的表情.目前外界能得到的消息还不太多,综合各方面的信息,主要有这么几项提升:1、更小更轻更紧凑 从上一代atlas的1.9m高,156kg重,减小到现在...</span>
+<span class="title">Microsoft is testing Ruuh, an English-speaking AI chatbot aimed at the Indian market
+  —  Microsoft is testing Ruuh, another new AI chatbot, which is aimed specifically at the Indian market.  —  First there was Tay.  Then there was Zo.  Now there&#39;s Ruuh — Microsoft&#39;s latest AI chatbot.</span>
 </a>
 </div>
 
@@ -155,14 +159,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/40742335"
+    href="http://www.geekwire.com/2017/amazon-web-services-jumps-call-center-market-new-amazon-connect-service/"
     target="_blank"
 >
 <span class="cite">
-机器人孔博士 / 
-www.zhihu.com
+Todd Bishop / 
+www.geekwire.com
 </span>
-<span class="title">波士顿动力虽然是个公司,但是更像一个研究机构.它主要的经费来源是美国的一些科研基金的资助,比如darpa等.波士顿动力在足式机器人研究方面,可以算世界第一,也正是技术太前沿,无法落地,谷歌收购了它以后,又把它卖了.</span>
+<span class="title">AWS launches Amazon Connect, a tool for call centers that uses its Lex speech recognition and AI; Salesforce says it&#39;s integrating Einstein service with Connect
+  —  Amazon Web Services just unveiled a new service for running call centers, dubbed Amazon Connect, leveraging the same technology used …</span>
 </a>
 </div>
 
@@ -172,14 +177,105 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25477441"
+    href="http://venturebeat.com/2017/03/20/arm-unveils-dynamiq-multicore-chip-designs-for-faster-ai-and-cloud-computing/"
     target="_blank"
 >
 <span class="cite">
-机器之心 / 
-www.zhihu.com
+Dean Takahashi / 
+venturebeat.com
 </span>
-<span class="title">昨天,波士顿动力官方发布了用于研究的机器人 handle,它结合了轮子的高效与腿部的灵活.在上个月,曾有一个泄露出来的 handle 机器人测试片段在网上传播,不过,这一次波士顿动力公布了这款机器人的新细节,还有才艺表演视频. 波士顿动力机器人 - 腾讯视频 ...</span>
+<span class="title">ARM unveils Dynamiq multicore chip designs for faster AI and cloud computing, enabling flexible multicore processing
+  —  Chip design firm ARM has unveiled its Dynamiq technology to make better multicore processors that can handle artificial intelligence, cloud computing, and new kinds of devices.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.theverge.com/2017/3/15/14934934/bosch-nvidia-self-driving-ai-autonomous-car-supplier"
+    target="_blank"
+>
+<span class="cite">
+Jordan Golson / 
+www.theverge.com
+</span>
+<span class="title">Nvidia partners with Bosch to sell its AI-powered driver-assistant platform to automakers
+  —  Nvidia has announced a new partnership with Bosch to sell its Drive PX 2 driver-assist platform to automakers.  In effect, the deal gives Nvidia a go-to-market strategy for its self-driving hardware and software platform.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.bloomberg.com/news/articles/2017-03-08/google-adds-more-cloud-customers-nabbing-verizon-from-microsoft"
+    target="_blank"
+>
+<span class="cite">
+Mark Bergen / 
+www.bloomberg.com
+</span>
+<span class="title">Google announces several new high-profile Google cloud clients, including eBay, HSBC, Colgate-Palmolive, and Verizon, which a source says moved from Microsoft
+  —  Search giant announces new clients, partners at cloud event  —  Google touts security, AI as it chases market-leader Amazon</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://siliconangle.com/blog/2017/03/02/ozlo-finally-reveals-business-model-ai-training-app/"
+    target="_blank"
+>
+<span class="cite">
+Kristen Nicole / 
+siliconangle.com
+</span>
+<span class="title">AI firm Ozlo debuts knowledge base that contains over 2B data points on a wide variety of topics, available via three APIs that are priced by volume
+  —  Blame it on Iron Man, that genius, billionaire superhero with a most effective (and virtual) sidekick, Jarvis.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://venturebeat.com/2017/01/12/kasisto-raises-9-2-million-to-go-beyond-personal-finance-bots/"
+    target="_blank"
+>
+<span class="cite">
+Khari Johnson / 
+venturebeat.com
+</span>
+<span class="title">Kasisto raises $9.2M from Propel Venture Partners, MasterCard, DBS Bank, and more to improve personal finance bot KAI and expand AI virtual assistant offerings
+  —  Bots and artificial intelligence company Kasisto today announced that it has raised $9.2 million.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://techcrunch.com/2017/01/06/nvidia-and-mercedes-benz-to-bring-an-ai-car-to-market-within-a-year/"
+    target="_blank"
+>
+<span class="cite">
+Darrell Etherington / 
+techcrunch.com
+</span>
+<span class="title">Nvidia and Mercedes-Benz announce partnership for AI car technology, with first product expected to roll out within 12 months
+  —  Nvidia already announced a partnership at CES to bring a AI self-driving car to production, and now Mercedes-Benz is also teaming up with the GPU-maker on a vehicle with AI on board.</span>
 </a>
 </div>
 

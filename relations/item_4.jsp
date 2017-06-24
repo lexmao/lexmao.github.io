@@ -16,24 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://www.techmeme.com/170613/i4.jpg" style="border-style:none;" heigh="83" width="124" >
+<img src="/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-Bloomberg / 
-www.bloomberg.com:
+田渊栋 / 
+www.zhihu.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.bloomberg.com/news/articles/2017-06-13/cook-says-apple-is-focusing-on-making-an-autonomous-car-system"
+    href="https://www.zhihu.com/question/60784169/answer/181673060"
     target="_blank"
 >
-Tim Cook says Apple is focusing on autonomous systems, which he sees as “the mother of all AI projects” and can be used for developing self-driving cars
+如何评价 DeepMind 新提出的关系网络（Relation Network）？
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  Tim Cook says Apple is focusing on autonomous systems, which he sees as “the mother of all AI projects” and can be used for developing self-driving cars
-  —  For the first time, CEO elaborates on Apple&#39;s car plans  —  The company&#39;s automotive program has experienced turmoil 
+&nbsp; &mdash;&nbsp;  谢邀。最近实在太忙，今天抽空看了一下。VQA这个方向一直以来都有惊喜，一开始大家想要模拟人脑分析问题的方式，加多阶段处理，加注意力机制，折腾拼凑出各种复杂模型；然后发现一个简单模型效果惊人的好，然后大家在这基础上再折腾复杂模型，又发现一个简… 
 </span>
 
 </div>
@@ -54,14 +53,14 @@ Tim Cook says Apple is focusing on autonomous systems, which he sees as “the m
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/27082155"
+    href="https://www.zhihu.com/question/60784169"
     target="_blank"
 >
 <span class="cite">
-园长 / 
+周博磊 / 
 www.zhihu.com
 </span>
-<span class="title">ar、电视内容订阅、自动驾驶、和语音助手.可能很多人都表示不屑,也有很多文章和观点,谈到苹果创新意识的消失.但这里有一个明确的客观事实:苹果就像猫一样紧盯着目标,看看 iphone、ipad、apple watch、airpods,这些都是他的战利品.通过十数年的证据表明,对于...</span>
+<span class="title">vqa还是被当成个分类问题,离真正人类级别的reasoning还很远.这里大家逐渐意识到了两个问题,第一个是网络本身的问题,即现有的卷积网络并不能很好的表达因果推断;第二个问题是,直接在自然图片上进行问答系统的研究太难了,很难debug整个系统,于是有了下面两个...</span>
 </a>
 </div>
 
@@ -71,15 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.bloomberg.com/news/articles/2017-06-13/cook-says-apple-is-focusing-on-making-an-autonomous-car-system"
+    href="https://zhuanlan.zhihu.com/p/27285612"
     target="_blank"
 >
 <span class="cite">
-Bloomberg / 
-www.bloomberg.com
+机器之心 / 
+www.zhihu.com
 </span>
-<span class="title">Tim Cook says Apple is focusing on autonomous systems, which he sees as “the mother of all AI projects” and can be used for developing self-driving cars
-  —  For the first time, CEO elaborates on Apple&#39;s car plans  —  The company&#39;s automotive program has experienced turmoil</span>
+<span class="title">在 deepmind 最近发表的两篇论文中,研究人员探索了深度神经网络对非结构化数据执行复杂关系推理的能力.第一篇论文《a simple neural network module for relational reasoning》中,deepmind 描述了 relation network(rn),并表明它在一种高难度任务中具有超...</span>
 </a>
 </div>
 
@@ -89,15 +87,15 @@ www.bloomberg.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.bloomberg.com/news/articles/2017-04-27/check-out-the-lexus-that-apple-s-using-to-test-self-driving-car-technology"
+    href="http://marketingland.com/facebook-slots-ads-instant-articles-related-articles-sections-217098"
     target="_blank"
 >
 <span class="cite">
-Bloomberg / 
-www.bloomberg.com
+Tim Peterson / 
+marketingland.com
 </span>
-<span class="title">Apple&#39;s self-driving Lexus seen in Silicon Valley with 64-channel lidar, at least two radars and a series of cameras
-  —  Almost two weeks after Apple Inc. secured permission to test its autonomous-car technology in California, the first images of the vehicle have emerged from Silicon Valley roads.</span>
+<span class="title">Facebook now lets all Audience Network publishers insert ads within the “Related Articles” section at the bottom of their Instant Articles
+  —  All publishers in Facebook&#39;s ad network can now feature ads within “Related Articles” sections at the bottom of their Instant Articles.</span>
 </a>
 </div>
 
@@ -107,15 +105,69 @@ www.bloomberg.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.businessinsider.com/apple-officially-testing-self-driving-cars-california-dmv-confirms-2017-4?op=1"
+    href="http://techcrunch.com/2017/06/07/facebook-inserts-itself-into-politics-with-new-tools-that-help-elected-officials-reach-constituents/"
+    target="_blank"
+>
+<span class="cite">
+Sarah Perez / 
+techcrunch.com
+</span>
+<span class="title">Facebook debuts three tools to help elected officials reach and better understand voters: constituent badges, constituent insights, and district targeting
+  —  Facebook this year has launched a number of features that make it easier for people to reach their government representatives on its social network …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.macrumors.com/2017/05/23/apple-nokia-settle-legal-dispute-patent-agreement/"
+    target="_blank"
+>
+<span class="cite">
+Tim Hardwick / 
+www.macrumors.com
+</span>
+<span class="title">Apple and Nokia settle patent dispute with Nokia receiving patent royalties from Apple; Apple will resume selling Nokia health products
+  —  Nokia and Apple announced today that they have settled all litigation related to their intellectual property dispute and agreed a multi-year patent license.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://threatpost.com/facebook-debuts-open-source-detection-tool-for-windows/120897/"
+    target="_blank"
+>
+<span class="cite">
+Chris Brook / 
+threatpost.com
+</span>
+<span class="title">Facebook brings osquery, its open source SQL-powered detection tool for monitoring OS processes and networks, to Windows
+  —  Facebook successfully ported its SQL-powered detection tool, osquery, to Windows this week, giving users a free and open source method to monitor networks and diagnose problems.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.businessinsider.com/yahoo-hack-by-state-sponsored-actor-biggest-of-all-time-2016-9?op=1"
     target="_blank"
 >
 <span class="cite">
 Kif Leswing / 
 www.businessinsider.com
 </span>
-<span class="title">Apple received permit to test autonomous vehicles in California; DMV spokesman says Apple applied to test three 2015 Lexus RX450h vehicles
-  —  Apple has received a permit to test autonomous cars in California, the first official confirmation that the maker of the iPhone sees the century-old automobile …</span>
+<span class="title">Yahoo confirms data from 500M+ accounts was stolen in 2014 by “state-sponsored actor”; info includes email addresses, hashed passwords, security questions, more
+  —  Yahoo on Thursday revealed a massive data breach of its services.  —  Yahoo “has confirmed that a copy …</span>
 </a>
 </div>
 
@@ -125,15 +177,15 @@ www.businessinsider.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://techcrunch.com/2017/01/18/tomtom-acquires-autonomos-to-beef-up-in-self-driving-technology/"
+    href="http://www.reuters.com/article/us-hpe-software-thomabravo-idUSKCN1175RV"
     target="_blank"
 >
 <span class="cite">
-Ingrid Lunden / 
-techcrunch.com
+Reuters / 
+www.reuters.com
 </span>
-<span class="title">TomTom acquires Berlin-based startup Autonomos to bolster its self-driving technology
-  —  Navigation and mapping company TomTom — which provides data to companies like Uber and Apple as well as for its own GPS systems — has made an acquisition to add more autonomous driving technology to its platform.</span>
+<span class="title">Sources: Hewlett Packard Enterprise in talks to sell its software division to Thoma Bravo, hopes it can fetch $8B-10B
+  —  Hewlett Packard Enterprise Co (HPE) is in talks with buyout firm Thoma Bravo LLC to sell its software division, hoping it can fetch between $8 billion and $10 billion, according to people familiar with the matter.</span>
 </a>
 </div>
 
@@ -143,33 +195,15 @@ techcrunch.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://venturebeat.com/2016/12/02/apple-tells-feds-new-entrants-to-auto-industry-should-get-same-testing-rights-as-incumbents/"
-    target="_blank"
->
-<span class="cite">
-Jordan Novet / 
-venturebeat.com
-</span>
-<span class="title">Apple hints at autonomous vehicle ambitions in letter advising NHTSA that new auto industry entrants should get the same testing rights as incumbents
-  —  Apple last week submitted a letter to the U.S. National Highway Traffic Safety Administration (NHTSA) that suggests it&#39;s interested in testing self-driving cars.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.bloomberg.com/news/articles/2016-10-25/apple-develops-car-operating-system-in-blackberry-country"
+    href="http://www.bloomberg.com/news/articles/2016-08-25/apple-weighs-iphone-video-editing-app-in-renewed-push-on-social-isa5rhlu"
     target="_blank"
 >
 <span class="cite">
 Bloomberg / 
 www.bloomberg.com
 </span>
-<span class="title">Sources: Apple has several engineers in Canada building a car OS, of which about two dozen came from Blackberry&#39;s QNX, is testing self-driving software with VR
-  —  Canada office hires engineers from BlackBerry&#39;s QNX unit  —  Apple said to test self-driving software with virtual reality</span>
+<span class="title">Sources: Apple developing a Snapchat-like video sharing and editing app and multiple social features for iOS
+  —  Company looks to catch up as video sharing gains popularity  —  Engineers test deeper social ties across iPhone, iPad software  —  Apple Inc., seeking to capitalize on the popularity …</span>
 </a>
 </div>
 
@@ -179,15 +213,15 @@ www.bloomberg.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.bloomberg.com/news/articles/2016-10-17/how-apple-scaled-back-its-titanic-plan-to-take-on-detroit"
+    href="http://www.recode.net/2016/7/8/12125418/twitter-streaming-deals-nba-mls-turner"
     target="_blank"
 >
 <span class="cite">
-Bloomberg / 
-www.bloomberg.com
+Kurt Wagner / 
+recode.net
 </span>
-<span class="title">Sources: Apple&#39;s car team gets late 2017 deadline to prove feasibility of the self-driving system, amid hundreds of job cuts and strategy disagreements
-  —  Company to decide fate of self-driving platform by late 2017  —  Hundreds of software, hardware engineers leave amid struggles</span>
+<span class="title">Twitter is talking to the NBA, MLS and Turner to buy rights to more sports streams
+  —  Twitter is looking to ink more NFL-style streaming deals.  —  Twitter wants to stream more TV-like live video around major sporting events, so it&#39;s approaching the folks who control those rights to cut a deal.</span>
 </a>
 </div>
 
@@ -197,15 +231,15 @@ www.bloomberg.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.ft.com/cms/s/0%2F523422ba-7ffd-11e6-8e50-8ec15fb462f4.html"
+    href="http://www.wsj.com/article_email/nokia-falls-to-surprise-loss-1462859081-lMyQjAxMTI2MzE2MDMxOTA1Wj"
     target="_blank"
 >
 <span class="cite">
-Financial Times / 
-www.ft.com
+Matthias Verbergt / 
+www.wsj.com
 </span>
-<span class="title">Sources: Apple in talks with UK luxury carmaker and F1 team owner McLaren for a full takeover or strategic investment; McLaren&#39;s valuation is said to be £1B+
-  —  Apple has approached McLaren Technology Group, the British supercar engineer and Formula One team owner, about a potential acquisition …</span>
+<span class="title">Nokia reports Q1 net loss of $583M, well below expectations, cites sluggish mobile-network sales, charges related to Alcatel-Lucent acquisition; stock down 6%+
+  —  Sluggish mobile-network sales and charges related to acquisition of Alcatel-Lucent hit Finnish firm</span>
 </a>
 </div>
 
@@ -215,51 +249,15 @@ www.ft.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.nytimes.com/2016/09/10/technology/apple-is-said-to-be-rethinking-strategy-on-self-driving-cars.html"
+    href="http://www.ibtimes.com/facebook-launches-discover-groups-help-you-find-more-relevant-connections-2365275"
     target="_blank"
 >
 <span class="cite">
-New York Times / 
-www.nytimes.com
+Kerry Flynn / 
+www.ibtimes.com
 </span>
-<span class="title">Sources: Apple has shuttered parts of its self-driving car project, laid off dozens of employees as it rethinks its strategy
-  —  SAN FRANCISCO — Apple is rethinking what it plans to do about self-driving cars, just as other big tech companies appear ready to plow ahead with competing efforts.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.bloomberg.com/news/articles/2016-07-28/apple-taps-blackberry-talent-as-car-project-takes-software-turn"
-    target="_blank"
->
-<span class="cite">
-Bloomberg / 
-www.bloomberg.com
-</span>
-<span class="title">Source: Apple&#39;s car project switches focus to developing an autonomous driving software system, though Apple isn&#39;t ditching efforts to create its own vehicle
-  —  Dan Dodge, former founder, CEO of QNX, joined Apple this year  —  Bob Mansfield took over cars initiative with emphasis on tech</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://techcrunch.com/2017/06/13/tim-cook-says-apples-car-project-is-the-mother-of-all-ai-projects/"
-    target="_blank"
->
-<span class="cite">
-Romain Dillet / 
-techcrunch.com
-</span>
-<span class="title">In a very brief interview with Bloomberg, Apple CEO Tim Cook confirmed that the company has been working on an Apple car. This isn’t the first time Apple talked about the company’s ongoing work in the car industry.
-Cook described Apple’s car project as the combination of three different factors — self-driving cars, electric vehicles and ride-sharing. Those three… Read More</span>
+<span class="title">Facebook testing “Discover” feature for Groups on iOS and Android to simplify finding Groups by category
+  —  Facebook Launches ‘Discover’ For Groups To Help You Find More Relevant Connections  —  More than 1 billion people use Facebook Groups every month.</span>
 </a>
 </div>
 
