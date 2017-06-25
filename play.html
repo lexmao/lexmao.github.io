@@ -19,6 +19,7 @@ var _hmt = _hmt || [];
 </script>
 
 
+
 <style>
 body {
   font-family: Helvetica, arial, sans-serif;
@@ -318,18 +319,16 @@ sup {
 	}
 }
 </style>
-<title><meta charset="utf-8">
-<meta name="HandheldFriendly" content="True">
-<meta name="viewport" content="width=device</title>
+<title>
+[![readai](http://readai.me/images/logo.png)](http://readai.me)
+
+
+===
+
+*  ### 看AI怎么创作动漫</title>
 
 </head>
 <body>
-<p><meta charset="utf-8">
-<meta name="HandheldFriendly" content="True">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, height=device-height"/>
-<link rel="apple-touch-icon" href="config/tech/iicon.png"/>
-<title>ReadAI</title></p>
-
 <p><a href="http://readai.me"><img src="http://readai.me/images/logo.png" alt="readai" /></a></p>
 
 <hr />
@@ -337,7 +336,7 @@ sup {
 <ul>
 <li><h3>看AI怎么创作动漫美少女</h3>
 
-<p>Posted June 23, 2017 by ReadAI</p>
+<p>Posted June 25, 2017 by ReadAI</p>
 
 <ul>
 <li><h5>项目介绍</h5>
@@ -354,9 +353,11 @@ sup {
 <p><strong>本项目用来生成动漫美女图片</strong>。</p></li>
 <li><h5>实验结果</h5>
 
-<p> 生成过程中产生的结果如下：</p>
+<p> 生成过程中产生的中间产物如下：</p>
 
 <p> <img src="http://readai.me/ai_projects/test12.jpg" width="320" alt="" /></p>
+
+<p> <img src="http://readai.me/ai_projects/train_10_0098.jpg" width="320" alt="" /></p>
 
 <p> 最终结果如下：</p>
 
@@ -366,6 +367,55 @@ sup {
 <li><h5>项目代码</h5>
 
 <p>Github Repo <a href="https://github.com/carpedm20/DCGAN-tensorflow">carpedm20/DCGAN-tensorflow</a></p></li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+<ul>
+<li><h3>树莓派制作的自动驾驶小车</h3>
+
+<p>Posted June 24, 2017 by ReadAI</p>
+
+<ul>
+<li><h5>项目介绍</h5>
+
+<p>在NG的机器学习课程中，有一段是介绍一辆自动驾驶的汽车在马路上行驶的视频。  <br/>
+这辆汽车根据前期学习人的驾驶行为和环境，然后就能够自己行驶在路上了。</p>
+
+<p>本项目就是利用Raspberry Pi + TensorFlow 的组合来模拟上面这一过程。</p>
+
+<ol>
+<li><p>训练数据采集</p>
+
+<p> 在Pi的小车上安装好moto、摄像头，并能远程进行操作(前进、左右)。   <br/>
+ 然后人工操作小车，把时间序列的数据流（行驶的时候的视频数据及对应的操作指令）作为训练数据进行收集。</p></li>
+<li><p>模型训练</p>
+
+<p>  有了上面收集到的大量的训练数据后，开始进行tensorflow环境下进行模型训练。   <br/>
+   tensorflow训练环境可以部署到你合适的服务器上进行。</p></li>
+<li><p>实现自动驾驶</p>
+
+<p> 把训练好的模型部署到Pi上，小车就能够实时根据摄像头反馈回来的数据进行自动控制移动指令(向前、左和右)。               <br/>
+ 这就实现了简单的自动驾驶。</p></li>
+</ol>
+</li>
+<li><h5>实验结果</h5>
+
+<p> 生成过程中产生的结果如下：</p>
+
+<p> <img src="http://readai.me/ai_projects/car-01.JPG" width="480" alt="" /></p>
+
+<p> 对小车进行训练：</p>
+
+<p>  <img src="http://readai.me/ai_projects/car-02.jpg" width="320" alt="" /></p>
+
+<p> 如果你感觉上面图片太小，不清楚，可以试试放大我的老婆2倍  waifu2x...</p></li>
+<li><h5>项目代码</h5>
+
+<p>Github Repo <a href="https://github.com/RyanZotti/Self-Driving-Car">RyanZotti/Self-Driving-Car</a></p></li>
 </ul>
 </li>
 </ul>
@@ -390,7 +440,7 @@ sup {
 
 <p><a href="http://waifu2x.udp.jp/index.zh-CN.html">在线试用</a></p>
 
-<p><img src="http://readai.me/ai_projects/slide.jpg" width="640" alt="" /></p></li>
+<p><img src="https://raw.githubusercontent.com/nagadomi/waifu2x/master/images/slide.png" width="640" alt="" /></p></li>
 <li><h5>项目代码</h5>
 
 <p>Github Repo <a href="https://github.com/nagadomi/waifu2x">nagadomi/waifu2x</a></p></li>
