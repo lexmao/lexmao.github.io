@@ -7,6 +7,17 @@
 <link rel="apple-touch-icon" href="config/tech/iicon.png"/>
 <title>ReadAI</title>
 
+<!--baidu 统计-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3e39255a61c4006c57e22fe2a562f5d0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 
 <style>
 body {
@@ -307,21 +318,17 @@ sup {
 	}
 }
 </style>
-<title><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-<TITLE>ReadAI</TITLE>
-<META</title>
+<title><meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device</title>
 
 </head>
 <body>
-<p><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></p>
-
-<p><TITLE>ReadAI</TITLE>
-<META NAME="description" CONTENT="人工智能新闻，人工智能资讯，人工智能动态，人工智能趋势,AI, ReadAI,readai.me,RatioClub,StoneLi" />
-<META NAME="application-name" content="ReadAI" />
-<LINK REL="SHORTCUT ICON" HREF="/img/favicon.ico" />
-<link rel="image_src" href="/images/iicon.gif" />
-<link rel="apple-touch-icon" href="/images/iicon.gif" /></p>
+<p><meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, height=device-height"/>
+<link rel="apple-touch-icon" href="config/tech/iicon.png"/>
+<title>ReadAI</title></p>
 
 <p><a href="http://readai.me"><img src="http://readai.me/images/logo.png" alt="readai" /></a></p>
 
@@ -335,20 +342,12 @@ sup {
 <ul>
 <li><h5>项目介绍</h5>
 
-<p>作为一个二次元玩家，有时候有种冲动，想自己尝试创作一幅动漫美少女作品。</p>
+<p>想让AI创作动漫美少女?</p>
 
-<p>现在，AI让这个梦想可能成真，你不需要是一个画师，你只要把你喜欢的动漫图片喂给AI进行学习训练，它就可能给你   <br/>
-创作出你期望的作品。这个技术是目前在深度学习领域比较热的主题：生成式对抗网络（GAN）。</p>
+<p>现在，GAN让这个梦想成真，只要把你喜欢的动漫图喂给AI进行学习，它就可能给你创作出你期望的作品。  <br/>
+这个技术是目前在深度学习领域比较热的主题：生成式对抗网络（GAN）。</p>
 
 <p>关于GAN的paper 请参看Ian Goodfellow 的Generative Adversarial Networks（arxiv：https://arxiv.org/abs/1406.2661）</p>
-
-<p>简单地描述原理： 在GAN体系中存在2个网络，一个是生成网络（Generator），一个是判别网络（Discriminator），它们    <br/>
-就像一组矛和盾。用生成图片来说明它们的运作过程：生成网络(Generator)通过一些真实的图片数据集进行训练，然后开    <br/>
-始创作一些根本不存在的图片，目标是尽量模仿真实存在的图片，然后提交给判别网络（Discriminator）进行判别。</p>
-
-<p>判别网络（Discriminator)的目标就是根据先前从真实图片集中学习到的能力来识别出生成网络（Generator)提交的图片的 <br/>
-真假。在形成的这个博弈的过程中，生成网络模拟生成的图片越来越逼真，判别网络识别能力越来越强。最后，两者到达    <br/>
-一种平衡，这个时候也是就获得了一个比较优秀的生成网络模型。 利用这个模型就能够开始生成图片。</p>
 
 <p>作为一个生成模型，GAN最直接的应用，就是用于真实数据分布的建模和生成，比如生成一些图片、视频、音乐等。</p>
 
@@ -363,7 +362,7 @@ sup {
 
 <p>  <img src="http://readai.me/ai_projects/test12.jpg" width="320" alt="" /></p>
 
-<p> 如果你感觉下面图片太小，不清楚，可以试试放大我的老婆2倍  waifu2x...</p></li>
+<p> 如果你感觉上面图片太小，不清楚，可以试试放大我的老婆2倍  waifu2x...</p></li>
 <li><h5>项目代码</h5>
 
 <p>Github Repo <a href="https://github.com/carpedm20/DCGAN-tensorflow">carpedm20/DCGAN-tensorflow</a></p></li>
@@ -391,7 +390,7 @@ sup {
 
 <p><a href="http://waifu2x.udp.jp/index.zh-CN.html">在线试用</a></p>
 
-<p><img src="https://raw.githubusercontent.com/nagadomi/waifu2x/master/images/slide.png" width="640" alt="" /></p></li>
+<p><img src="http://readai.me/ai_projects/slide.jpg" width="640" alt="" /></p></li>
 <li><h5>项目代码</h5>
 
 <p>Github Repo <a href="https://github.com/nagadomi/waifu2x">nagadomi/waifu2x</a></p></li>
@@ -412,13 +411,9 @@ sup {
 
 <p>我们的目标是利用机器学习技术来实时统计视频中每个画面上目标物体的数量，比如当前画面中有多少个人，多少辆车、   <br/>
 多少条 小狗等。这过程中，通常采用把视频分解成多个图片，然后针对每张图片来处理上面的问题，所以，我们简化问  <br/>
-题为：      <em>利用什么样的技术，能够尽量精准地统计出下面这张图片上有多少条狗？</em></p></li>
-</ul>
+题为：      <em>利用什么样的技术，能够尽量精准地统计出下面这张图片上有多少条狗？</em></p>
 
-
-<p> <img src="http://readai.me/ai_projects/smail-dog.jpg" width="480" alt="" /></p>
-
-<ul>
+<p>  <img src="http://readai.me/ai_projects/smail-dog.jpg" width="480" alt="" /></p></li>
 <li><h5>实验结果</h5>
 
 <p>在深度学习领域，有一个非常有意思的模型R-CNN(Region based Convolutional Neural Network)，可以用来识别      <br/>
