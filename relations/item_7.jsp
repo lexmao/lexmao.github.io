@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="https://venturebeat.com/wp-content/uploads/2017/06/shutterstock_664063189.jpg?resize=350%2C175&amp;strip=all" style="border-style:none;" heigh="83" width="124" >
+<img src="https://static.leiphone.com/uploads/new/article/pic/201706/5952360183cc3.jpg?imageMogr2/thumbnail/!480x290r/gravity/Center/crop/480x290/quality/90" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-Ramzi Rizk, EyeEm / 
-venturebeat.com:
+杨晓凡 / 
+www.leiphone.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="https://venturebeat.com/2017/06/26/are-you-really-an-ai-startup/"
+    href="https://www.leiphone.com/news/201706/ZVPLKrdmImtTc6wz.html"
     target="_blank"
 >
-Are you really
+解读Facebook CAN：如何给人工智能赋予艺术创作的力量
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  Are you really an AI startup? 
+&nbsp; &mdash;&nbsp;  以往我们总说人工智能善于模式识别但不善于创新，现在有创新能力的AI也来了 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ Are you really
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/30156262"
+    href="https://zhuanlan.zhihu.com/p/25084737"
     target="_blank"
 >
 <span class="cite">
-迪迦奥特曼 / 
+萧瑟 / 
 www.zhihu.com
 </span>
-<span class="title">2016年他们决定出来创办公司,把自己的学术成果直接拿到市场上来检验,于是创办了寒武纪公司,寒武纪创业后在市场上的崛起速度和diannao系列在学术圈内一样,属于直上云霄的那种.很多人工智能创业公司聚焦于算法应用层面,比如这个回答下面、还有图总的文章里提...</span>
+<span class="title">引言什么是艺术?机器的作品能否叫艺术?机器能否取代艺术家?这些问题,相信不同的人,会有不同的答案.很多人认为机器生成的作品只是简单的模仿人类,没有创造性可言,但是人类艺术家,不也是从模仿和学习开始的吗?本文是为paperweekly写的一篇机器诗歌生成的综述...</span>
 </a>
 </div>
 
@@ -70,14 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/52677139"
+    href="https://www.zhihu.com/question/54648443"
     target="_blank"
 >
 <span class="cite">
-严肃 / 
+Evan / 
 www.zhihu.com
 </span>
-<span class="title">在过去的几年,英国的确诞生了大量的人工智能初创企业.2011年,惠普宣布完成了104亿美元收购擅长语义处理的英国人工智能软件公司autonomy.2013年,亚马逊用2600万美元收购英国创业公司true knowledge(类siri的产品);2014年,deepmind又被谷歌以约4亿英镑的价格...</span>
+<span class="title">类似效果比较常用的是这个工具可以从一个形状过渡到另一个形状.举个例子</span>
 </a>
 </div>
 
@@ -87,14 +87,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/30744007"
+    href="https://zhuanlan.zhihu.com/p/27512619"
     target="_blank"
 >
 <span class="cite">
-覃超 / 
+微软亚洲研究院 / 
 www.zhihu.com
 </span>
-<span class="title">先直接回答题主的问题.国内这块其实好的创业公司不多,很容易踩到坑.我和一些创业外加投资的朋友之前讨论后筛选出来一些还不错的:0. 我的公司和团队: frees 我们就在找人工智能和数据分析好的.基金待遇很好,马上有impact.当然还有个好处能和我一起工作,我能...</span>
+<span class="title">如今,风格迁移(style transfer)迅速成为人工智能(ai)研究领域的热门话题之一.一些艺术画风格的图片处理工具,如:prisma、icon8、deepart、ostagram等风靡全球,它们使用人工智能算法将普通的生活照片变身为大师级艺术风格照.实际上,风格迁移是一种对图片风格...</span>
 </a>
 </div>
 
@@ -104,14 +104,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24743597"
+    href="https://zhuanlan.zhihu.com/p/26152792"
     target="_blank"
 >
 <span class="cite">
-图灵Don / 
+活鱼眼 / 
 www.zhihu.com
 </span>
-<span class="title">最近亿欧发布《2016中国人工智能创业公司top50》榜单,前50名如下:联系这两天阿尔法狗打遍天下无敌手,人工智能10多个领域,某些可能真的到了爆发临界点.从榜单中透露的信息来看:① 成立时间普遍不久,大多在近两三年.如果这是继2000年左右pc互联网趋势(造就腾...</span>
+<span class="title">这篇文章主要讨论一下机器学习怎么被用来阐述和生成多种多样的艺术.前面两节会先给读者们解释一下机器学习和神经网络.后面几节会讨论在艺术领域机器学习的一些具体应用:deepdream,风格迁移和deepjazz(创作音乐).机器学习是什么?&#34;...很火的新事物&#34;(john henn...</span>
 </a>
 </div>
 
@@ -121,14 +121,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/52748698"
+    href="https://www.zhihu.com/question/60430484"
     target="_blank"
 >
 <span class="cite">
-硅谷密探 / 
+鸟川芥 / 
 www.zhihu.com
 </span>
-<span class="title">成功的机器学习创业公司应成为有针对垂直应用的、有明确需求的技术.消费者包装产业就是个很好的例子,机器学习可以更准确地预测库存水平,以更好地管理供应链,... erinshipley和txzhou在科技媒体techcrunch上写过一篇关于人工智能对财务影响的文章,包括通过基...</span>
+<span class="title">谢谢邀请我是画画的,因为喜欢科幻,所以对科技,人工智能近几年比较热的概念比较关注.就画画的领域来说,不说艺术,就绘画技术上,目前的人工智能已经可以做出一些&#34;创作&#34;了.比如程序辅助作画的领域里paintschainer可以自动完成线稿上色.一些机器视觉可以通过大量...</span>
 </a>
 </div>
 
@@ -138,82 +138,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/60493205"
+    href="http://weibo.com/uisheji?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-甄景贤 / 
-www.zhihu.com
-</span>
-<span class="title">似乎他们就想试试创业,然后「过把瘾就死」.看到这种现象我总是很气愤,想一拳揍过去但法律上我又不可以伤人.我觉得他们出卖了中国人,他们为了自己能做... ai的目的是答问题(q&amp;a),它需要人类的常识(commonsense),这是人工智能中尚未解决的问题,很可能是最后的...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24456013"
-    target="_blank"
->
-<span class="cite">
-王咏刚 / 
-www.zhihu.com
-</span>
-<span class="title">这样,就能既做了脸部美容,又因人而异,保持每个人的皮肤和脸型特点.美图有世界上最大的人脸数据库,也许其中女性脸部居多,但也因此有非常广泛的人工智能应用场景.在这样的创业公司里面,人工智能变成了公司的内在驱动力.而美图本身就是一个非常技术化的公司,美...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/27476497"
-    target="_blank"
->
-<span class="cite">
-量子位 / 
-www.zhihu.com
-</span>
-<span class="title">算得上百里挑一了.在ai潮水全面汹涌进击的当前,腾讯ai加速器的最终项目选拔,只是2016年以来狂飙突进的ai创业创新的一个缩影.在某种程度上,这也是中国人工智能创业当下的&#34;现状&#34;.现状一:企业服务行业占比最高在量子位全天候的观察采访中,前来复试的42个项目涵...</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="https://www.zhihu.com/question/60277104"
-    target="_blank"
->
-<span class="cite">
-张馨宇 / 
-www.zhihu.com
-</span>
-<span class="title">开个咖啡馆就叫孵化器了?</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/bensonqian?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-钱皓-互联网分析师 / 
+UI设计 / 
 s.weibo.com
 </span>
-<span class="title">【创新工场王咏刚：人工智能创业和投资中的挑战】1）人工智能领域太多的创业者都是科学家，离真正行业应用还很远；2）人工智能的人才缺口巨大，人才结构失衡；3）数据孤岛化和碎片化现象非常明显，数据几乎成了某些公司的核武器，初创团队很难收集到完整集成的数据 ​</span>
+<span class="title">AI混合艺术教程。今天给小伙伴们写了一个AI混合艺术教程，第一次写希望不要被打死，大家多多指导，设计在于分享，喜欢的就打开AI开始撸吧，此教程来源于AI CS6，当然你也可以用别的版本。废话不多说，喜欢就往下拉... ...作者鸟妹 网页链接 ​</span>
 </a>
 </div>
 
@@ -223,116 +155,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/1377049875?refer_flag=1001030103_"
+    href="http://weibo.com/u/5884508227?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-人工智能与大数据 / 
+她说 / 
 s.weibo.com
 </span>
-<span class="title">比尔盖茨给年轻人推荐的三大创业领域：人工智能，能源，生物科学！人生只有一个过去，一个现在，却有无限的未来！#比尔·盖茨##哈佛大学##人工智能##生物科学##全球能源互联网专题# ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/technode?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-动点科技 / 
-s.weibo.com
-</span>
-<span class="title">【自动驾驶技术创业公司 Drive.ai 获 5000 万美元 B 轮融资】由前斯坦福人工智能研究人员创办的自动驾驶技术创业公司 Drive.ai，日前获得了 5000 万美元 B 轮融资，投资方包括 NEA（New Ente…网页链接 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/synced?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-机器之心Synced / 
-s.weibo.com
-</span>
-<span class="title">用 AI 撬动巴克莱、埃森哲、英特尔、劳斯莱斯，这位 26 岁的连续创业者如何做到的？ 「我们想为这个世界打造即插即用的人工智能引擎」|用 AI 撬动... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/yanpenggxfc?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-YearsPassed / 
-s.weibo.com
-</span>
-<span class="title">来听“AI+唤醒未来”的讲座。赛富闫焱，将门创投，紫牛基金，这些投资人都是复合背景啊，一个航空，一个物理，一个新闻。人工智能领域的创业方向，在基础技术领域难以抗衡大公司，在深入垂直领域有所作为。比喻成蒸汽机革命，接下来要把技术运用开去，现在的障碍是成本和数据 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/bensonqian?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-钱皓-互联网分析师 / 
-s.weibo.com
-</span>
-<span class="title">【刘芹的机器之心】1）在任何一次创新中，唯有泡沫破灭，才会进入到平稳增长的周期；2）晨兴的压力来源于市场正在发生结构性变化和团队内部的升级迭代；3）眼下出现人工智能泡沫的原因不是是行业内涌入了大量的人，而是创业者对技术与商业相结合考虑不够深入。 |刘芹的机器... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/51661970?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-自动化网官方微博 / 
-s.weibo.com
-</span>
-<span class="title">【吴恩达正式宣布创业：新公司叫“深度学习，人工智能”】吴恩达几个小时前在Twitter上宣布，他建立了一家新的公司：Deeplearning.ai。根据该公司域名来看，吴恩达此次创业更有可能是用以开发一种旨在成为关键基础设施以支持人工智能普及的技术。#深度学习#|吴恩达正式... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/profiletopnav11?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-苏秦刺股-牛回头 / 
-s.weibo.com
-</span>
-<span class="title">$上证指数 sh000001$ $创业板指 sz399006$ 盘面上：昨日地产、工程机械。以及人工智能、石墨烯、LOED 、等热点板块走强，万科再度涨停。是拉升指数上行的主力军。但前期的强势蓝筹：保险、银行、中字头等仅在早盘大幅拉伸后，节节败退。收出带长上影线的小阴线。试想，如果没有上面这些蓝筹板块拉台粉 ​
+<span class="title">上周五去看了《异形》，被法鲨饰演的David震惊到。我之前一直认为人类比AI的高级之处体现在对情感的感知度，以及对艺术的创作力上。倘若在未来，AI拥有类似于人类灵魂一样的内核，他会与人类相恋。而且无论从外貌，身体，智力层面，他又远在人类之上，人类其实除了爱上他，无路可逃。而AI在艺术 ​
 			...展开全文c</span>
 </a>
 </div>
@@ -343,31 +173,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/lchun?refer_flag=1001030103_"
+    href="http://weibo.com/u/5170578539?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-刘春 / 
+哎嘿哎嘿Tomato呀 / 
 s.weibo.com
 </span>
-<span class="title">很多人问：到底哪个专业不会被人工智能代替而且还就业容易创业容易前途无限？我想了想，第一个是烹饪美食，你如果能跟@大董大懂 后面学上几年，下半辈子一定会烈火烹油衣食无忧。第二个？我再想想。 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/3864498823?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-小散李大鹏 / 
-s.weibo.com
-</span>
-<span class="title">小散早评：上周五市场震幅较大，先抑后扬，大盘、深成指、创业板均以阳线报收。就市场而言，以家用电器、食品饮料为首的价值股再创新高，石墨烯、人工智能、无人驾驶等概念主题也有跟风迹象，短期人气有所恢复，但考虑到成交量相比有所萎缩，因此存量博弈特征仍然明显。市场整体依然处于变盘关键点结构 ​
+<span class="title">我说：“我觉得北京那个状元说的非常对，咱们和人家比起来，资源和眼界就是不行。”说：“对，阶级是很难超越的，虽然咱们不如人家，但是和有些人比起来也不一样，超越阶级唯一的办法就是读书。”我说：”最近看到好几条都是说翻译以后就被AI取代了，我觉得不好，我觉得翻译是一门艺术。” ​
 			...展开全文c</span>
 </a>
 </div>
@@ -378,14 +191,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/caijing?refer_flag=1001030103_"
+    href="http://weibo.com/decadesbear?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-财经网 / 
+烦烧城 / 
 s.weibo.com
 </span>
-<span class="title">【收评：沪指放量涨0.87%深指大涨1.65% 蓝筹与题材共舞】今日A股迎来久违普涨行情。截止收盘，沪指收报3185.44点，涨0.87%；深成指收报10537.59点，涨1.65%；创业板收报1821.28点，涨0.77%。板块方面，全线红盘。石墨烯、钢铁、白酒、人工智能、保险、煤炭、量子通信等涨幅居前。|收评：沪指... ​</span>
+<span class="title">艺术和审美 AI无法取代 ​</span>
 </a>
 </div>
 
@@ -395,14 +208,15 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/jcsz888?refer_flag=1001030103_"
+    href="http://weibo.com/84560611?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-太太看A股-赵太 / 
+玉名 / 
 s.weibo.com
 </span>
-<span class="title">注意下午，太太短线要有动作了，准备把赛为智能股换股，要不换人工智能龙头三丰智能，要不换河北概念博深工具！大家先都加自选关注着，等太太最终的建议！剩下的短线股创业环保，中原证券，中金岭南继续持有！ ​</span>
+<span class="title">#周末电影#看了《异形：契约》，说实话，很多要素需要消化和琢磨，一遍很可能是很难懂的。单纯从画面来看，黑色、艺术、恐怖、充满人性的反思，人类创造了仿生人（高智能AI），那么仿生人回来统治一切；人类在地球无法生存，寻求新的星球，难道不是重复毁灭？实际上，一上来星际旅行，我就想到了《三体 ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -412,15 +226,15 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://austininno.streetwise.co/2017/06/26/austin-ai-startup-raises-32-5m-from-verizon-and-boeing/"
+    href="http://weibo.com/microsf?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Brent Wistrom / 
-austininno.streetwise.co
+未来局科幻办 / 
+s.weibo.com
 </span>
-<span class="title">Cybersecurity AI startup SparkCognition raises $32.5M Series B led by Verizon Ventures with Boeing HorizonX participating
-  —  Verizon Ventures and The Boeing Company&#39;s Boeing HorizonX investment arm think Austin-based SparkCognition is at the forefront of advancements in artificial intelligence.</span>
+<span class="title">【AI原创艺术】佐治亚理工学院的音乐科技中心设计的四臂AI机器人“Shimon”通过深度学习后，用木琴弹了一曲原创爵士乐。这里的深度学习基本上是采集大量音乐中的信息和普遍规律，以前的AI西蒙只能以事先编好的音乐程序进行演奏，而如今的他已经能原创作曲了。生化人大卫，你要找的同类在这里！ ​
+			...展开全文c</span>
 </a>
 </div>
 
@@ -430,15 +244,14 @@ austininno.streetwise.co
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.wired.com/story/inside-microsofts-ai-comeback"
+    href="http://weibo.com/u/5816584549?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Jessi Hempel / 
-www.wired.com
+微观体育 / 
+s.weibo.com
 </span>
-<span class="title">Interviews with key Microsoft staff shed light on its AI strategy, utilizing Cortana and chatbots, and the firm&#39;s plans to compete with Facebook and Google
-  —  Yoshua Bengio has never been one to take sides.  As one of the three intellects who shaped the deep learning that now dominates …</span>
+<span class="title">AI的100大过人,简直是艺术#NBA##篮球永不熄# 秒拍视频 ​</span>
 </a>
 </div>
 
@@ -448,15 +261,50 @@ www.wired.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://techcrunch.com/2017/06/14/element-ai-a-platform-for-companies-to-build-ai-solutions-raises-102m/"
+    href="http://weibo.com/u/1817249447?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Ingrid Lunden / 
+牛复利 / 
+s.weibo.com
+</span>
+<span class="title">短视亏损，才是投资失败的根本原因？导读：很多人说投资是一门艺术，没错。量化测试，大数据分析，AI增强，这些都是工具，最后使用这些工具的是投资人本身。再好的模型或者工具，也会因为使用方式的不同，而... 网页链接 ... 网页链接 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/looooker?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+北大新媒体 / 
+s.weibo.com
+</span>
+<span class="title">#科技头条#【微软相机Pix推出AI新功能，照片分分钟变艺术大片】科技公司一直在利用人工智能做一些酷而有艺术感的事情，近日，微软相机Pix推出了新功能，用户现在就可以通过这个AI驱动的应用去创造媲美大师的作品。应用程序能够将照片转换成知名艺术作品的风格，或为照片添加艺术效果。微软表示，Pix团 ​
+			...展开全文c</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://techcrunch.com/2017/06/15/microsoft-pix-can-now-turn-your-iphone-photos-into-art-thanks-to-a-i/"
+    target="_blank"
+>
+<span class="cite">
+Sarah Perez / 
 techcrunch.com
 </span>
-<span class="title">Element AI, a platform for companies to build AI solutions, raises $102M Series A led by Data Collective
-  —  The race for artificial intelligence technology is on, and while tech giants like Google and Facebook snap up top talent to build out their own AI-powered products …</span>
+<span class="title">Microsoft updates its AI-powered photo editing app Pix with new styles and effects
+  —  Microsoft is rolling out an update to its AI-powered photo editing app, Microsoft Pix, that aims to give Prisma and others like it some new competition.  While the app was originally designed to enhance …</span>
 </a>
 </div>
 
@@ -466,87 +314,15 @@ techcrunch.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.imeche.org/news/news-article/bp-funds-ai-development-in-oil-and-gas"
-    target="_blank"
->
-<span class="cite">
-Liz Wells / 
-www.imeche.org
-</span>
-<span class="title">AI startup Beyond Limits raises $20M Series B from BP Ventures to adapt software initially developed for NASA deep space exploration, to oil and gas industry
-  —  BP Ventures, the investment arm of global energy giant BP, has awarded $20 million (£25.9 million) of funding …</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://techcrunch.com/2017/06/08/microsoft-confirms-its-acquired-hexadite-sources-say-for-100m/"
-    target="_blank"
->
-<span class="cite">
-Ingrid Lunden / 
-techcrunch.com
-</span>
-<span class="title">Microsoft to acquire Israel-based cybersecurity company Hexadite, sources say for $100M, to bolster its advanced threat detection services
-  —  Yet more activity in the world of cybersecurity.  Microsoft today confirmed that it has acquired Hexadite, an Israeli startup that uses AI to identify and protect against attacks.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.cnbc.com/2017/05/18/spotify-buys-niland-french-ai-music-startup.html"
-    target="_blank"
->
-<span class="cite">
-Jordan Novet / 
-www.cnbc.com
-</span>
-<span class="title">Spotify acquires French machine-learning music recommendation startup Niland
-  —  - Spotify bought a French AI start-up called Niland that has a unique approach to music recommendations.  — It&#39;s in a race with Apple and Pandora to use AI and other methods to give music customers the best music-discovery experience.</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://techcrunch.com/2017/05/15/phil-libin-exits-general-catalyst-for-all-turtles-a-new-ai-startup-studio/"
-    target="_blank"
->
-<span class="cite">
-Ingrid Lunden / 
-techcrunch.com
-</span>
-<span class="title">Phil Libin exits General Catalyst for All Turtles, a new AI “startup studio” with several GC-backed AI bot startups joining as foundation members
-  —  AI is one of the buzzwords of the moment in the world of tech, with startups coming at the concept from all angles — computer vision …</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://techcrunch.com/2017/05/11/cisco-acquires-conversational-ai-startup-mindmeld-for-125-million/"
+    href="http://techcrunch.com/2017/05/09/facebook-posts-its-fast-and-accurate-convnet-models-for-machine-translation-on-github/"
     target="_blank"
 >
 <span class="cite">
 John Mannes / 
 techcrunch.com
 </span>
-<span class="title">Cisco acquires conversational AI startup MindMeld for $125M to enhance its collaboration suite
-  —  This morning Cisco announced that it is buying MindMeld for $125 million.Founded in 2011, MindMeld helps businesses to build conversational interfaces with cloud-based services.</span>
+<span class="title">Facebook publishes convolutional neural net models for machine translation on GitHub that it says are ~9x faster and more accurate than current state of art
+  —  In its latest paper, the Facebook AI Research (FAIR) team dropped some impressive results for its implementation …</span>
 </a>
 </div>
 
@@ -556,15 +332,15 @@ techcrunch.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://venturebeat.com/2017/05/02/bonsai-raises-7-6-million-to-let-companies-build-their-own-ai/"
+    href="http://thenextweb.com/apps/2017/03/01/prismas-new-filter-creator-lets-copy-art-style-ai/"
     target="_blank"
 >
 <span class="cite">
-Khari Johnson / 
-venturebeat.com
+Napier Lopez / 
+thenextweb.com
 </span>
-<span class="title">Bonsai raises $7.6M Series B from Microsoft Ventures, Samsung, and others to help companies build AI for their own businesses
-  —  AI startup Bonsai has raised $7.6 million to grow its platform that simplifies open-source machine learning library TensorFlow to help businesses construct …</span>
+<span class="title">Prisma, which turns your photos into paintings using AI, launches store to download free filters and a desktop tool to create filters based on other photos
+  —  Prisma, that app that turns your photos into paintings using AI, is about to get a ton of new filters.</span>
 </a>
 </div>
 
@@ -574,15 +350,174 @@ venturebeat.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://venturebeat.com/2017/05/03/microsoft-invests-in-agolo-a-startup-thats-fighting-information-overload-with-automated-summarizations/"
+    href="http://www.wired.com/2016/11/fb-3/"
     target="_blank"
 >
 <span class="cite">
-Paul Sawers / 
-venturebeat.com
+Cade Metz / 
+www.wired.com
 </span>
-<span class="title">Agolo raises $3.5M seed funding from Microsoft Ventures and others to expand AI-based summarization software for news and other information
-  —  Agolo, a New York-based startup that&#39;s setting out to help companies fight information overload through AI-powered summarizations …</span>
+<span class="title">Facebook uses Caffe2Go, a platform for executing neural networks on mobile devices, to apply style filters to video in real time in its app
+  —  Hussein Mehana is showing off a new incarnation of the Facebook smartphone app.  It can transform a photo of your backyard barbecue into a Picasso.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70"
+    target="_blank"
+>
+<span class="cite">
+Steven Levy / 
+backchannel.com
+</span>
+<span class="title">Inside Google&#39;s “ML Ninja” program for teaching its coders AI techniques as it looks to apply machine learning across the company&#39;s products
+  —  Carson Holgate is training to become a ninja.  —  Not in the martial arts—she&#39;s already done that.  Holgate, 26, holds a second degree black belt in Tae Kwon Do.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.popsci.com/magenta-is-googles-project-to-make-art-with-artificial-intelligence"
+    target="_blank"
+>
+<span class="cite">
+Dave Gershgorn / 
+www.popsci.com
+</span>
+<span class="title">Google&#39;s open-source research project Magenta uses AI to generate music, video, other visual arts, makes the process easier with TensorFlow, will launch June 1
+  —  THE MULTI-DISCIPLINARY MACHINE  —  If Google&#39;s artificial intelligence can paint its dreams, why not make other kinds of art?</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.wired.com/2015/12/facebook-open-source-ai-big-sur/"
+    target="_blank"
+>
+<span class="cite">
+Cade Metz / 
+www.wired.com
+</span>
+<span class="title">Facebook Open Sources Its AI Hardware as It Races Google
+  —  In Silicon Valley, the new currency is artificial intelligence.  —  Over the last few years, a technology called deep learning has proven so adept at identifying images, recognizing spoken words, and translating from one language to another …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://techcrunch.com/2017/06/28/salesforce-makes-some-einstein-ai-algorithms-available-to-third-party-developers/"
+    target="_blank"
+>
+<span class="cite">
+Ron Miller / 
+techcrunch.com
+</span>
+<span class="title">Salesforce launched three AI tools for developers today at the TrailheaDX developer conference. These algorithms, which fall under the new Einstein Platform Services, enable third-party developers to add Einstein intelligence to applications built on top of the Salesforce platform.
+The new services include sentiment and intent analysis and some pretty sophisticated image recognition… Read More</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://techcrunch.com/2017/06/27/facebook-improves-its-ai-messenger-assistant-m-with-new-wits/"
+    target="_blank"
+>
+<span class="cite">
+Lucas Matney / 
+techcrunch.com
+</span>
+<span class="title">Facebook M, the company’s AI-powered assistant that lives inside Messenger, was launched widely back in April, giving suggestions to users based on the context of their conversations. Today, M is getting a bit smarter and more socially capable. Read More</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://techcrunch.com/2017/06/27/box-deepens-partnership-with-microsoft-and-turns-its-attention-to-ai-and-machine-learning/"
+    target="_blank"
+>
+<span class="cite">
+Ron Miller / 
+techcrunch.com
+</span>
+<span class="title">Surely Box is of sufficient size with enough data running through its systems to take advantage of machine learning. Today, the company announced a deepening relationship with Microsoft in which Box will take advantage of Redmond’s pure go-to-market clout, its data centers (via Box Zones) and, yes, its AI and machine learning algorithms. Read More</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://techcrunch.com/2017/06/27/volkswagen-partners-with-nvidia-to-expand-its-use-of-ai-beyond-autonomous-vehicles/"
+    target="_blank"
+>
+<span class="cite">
+Jon Russell / 
+techcrunch.com
+</span>
+<span class="title">Volkswagen is working with Nvidia to expand its usage of its artificial intelligence and deep learning technologies beyond autonomous vehicles and into other areas of business, the two companies revealed today.
+VW set up its Munich-based data lab in 2014. Last year it pushed on with the hiring of Prof. Patrick van der Smagt to lead a dedicated AI team that is tasked with taking the… Read More</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://techcrunch.com/2017/06/26/volvo-and-autoliv-aim-to-sell-self-driving-cars-with-nvidia-ai-tech-by-2021/"
+    target="_blank"
+>
+<span class="cite">
+Darrell Etherington / 
+techcrunch.com
+</span>
+<span class="title">Volvo is forming a new joint partnership with Autoliv, called Zenuity, with a focus on developing self-driving automotive software. The plan is to eventually get to the point where they can field self-driving cars for sale, based on Nvidia’s Drive PX in-car AI computing platform, by the not-so-distant target year of 2021.
+That’s a tall order, but Nvidia’s Drive PX is… Read More</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://techcrunch.com/2017/06/26/nvidia-zf-and-hella-will-team-to-ensure-self-driving-cars-meet-safety-standards/"
+    target="_blank"
+>
+<span class="cite">
+Darrell Etherington / 
+techcrunch.com
+</span>
+<span class="title">Auto industry suppliers ZF and Hella are welcoming a third strategic partner to their effort to bring self-driving systems to market for OEM clients. Nvidia is joining the two to help incorporate its own in-car AI technology in a self-driving system that meets the New Car Assessment Program (NCAP) certification for passenger vehicles, and to also address safety requirements for commercial… Read More</span>
 </a>
 </div>
 
