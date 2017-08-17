@@ -16,23 +16,24 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://www.techmeme.com/170621/i1.jpg" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-田渊栋 / 
-www.zhihu.com:
+Tim Higgins / 
+www.wsj.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="https://www.zhihu.com/question/60784169/answer/181673060"
+    href="http://www.wsj.com/articles/tesla-replaces-self-driving-software-chief-1498012870"
     target="_blank"
 >
-如何评价 DeepMind 新提出的关系网络（Relation Network）？
+Tesla confirms departure of Autopilot VP Chris Lattner, hires AI expert Andrej Karpathy as director of AI and Autopilot
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  谢邀。最近实在太忙，今天抽空看了一下。VQA这个方向一直以来都有惊喜，一开始大家想要模拟人脑分析问题的方式，加多阶段处理，加注意力机制，折腾拼凑出各种复杂模型；然后发现一个简单模型效果惊人的好，然后大家在这基础上再折腾复杂模型，又发现一个简… 
+&nbsp; &mdash;&nbsp;  Tesla confirms departure of Autopilot VP Chris Lattner, hires AI expert Andrej Karpathy as director of AI and Autopilot
+  —  Chris Lattner, who Tesla announced in January was hired from Apple Inc. as vice president of Autopilot software, has left Elon Musk&#39;s Silicon Valley auto maker. 
 </span>
 
 </div>
@@ -53,14 +54,14 @@ www.zhihu.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/60784169"
+    href="https://www.zhihu.com/question/41907061"
     target="_blank"
 >
 <span class="cite">
-周博磊 / 
+杜客 / 
 www.zhihu.com
 </span>
-<span class="title">vqa还是被当成个分类问题,离真正人类级别的reasoning还很远.这里大家逐渐意识到了两个问题,第一个是网络本身的问题,即现有的卷积网络并不能很好的表达因果推断;第二个问题是,直接在自然图片上进行问答系统的研究太难了,很难debug整个系统,于是有了下面两个...</span>
+<span class="title">2016.05.09更新: 周末邮件了@andrej karpathy,获得了翻译许可:)简要说了一些情况,请问他自己如果翻译notes并放在网上供大家学习有无和课程团队的版权问题,也表达了大家对于课程能尽快恢复上线的期望.ak回复截图如下:私信我的很多同好都是在读的学生,表示暑...</span>
 </a>
 </div>
 
@@ -70,14 +71,31 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/27285612"
+    href="https://zhuanlan.zhihu.com/p/22282421"
+    target="_blank"
+>
+<span class="cite">
+杜客 / 
+www.zhihu.com
+</span>
+<span class="title">大家好:关注我们cs231n翻译项目的知友应该知道,之所以开始这个翻译,也是因为得到了andrej karpathy的授权.这次翻译项目完结邮件了他,顺便问他有没有什么对学习cs231n的小伙伴们说的?邮件部分截取如下:ak表示其实也没啥好说的,非常高兴能够分享这些知识,请好...</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://zhuanlan.zhihu.com/p/27489743"
     target="_blank"
 >
 <span class="cite">
 机器之心 / 
 www.zhihu.com
 </span>
-<span class="title">在 deepmind 最近发表的两篇论文中,研究人员探索了深度神经网络对非结构化数据执行复杂关系推理的能力.第一篇论文《a simple neural network module for relational reasoning》中,deepmind 描述了 relation network(rn),并表明它在一种高难度任务中具有超...</span>
+<span class="title">今日,特斯拉宣布前 open ai 研究员、斯坦福大学博士生 andrej karpathy 担任特斯拉人工智能和自动驾驶视觉总监(director of ai and autopilot vision),直接向 elon musk 负责.andrej karpathy 博士生期间就已声名鹊起,此次加盟特斯拉更是受到了极大的关注....</span>
 </a>
 </div>
 
@@ -87,15 +105,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://marketingland.com/facebook-slots-ads-instant-articles-related-articles-sections-217098"
+    href="https://www.zhihu.com/question/37686401"
     target="_blank"
 >
 <span class="cite">
-Tim Peterson / 
-marketingland.com
+杜客 / 
+www.zhihu.com
 </span>
-<span class="title">Facebook now lets all Audience Network publishers insert ads within the “Related Articles” section at the bottom of their Instant Articles
-  —  All publishers in Facebook&#39;s ad network can now feature ads within “Related Articles” sections at the bottom of their Instant Articles.</span>
+<span class="title">自荐:智能单元 - 知乎专栏.目前关注4000+,已获得赞赏内测资格.推荐理由:授权翻译斯坦福深度学习课程cs231n-convolutional neural networks for visual recognition(面向视觉识别的卷积神经网络)官方笔记.翻译获得课程讲师andrej karpathy的授权.翻译行为是...</span>
 </a>
 </div>
 
@@ -105,15 +122,14 @@ marketingland.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://techcrunch.com/2017/06/07/facebook-inserts-itself-into-politics-with-new-tools-that-help-elected-officials-reach-constituents/"
+    href="https://zhuanlan.zhihu.com/p/27104229"
     target="_blank"
 >
 <span class="cite">
-Sarah Perez / 
-techcrunch.com
+量子学院 / 
+www.zhihu.com
 </span>
-<span class="title">Facebook debuts three tools to help elected officials reach and better understand voters: constituent badges, constituent insights, and district targeting
-  —  Facebook this year has launched a number of features that make it easier for people to reach their government representatives on its social network …</span>
+<span class="title">安妮 编译自 medium量子位出品 | 公众号 qbitai第34届国际机器学习大会(icml)将于今年8月6日在悉尼召开.icml作为国际顶级的机器学习会议,收到了god knows多少篇论文,434篇入选.今天,icml公布了今年入选论文的名单.来自openai的研究员andrej karpathy在mediu...</span>
 </a>
 </div>
 
@@ -123,15 +139,14 @@ techcrunch.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.macrumors.com/2017/05/23/apple-nokia-settle-legal-dispute-patent-agreement/"
+    href="https://zhuanlan.zhihu.com/p/24721292"
     target="_blank"
 >
 <span class="cite">
-Tim Hardwick / 
-www.macrumors.com
+杜客 / 
+www.zhihu.com
 </span>
-<span class="title">Apple and Nokia settle patent dispute with Nokia receiving patent royalties from Apple; Apple will resume selling Nokia health products
-  —  Nokia and Apple announced today that they have settled all litigation related to their intellectual property dispute and agreed a multi-year patent license.</span>
+<span class="title">译者注:不想看大部头的著作就看这篇,简明扼要方便理解.david silver的课程,下文有链接.译者注:要是看完并基本掌握了david silver的课程,这门课也就是看看了.对于机器学习和神经网络的介绍材料有:andrej karpathy的课程.译者注:也就是cs231n了,算成是ak的也...</span>
 </a>
 </div>
 
@@ -141,15 +156,14 @@ www.macrumors.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://threatpost.com/facebook-debuts-open-source-detection-tool-for-windows/120897/"
+    href="https://zhuanlan.zhihu.com/p/20870307"
     target="_blank"
 >
 <span class="cite">
-Chris Brook / 
-threatpost.com
+杜客 / 
+www.zhihu.com
 </span>
-<span class="title">Facebook brings osquery, its open source SQL-powered detection tool for monitoring OS processes and networks, to Windows
-  —  Facebook successfully ported its SQL-powered detection tool, osquery, to Windows this week, giving users a free and open source method to monitor networks and diagnose problems.</span>
+<span class="title">neural networks for visual recognition(winter 2016)是一个很好的课程,个人在学习过程中获益良多.在和大家的交流中,发现菜鸟如自己可以为更多热爱机器学习的同学尽一份力.于是邮件了讲师andrej karpathy,表达了翻译的想法,询问是否存在问题.andrej karpathy...</span>
 </a>
 </div>
 
@@ -159,15 +173,14 @@ threatpost.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.businessinsider.com/yahoo-hack-by-state-sponsored-actor-biggest-of-all-time-2016-9?op=1"
+    href="https://zhuanlan.zhihu.com/p/27087310"
     target="_blank"
 >
 <span class="cite">
-Kif Leswing / 
-www.businessinsider.com
+天雨粟 / 
+www.zhihu.com
 </span>
-<span class="title">Yahoo confirms data from 500M+ accounts was stolen in 2014 by “state-sponsored actor”; info includes email addresses, hashed passwords, security questions, more
-  —  Yahoo on Thursday revealed a massive data breach of its services.  —  Yahoo “has confirmed that a copy …</span>
+<span class="title">前言最近看完了lstm的一些外文资料,主要参考了colah的blog以及andrej karpathy blog的一些关于rnn和lstm的材料,准备动手去实现一个lstm模型.代码的基础框架来自于udacity上深度学习纳米学位的课程(付费课程)的一个demo,我刚开始看代码的时候真的是一头雾水,...</span>
 </a>
 </div>
 
@@ -177,15 +190,14 @@ www.businessinsider.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.reuters.com/article/us-hpe-software-thomabravo-idUSKCN1175RV"
+    href="http://weibo.com/u/1657470871?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Reuters / 
-www.reuters.com
+王威廉 / 
+s.weibo.com
 </span>
-<span class="title">Sources: Hewlett Packard Enterprise in talks to sell its software division to Thoma Bravo, hopes it can fetch $8B-10B
-  —  Hewlett Packard Enterprise Co (HPE) is in talks with buyout firm Thoma Bravo LLC to sell its software division, hoping it can fetch between $8 billion and $10 billion, according to people familiar with the matter.</span>
+<span class="title">斯坦福大学博士Andrej Karpathy出任特斯拉人工智能主任，负责无人驾驶研究。网页链接 ​</span>
 </a>
 </div>
 
@@ -195,15 +207,14 @@ www.reuters.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.bloomberg.com/news/articles/2016-08-25/apple-weighs-iphone-video-editing-app-in-renewed-push-on-social-isa5rhlu"
+    href="http://weibo.com/lewhwa?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Bloomberg / 
-www.bloomberg.com
+网路冷眼 / 
+s.weibo.com
 </span>
-<span class="title">Sources: Apple developing a Snapchat-like video sharing and editing app and multiple social features for iOS
-  —  Company looks to catch up as video sharing gains popularity  —  Engineers test deeper social ties across iPhone, iPad software  —  Apple Inc., seeking to capitalize on the popularity …</span>
+<span class="title">【Tesla hires deep learning expert Andrej Karpathy to lead Autopilot vision】网页链接 特斯拉聘请深度学习专家Andrej Karpathy领导自动驾驶车视觉研究领域。 ​</span>
 </a>
 </div>
 
@@ -213,15 +224,14 @@ www.bloomberg.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.recode.net/2016/7/8/12125418/twitter-streaming-deals-nba-mls-turner"
+    href="http://weibo.com/fly51fly?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Kurt Wagner / 
-recode.net
+爱可可-爱生活 / 
+s.weibo.com
 </span>
-<span class="title">Twitter is talking to the NBA, MLS and Turner to buy rights to more sports streams
-  —  Twitter is looking to ink more NFL-style streaming deals.  —  Twitter wants to stream more TV-like live video around major sporting events, so it&#39;s approaching the folks who control those rights to cut a deal.</span>
+<span class="title">《AlphaGo, in context》by Andrej Karpathy 网页链接 pdf:网页链接 ​</span>
 </a>
 </div>
 
@@ -231,33 +241,152 @@ recode.net
 <div class="row">
 <a 
     class="set_item" 
-    href="http://www.wsj.com/article_email/nokia-falls-to-surprise-loss-1462859081-lMyQjAxMTI2MzE2MDMxOTA1Wj"
+    href="http://weibo.com/234918006?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-Matthias Verbergt / 
+龙星镖局 / 
+s.weibo.com
+</span>
+<span class="title">小帅哥牛逼『Tesla hires deep learning expert Andrej Karpathy to lead Autopilot vision | TechCrunch』网页链接 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/fly51fly?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+爱可可-爱生活 / 
+s.weibo.com
+</span>
+<span class="title">“RNN Training Tips and Tricks” by Andrej Karpathy 网页链接 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/u/1784532874?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+小叶纸也是个好菇凉 / 
+s.weibo.com
+</span>
+<span class="title">感觉男神就是男神，最近看的每一门课都会提到Andrej Karpathy，顿时感觉自己书白读了... ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/cloudgrid?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+专注云计算 / 
+s.weibo.com
+</span>
+<span class="title">【AI 字体世界地图：用 AI 和机器学习辨析各种字体的审美特征】著名设计机构 IDEO 项目负责人 Kevin Ho 受到李飞飞高徒 Andrej Karpathy 做的“图像地图”的启发，用机器学习算法通过视觉特征对字体进行排序和分类，形成了一个“字体地图”，可以帮助设计人员更简单地发现具有相似审美特征的字体。 ​
+			...展开全文c</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/jacoxu1987?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+许家铭_NLP / 
+s.weibo.com
+</span>
+<span class="title">#tweet from Andrej Karpathy#: Everything I know about design of ConvNets (resnets, bigger=better, batchnorms etc) is useless in RL. Superbasic 4-layer ConvNets work best ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/phunterlau?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+phunter_lau / 
+s.weibo.com
+</span>
+<span class="title">cs231n助教Andrej Karpathy认可MinPy 网页链接 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/234918006?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+龙星镖局 / 
+s.weibo.com
+</span>
+<span class="title">还好吗，博士们？好不好都推荐这篇来自Stanford帅哥博士Andrej Karpathy的 《博士生存指南》 网页链接 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://weibo.com/synced?refer_flag=1001030103_"
+    target="_blank"
+>
+<span class="cite">
+机器之心Synced / 
+s.weibo.com
+</span>
+<span class="title">Andrej Karpathy：你为什么应该理解反向传播 网页链接 → 在斯坦福提供 CS231n（深度学习课程）时，我们有意设计编程任务来将涉及最底层的反向传播的明确的计算包括进来。 ​</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.wsj.com/articles/tesla-replaces-self-driving-software-chief-1498012870"
+    target="_blank"
+>
+<span class="cite">
+Tim Higgins / 
 www.wsj.com
 </span>
-<span class="title">Nokia reports Q1 net loss of $583M, well below expectations, cites sluggish mobile-network sales, charges related to Alcatel-Lucent acquisition; stock down 6%+
-  —  Sluggish mobile-network sales and charges related to acquisition of Alcatel-Lucent hit Finnish firm</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://www.ibtimes.com/facebook-launches-discover-groups-help-you-find-more-relevant-connections-2365275"
-    target="_blank"
->
-<span class="cite">
-Kerry Flynn / 
-www.ibtimes.com
-</span>
-<span class="title">Facebook testing “Discover” feature for Groups on iOS and Android to simplify finding Groups by category
-  —  Facebook Launches ‘Discover’ For Groups To Help You Find More Relevant Connections  —  More than 1 billion people use Facebook Groups every month.</span>
+<span class="title">Tesla confirms departure of Autopilot VP Chris Lattner, hires AI expert Andrej Karpathy as director of AI and Autopilot
+  —  Chris Lattner, who Tesla announced in January was hired from Apple Inc. as vice president of Autopilot software, has left Elon Musk&#39;s Silicon Valley auto maker.</span>
 </a>
 </div>
 

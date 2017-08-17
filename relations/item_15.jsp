@@ -16,23 +16,24 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="http://readai.me/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
+<img src="http://www.techmeme.com/170613/i4.jpg" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-机器之心 / 
-www.jiqizhixin.com:
+Bloomberg / 
+www.bloomberg.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="http://www.jiqizhixin.com/articles/3b7d8b33-58ad-4bda-adbc-99f201d47afa"
+    href="http://www.bloomberg.com/news/articles/2017-06-13/cook-says-apple-is-focusing-on-making-an-autonomous-car-system"
     target="_blank"
 >
-我们和专家聊了聊，梳理了软银收购波士顿动力这件事
+Tim Cook says Apple is focusing on autonomous systems, which he sees as “the mother of all AI projects” and can be used for developing self-driving cars
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  日本著名软银集团收购谷歌母公司 Alphabet 旗下机器人公司 Schaft 和波士顿动力。 
+&nbsp; &mdash;&nbsp;  Tim Cook says Apple is focusing on autonomous systems, which he sees as “the mother of all AI projects” and can be used for developing self-driving cars
+  —  For the first time, CEO elaborates on Apple&#39;s car plans  —  The company&#39;s automotive program has experienced turmoil 
 </span>
 
 </div>
@@ -53,14 +54,14 @@ www.jiqizhixin.com:
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/28164518"
+    href="https://zhuanlan.zhihu.com/p/27082155"
     target="_blank"
 >
 <span class="cite">
-陈天健 / 
+园长 / 
 www.zhihu.com
 </span>
-<span class="title">谢谢邀请,我在美国研究双足行走对这个公司也算有一点点了解.boston dynamics的cto上次来我们学校做演讲的时候,我们一门课都不上了,老师把所有学生都动员去听他的演讲.这个公司确实是行走机器人产品的龙头老大,规模其实不算大但是水平非常高,估计最低学历也...</span>
+<span class="title">ar、电视内容订阅、自动驾驶、和语音助手.可能很多人都表示不屑,也有很多文章和观点,谈到苹果创新意识的消失.但这里有一个明确的客观事实:苹果就像猫一样紧盯着目标,看看 iphone、ipad、apple watch、airpods,这些都是他的战利品.通过十数年的证据表明,对于...</span>
 </a>
 </div>
 
@@ -70,14 +71,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/26559668"
+    href="http://www.bloomberg.com/news/articles/2017-06-13/cook-says-apple-is-focusing-on-making-an-autonomous-car-system"
     target="_blank"
 >
 <span class="cite">
-lonelycorn / 
-www.zhihu.com
+Bloomberg / 
+www.bloomberg.com
 </span>
-<span class="title">以下提供一些个人观点.从系统的角度看, 航空器, 汽车和机器人都可以用下面的方程描述\dot x = f(x, u, t)y=h(x,u,t)其中x是state variable,u是control input,y是系统输出.因此可以将相同的控制方法用在相似的系统上.control law的选择取决于系统的结构,para...</span>
+<span class="title">Tim Cook says Apple is focusing on autonomous systems, which he sees as “the mother of all AI projects” and can be used for developing self-driving cars
+  —  For the first time, CEO elaborates on Apple&#39;s car plans  —  The company&#39;s automotive program has experienced turmoil</span>
 </a>
 </div>
 
@@ -87,14 +89,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/55390619"
+    href="http://www.bloomberg.com/news/articles/2017-04-27/check-out-the-lexus-that-apple-s-using-to-test-self-driving-car-technology"
     target="_blank"
 >
 <span class="cite">
-张晓龙 / 
-www.zhihu.com
+Bloomberg / 
+www.bloomberg.com
 </span>
-<span class="title">首先, 波士顿动力和google已经渐行渐远.波士顿动力还是一如既往的释放令人炫目的控制技术,为无&#39;&#39;数高校研究所指明了下一步的研究方向,堪称教学界的明灯.工业圈的兄弟抬起头来看看波士顿动力,只是&#34;哦&#34;一声,表示知道了.之后继续埋头用&#34;落后技术&#34;与客户死磕,解...</span>
+<span class="title">Apple&#39;s self-driving Lexus seen in Silicon Valley with 64-channel lidar, at least two radars and a series of cameras
+  —  Almost two weeks after Apple Inc. secured permission to test its autonomous-car technology in California, the first images of the vehicle have emerged from Silicon Valley roads.</span>
 </a>
 </div>
 
@@ -104,14 +107,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/40713069"
+    href="http://www.businessinsider.com/apple-officially-testing-self-driving-cars-california-dmv-confirms-2017-4?op=1"
     target="_blank"
 >
 <span class="cite">
-李淼robot / 
-www.zhihu.com
+Kif Leswing / 
+www.businessinsider.com
 </span>
-<span class="title">谢邀,国产优必选与altas没有可比性,一个是消费级的&#34;娱乐&#34;产品,一个象征着目前地球上最顶尖的机器人(人工智能)技术(也许对日本人不公平,后面会说到这点).也许把优必选和法国的nao机器人来比较会更公平一些.altas原型来自boston dynamics 的petman(the robot ...</span>
+<span class="title">Apple received permit to test autonomous vehicles in California; DMV spokesman says Apple applied to test three 2015 Lexus RX450h vehicles
+  —  Apple has received a permit to test autonomous cars in California, the first official confirmation that the maker of the iPhone sees the century-old automobile …</span>
 </a>
 </div>
 
@@ -121,14 +125,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24210072"
+    href="http://techcrunch.com/2017/01/18/tomtom-acquires-autonomos-to-beef-up-in-self-driving-technology/"
     target="_blank"
 >
 <span class="cite">
-DeepTech深科技 / 
-www.zhihu.com
+Ingrid Lunden / 
+techcrunch.com
 </span>
-<span class="title">通过一种新的控制算法,美国佛罗里达州人机认知研究所(florida institute for human and machine cognition, ihmc)的机器人实验室实现了拟人的平衡能力.该算法的测试使用了波士顿动力公司(boston dynamics)的atlas机器人,在算法的控制下,atlas现在可以平稳的...</span>
+<span class="title">TomTom acquires Berlin-based startup Autonomos to bolster its self-driving technology
+  —  Navigation and mapping company TomTom — which provides data to companies like Uber and Apple as well as for its own GPS systems — has made an acquisition to add more autonomous driving technology to its platform.</span>
 </a>
 </div>
 
@@ -138,14 +143,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/40706087"
+    href="http://venturebeat.com/2016/12/02/apple-tells-feds-new-entrants-to-auto-industry-should-get-same-testing-rights-as-incumbents/"
     target="_blank"
 >
 <span class="cite">
-韩峰涛 / 
-www.zhihu.com
+Jordan Novet / 
+venturebeat.com
 </span>
-<span class="title">谢邀,从各种朋友圈刷屏来看,boston dynamic无疑又一次震惊了机器人界,身边几乎每个人看完视频之后都是一副震惊&amp;膜拜的表情.目前外界能得到的消息还不太多,综合各方面的信息,主要有这么几项提升:1、更小更轻更紧凑 从上一代atlas的1.9m高,156kg重,减小到现在...</span>
+<span class="title">Apple hints at autonomous vehicle ambitions in letter advising NHTSA that new auto industry entrants should get the same testing rights as incumbents
+  —  Apple last week submitted a letter to the U.S. National Highway Traffic Safety Administration (NHTSA) that suggests it&#39;s interested in testing self-driving cars.</span>
 </a>
 </div>
 
@@ -155,14 +161,15 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/40742335"
+    href="http://www.bloomberg.com/news/articles/2016-10-25/apple-develops-car-operating-system-in-blackberry-country"
     target="_blank"
 >
 <span class="cite">
-机器人孔博士 / 
-www.zhihu.com
+Bloomberg / 
+www.bloomberg.com
 </span>
-<span class="title">波士顿动力虽然是个公司,但是更像一个研究机构.它主要的经费来源是美国的一些科研基金的资助,比如darpa等.波士顿动力在足式机器人研究方面,可以算世界第一,也正是技术太前沿,无法落地,谷歌收购了它以后,又把它卖了.</span>
+<span class="title">Sources: Apple has several engineers in Canada building a car OS, of which about two dozen came from Blackberry&#39;s QNX, is testing self-driving software with VR
+  —  Canada office hires engineers from BlackBerry&#39;s QNX unit  —  Apple said to test self-driving software with virtual reality</span>
 </a>
 </div>
 
@@ -172,14 +179,87 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/25477441"
+    href="http://www.bloomberg.com/news/articles/2016-10-17/how-apple-scaled-back-its-titanic-plan-to-take-on-detroit"
     target="_blank"
 >
 <span class="cite">
-机器之心 / 
-www.zhihu.com
+Bloomberg / 
+www.bloomberg.com
 </span>
-<span class="title">昨天,波士顿动力官方发布了用于研究的机器人 handle,它结合了轮子的高效与腿部的灵活.在上个月,曾有一个泄露出来的 handle 机器人测试片段在网上传播,不过,这一次波士顿动力公布了这款机器人的新细节,还有才艺表演视频. 波士顿动力机器人 - 腾讯视频 ...</span>
+<span class="title">Sources: Apple&#39;s car team gets late 2017 deadline to prove feasibility of the self-driving system, amid hundreds of job cuts and strategy disagreements
+  —  Company to decide fate of self-driving platform by late 2017  —  Hundreds of software, hardware engineers leave amid struggles</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.ft.com/cms/s/0%2F523422ba-7ffd-11e6-8e50-8ec15fb462f4.html"
+    target="_blank"
+>
+<span class="cite">
+Financial Times / 
+www.ft.com
+</span>
+<span class="title">Sources: Apple in talks with UK luxury carmaker and F1 team owner McLaren for a full takeover or strategic investment; McLaren&#39;s valuation is said to be £1B+
+  —  Apple has approached McLaren Technology Group, the British supercar engineer and Formula One team owner, about a potential acquisition …</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.nytimes.com/2016/09/10/technology/apple-is-said-to-be-rethinking-strategy-on-self-driving-cars.html"
+    target="_blank"
+>
+<span class="cite">
+New York Times / 
+www.nytimes.com
+</span>
+<span class="title">Sources: Apple has shuttered parts of its self-driving car project, laid off dozens of employees as it rethinks its strategy
+  —  SAN FRANCISCO — Apple is rethinking what it plans to do about self-driving cars, just as other big tech companies appear ready to plow ahead with competing efforts.</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="http://www.bloomberg.com/news/articles/2016-07-28/apple-taps-blackberry-talent-as-car-project-takes-software-turn"
+    target="_blank"
+>
+<span class="cite">
+Bloomberg / 
+www.bloomberg.com
+</span>
+<span class="title">Source: Apple&#39;s car project switches focus to developing an autonomous driving software system, though Apple isn&#39;t ditching efforts to create its own vehicle
+  —  Dan Dodge, former founder, CEO of QNX, joined Apple this year  —  Bob Mansfield took over cars initiative with emphasis on tech</span>
+</a>
+</div>
+
+
+
+
+<div class="row">
+<a 
+    class="set_item" 
+    href="https://techcrunch.com/2017/06/13/tim-cook-says-apples-car-project-is-the-mother-of-all-ai-projects/"
+    target="_blank"
+>
+<span class="cite">
+Romain Dillet / 
+techcrunch.com
+</span>
+<span class="title">In a very brief interview with Bloomberg, Apple CEO Tim Cook confirmed that the company has been working on an Apple car. This isn’t the first time Apple talked about the company’s ongoing work in the car industry.
+Cook described Apple’s car project as the combination of three different factors — self-driving cars, electric vehicles and ride-sharing. Those three… Read More</span>
 </a>
 </div>
 

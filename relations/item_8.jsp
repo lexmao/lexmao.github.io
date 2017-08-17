@@ -16,23 +16,23 @@ Back
 <div class="item_header">
 
 <span style="display:block; float:right; padding:10px 0 4px 5px">
-<img src="https://venturebeat.com/wp-content/uploads/2017/06/shutterstock_664063189.jpg?resize=350%2C175&amp;strip=all" style="border-style:none;" heigh="83" width="124" >
+<img src="http://readai.me/images/top_new_00001.png" style="border-style:none;" heigh="83" width="124" >
 </span>
 
 <div class="cite">
-Ramzi Rizk, EyeEm / 
-venturebeat.com:
+微胖 / 
+www.jiqizhixin.com:
 </div>
 <div style="padding-top:5px">
 <a 
     style="font-size: 16px; font-weight: bold; color: black; text-shadow: lightgray 1px 1px 0; text-decoration:none"
-    href="https://venturebeat.com/2017/06/26/are-you-really-an-ai-startup/"
+    href="http://www.jiqizhixin.com/articles/1409b3cd-f361-43a3-9487-92997c69bfbd"
     target="_blank"
 >
-Are you really
+在数据密集的医疗行业拥抱 AI ，机会很多，挑战不少 | 创业
 </a>
 <span style="font-size:14px;font-weight:normal;color:#666666;">
-&nbsp; &mdash;&nbsp;  Are you really an AI startup? 
+&nbsp; &mdash;&nbsp;  医疗领域是典型的数据密集型行业，在智能化时代，数据生成速度的提升也带来了医疗数据积累量的大幅增加。尤其是在基因和医学影像领域，人工智能技术极大加快挖掘提取深层次信息的效率，由此也释放出大量创业机会。新闻机构 Xconomy 在 San Diegon 举办的一次活动中，投资机构、数据科学家、医疗保健行业 CTO 、学术研究人员以及一些初创公司的创始人，共同探讨当下医疗与 AI 结合的过程中所面临的机遇和挑战。 
 </span>
 
 </div>
@@ -53,14 +53,14 @@ Are you really
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/30156262"
+    href="https://www.zhihu.com/question/57737113"
     target="_blank"
 >
 <span class="cite">
-迪迦奥特曼 / 
+张明锋 / 
 www.zhihu.com
 </span>
-<span class="title">2016年他们决定出来创办公司,把自己的学术成果直接拿到市场上来检验,于是创办了寒武纪公司,寒武纪创业后在市场上的崛起速度和diannao系列在学术圈内一样,属于直上云霄的那种.很多人工智能创业公司聚焦于算法应用层面,比如这个回答下面、还有图总的文章里提...</span>
+<span class="title">不建议,如果您真的感兴趣就去搜狗,腾讯ai实验室,今日头条ai实验室等这些大公司的专属部门.人工智能创业还很远,除非创业公司是现有大公司的下属企业.要不就去face++,sensetime这些已经有一定市场地位的公司.</span>
 </a>
 </div>
 
@@ -70,14 +70,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/52677139"
+    href="https://www.zhihu.com/question/47984749"
     target="_blank"
 >
 <span class="cite">
-严肃 / 
+Naiyan Wang / 
 www.zhihu.com
 </span>
-<span class="title">在过去的几年,英国的确诞生了大量的人工智能初创企业.2011年,惠普宣布完成了104亿美元收购擅长语义处理的英国人工智能软件公司autonomy.2013年,亚马逊用2600万美元收购英国创业公司true knowledge(类siri的产品);2014年,deepmind又被谷歌以约4亿英镑的价格...</span>
+<span class="title">我就过来呵呵一下</span>
 </a>
 </div>
 
@@ -87,14 +87,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/30744007"
+    href="https://zhuanlan.zhihu.com/p/25578549"
     target="_blank"
 >
 <span class="cite">
-覃超 / 
+忘象Van / 
 www.zhihu.com
 </span>
-<span class="title">先直接回答题主的问题.国内这块其实好的创业公司不多,很容易踩到坑.我和一些创业外加投资的朋友之前讨论后筛选出来一些还不错的:0. 我的公司和团队: frees 我们就在找人工智能和数据分析好的.基金待遇很好,马上有impact.当然还有个好处能和我一起工作,我能...</span>
+<span class="title">ai技术创业的第一种思路:用机器取代人很多人对ai技术创业的直观理解是利用新技术提高效率,节约成本扩大生产力.这种思路是最符合工程师的思维的,觉得这就像用蒸汽机替代水车,汽车替代马匹一样自然.基于这种思路,许多人预判未来不久大量的低端工作就会被机器...</span>
 </a>
 </div>
 
@@ -104,14 +104,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24743597"
+    href="https://zhuanlan.zhihu.com/p/25545133"
     target="_blank"
 >
 <span class="cite">
-图灵Don / 
+量子学院 / 
 www.zhihu.com
 </span>
-<span class="title">最近亿欧发布《2016中国人工智能创业公司top50》榜单,前50名如下:联系这两天阿尔法狗打遍天下无敌手,人工智能10多个领域,某些可能真的到了爆发临界点.从榜单中透露的信息来看:① 成立时间普遍不久,大多在近两三年.如果这是继2000年左右pc互联网趋势(造就腾...</span>
+<span class="title">扑了一空的量子位怎能&#34;善罢甘休&#34;.又过了一天,量子位抽丝剥茧,终于看到了楼天成的ai创业项目:就是这个:pony.ai■ 证据一:pony这个英文,和小马这个中文,完全对应.■ 证据二:.ai这个后缀,是人工智能创业公司的最爱.■ 证据三:尽管楼教主有效行踪几乎为0,但还是...</span>
 </a>
 </div>
 
@@ -121,14 +121,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/52748698"
+    href="https://zhuanlan.zhihu.com/p/23503439"
     target="_blank"
 >
 <span class="cite">
-硅谷密探 / 
+腾讯科技 / 
 www.zhihu.com
 </span>
-<span class="title">成功的机器学习创业公司应成为有针对垂直应用的、有明确需求的技术.消费者包装产业就是个很好的例子,机器学习可以更准确地预测库存水平,以更好地管理供应链,... erinshipley和txzhou在科技媒体techcrunch上写过一篇关于人工智能对财务影响的文章,包括通过基...</span>
+<span class="title">在这之前我做过两家人工智能的创业公司,一家在硅谷,一家在国内.在美国的这家公司是我在2012年还在读mba期间做的,叫orbeus,后来被亚马逊收购,目前接管了... 我先说结论:这个行业里面非常缺人,缺的是ai的产品经理,就是既懂技术边界,又懂得需求边界的人,这两者...</span>
 </a>
 </div>
 
@@ -138,14 +138,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/60493205"
+    href="https://zhuanlan.zhihu.com/p/26679531"
     target="_blank"
 >
 <span class="cite">
-甄景贤 / 
+量子位 / 
 www.zhihu.com
 </span>
-<span class="title">似乎他们就想试试创业,然后「过把瘾就死」.看到这种现象我总是很气愤,想一拳揍过去但法律上我又不可以伤人.我觉得他们出卖了中国人,他们为了自己能做... ai的目的是答问题(q&amp;a),它需要人类的常识(commonsense),这是人工智能中尚未解决的问题,很可能是最后的...</span>
+<span class="title">而这个时间取决于技术在实际应用中铺开的速度.当ai遍及各行各业,找不到新的应用场景时,人们就会更多地从原理上进行探索.ai过热不完全是坏事现在,不少创业公司的商业计划书里都非得提个&#34;人工智能&#34;,感觉没这几个字都不好意思见投资人,谈到当下人工智能行业的...</span>
 </a>
 </div>
 
@@ -155,14 +155,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://zhuanlan.zhihu.com/p/24456013"
+    href="https://zhuanlan.zhihu.com/p/26752702"
     target="_blank"
 >
 <span class="cite">
-王咏刚 / 
+DeepTech深科技 / 
 www.zhihu.com
 </span>
-<span class="title">这样,就能既做了脸部美容,又因人而异,保持每个人的皮肤和脸型特点.美图有世界上最大的人脸数据库,也许其中女性脸部居多,但也因此有非常广泛的人工智能应用场景.在这样的创业公司里面,人工智能变成了公司的内在驱动力.而美图本身就是一个非常技术化的公司,美...</span>
+<span class="title">好莱坞大片《阿凡达》(avatar)里的特效场面依然令人记忆犹新,相信很多亲临影院观看过的人都会被那些气势磅礴的特效场面所震撼:现实中的人类插上脑机接口,就能进入一个异星世界,以完全不同的形态存在于另一时空.图 | 电影《阿凡达》剧照科幻归科幻,从产品概...</span>
 </a>
 </div>
 
@@ -189,14 +189,14 @@ www.zhihu.com
 <div class="row">
 <a 
     class="set_item" 
-    href="https://www.zhihu.com/question/60277104"
+    href="http://weibo.com/617921255?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-张馨宇 / 
-www.zhihu.com
+青城校园新鲜事 / 
+s.weibo.com
 </span>
-<span class="title">开个咖啡馆就叫孵化器了?</span>
+<span class="title">#呼和浩特身边事# 【呼和浩特高校学子穿红军服装体验长征红色教育】据网友@AI你要去哪儿:今天，来自内蒙古大学创业学院的学子们举行了一场别样的“不忘初心跟党走”实践教育活动。徒步活动以创业学院为起点，途经南湖湿地公园沿大湖行走，全程10余公里， 体验不一样的红色教育! ​</span>
 </a>
 </div>
 
@@ -213,7 +213,7 @@ www.zhihu.com
 钱皓-互联网分析师 / 
 s.weibo.com
 </span>
-<span class="title">【创新工场王咏刚：人工智能创业和投资中的挑战】1）人工智能领域太多的创业者都是科学家，离真正行业应用还很远；2）人工智能的人才缺口巨大，人才结构失衡；3）数据孤岛化和碎片化现象非常明显，数据几乎成了某些公司的核武器，初创团队很难收集到完整集成的数据 ​</span>
+<span class="title">#百度create2017# 景鲲在百度开发者大会宣布：百度将全资收购KITT.ai，一家专注语音唤醒和自然语音交互技术的AI创业公司，是唯一一家获得亚马逊Alexa和微软联合创始人Paul Allen投资的公司，欢迎KITT.ai加入，这也是史上颜值最高的AI团队了。 ​</span>
 </a>
 </div>
 
@@ -223,14 +223,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/u/1377049875?refer_flag=1001030103_"
+    href="http://weibo.com/wanquribao?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-人工智能与大数据 / 
+湾区日报BayArea / 
 s.weibo.com
 </span>
-<span class="title">比尔盖茨给年轻人推荐的三大创业领域：人工智能，能源，生物科学！人生只有一个过去，一个现在，却有无限的未来！#比尔·盖茨##哈佛大学##人工智能##生物科学##全球能源互联网专题# ​</span>
+<span class="title">【如何知道某个产品是否真的用了 AI】风投进城防骗指南：某创业公司声称产品用了牛逼的 AI，很智能；如何判断他们是不是在骗人？文中提到可以让他们解释算法；俩问题：1，风投要没三两下子还真听不懂；2，商业机密不便投入，怎么办 | 简评：网页链接 原链：网页链接 ​</span>
 </a>
 </div>
 
@@ -240,14 +240,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/technode?refer_flag=1001030103_"
+    href="http://weibo.com/wanquribao?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-动点科技 / 
+湾区日报BayArea / 
 s.weibo.com
 </span>
-<span class="title">【自动驾驶技术创业公司 Drive.ai 获 5000 万美元 B 轮融资】由前斯坦福人工智能研究人员创办的自动驾驶技术创业公司 Drive.ai，日前获得了 5000 万美元 B 轮融资，投资方包括 NEA（New Ente…网页链接 ​</span>
+<span class="title">【几年后，没有投资人再愿意投资所谓的 AI 创业公司了】因为几年后，AI 是科技公司技术栈里很平常的一部分。到时若不用AI，就像80年代起没用关系数据库、1995年没做网站、2009年没做app，“大家都在用” | 简评：网页链接 原链：网页链接 #湾区日报# ​</span>
 </a>
 </div>
 
@@ -257,14 +257,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/synced?refer_flag=1001030103_"
+    href="http://weibo.com/julyweibo?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-机器之心Synced / 
+研究者July / 
 s.weibo.com
 </span>
-<span class="title">用 AI 撬动巴克莱、埃森哲、英特尔、劳斯莱斯，这位 26 岁的连续创业者如何做到的？ 「我们想为这个世界打造即插即用的人工智能引擎」|用 AI 撬动... ​</span>
+<span class="title">昨天下午，深度学习第三期开班。创业不易、做教育更不易，尤其还是AI教育。然不管如何，凭良心、凭责任、凭使命感，就是要帮助更多人，就是帮千万人 ​</span>
 </a>
 </div>
 
@@ -274,14 +274,14 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/yanpenggxfc?refer_flag=1001030103_"
+    href="http://weibo.com/xjbmaker?refer_flag=1001030103_"
     target="_blank"
 >
 <span class="cite">
-YearsPassed / 
+寻找中国创客 / 
 s.weibo.com
 </span>
-<span class="title">来听“AI+唤醒未来”的讲座。赛富闫焱，将门创投，紫牛基金，这些投资人都是复合背景啊，一个航空，一个物理，一个新闻。人工智能领域的创业方向，在基础技术领域难以抗衡大公司，在深入垂直领域有所作为。比喻成蒸汽机革命，接下来要把技术运用开去，现在的障碍是成本和数据 ​</span>
+<span class="title">【AI已经没有意义，AI+才是未来】昨日，投资人和创业公司就“人工智能创投新风向”进行了讨论：好的投资人是一个项目的“翻译”。以下是寻叔精心整理的干货，希望对创客们有所帮助。网页链接 ​</span>
 </a>
 </div>
 
@@ -291,14 +291,15 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/bensonqian?refer_flag=1001030103_"
+    href="http://venturebeat.com/2017/06/27/sumo-logic-raises-75-million-as-it-eyes-ipo/"
     target="_blank"
 >
 <span class="cite">
-钱皓-互联网分析师 / 
-s.weibo.com
+Blair Hanley Frank / 
+venturebeat.com
 </span>
-<span class="title">【刘芹的机器之心】1）在任何一次创新中，唯有泡沫破灭，才会进入到平稳增长的周期；2）晨兴的压力来源于市场正在发生结构性变化和团队内部的升级迭代；3）眼下出现人工智能泡沫的原因不是是行业内涌入了大量的人，而是创业者对技术与商业相结合考虑不够深入。 |刘芹的机器... ​</span>
+<span class="title">Sumo Logic, a data analytics startup, raises $75M series F led by Sapphire Ventures to improve AI capabilities
+  —  Sumo Logic, a company that helps business users analyze log files, announced today that it raised a $75 million series F funding round to keep driving forward.</span>
 </a>
 </div>
 
@@ -308,101 +309,15 @@ s.weibo.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://weibo.com/51661970?refer_flag=1001030103_"
+    href="http://techcrunch.com/2017/06/27/diffblue/"
     target="_blank"
 >
 <span class="cite">
-自动化网官方微博 / 
-s.weibo.com
+Steve O&#39;Hear / 
+techcrunch.com
 </span>
-<span class="title">【吴恩达正式宣布创业：新公司叫“深度学习，人工智能”】吴恩达几个小时前在Twitter上宣布，他建立了一家新的公司：Deeplearning.ai。根据该公司域名来看，吴恩达此次创业更有可能是用以开发一种旨在成为关键基础设施以支持人工智能普及的技术。#深度学习#|吴恩达正式... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/profiletopnav11?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-苏秦刺股-牛回头 / 
-s.weibo.com
-</span>
-<span class="title">$上证指数 sh000001$ $创业板指 sz399006$ 盘面上：昨日地产、工程机械。以及人工智能、石墨烯、LOED 、等热点板块走强，万科再度涨停。是拉升指数上行的主力军。但前期的强势蓝筹：保险、银行、中字头等仅在早盘大幅拉伸后，节节败退。收出带长上影线的小阴线。试想，如果没有上面这些蓝筹板块拉台粉 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/lchun?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-刘春 / 
-s.weibo.com
-</span>
-<span class="title">很多人问：到底哪个专业不会被人工智能代替而且还就业容易创业容易前途无限？我想了想，第一个是烹饪美食，你如果能跟@大董大懂 后面学上几年，下半辈子一定会烈火烹油衣食无忧。第二个？我再想想。 ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/u/3864498823?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-小散李大鹏 / 
-s.weibo.com
-</span>
-<span class="title">小散早评：上周五市场震幅较大，先抑后扬，大盘、深成指、创业板均以阳线报收。就市场而言，以家用电器、食品饮料为首的价值股再创新高，石墨烯、人工智能、无人驾驶等概念主题也有跟风迹象，短期人气有所恢复，但考虑到成交量相比有所萎缩，因此存量博弈特征仍然明显。市场整体依然处于变盘关键点结构 ​
-			...展开全文c</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/caijing?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-财经网 / 
-s.weibo.com
-</span>
-<span class="title">【收评：沪指放量涨0.87%深指大涨1.65% 蓝筹与题材共舞】今日A股迎来久违普涨行情。截止收盘，沪指收报3185.44点，涨0.87%；深成指收报10537.59点，涨1.65%；创业板收报1821.28点，涨0.77%。板块方面，全线红盘。石墨烯、钢铁、白酒、人工智能、保险、煤炭、量子通信等涨幅居前。|收评：沪指... ​</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://weibo.com/jcsz888?refer_flag=1001030103_"
-    target="_blank"
->
-<span class="cite">
-太太看A股-赵太 / 
-s.weibo.com
-</span>
-<span class="title">注意下午，太太短线要有动作了，准备把赛为智能股换股，要不换人工智能龙头三丰智能，要不换河北概念博深工具！大家先都加自选关注着，等太太最终的建议！剩下的短线股创业环保，中原证券，中金岭南继续持有！ ​</span>
+<span class="title">DiffBlue, which wants to automate coding tasks using AI, announces $22M Series A led by Goldman Sachs Principal Strategic Investments
+  —  Oxford University continues to be a hotbed of AI talent, fuelling not just academic research into AI but also the ambitions of startups and large technology companies alike.</span>
 </a>
 </div>
 
@@ -556,33 +471,14 @@ techcrunch.com
 <div class="row">
 <a 
     class="set_item" 
-    href="http://venturebeat.com/2017/05/02/bonsai-raises-7-6-million-to-let-companies-build-their-own-ai/"
+    href="https://techcrunch.com/2017/06/30/andy-rubins-playground-ventures-is-raising-another-15m/"
     target="_blank"
 >
 <span class="cite">
-Khari Johnson / 
-venturebeat.com
+Ingrid Lunden / 
+techcrunch.com
 </span>
-<span class="title">Bonsai raises $7.6M Series B from Microsoft Ventures, Samsung, and others to help companies build AI for their own businesses
-  —  AI startup Bonsai has raised $7.6 million to grow its platform that simplifies open-source machine learning library TensorFlow to help businesses construct …</span>
-</a>
-</div>
-
-
-
-
-<div class="row">
-<a 
-    class="set_item" 
-    href="http://venturebeat.com/2017/05/03/microsoft-invests-in-agolo-a-startup-thats-fighting-information-overload-with-automated-summarizations/"
-    target="_blank"
->
-<span class="cite">
-Paul Sawers / 
-venturebeat.com
-</span>
-<span class="title">Agolo raises $3.5M seed funding from Microsoft Ventures and others to expand AI-based summarization software for news and other information
-  —  Agolo, a New York-based startup that&#39;s setting out to help companies fight information overload through AI-powered summarizations …</span>
+<span class="title">Playground Ventures — the VC fund co-founded by Android inventor and former Google exec Andy Rubin that sits alongside an eponymous incubator/startup studio and is making some big bets in areas like artificial intelligence and new generations of hardware– is raising more money. A Form D filed with the SEC notes that Playground Ventures is in the process of adding another $15… Read More</span>
 </a>
 </div>
 
